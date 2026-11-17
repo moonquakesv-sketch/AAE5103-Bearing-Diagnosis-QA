@@ -1,0 +1,63 @@
+{
+  "version": "e01.four_scenario.v2_rev027",
+  "fixed_before_question_authoring": true,
+  "question_count": 14,
+  "split_counts": {
+    "debug": 12,
+    "heldout": 2
+  },
+  "family_allocation": {
+    "debug": [
+      "case_explanation_and_provenance",
+      "physical_discrimination",
+      "multi_overview",
+      "inspection_scope",
+      "removal_planning",
+      "operating_checks",
+      "record_assembly",
+      "maintenance_procedure_scope"
+    ],
+    "heldout": [
+      "sample_provenance",
+      "source_verifiability"
+    ]
+  },
+  "design_rationale": "Twelve targets cover four scenarios × three tasks, with one three-task integration; two additional narrow non-submitted intents cover lubricant provenance and offline source verifiability. Quantity follows coverage, not replication of the historical fifteen questions.",
+  "scenario_task_plan": {
+    "outer_race": [
+      "case explanation/false premise",
+      "physical discrimination/CWT limit",
+      "three-task mechanism/inspection/evidence preservation"
+    ],
+    "inner_race": [
+      "source-specific case/transfer boundary",
+      "post-clean inspection/reuse boundary",
+      "removal planning/unsupported force and temperature"
+    ],
+    "rolling_element": [
+      "source-specific smearing case/transfer boundary",
+      "operating checks",
+      "investigation records/availability",
+      "reserved sample identity/quantity"
+    ],
+    "normal": [
+      "maintenance need/health false premise",
+      "operating checks/numerical limits",
+      "specified procedure preparation/interval gap"
+    ],
+    "cross_source": [
+      "reserved Timken offline source availability/identity/visual gaps"
+    ]
+  },
+  "separate_sets": {
+    "boundary_cases": 3,
+    "contract_bad_cases": 8,
+    "include_in_QA_quality_denominator": false
+  },
+  "heldout_meaning": "Author-visible operational reserve; no real request submission; shared already exposed corpus; not independent blind testing.",
+  "heldout_imbalance": "No qualified heldout target for inner_race or normal; cannot infer four-scenario heldout efficacy.",
+  "exposure_registry_path": "runs/e01/20261026_s02_695c0994/exposure/exposure_registry.json",
+  "exposure_registry_sha256": "df1c3f4657055a69e9437377ab9299d3a602926c3ef81776902589e2cba0299f",
+  "allowed_activity": "static source/structure and explicitly synthetic validation only",
+  "formal_experiment_released": false
+}

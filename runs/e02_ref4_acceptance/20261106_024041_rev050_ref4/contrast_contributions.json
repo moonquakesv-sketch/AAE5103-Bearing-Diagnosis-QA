@@ -1,0 +1,1902 @@
+[
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 2.6785714285714284,
+    "contribution_upper_pp": 2.6785714285714284
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 1.4285714285714286,
+    "contribution_upper_pp": 1.4285714285714286
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": -5.714285714285714,
+    "contribution_upper_pp": -5.714285714285714
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": -32.142857142857146,
+    "contribution_upper_pp": -32.142857142857146
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": -50.0,
+    "contribution_upper_pp": -50.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 3.5714285714285716,
+    "contribution_upper_pp": 3.5714285714285716
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 2.380952380952381,
+    "contribution_upper_pp": 2.380952380952381
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": -7.142857142857143,
+    "contribution_upper_pp": -7.142857142857143
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_knowledge",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": -90.0,
+    "contribution_upper_pp": -90.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_boundary",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-L",
+    "metric": "REF_source_state",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1",
+    "contribution_lower_pp": -100.0,
+    "contribution_upper_pp": -100.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": -5.714285714285714,
+    "contribution_upper_pp": -5.714285714285714
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": -14.285714285714286,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 1.4285714285714286,
+    "contribution_upper_pp": 1.4285714285714286
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 2.6785714285714284,
+    "contribution_upper_pp": 2.6785714285714284
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": -50.0,
+    "contribution_upper_pp": -50.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": -32.142857142857146,
+    "contribution_upper_pp": -32.142857142857146
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": -7.142857142857143,
+    "contribution_upper_pp": -7.142857142857143
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": -14.285714285714286,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 2.380952380952381,
+    "contribution_upper_pp": 2.380952380952381
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 3.5714285714285716,
+    "contribution_upper_pp": 3.5714285714285716
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_knowledge",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": -90.0,
+    "contribution_upper_pp": -90.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": -14.285714285714286,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_boundary",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-L",
+    "metric": "REF_source_state",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1",
+    "contribution_lower_pp": -100.0,
+    "contribution_upper_pp": -100.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 1.7857142857142858,
+    "contribution_upper_pp": 1.7857142857142858
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 14.285714285714286,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": -35.714285714285715,
+    "contribution_upper_pp": -35.714285714285715
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": -50.0,
+    "contribution_upper_pp": -50.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 2.380952380952381,
+    "contribution_upper_pp": 2.380952380952381
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 14.285714285714286,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_knowledge",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": -100.0,
+    "contribution_upper_pp": -100.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 14.285714285714286,
+    "contribution_upper_pp": 14.285714285714286
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_boundary",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "G-T",
+    "metric": "REF_source_state",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1",
+    "contribution_lower_pp": -100.0,
+    "contribution_upper_pp": -100.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": -14.285714285714286,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": -14.285714285714286,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_knowledge",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": -14.285714285714286,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_boundary",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "GV-G",
+    "metric": "REF_source_state",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": -1.7857142857142858,
+    "contribution_upper_pp": -1.7857142857142858
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": -50.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_cov",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1/2",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": -1.1904761904761905,
+    "contribution_upper_pp": -1.1904761904761905
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_knowledge",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": -100.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D04",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D01",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": -3.5714285714285716,
+    "contribution_upper_pp": -3.5714285714285716
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D09",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D07",
+    "family_id": "case_explanation_and_provenance",
+    "macro_weight": "1/28",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D08",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D10",
+    "family_id": "operating_checks",
+    "macro_weight": "1/14",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D05",
+    "family_id": "inspection_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D06",
+    "family_id": "removal_planning",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D03",
+    "family_id": "preservation_sequence",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D02",
+    "family_id": "physical_discrimination",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "debug",
+    "question_id": "QV3-D11",
+    "family_id": "maintenance_procedure_scope",
+    "macro_weight": "1/7",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_boundary",
+    "split": "operational_reserve",
+    "question_id": "QV3-H01",
+    "family_id": "sample_provenance",
+    "macro_weight": "1",
+    "contribution_lower_pp": -100.0,
+    "contribution_upper_pp": 0.0
+  },
+  {
+    "contrast": "TV-T",
+    "metric": "REF_source_state",
+    "split": "operational_reserve",
+    "question_id": "QV3-H02",
+    "family_id": "source_verifiability",
+    "macro_weight": "1",
+    "contribution_lower_pp": 0.0,
+    "contribution_upper_pp": 0.0
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "formal_experiment_released": false,
+  "independent_cross_audit_accepted": false,
+  "paid_execution_authorized": false,
+  "preparation_binding_sha256": null,
+  "configuration_sha256": null,
+  "scope": {
+    "stage": "E02",
+    "groups": [
+      "L"
+    ],
+    "Q": 13,
+    "R": 1,
+    "question_ids": [
+      "QV3-D01",
+      "QV3-D02",
+      "QV3-D03",
+      "QV3-D04",
+      "QV3-D05",
+      "QV3-D06",
+      "QV3-D07",
+      "QV3-D08",
+      "QV3-H01",
+      "QV3-D09",
+      "QV3-D10",
+      "QV3-D11",
+      "QV3-H02"
+    ],
+    "splits": {
+      "debug": 11,
+      "operational_reserve": 2
+    },
+    "new_answers": 13,
+    "old_output_rescoring": 0,
+    "retrieval": 0,
+    "classification": 0,
+    "verification": 0,
+    "pair": 0,
+    "retries": 0,
+    "extra_reevaluations": 0,
+    "design": "cross-day append; shared-context no-retrieval baseline"
+  },
+  "hard_budget_USD": "2.00",
+  "max_calls": 52,
+  "user_authorization_record": null,
+  "user_authorization_sha256": null,
+  "cross_audit_report_path": null,
+  "cross_audit_report_sha256": null,
+  "authorization_id": null,
+  "batch_output": null,
+  "instruction": "UNAPPROVED TEMPLATE ONLY; exact new user authorization required in separate future run; do not edit this sealed template"
+}

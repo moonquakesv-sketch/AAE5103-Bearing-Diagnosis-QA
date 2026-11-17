@@ -1,0 +1,58 @@
+/Users/moonquakes/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/fd/p6d0j51x0j731__12g5mh_4r0000gn/T/matplotlib-ukwcy0e9 because there was an issue with the default path (/Users/moonquakes/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+test_changed_code_needs_explicit_revision_authorization (test_d02_pipeline.D02ReviewRegressionTests.test_changed_code_needs_explicit_revision_authorization) ... ok
+test_compatibility_cannot_approve_numerical_function_change (test_d02_pipeline.D02ReviewRegressionTests.test_compatibility_cannot_approve_numerical_function_change) ... ok
+test_population_requires_complete_bidirectional_membership (test_d02_pipeline.D02ReviewRegressionTests.test_population_requires_complete_bidirectional_membership) ... ok
+test_reject_actual_model_horizontal_flip (test_d02_pipeline.D02ReviewRegressionTests.test_reject_actual_model_horizontal_flip) ... ok
+test_reject_actual_model_vertical_flip (test_d02_pipeline.D02ReviewRegressionTests.test_reject_actual_model_vertical_flip) ... ok
+test_reject_review_linear_axis_for_log_frequency_grid (test_d02_pipeline.D02ReviewRegressionTests.test_reject_review_linear_axis_for_log_frequency_grid) ... ok
+test_reproduction_compares_source_review_pixels (test_d02_pipeline.D02ReviewRegressionTests.test_reproduction_compares_source_review_pixels) ... ok
+test_review_pixels_reconstructed_not_just_dimensions (test_d02_pipeline.D02ReviewRegressionTests.test_review_pixels_reconstructed_not_just_dimensions) ... ok
+test_validator_rejects_unknown_record_before_signal_or_image_io (test_d02_pipeline.D02ReviewRegressionTests.test_validator_rejects_unknown_record_before_signal_or_image_io) ... ok
+test_balance_exact_floor_linspace_and_train_only (test_d02_pipeline.D02Tests.test_balance_exact_floor_linspace_and_train_only) ... ok
+test_fit_all_matrix_pixels_exact_quantile (test_d02_pipeline.D02Tests.test_fit_all_matrix_pixels_exact_quantile) ... ok
+test_index_origin_and_incomplete_tail (test_d02_pipeline.D02Tests.test_index_origin_and_incomplete_tail) ... ok
+test_no_per_image_autoscale (test_d02_pipeline.D02Tests.test_no_per_image_autoscale) ... ok
+test_quality_rejection_preserves_full_signal_indices (test_d02_pipeline.D02Tests.test_quality_rejection_preserves_full_signal_indices) ... ok
+test_reject_heldout_color_fit (test_d02_pipeline.D02Tests.test_reject_heldout_color_fit) ... ok
+test_synthetic_time_frequency_direction (test_d02_pipeline.D02Tests.test_synthetic_time_frequency_direction) ... ok
+test_cache_feature_swap_with_updated_npz_checksum_still_rejected (test_d03_pipeline.D03Tests.test_cache_feature_swap_with_updated_npz_checksum_still_rejected) ... ok
+test_cache_metadata_wrong_label_group_split_rejected (test_d03_pipeline.D03Tests.test_cache_metadata_wrong_label_group_split_rejected) ... ok
+test_cache_missing_duplicate_nonfinite_or_wrong_dimension (test_d03_pipeline.D03Tests.test_cache_missing_duplicate_nonfinite_or_wrong_dimension) ... ok
+test_cache_order_reversal_even_when_id_set_unchanged (test_d03_pipeline.D03Tests.test_cache_order_reversal_even_when_id_set_unchanged) ... ok
+test_extraction_feature_shape_finiteness_eval_and_state_guards (test_d03_pipeline.D03Tests.test_extraction_feature_shape_finiteness_eval_and_state_guards) ... ok
+test_fit_rejects_validation_and_misaligned_labels (test_d03_pipeline.D03Tests.test_fit_rejects_validation_and_misaligned_labels) ... ok
+test_metrics_manual_nonperfect_example_and_order (test_d03_pipeline.D03Tests.test_metrics_manual_nonperfect_example_and_order) ... ok
+test_non_rgb_rejected (test_d03_pipeline.D03Tests.test_non_rgb_rejected) ... ok
+test_normalization_analytic_pixels_once_no_geometry (test_d03_pipeline.D03Tests.test_normalization_analytic_pixels_once_no_geometry) ... ok
+test_population_omission_duplicate_unknown_wrong_metadata (test_d03_pipeline.D03Tests.test_population_omission_duplicate_unknown_wrong_metadata) ... ok
+test_saving_never_overwrites (test_d03_pipeline.D03Tests.test_saving_never_overwrites) ... ok
+test_scaler_heldout_contamination_counterexample (test_d03_pipeline.D03Tests.test_scaler_heldout_contamination_counterexample) ... ok
+test_selection_secondary_and_tie_rules (test_d03_pipeline.D03Tests.test_selection_secondary_and_tie_rules) ... ok
+test_stale_cache_weights_or_config_rejected (test_d03_pipeline.D03Tests.test_stale_cache_weights_or_config_rejected) ... ok
+test_svm_fit_receives_training_rows_and_training_labels_only (test_d03_pipeline.D03Tests.test_svm_fit_receives_training_rows_and_training_labels_only) ... /Users/moonquakes/miniforge3/envs/aae5103/lib/python3.12/site-packages/sklearn/svm/_base.py:236: FutureWarning: The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`
+  warnings.warn(
+ok
+test_test_rows_rejected_before_any_image_read (test_d03_pipeline.D03Tests.test_test_rows_rejected_before_any_image_read) ... ok
+test_wrong_size_rejected_instead_of_resized (test_d03_pipeline.D03Tests.test_wrong_size_rejected_instead_of_resized) ... ok
+test_current_metadata (test_validate_d01.MetadataTests.test_current_metadata) ... ok
+test_inconsistent_window_and_frequency_rules_rejected (test_validate_d01.MetadataTests.test_inconsistent_window_and_frequency_rules_rejected) ... ok
+test_invalid_resampling_factors_rejected (test_validate_d01.MetadataTests.test_invalid_resampling_factors_rejected) ... ok
+test_noninteger_rate_ratio_rejected (test_validate_d01.MetadataTests.test_noninteger_rate_ratio_rejected) ... ok
+test_shared_resampling_uses_configuration (test_validate_d01.MetadataTests.test_shared_resampling_uses_configuration) ... ok
+test_swapped_labels_rejected (test_validate_d01.MetadataTests.test_swapped_labels_rejected) ... ok
+test_wrong_record_identity_rejected (test_validate_d01.MetadataTests.test_wrong_record_identity_rejected) ... ok
+test_wrong_resampling_ratio_rejected (test_validate_d01.MetadataTests.test_wrong_resampling_ratio_rejected) ... ok
+test_changed_or_missing_file_rejected (test_validate_d01.SnapshotTests.test_changed_or_missing_file_rejected) ... ok
+test_cli_returns_failure_on_mismatch (test_validate_d01.SnapshotTests.test_cli_returns_failure_on_mismatch) ... ok
+test_content_failure_reported_separately (test_validate_d01.SnapshotTests.test_content_failure_reported_separately) ... ok
+test_existing_report_never_overwritten (test_validate_d01.SnapshotTests.test_existing_report_never_overwritten) ... ok
+test_historical_directory_protected_including_alias (test_validate_d01.SnapshotTests.test_historical_directory_protected_including_alias) ... ok
+test_snapshot_failure_skips_content_and_preserves_prior_report (test_validate_d01.SnapshotTests.test_snapshot_failure_skips_content_and_preserves_prior_report) ... ok
+test_snapshot_match (test_validate_d01.SnapshotTests.test_snapshot_match) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.907s
+
+OK

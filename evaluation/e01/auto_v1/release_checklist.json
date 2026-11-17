@@ -1,0 +1,257 @@
+{
+  "schema": "e01.automated_release_checklist.v1_rev032",
+  "base_checklist": "evaluation/e01/v2/release_checklist.json",
+  "base_sha256": "f192802f6c7f9930a72e48a0915ab0179e7f6428d541bee00f43009da9176adf",
+  "applies_to": "future formal run; does not invalidate or reexecute sealed debug collection",
+  "policy": "evaluation/e01/auto_v1/policy.json",
+  "policy_adopted": true,
+  "formal_experiment_released": false,
+  "formal_E02_started": false,
+  "first_debug_collection_already_completed": true,
+  "human_evaluation_required": false,
+  "superseded_gates": [
+    {
+      "id": "HUMAN-BLIND-RATING",
+      "reason": "direct user decision excludes humans from evaluation",
+      "historical_gate_unchanged": true
+    }
+  ],
+  "gates": [
+    {
+      "id": "E02-AUTH",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Direct user authorization for exact new E02 scope, permitted provider requests and new hard budget; preparation or historical PASS is insufficient."
+      ],
+      "details": {
+        "historical_base_gate_id": "E02-AUTH",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "DATASET-SEAL",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Final v2 question/rubric/coverage/exposure/schema hashes, independent static review, before/diff/protection and final manifest readback."
+      ],
+      "details": {
+        "historical_base_gate_id": "DATASET-SEAL",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "KNOWLEDGE-SOURCE",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Freeze unchanged knowledge/i01/v1 manifest and all complete-card identities; resolve or explicitly suspend needs_source_review points before scoring.",
+        "Obtain same-version Timken original PDF/hash/visual verification, or explicitly accept remaining documentary gap and its impact on score eligibility.",
+        "Automated source/migration-restriction review, with educational-only limits and source gaps preserved; no human or expert sign-off required."
+      ],
+      "details": {
+        "historical_base_gate_id": "KNOWLEDGE-SOURCE",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "UPSTREAM-PROVENANCE",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Freeze caller-specified predicted_class/task_types as module-test inputs common to all four groups; use module semantics in all prompts.",
+        "If real upstream is later requested, obtain separate authorization and bind one shared classifier/task result per input before any four-group divergence.",
+        "Separately authorize and define later end-to-end assessment including classification errors."
+      ],
+      "details": {
+        "historical_base_gate_id": "UPSTREAM-PROVENANCE",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "MODEL-ROUTE",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "New dated provider/endpoint/alias approval, declared generation/verification/revision identities and immutable-version limitations.",
+        "Bind request alias, returned alias, request IDs and known route metadata; do not claim an independently confirmed hidden backend version."
+      ],
+      "details": {
+        "historical_base_gate_id": "MODEL-ROUTE",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "COUNTER-TEMPLATE",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Independently approve candidate tokenizer, recipe, full chat template, native/runtime profile and exact source hashes for E02.",
+        "Count full system/user payload, JSON wrapper/schema and evidence; reject unsupported literal special tokens and unapproved profiles.",
+        "Record provider usage separately; preserve unknown values rather than equating local count with service billing."
+      ],
+      "details": {
+        "historical_base_gate_id": "COUNTER-TEMPLATE",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "PROMPT-SCHEMA",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Approve and freeze exact generation, verification, revision and manual-provenance prompts and executable schema hashes.",
+        "I01 prompt asserting actual image/model origins cannot be reused for manually assigned E01 inputs.",
+        "Freeze the same common generation template/parameters and basic citation check across four groups."
+      ],
+      "details": {
+        "historical_base_gate_id": "PROMPT-SCHEMA",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "PARAMETERS",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Approve per-action models, thinking mode, response format, temperature, input/output limits, sampling/seed behavior and known nondeterminism.",
+        "Any model/profile change invalidates candidate counter/price and requires new review."
+      ],
+      "details": {
+        "historical_base_gate_id": "PARAMETERS",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "FOUR-GROUP-FAIRNESS",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Freeze text/text+verify/graph/graph+verify paired comparison with identical request/upstream provenance/common knowledge/common generation/basic citation check.",
+        "Only retrieval mode and additional content verification vary; preserve original ordering, global top_k=3 unique complete cards and at most one revision using the same cards.",
+        "Record actual card count, full payload characters, UTF-8 bytes, full-chat input tokens/output usage; equal card counts do not imply equal text budgets."
+      ],
+      "details": {
+        "historical_base_gate_id": "FOUR-GROUP-FAIRNESS",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "FULL-CARD-LENGTH",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Implement/verify fail-closed complete-payload limit before sending: if any full card bundle plus prompts/schema/wrappers exceeds approved input/context/reserve, save overlength status and stop that cell; no trimming, refilling, hidden truncation or automatic retry.",
+        "Preflight each verification and single-revision payload too; output truncation remains explicit failure.",
+        "Approve length-stop denominator handling before run."
+      ],
+      "details": {
+        "historical_base_gate_id": "FULL-CARD-LENGTH",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "TRANSPORT-ATTEMPTS",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Approve exact E02 per-stage/per-cell/whole-batch attempt ceilings, timeouts, retries, concurrency, redirects and environment-proxy policy.",
+        "Preserve failure/TLS/rate-limit/malformed/truncated responses and all attempted-cost reservations; unknown cost stays unknown; no replay on restart or late success.",
+        "Confirm at most generate+verify+one revise+verify for verify groups; one generate for unverified groups subject to independent release."
+      ],
+      "details": {
+        "historical_base_gate_id": "TRANSPORT-ATTEMPTS",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "REPEATS-ORDER",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Approve number of repeats, exact question and group ordering/randomization seed and schedule before observing outputs.",
+        "Use paired cells and preserve every outcome; no best-of selection, output-dependent order, selective retry or replacement.",
+        "Treat repeats as nested within question and knowledge corpus; never as independent devices."
+      ],
+      "details": {
+        "historical_base_gate_id": "REPEATS-ORDER",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "DATED-PRICE-HARD-BUDGET",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Fresh dated official pricing snapshot/URL/hash for selected model and cache-miss input/output rates, currency, discounts and billing assumptions.",
+        "User-approved new E02 hard currency ceiling plus worst-case full-cap reserve calculation for all authorized attempts; reject batch if budget is insufficient.",
+        "Freeze new durable batch ledger/nonrefund rules, concurrency control and actual/estimated/unknown cost reporting.",
+        "Do not inherit or reset any prior I01/Q01 budget or ledger."
+      ],
+      "details": {
+        "historical_base_gate_id": "DATED-PRICE-HARD-BUDGET",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "METRICS-FAILURE",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Freeze original E01 metric definitions and synthetic oracle, separate expected failure/missing/service failure from reasonable evidence insufficiency and knowledge-score zeros.",
+        "Report zero denominator as undefined/NA with counts; do not turn missing into success or exclude failures after looking.",
+        "Record verification-added errors separately from fixed/retained errors; publish per-cell counts and paired descriptive summaries.",
+        "Document weak reserve coverage: two narrow intents across OR/RE only; no independent four-scenario heldout claim."
+      ],
+      "details": {
+        "historical_base_gate_id": "METRICS-FAILURE",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "FINAL-RELEASE",
+      "status": "pending_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Recheck current code/data/source/link/cache/historical anchors, all prior gates and exact new run identity.",
+        "Receive direct authorization after reviewable configuration/budget/automatic-judge/source restrictions exist.",
+        "Write a new explicit release record for a separately scoped E02 run; this preparation checklist never flips release by itself."
+      ],
+      "details": {
+        "historical_base_gate_id": "FINAL-RELEASE",
+        "old_gate_and_candidates_not_reapproved_by_this_policy_change": true
+      }
+    },
+    {
+      "id": "MODEL-BLIND-RATING",
+      "replaces": "HUMAN-BLIND-RATING",
+      "status": "policy_adopted_identity_pending_for_new_formal_run",
+      "approved": false,
+      "required_evidence": [
+        "Bind automatic policy, metric/half-credit definitions, judge model identities/limitations, prompts, schema and parameters before observing new outputs.",
+        "Two new-context agents independently score 100% cells with group/verification/cost signals hidden; retain both outputs and quote/reason validation.",
+        "Keep automatic mapping outside business prompts and evaluator scoring input; record blinding limitations and same-model correlation."
+      ]
+    },
+    {
+      "id": "MODEL-ADJUDICATION",
+      "status": "current_six_resolved_future_pipeline_pending",
+      "approved": false,
+      "required_evidence": [
+        "Third-agent review of disagreements and preregistered high risks; preserve original scores and machine adjudication with version/quotes/reasons.",
+        "Distinguish evaluator failures, source uncertainty and evaluated-system failures; retain unresolved denominators and ranges.",
+        "No human scoring, arbitration or signature; do not infer expert truth from agreement."
+      ]
+    }
+  ],
+  "unresolved_gate_count": 17,
+  "approved_configuration": {
+    "new_generation_budget": null,
+    "new_automatic_judge_budget": null,
+    "automatic_judge_assignment_manifest": null,
+    "source_scope_acceptance": null,
+    "new_formal_release": null
+  },
+  "candidate_bindings": "Historical candidates only; refreeze exact chosen current generation/verification/judge identities for new run."
+}

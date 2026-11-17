@@ -1,0 +1,214 @@
+{
+  "purpose": "Only necessary local sources used for this closeout; exact hashes, not a new semantic audit",
+  "files": {
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/reference_statistics.json": {
+      "sha256": "e13fd3d841d2840b1cab1a4711ee05b5f096543d336b0d71c801d52ac151a85b",
+      "size": 181976
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/unit_statuses.json": {
+      "sha256": "14ad093456d26ae7220e0f61afb9e277b6589f8ae6e9142d556e62f2747e6520",
+      "size": 175818
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/contrasts.json": {
+      "sha256": "4a02cef534a7e082be3f3a767e1ed7d3bc619ffa123f252067f04d2fc0dc231b",
+      "size": 14835
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/contrast_contributions.json": {
+      "sha256": "bf1236c621a00b5c8a23e4a995b4dfa882556ce5c7c3f68e612ef7f097c3ecbb",
+      "size": 49066
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/sensitivity_contrasts.json": {
+      "sha256": "e94f1ee5fed6260d12e9aca7b88506bd02e07b7094138edffa83819fe1db33a8",
+      "size": 15070
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/comparison_checks.json": {
+      "sha256": "8ca7815e57e5e66357cfd44c652827fdf57a29f9a1fcf559a7ce19264b4617da",
+      "size": 514
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/execution_acceptance.json": {
+      "sha256": "d0d9cd06905d4c07bd1d3316f043841a470f547951a8155b42d9ca2930a01aa8",
+      "size": 1072
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/compatibility.json": {
+      "sha256": "2d9e813c7166cfdb6fdc94536d328e22d07a3f965aa7b5188d7bb5a176029896",
+      "size": 1028455
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/final_verification.json": {
+      "sha256": "800068b804b0463c2ce2c1dc38f33213696ecdb4e415cca4cf71ad0f7856911e",
+      "size": 3683
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/逐单元评分状态.md": {
+      "sha256": "cf535b8977d4aa6755d750726a6d2ef9df90e479921997df2333f35b5e0ccfd8",
+      "size": 6394
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_acceptance/20261106_024041_rev050_ref4/结果与交接.md": {
+      "sha256": "c0971563ed5a0b161ed50ee840f7ae3610221bf033ac54390d012127f944f3f5",
+      "size": 13237
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/docs/E02_五组共同REF结果与交接_rev050.md": {
+      "sha256": "c0971563ed5a0b161ed50ee840f7ae3610221bf033ac54390d012127f944f3f5",
+      "size": 13237
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/docs/I01_运行与交接.md": {
+      "sha256": "0aabd3c7c92e23fbabad42c870d9f8b9cdc9a5a8d90f398d9b8eee5d8d0d2c05",
+      "size": 7564
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/automatic_report.json": {
+      "sha256": "d9fd83a109dda5a9985b57658c4ba9eac7bba7437d4094c5f3eb16ab1494ef2d",
+      "size": 1575680
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_rescore/20261104_194517_rev040_09589840/execution/automatic_report.json": {
+      "sha256": "206e325536bdd714dbdd0d8801a9e9b4543364dbcf8993e3be44ae7ff08c824b",
+      "size": 2604511
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_rescore/20261104_194517_rev040_09589840/execution_acceptance.json": {
+      "sha256": "808b88b70b4ef8c18108c74354d4bacc2b7a84a6e49d025b049ab9bd5f78e834",
+      "size": 3189
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_acceptance/20261105_132454_rev046_3cb2b257/summary.json": {
+      "sha256": "a22a6974d4d560aa867bb6f9276eae8edbab55d187438f6c1bb83f94db1892c9",
+      "size": 1928
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_l13ref_acceptance/20261106_021932_rev049_f5493a3a/execution_acceptance.json": {
+      "sha256": "8c01610b149271c5a16a7fed54c39c69306c9ef05057075bbcdc856029317ba3",
+      "size": 831
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_rescore/20261104_194517_rev040_09589840/results/结果与交接.md": {
+      "sha256": "9e20b7957d73d7332cc5f00acbc153b62ba02a9ee02105c69b6a309c00ff0f1a",
+      "size": 5851
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_rescore/20261104_194517_rev040_09589840/results/unknown_cells.json": {
+      "sha256": "ee1210f6c83f481b4ee9e1fc8852f63f2607f767d787cc7974435f4139a0d0e7",
+      "size": 2043
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_rescore/20261104_194517_rev040_09589840/reviews/independent_review_summary.json": {
+      "sha256": "de06850e5e3fc70d99a24e15a8c7f11ba4d0820cad54f588c14740d15f3f303a",
+      "size": 3224
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_l13ref_acceptance/20261106_021932_rev049_f5493a3a/结果与交接.md": {
+      "sha256": "3a93ce13cec915ae3b4357179ccd214169fa59801697d298b78146a991b6e737",
+      "size": 10360
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_l13ref_acceptance/20261106_021932_rev049_f5493a3a/final_verification.json": {
+      "sha256": "cc4ab34bb12c37efcaaaa3dbf1ff3bb88d9d19aa2c8e9ba33a6337090e2f08ec",
+      "size": 3565
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_acceptance/20261105_132454_rev046_3cb2b257/final_verification.json": {
+      "sha256": "39f12955609961a3229cf940057cb1ddaba5d8aa29349c018764cc7cc01adae9",
+      "size": 2671
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_rescore/20261104_194517_rev040_09589840/results/all38_group_split_macros.csv": {
+      "sha256": "b58900e0a3bb19c0abbf942bc37b7ee46c2fa53e26175c6f4e2fbeab035eddfc",
+      "size": 15996
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_preflight_fix/20261101_040832_rev037_6336ad78/config/execution.json": {
+      "sha256": "ab3bd9c6645954f837f920ce8e5dd4b4fe7c00011c0d2bb136333da471e3886e",
+      "size": 81285
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_common/20261106_024041_rev050_ref4/config/execution.json": {
+      "sha256": "e9b0e6cae43280e0ed56c4b5842b3821dc853669d082a7ce17ca5aaf6fa14782",
+      "size": 73191
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_common/20261106_024041_rev050_ref4/comparison_contract.md": {
+      "sha256": "eeae0e76c5001157fad8fba3d2cad14bb7261321484692e43f49e96ce0131c70",
+      "size": 2460
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_common/20261106_024041_rev050_ref4/evidence/prior_acceptance.stdout.json": {
+      "sha256": "86a35dfef130dc5aa4c895c61b86e40e9d364453b44f579ab094462468318d59",
+      "size": 2639
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_preflight_fix/20261101_040832_rev037_6336ad78/runtime/corpus.py": {
+      "sha256": "2521088f01dc19386315c04daf2e4f9d9dd7ee6c72ed871961fa719abd0f8661",
+      "size": 6668
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_preflight_fix/20261101_040832_rev037_6336ad78/runtime/engine.py": {
+      "sha256": "cfa1cdc348ba33905b3500eabf6d3e96621da9810c95ff6e03d14029a4976f4f",
+      "size": 11406
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e01_design/20261031_design_rev034_7c38b1a2/knowledge/v2_1/relations.csv": {
+      "sha256": "a2afc4e6a84f270d95c3aa7a68722abb0b8ed1e20e4f4d0ba99bc11218a72196",
+      "size": 30520
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e01_design/20261031_design_rev034_7c38b1a2/knowledge/v2_1/evidence.csv": {
+      "sha256": "39b0cb34527d2a67da61f6bdff2e207deadf893b8d1f1aef044fe6ddfaa8ef23",
+      "size": 20487
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e01_design/20261031_design_rev034_7c38b1a2/evaluation/v3/reference_content.json": {
+      "sha256": "20c8b29afba82bef19aba6652f9eaa579750094e45f36441186fdbf843afd8d7",
+      "size": 21136
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e01_design/20261031_design_rev034_7c38b1a2/evaluation/v3/rubrics.json": {
+      "sha256": "6841d5eebecb5bb1b9666960481b1f758943bac7280f389e8e41048360886bce",
+      "size": 222845
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/i01/20261104_184700_live_demo_fcb6b670/validation/live_acceptance.json": {
+      "sha256": "c11478c4762d60cdb484a5e64eaeecc8b73c783d7fa45807dfdb3671b732172f",
+      "size": 2101
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/i01/20261104_184700_live_demo_fcb6b670/validation/completion.json": {
+      "sha256": "a8661c0b4786d05bf127bc96a0c25dc0a3bd094085158856b697cc785d218f2a",
+      "size": 688
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/i01/20261104_184700_live_demo_fcb6b670/validation/local_components.json": {
+      "sha256": "0833010e90cfe0ad50238a8ac58077424b52b6d2db346aa98d45c5fc8269f1d1",
+      "size": 3677
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/i01/20261104_184700_live_demo_fcb6b670/README.md": {
+      "sha256": "76d015bc9fbd363f0b74fdb2dfc0da1e41ec38a642cc9d953cb6247ff8791c36",
+      "size": 4026
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/docs/D04_验收与交接.md": {
+      "sha256": "2417802f6b348060f7b7e2210dd86b12d2d82d70026dac74c2b2af6c4920860f",
+      "size": 6602
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/i01/20261104_184700_live_demo_fcb6b670/executions/20261104_192702_827979_e270f900/record.json": {
+      "sha256": "9365d738ded4a2bf78f2e0309baf4a8181174296ae4a9732365ef7d9ace8712e",
+      "size": 23454
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/i01/20261104_184700_live_demo_fcb6b670/executions/20261104_192805_109998_2797b0fc/record.json": {
+      "sha256": "59570c4b5982359d54b643abde4e52c0b4984afbd90979a216b17dbc8270e526",
+      "size": 32685
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D04_G_R01.json": {
+      "sha256": "9e14fa7e98659f39dc3c05d2eaf6c9bb5125bdf6611280485a86c7cbd0e99fc2",
+      "size": 19578
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D04_T_R01.json": {
+      "sha256": "fa248e954ab903a68d73137695106413306851d088d6bd7a7f8b90e83fe63d2b",
+      "size": 37860
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D08_G_R01.json": {
+      "sha256": "0da66e15544d7dea8432a040a7b6a94cdd92a1db0c780c7ce064715c02db052e",
+      "size": 23365
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D08_T_R01.json": {
+      "sha256": "0395403c842a96c1cd77f517a2dfb824e049aa7399a0aa136dec4e7ce754ea6c",
+      "size": 34834
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H01_G_R01.json": {
+      "sha256": "8a072fa472229a44b42508c18aefdb408046e4291c6a011566fb7657424953cf",
+      "size": 29121
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H01_T_R01.json": {
+      "sha256": "1ae025835eea0e488d8664ca7bdba5d4ee92e9c979f2aee4973e50985c078aed",
+      "size": 37750
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D11_T_R01.json": {
+      "sha256": "e15212c999fdf1fbc7733ace4ed8e373c00af2b7ba25bb2c5bb239d1584e221b",
+      "size": 27190
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D11_TV_R01.json": {
+      "sha256": "7396182f73c34b916576248f3c7f1eadd88e6cc024e611208ecd7ca19fc97335",
+      "size": 27107
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H02_G_R01.json": {
+      "sha256": "83d43b14977258164cfd2210cf7b2bf95ae1fc886ce915fa8255bfd43f1335be",
+      "size": 42632
+    },
+    "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H02_GV_R01.json": {
+      "sha256": "1d9de09028c2aa964ba50c96ff32e31f9a30dfa6117f0b104f316fe99fa85fb5",
+      "size": 42732
+    }
+  },
+  "historical_verifiers_executed_this_turn": []
+}

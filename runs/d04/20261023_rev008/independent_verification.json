@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "method": "independent csv/NPZ mapping checks and explicit integer confusion matrix / TP/FP/FN formulas; no production metric calls",
+  "test_set_used": true,
+  "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+  "recomputed_metrics": {
+    "n_windows": 236,
+    "macro_f1": 1.0,
+    "balanced_accuracy": 1.0,
+    "accuracy": 1.0,
+    "per_class_recall": {
+      "normal": 1.0,
+      "inner_race": 1.0,
+      "outer_race": 1.0,
+      "rolling_element": 1.0
+    },
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  "record_checks": [
+    {
+      "record_id": "cwru_100",
+      "n_windows": 59,
+      "correct": 59,
+      "predicted_counts": {
+        "normal": 59,
+        "inner_race": 0,
+        "outer_race": 0,
+        "rolling_element": 0
+      }
+    },
+    {
+      "record_id": "cwru_108",
+      "n_windows": 59,
+      "correct": 59,
+      "predicted_counts": {
+        "normal": 0,
+        "inner_race": 59,
+        "outer_race": 0,
+        "rolling_element": 0
+      }
+    },
+    {
+      "record_id": "cwru_133",
+      "n_windows": 59,
+      "correct": 59,
+      "predicted_counts": {
+        "normal": 0,
+        "inner_race": 0,
+        "outer_race": 59,
+        "rolling_element": 0
+      }
+    },
+    {
+      "record_id": "cwru_121",
+      "n_windows": 59,
+      "correct": 59,
+      "predicted_counts": {
+        "normal": 0,
+        "inner_race": 0,
+        "outer_race": 0,
+        "rolling_element": 59
+      }
+    }
+  ],
+  "n_scores": 944,
+  "n_misclassified": 0,
+  "n_failed_samples": 0,
+  "n_interruptions": 0,
+  "n_resumptions": 0,
+  "test_images_decoded_for_review": 0,
+  "predictions_reexecuted_for_review": 0,
+  "completion_sha256": "02b1fcf122fb1a41c1f8792871a27ed222470b6db7007ef85de0e482ec1b632e"
+}

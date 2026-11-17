@@ -1,0 +1,102 @@
+{
+  "inventory_path": "runs/e01/20261026_s02_695c0994/exposure/exposure_registry.json",
+  "inventory_sha256": "df1c3f4657055a69e9437377ab9299d3a602926c3ef81776902589e2cba0299f",
+  "family_decisions": [
+    {
+      "family_id": "case_explanation_and_provenance",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D01",
+        "E02P-D04",
+        "E02P-D07",
+        "E02P-D10"
+      ]
+    },
+    {
+      "family_id": "physical_discrimination",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D02"
+      ]
+    },
+    {
+      "family_id": "multi_overview",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D03"
+      ]
+    },
+    {
+      "family_id": "inspection_scope",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D05"
+      ]
+    },
+    {
+      "family_id": "removal_planning",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D06"
+      ]
+    },
+    {
+      "family_id": "operating_checks",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D08",
+        "E02P-D11"
+      ]
+    },
+    {
+      "family_id": "record_assembly",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D09"
+      ]
+    },
+    {
+      "family_id": "maintenance_procedure_scope",
+      "split": "debug",
+      "decision": "public_or_near_intent_exposed",
+      "question_ids": [
+        "E02P-D12"
+      ]
+    },
+    {
+      "family_id": "sample_provenance",
+      "split": "heldout",
+      "decision": "no_same_goal_public_question_found_in_bounded_inventory",
+      "question_ids": [
+        "E02P-H01"
+      ]
+    },
+    {
+      "family_id": "source_verifiability",
+      "split": "heldout",
+      "decision": "no_same_goal_public_question_found_in_bounded_inventory",
+      "question_ids": [
+        "E02P-H02"
+      ]
+    }
+  ],
+  "heldout_author_visible": true,
+  "knowledge_exposed": true,
+  "not_a_complete_blind_test": true,
+  "no_system_ranking_or_answers_used_for_selection": true,
+  "reserve_scenario_coverage": [
+    "rolling_element",
+    "outer_race"
+  ],
+  "reserve_scenario_gaps": [
+    "inner_race",
+    "normal"
+  ]
+}

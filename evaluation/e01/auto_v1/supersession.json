@@ -1,0 +1,41 @@
+{
+  "user_authorized_measurement_method_change": true,
+  "supersedes": [
+    {
+      "path": "docs/E01_指标与人工评分指南.md",
+      "sections": [
+        "2/4/5/7 human semantic coding, double-rating, signature, arbitration"
+      ],
+      "replacement": "same units and formulas, model-agent coding and new protocol actor/ambiguity rules"
+    },
+    {
+      "path": "docs/E01_S02_运行与评分协议.md",
+      "sections": [
+        "human actor/source-signoff requirements in 13,19,23,25"
+      ],
+      "replacement": "automated source review and judges; source gaps, fairness, denominators and user budget permission remain"
+    },
+    {
+      "path": "docs/E02_具体配置与预算提案.md",
+      "sections": [
+        "6 scoring personnel and human costs; 8 step4 personnel"
+      ],
+      "replacement": "two independent agent contexts and third adjudication; new judge costs explicitly included"
+    },
+    {
+      "path": "evaluation/e01/v2/release_checklist.json",
+      "sections": [
+        "HUMAN-BLIND-RATING",
+        "approved_configuration.personnel",
+        "human expert review as source signoff"
+      ],
+      "replacement": "new auto_v1 release_checklist"
+    }
+  ],
+  "preserved_user_execution_gates": [
+    "E02-AUTH",
+    "DATED-PRICE-HARD-BUDGET",
+    "FINAL-RELEASE"
+  ],
+  "old_documents_not_edited": true
+}

@@ -1,0 +1,25 @@
+{
+  "knowledge_version": "i01.knowledge.v1_rev025",
+  "interface_version": "i01.knowledge.v1",
+  "files": {
+    "knowledge/i01/v1/evidence.csv": "0e05e5c6374996c14a79d5fbad8334730d6c7a498488eb8f807cb475c6afc575",
+    "knowledge/i01/v1/scenarios.csv": "98e4c41d085777447e5cfcca26c943d94ecc702e292fcc5e8e949198a6ea5d79",
+    "knowledge/i01/v1/entities.csv": "9f59176d837b89a37733e972dc39621d4134b14e36c0ed013a449cdc0faa3324",
+    "knowledge/i01/v1/relations.csv": "44011f19715ce4a1887b759c45b027cb1b761b642873534db6e7b4666304901b",
+    "knowledge/i01/v1/interface.json": "10915740f96b898902433b9d4782e5fa1496741de004973d0c21fe5960cf634a",
+    "knowledge/i01/v1/sources.csv": "3bbd769e82eda43cecd43667ac270f351333a2ae2db5cb0ef2e455d66097b3d1",
+    "knowledge/i01/v1/source_excerpt_index.json": "6acbb74613a240f802ecb32cfb7b7d025f0c4a50e3d537f7507ec2ec2b691e65"
+  },
+  "scope": "I01 functional development corpus; original K01 unchanged; not an E01 evaluation freeze",
+  "old_rows_preserved": true,
+  "review": "Agent source comparison; no expert or independent semantic approval",
+  "new_page_verbatim_word_counts": {
+    "SRC-I01-01": 20,
+    "SRC-I01-02": 12,
+    "SRC-I01-03": 21
+  },
+  "distribution_profile": "excerpt-only-v1",
+  "source_excerpt_index": "knowledge/i01/v1/source_excerpt_index.json",
+  "original_manifest_sha256": "612ccb8408a04cb938108641bdee453c5b4fac0273996e03b4d5d115e0c02d4d",
+  "distribution_note": "Tables and retrieval algorithms remain unchanged. Full HTML snapshots are not distributed; the pinned excerpt index records the source snapshot identities."
+}

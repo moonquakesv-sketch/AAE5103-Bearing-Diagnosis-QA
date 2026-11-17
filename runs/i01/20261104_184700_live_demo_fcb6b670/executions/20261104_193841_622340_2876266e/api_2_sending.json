@@ -1,0 +1,9 @@
+{
+  "action": "answer",
+  "started_at": "2026-11-04T19:38:42+09:00",
+  "status": "sending",
+  "http_status": null,
+  "request_id": null,
+  "usage": null,
+  "actual_bill": "unknown"
+}

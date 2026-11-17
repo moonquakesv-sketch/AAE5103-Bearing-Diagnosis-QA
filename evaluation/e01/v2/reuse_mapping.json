@@ -1,0 +1,178 @@
+{
+  "old_v1_files": {
+    "evaluation/e01/v1/README.md": "e61b9b6ca3be9b8a34cff8d32a6ccd3ea2b361d4ce204d2db51b41a7731e1014",
+    "evaluation/e01/v1/boundary_cases.json": "2bc8303cc0f7ccfdb93d8a23b610c6c401f8dd37b0358eea132bd444e08e3761",
+    "evaluation/e01/v1/contract_cases.json": "9b0a2c67188bc3ac934a536665475e76fd511e323c16006d7a76d8a617c0ee67",
+    "evaluation/e01/v1/coverage.csv": "2b385adbf66dc5e304dd33146afe285e9f45681419aea1189128505887a95d6e",
+    "evaluation/e01/v1/debug_requests.jsonl": "b0cc0a80adb6df6383fabe9f5e9322dd34cecd2e12d3439827ac98471fe519dd",
+    "evaluation/e01/v1/design_contract.json": "8b8d11c96a97675de328d5a073691aa8f558dc6487daed7c697d3d0811bb5bb3",
+    "evaluation/e01/v1/freeze.json": "9a3b2b208cf1836f9a04d5e41b88aac8e841b954153cbaac6870debc42f064bb",
+    "evaluation/e01/v1/heldout_requests.jsonl": "447e9b7e03f825a9b61d3efae5152b9f0175716b04805c2506aa59eae4b8a6a2",
+    "evaluation/e01/v1/question_bindings.json": "920bec134e17c1744cd3bf53dc0c6f9a95e1151fa4329f426f5a8e7099a8c61c",
+    "evaluation/e01/v1/retrieval_run_config.json": "ffe923c7be0cc7de43c86a57f810cbe8da9fe844479baef9a0bc66423f6f3110",
+    "evaluation/e01/v1/rubrics.json": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+  },
+  "old_count": {
+    "questions": 15,
+    "points": 68
+  },
+  "new_mapping": [
+    {
+      "new_question_id": "E02P-D01",
+      "old_question_ids": [
+        "E01-D001",
+        "E01-D002"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    },
+    {
+      "new_question_id": "E02P-D02",
+      "old_question_ids": [
+        "E01-D003",
+        "E01-D004"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    },
+    {
+      "new_question_id": "E02P-D03",
+      "old_question_ids": [
+        "E01-D005",
+        "E01-D006",
+        "E01-D009"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    },
+    {
+      "new_question_id": "E02P-D04",
+      "old_question_ids": [],
+      "reuse_type": "new_scenario_target",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": null
+    },
+    {
+      "new_question_id": "E02P-D05",
+      "old_question_ids": [
+        "E01-D006",
+        "E01-D007"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    },
+    {
+      "new_question_id": "E02P-D06",
+      "old_question_ids": [
+        "E01-H002"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    },
+    {
+      "new_question_id": "E02P-D07",
+      "old_question_ids": [],
+      "reuse_type": "new_scenario_target",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": null
+    },
+    {
+      "new_question_id": "E02P-D08",
+      "old_question_ids": [],
+      "reuse_type": "new_scenario_target",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": null
+    },
+    {
+      "new_question_id": "E02P-D09",
+      "old_question_ids": [
+        "E01-D010"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    },
+    {
+      "new_question_id": "E02P-D10",
+      "old_question_ids": [],
+      "reuse_type": "new_scenario_target",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": null
+    },
+    {
+      "new_question_id": "E02P-D11",
+      "old_question_ids": [],
+      "reuse_type": "new_scenario_target",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": null
+    },
+    {
+      "new_question_id": "E02P-D12",
+      "old_question_ids": [],
+      "reuse_type": "new_scenario_target",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": null
+    },
+    {
+      "new_question_id": "E02P-H01",
+      "old_question_ids": [
+        "E01-H001"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    },
+    {
+      "new_question_id": "E02P-H02",
+      "old_question_ids": [
+        "E01-H004"
+      ],
+      "reuse_type": "adapted_target_and_selected_scoring_atoms",
+      "old_identity": "evaluation/e01/v1 rev015, 15questions/68points preserved; not inherited as common-corpus identity",
+      "common_corpus_recheck": "all cited full rows and exact basis references validated anew against knowledge/i01/v1",
+      "request_changed": true,
+      "old_rubric_sha256": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c"
+    }
+  ],
+  "old_targets_not_retained_as_reserve": {
+    "E01-H002": "removal planning now debug",
+    "E01-H003": "temporal/external influence overlap conservatively debug family; no new question needed",
+    "E01-H005": "application/safety boundaries incorporated into debug, not a heldout target"
+  },
+  "counterexample_preservation": {
+    "R-RUB-001": "No extra unasked causation warning in investigation-record points.",
+    "R-RUB-002": "Maintenance record point has no half credit borrowed from operating history.",
+    "R-RUB-003": "Lubricant sample only requires quantity as unknown; containers/lab/method are not mandatory."
+  }
+}

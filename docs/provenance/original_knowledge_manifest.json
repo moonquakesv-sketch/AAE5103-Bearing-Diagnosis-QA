@@ -1,0 +1,26 @@
+{
+  "knowledge_version": "i01.knowledge.v1_rev025",
+  "interface_version": "i01.knowledge.v1",
+  "files": {
+    "knowledge/i01/v1/evidence.csv": "0e05e5c6374996c14a79d5fbad8334730d6c7a498488eb8f807cb475c6afc575",
+    "knowledge/i01/v1/scenarios.csv": "98e4c41d085777447e5cfcca26c943d94ecc702e292fcc5e8e949198a6ea5d79",
+    "knowledge/i01/v1/entities.csv": "9f59176d837b89a37733e972dc39621d4134b14e36c0ed013a449cdc0faa3324",
+    "knowledge/i01/v1/relations.csv": "44011f19715ce4a1887b759c45b027cb1b761b642873534db6e7b4666304901b",
+    "knowledge/i01/v1/interface.json": "10915740f96b898902433b9d4782e5fa1496741de004973d0c21fe5960cf634a",
+    "knowledge/i01/v1/sources.csv": "3bbd769e82eda43cecd43667ac270f351333a2ae2db5cb0ef2e455d66097b3d1",
+    "knowledge/i01/v1/sources/nsk_flaking.html": "5903155b5a1413c4c43db32088a35fc27c1d8a6be5f048322e48958531ea9c95",
+    "knowledge/i01/v1/sources/nsk_regular_maintenance.html": "7d7d5265cc22e2dec053698cc8bfbcef8fb2d621a958a3b4afc885a2237e71bb",
+    "knowledge/i01/v1/sources/nsk_smearing.html": "d622a21b65eeaf23e1d43bcfe3be1aa000cfcd9123dea0d98cb8e21db062ff8d",
+    "knowledge/k01/sources/nsk_false_brinelling.html": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+    "knowledge/k01/sources/nsk_inspection.html": "74d44e716e0f6af90175aced64296d73a783b766225328ab3b58edb870c206c0",
+    "knowledge/k01/sources/nsk_dismounting.html": "d8e2faaea08532a4242c1843906f4755bb8db8532007f7d49f291833b87ff5ff"
+  },
+  "scope": "I01 functional development corpus; original K01 unchanged; not an E01 evaluation freeze",
+  "old_rows_preserved": true,
+  "review": "Agent source comparison; no expert or independent semantic approval",
+  "new_page_verbatim_word_counts": {
+    "SRC-I01-01": 20,
+    "SRC-I01-02": 12,
+    "SRC-I01-03": 21
+  }
+}

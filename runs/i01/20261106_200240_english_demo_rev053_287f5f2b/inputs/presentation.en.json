@@ -1,0 +1,121 @@
+{
+  "version": "aae5103.demo.english.presentation.rev053",
+  "scenarios": {
+    "outer_race": {
+      "assumption_text": "Independent teaching assumption: a generic deep-groove ball bearing is exposed to external vibration during standstill; false brinelling on the outer-ring raceway is considered as a possible mechanism. This is not an observation of actual equipment or a classifier diagnosis of cause.",
+      "applicability": "Generic bearing education only; not model-specific maintenance or actual fault identification.",
+      "unknown_information": "Actual damage morphology, vibration source/amplitude/duration, lubrication, load, model, mounting fit, maintenance history and aviation applicability remain unknown."
+    },
+    "inner_race": {
+      "assumption_text": "Independent teaching assumption: the NSK angular-contact ball-bearing inner-ring example with diagonal flaking is used to consider shaft/housing misalignment during mounting. This cause is not identified from the image by the classifier.",
+      "applicability": "Generic bearing education only; no model-specific or aviation validation.",
+      "unknown_information": "Actual morphology, root cause, model, load, lubrication, installation, maintenance history and aviation applicability remain unknown."
+    },
+    "rolling_element": {
+      "assumption_text": "Independent teaching assumption: the NSK spherical roller-bearing example of smearing on a convex roller surface is used to consider poor lubrication. This cause is not identified from the image by the classifier.",
+      "applicability": "Generic bearing education only; no model-specific or aviation validation.",
+      "unknown_information": "Actual morphology, root cause, model, load, lubrication, installation, maintenance history and aviation applicability remain unknown."
+    },
+    "normal": {
+      "assumption_text": "The normal label is the model output for this invocation. No fault cause is assumed. The system uses the general condition-monitoring and maintenance-information branch; the label does not establish absence of damage, airworthiness or release eligibility.",
+      "applicability": "Generic bearing education only; no model-specific or aviation validation.",
+      "unknown_information": "Actual morphology, root cause, model, load, lubrication, installation, maintenance history and aviation applicability remain unknown."
+    }
+  },
+  "cards": {
+    "EV-K01-001": {
+      "conditions": "The outer ring in Example 2 belongs to the deep-groove ball bearing in Example 1. The stated conditions are standstill and external vibration.",
+      "limitations": "This example does not establish that every outer-race fault has this mechanism, or that any project sample experienced these conditions."
+    },
+    "EV-K01-002": {
+      "conditions": "Retain the standstill, small-motion and contact-position conditions. The source lists possible causes.",
+      "limitations": "No occurrence probability or vibration-amplitude/duration threshold is supplied. A location label cannot establish the cause."
+    },
+    "EV-K01-003": {
+      "conditions": "These are possible causes. Lubrication condition is not specified in this demonstration.",
+      "limitations": "Possible causes are not observed facts, and the list does not rank their likelihood."
+    },
+    "EV-K01-004": {
+      "conditions": "Actual raceway surface inspection is required. The source page uses a roller-bearing example.",
+      "limitations": "This is not a CWT image criterion. No quantitative threshold is supplied, and an outer-race classification alone cannot distinguish the damage."
+    },
+    "EV-K01-005": {
+      "conditions": "Use this for investigation preparation. Separate existing facts from information that still needs to be collected.",
+      "limitations": "The information does not establish the assumed vibration cause. No actual equipment records were collected in this project step."
+    },
+    "EV-K01-006": {
+      "conditions": "This concerns sampling and documentation for analysis. Actual methods must follow the applicable equipment procedures.",
+      "limitations": "No sample quantity, container model, lubricant grade or laboratory acceptance threshold is supplied."
+    },
+    "EV-K01-007": {
+      "conditions": "External vibration is an investigation direction in this teaching scenario. The source provides broader general requirements.",
+      "limitations": "Temporal proximity does not establish causation. No measured evidence from a specific nearby machine is supplied."
+    },
+    "EV-K01-008": {
+      "conditions": "Apply the requirements only after identifying the actual equipment/model and obtaining applicable documentation.",
+      "limitations": "The general guide does not establish applicability to aircraft-engine maintenance. Do not invent torque, clearance or release conditions."
+    },
+    "EV-K01-009": {
+      "conditions": "This is the evidence-preservation sequence before inspecting a removed bearing.",
+      "limitations": "This card records the sequence only. It does not select a cleaning agent or authorize disassembly/cleaning; applicable procedures are required."
+    },
+    "EV-K01-010": {
+      "conditions": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers wear, machine function, bearing importance, operating conditions and time until the next inspection. Inspection methods vary with bearing structure and size.",
+      "limitations": "This is not a complete reuse or rejection checklist. It cannot alone decide reuse, replacement or release. Check the complete source rejection criteria and applicable equipment/OEM documents. Smooth rotation does not replace inspection. No model-specific limits or aviation applicability are supplied."
+    },
+    "EV-K01-011": {
+      "conditions": "This is preparation of information and prerequisites only. The actual dismounting method depends on bearing structure and fit.",
+      "limitations": "Later structure-specific examples do not authorize work on unknown equipment. No tool specifications, disassembly forces or heating parameters are supplied."
+    },
+    "EV-I01-001": {
+      "conditions": "Retain the angular-contact ball bearing, inner ring, diagonal raceway flaking and mounting conditions. Report this as a manufacturer example.",
+      "limitations": "The source differs from the CWRU deep-groove ball bearing with an artificial defect. A class label cannot establish flaking, mounting misalignment or causation. No alignment limits, repair rules or release rules are supplied."
+    },
+    "EV-I01-002": {
+      "conditions": "Retain the same-bearing link between Smearing 7 and Smearing 5, the convex roller surface, and the manufacturer-example framing.",
+      "limitations": "The source uses a spherical roller bearing, not the CWRU deep-groove ball bearing. A rolling-element class does not establish smearing or a lubrication cause. No specific lubricant, quantity or acceptance limit is established."
+    },
+    "EV-I01-003": {
+      "conditions": "These are general maintenance objectives. No actual maintenance or condition observations for this project equipment are supplied.",
+      "limitations": "The normal class does not establish absence of damage, remaining life, serviceability or safety, and does not authorize maintenance release."
+    },
+    "EV-I01-004": {
+      "conditions": "These checks concern actual running equipment and must follow specified procedures, rather than relying only on a time-frequency image.",
+      "limitations": "No equipment-specific normal baseline, threshold, interval or aviation acceptance criteria are supplied. A single reading or normal classification cannot establish safety."
+    },
+    "EV-I01-005": {
+      "conditions": "This prepares the procedure and scope only. Actual execution conditions require applicable equipment documentation.",
+      "limitations": "No maintenance interval, lubricant product, dose or operating procedure is supplied. A generic web page cannot replace equipment/OEM documentation."
+    }
+  },
+  "saved_answers": {
+    "1dcdc87b2ab0d00f54555c3eda4320c17e7054161f23ef050da7e3e54acc8ef6": {
+      "source_record": "/Users/moonquakes/Desktop/Workspace/study/\u5468\u4e09/runs/i01/20261104_184700_live_demo_fcb6b670/executions/20261104_192805_109998_2797b0fc/record.json",
+      "source_record_sha256": "59570c4b5982359d54b643abde4e52c0b4984afbd90979a216b17dbc8270e526",
+      "source_answer_sha256": "1dcdc87b2ab0d00f54555c3eda4320c17e7054161f23ef050da7e3e54acc8ef6",
+      "translation_kind": "English presentation translation; original model response unchanged",
+      "text": "# Bearing Result Interpretation (Demonstration Assumption)\n\n## Supported explanation\n\n- The independent teaching assumption is a generic deep-groove ball bearing exposed to external vibration during standstill, with false brinelling of the outer-ring raceway considered as a possible mechanism. This is a teaching assumption, not an observation or a diagnosis of actual equipment.\n- A manufacturer example attributes false brinelling of the outer-ring raceway to external vibration while stationary. This is a manufacturer example, not a diagnosis of this sample [EV-K01-001].\n- False brinelling is contact wear. The source lists vibration or small oscillations during standstill as possible causes [EV-K01-002].\n\n## Meaning and boundaries of the predicted class\n\n- The predicted class is `outer_race`, the frozen classifier output for this invocation, not a diagnosis of cause.\n- The scenario cause, external vibration during standstill, is an independent teaching assumption and cannot be inferred from the classifier output.\n- This does not establish that all outer-race faults have this mechanism or that any specific sample experienced these conditions [EV-K01-001].\n\n## Missing information\n\nActual damage morphology, vibration source/amplitude/duration, lubrication, load, model, mounting fit, maintenance history and aviation applicability are unknown and cannot be determined from the supplied information.\n\n## Limitations\n\n- No occurrence probability or vibration-amplitude/duration threshold is supplied. A location label cannot establish a cause [EV-K01-002].\n- This answer is for generic bearing education only, not model-specific maintenance, actual fault identification, aviation applicability, equipment safety or release decisions.\n- The evidence supports only these general associations. It is insufficient to determine whether this sample actually has false brinelling or what caused it."
+    },
+    "1276fc096e18dc22d87d3d58c24c59e0f0d8a80a475af5f378331a00c3570c19": {
+      "source_record": "/Users/moonquakes/Desktop/Workspace/study/\u5468\u4e09/runs/i01/20261104_184700_live_demo_fcb6b670/executions/20261104_193656_666328_0d66e6f9/record.json",
+      "source_record_sha256": "ee77e40c673532e86a9d06aa53a33497b9e426776d465b2bc8e2d5d541d0ad22",
+      "source_answer_sha256": "1276fc096e18dc22d87d3d58c24c59e0f0d8a80a475af5f378331a00c3570c19",
+      "translation_kind": "English presentation translation; original model response unchanged",
+      "text": "# Bearing Result Explanation (Teaching Scenario SC-K01-OR-001)\n\n## Supported explanation\n\n- Under the independent demonstration assumption, the possible mechanism is external vibration during standstill in a generic deep-groove ball bearing, resulting in false brinelling of the outer-ring raceway. This is a teaching scenario assumption, not an observation of actual equipment or a diagnosis of cause.\n- A manufacturer example attributes false brinelling of an outer-ring raceway to external vibration while stationary; it is the outer-ring example of a deep-groove ball bearing [EV-K01-001].\n- False brinelling is described as contact wear. The source lists vibration or small oscillations during standstill as possible causes [EV-K01-002].\n\n## Meaning and boundaries of the predicted class\n\n- The predicted class `outer_race` is the frozen classifier output for this invocation, not a diagnosis of cause.\n- The source example does not establish that every outer-race fault has this mechanism or that any project sample actually experienced these conditions [EV-K01-001].\n- No occurrence probability or vibration-amplitude/duration threshold is supplied; a location label alone cannot establish the cause [EV-K01-002].\n\n## Missing information\n\nActual damage morphology, vibration source/amplitude/duration, lubrication, load, model, mounting fit, maintenance history and aviation applicability are unknown and cannot be inferred.\n\n## Limitations\n\n- This explanation is for generic bearing education only. It is not model-specific maintenance advice, actual fault identification, an aviation-applicability judgment, an equipment-safety conclusion or a release decision.\n- The evidence supports the mechanism as a possible teaching explanation, not a causal conclusion about this sample."
+    },
+    "f0f4aedba9f9837b0fdd265d01c81fb746218462b7c8592b724ef8848560fd7b": {
+      "source_record": "/Users/moonquakes/Desktop/Workspace/study/\u5468\u4e09/runs/i01/20261104_184700_live_demo_fcb6b670/executions/20261104_193737_291441_6adc957d/record.json",
+      "source_record_sha256": "80cb5399f25da2527ba314bf65b79aef8110ef65df2a22f51793bd9dceec90bf",
+      "source_answer_sha256": "f0f4aedba9f9837b0fdd265d01c81fb746218462b7c8592b724ef8848560fd7b",
+      "translation_kind": "English presentation translation; original model response unchanged",
+      "text": "# Bearing Result Explanation (Teaching Scenario SC-K01-OR-001)\n\n## Supported explanation\n\n- The frozen classifier output for this invocation is `outer_race`. This is a classifier output, not a diagnosis of cause.\n- The scenario independently assumes that a generic deep-groove ball bearing is exposed to external vibration during standstill, with false brinelling of the outer-ring raceway considered as a possible mechanism.\n- A manufacturer example attributes false brinelling of an outer-ring raceway to external vibration while stationary. It is the outer-ring example of the same deep-groove ball bearing, with standstill and external-vibration conditions [EV-K01-001].\n- False brinelling is contact wear. The source lists vibration or small oscillations during standstill as possible causes [EV-K01-002].\n\n## Missing information\n\nActual damage morphology, vibration source/amplitude/duration, lubrication, load, model, mounting fit, maintenance history and aviation applicability are unknown. Actual operating conditions or damage cannot be determined from the supplied information.\n\n## Limitations\n\n- These sources provide a manufacturer example and possible causes, not a diagnosis of this sample [EV-K01-001][EV-K01-002].\n- They do not establish that every outer-race fault has this mechanism or that any project sample experienced these conditions [EV-K01-001].\n- No occurrence probability or vibration-amplitude/duration threshold is supplied. A location label cannot establish the cause [EV-K01-002].\n- This answer is for generic bearing education only, not model-specific maintenance, actual fault identification, aviation applicability, equipment safety or release decisions.\n\nUnder the stated teaching assumption, the result is an outer-race classification associated with the possible teaching mechanism of external vibration during standstill and false brinelling of the outer-ring raceway [EV-K01-001][EV-K01-002]. Evidence is insufficient to confirm any actual cause or operating condition."
+    },
+    "4038f3f88c3e05812695b075e10c261326014abb9ae2055c771d74ea24bdf25c": {
+      "source_record": "/Users/moonquakes/Desktop/Workspace/study/\u5468\u4e09/runs/i01/20261104_184700_live_demo_fcb6b670/executions/20261104_193841_622340_2876266e/record.json",
+      "source_record_sha256": "9452e2054de9c899405f5a6136adc42c50b46b12821cb1a932cddd8f0b6d910b",
+      "source_answer_sha256": "4038f3f88c3e05812695b075e10c261326014abb9ae2055c771d74ea24bdf25c",
+      "translation_kind": "English presentation translation; original model response unchanged",
+      "text": "# Bearing Result Explanation (Teaching Scenario SC-K01-OR-001)\n\n## Supported explanation\n\n- Under the independent demonstration assumption, the possible mechanism is external vibration during standstill in a generic deep-groove ball bearing, resulting in false brinelling of the outer-ring raceway. The source reports this mechanism in an outer-ring example: NSK attributes the raceway false brinelling to external vibration while stationary [EV-K01-001].\n- False brinelling is described as contact wear. The source lists vibration or small oscillations during standstill as possible causes [EV-K01-002].\n\n## Limited meaning of the result\n\n- The predicted class `outer_race` is the frozen classifier output for this invocation, not a diagnosis of cause.\n- External vibration causing false brinelling is an independent teaching assumption, not a conclusion inferred from the classifier output.\n- Under the standstill/external-vibration assumption, false brinelling of the outer-ring raceway is a source-reported possible explanation [EV-K01-001][EV-K01-002]. It does not establish what actually happened to this sample.\n\n## Missing information\n\nActual damage morphology, vibration source/amplitude/duration, lubrication, load, model, mounting fit, maintenance history and aviation applicability are unknown, as stated in the scenario, and cannot be inferred.\n\n## Limitations\n\n- The source is a manufacturer example, not a diagnosis of any project sample. It does not establish that all outer-race faults have this mechanism or that any project sample experienced these conditions [EV-K01-001].\n- No occurrence probability or vibration-amplitude/duration threshold is supplied. A location label cannot establish a cause [EV-K01-002].\n- The answer does not determine actual operating facts, repair parameters, aviation applicability, equipment safety or release decisions; evidence is insufficient for those judgments."
+    }
+  }
+}

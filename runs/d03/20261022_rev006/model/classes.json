@@ -1,0 +1,29 @@
+{
+  "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+  "class_order": [
+    "normal",
+    "inner_race",
+    "outer_race",
+    "rolling_element"
+  ],
+  "id_to_class": {
+    "0": "normal",
+    "1": "inner_race",
+    "2": "outer_race",
+    "3": "rolling_element"
+  },
+  "svm_classes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "decision_score_order": [
+    "normal",
+    "inner_race",
+    "outer_race",
+    "rolling_element"
+  ],
+  "decision_score_kind": "uncalibrated OVR decision_function; not probabilities",
+  "prediction_rule": "SVC.predict OVO voting, break_ties=False; not forced argmax of OVR score"
+}

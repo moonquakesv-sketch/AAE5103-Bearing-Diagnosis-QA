@@ -1,0 +1,32 @@
+{
+  "run_id": "20261104_221936_033089_b288ebb5",
+  "case_key": "demo_2",
+  "started_at": "2026-11-04T22:19:36+09:00",
+  "origin": "LIVE",
+  "status": "running",
+  "classifier": null,
+  "task_report": null,
+  "scenario": null,
+  "retrieval": null,
+  "answer": null,
+  "publishable": false,
+  "calls": [],
+  "stages": [
+    {
+      "name": "SVM 图像分类",
+      "status": "pending"
+    },
+    {
+      "name": "API 识别问题类型",
+      "status": "pending"
+    },
+    {
+      "name": "知识图谱检索",
+      "status": "pending"
+    },
+    {
+      "name": "API 结合证据回答",
+      "status": "pending"
+    }
+  ]
+}

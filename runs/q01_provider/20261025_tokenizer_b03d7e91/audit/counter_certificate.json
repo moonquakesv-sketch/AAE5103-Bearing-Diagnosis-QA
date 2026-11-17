@@ -1,0 +1,29 @@
+{
+  "schema":"q01.counter.independent_certificate.v1",
+  "approved":true,
+  "approval_kind":"independent_bounded_local_counter_verification",
+  "asset_manifest_sha256":"1438dcb3694052074478c960c0c8fd29bbd1add905070c2928cf058c74066677",
+  "implementation_sha256":"9f10221d0059e49b8d7ec6f0ee3e9be2fd5973385a589a4934f5507177ca10d7",
+  "provider_config_sha256":"407c209f0a37fb562fdc537e0c4c9f2d250ae0112632cfb9fcfd914b8f863f18",
+  "requested_model":"deepseek-flash",
+  "target_served_model":"DeepSeek-V4.1-Flash-1017",
+  "model_revision":"1bae0e1088993b9b82de08f59de5be5a34e42170",
+  "tokenizer_sha256":"c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b",
+  "chat_template_sha256":"13231c592e958fb39e2af6001dae69d90e7a36b265702b9b390236fb387599e2",
+  "recipe_version":"0.2.0",
+  "wheel_sha256":"624bb4d0fb3ed541b9e34d2ef96ff66057026ded7d6708b0b9088cc6d6723999",
+  "native_sha256":"7b9a8e9165be8ae9148a7b671d63c8576a171dbcd256745760cba0612e3dba9e",
+  "profile":{"roles":["system","user"],"text_only":true,"thinking":{"type":"disabled"},"response_format":{"type":"json_object"},"reject_added_token_literals":true},
+  "independent_checks":{"local_contract_and_token_array_cases":39,"reference_render_comparison_cases":17,"final_readback":"pass"},
+  "evidence":{
+    "local_comparison":"audit/local_counter_attempt_1/comparison.json",
+    "reference_comparison":"audit/reference_review/render_comparison.json",
+    "reference_comparison_sha256":"84558b6f89722d77a0083bec63e63af551291907188922659df3bd58c98df861",
+    "final_readback":"audit/final_counter_readback.json",
+    "final_readback_sha256":"c607ddacb11276646ea634af1dcaa427f3e7c507fb74b97351cf139963e99d13"
+  },
+  "known_limit":"Eight adjacent DSML literals locally encode as36 while historical issue5 reported API21. This certificate rejects such literal-containing messages rather than claiming live equivalence.",
+  "actual_api_token_equivalence_proven":false,
+  "live_requests_approved_by_this_certificate":false,
+  "authority":"Independent audit of the actual final implementation and exact local assets; not an implementation self-report. A separate exact driver/release gate and the user's bounded request authorization remain required."
+}

@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "001",
+      "status": "pass_independent",
+      "evidence": "output/pair第三外层quote与selected binding失败均rating=null；canonical不消费；测试成功而评价失败固定覆盖保持[0,1]"
+    },
+    {
+      "id": "002",
+      "status": "pass_independent",
+      "evidence": "A/B均失败时第三真实system含对应完整target schema；3次实际调用，失败包2/3"
+    },
+    {
+      "id": "003",
+      "status": "pass_pair_scope_new_adjacent_issue",
+      "evidence": "pair两集合empty/no_spans/wrong均拒绝；omission保留；output.errors另记C-003"
+    },
+    {
+      "id": "004",
+      "status": "pass_exact_original_counterexample",
+      "evidence": "B原16MiB+1/hash精确回放；全raw/HTTP/id持久保存，一发、不退、poison；仅SYNTHETIC。"
+    },
+    {
+      "id": "005",
+      "status": "pass_independent",
+      "evidence": "output+pair两套各2 initial+1 third，initial0/2、review1/1、total2/6；missing与unresolved单列"
+    },
+    {
+      "id": "006",
+      "status": "pass_independent",
+      "evidence": "无正文V_fix0/V_miss1、V_new未知；服务错误单列；无draft服务错误已知而新增归属未知"
+    },
+    {
+      "id": "007",
+      "status": "not_closed",
+      "evidence": "统计基础量和provider删失通过；评价timeout传播与评价/workflow group×split分报缺失，C-001/C-002"
+    },
+    {
+      "id": "008",
+      "status": "pass_independent_limited",
+      "evidence": "8种action逐一input/output/cache-hit/cache-miss/reasoning/local计数通过，缺失类别unknown，bill unknown/reserve分开；未执行真实tokenizer/计费"
+    },
+    {
+      "id": "009",
+      "status": "pass_current_frozen_scope",
+      "evidence": "三角色分母与未知范围、题→家族→split聚合、0knowledge N/A、整单元task与point唯一归属通过；I N/A潜在复用另记C-004"
+    }
+  ],
+  "old003_pair_closed_output_errors_gap_separate": true,
+  "author_9of9_claim_not_accepted": true,
+  "formal_experiment_released": false,
+  "independent_cross_audit_accepted": false,
+  "paid_execution_authorized": false
+}

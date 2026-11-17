@@ -1,0 +1,20 @@
+{
+  "version": "e01.single_scenario.v1_rev014",
+  "fixed_before_question_authoring": true,
+  "scope": "SC-K01-OR-001 only; caller-supplied outer_race; offline evaluation preparation",
+  "question_count": 15,
+  "split_counts": {"debug": 10, "heldout": 5},
+  "family_allocation": {
+    "debug": ["causal_mechanism", "diagnosis_boundary", "physical_discrimination", "evidence_preservation", "inspection_scope", "combined_explanation_inspection", "multi_overview", "record_assembly"],
+    "heldout": ["sample_provenance", "removal_planning", "temporal_attribution", "source_verifiability", "application_gap"]
+  },
+  "allocation_basis": "Independent requested decisions, not lexical variants; related questions stay in one family and split. Debug contains known generic K02 development intents. Heldout uses five narrower new request goals after input-only exposure inventory; no observed rankings used.",
+  "heldout_visibility": "Authoring agents/researchers may read questions and rubrics. Heldout requests must not be sent to retrievers or generators in E01. Not an independent researcher-blind test.",
+  "dependency_unit": "All questions share one scenario and 11 registered evidence cards; neither questions nor repeated outputs are independent devices or knowledge domains.",
+  "coverage": ["single explanation", "single inspection", "single preparation", "multiple tasks", "conditions and modality", "fact versus demonstration assumption", "insufficient evidence", "false premise", "unsupported numerical and aviation requests"],
+  "separate_sets": {"boundary_cases": 3, "contract_bad_cases": 8, "include_in_QA_quality_denominator": false},
+  "supported_comparison": "Future paired descriptive comparison of four configurations within this scenario after all execution gates are frozen.",
+  "unsupported_conclusions": ["current retrieval or answer performance", "graph benefit", "statistical significance", "unseen device generalization", "other faults", "aviation maintenance validity"],
+  "budget": {"top_k": 3, "unit": "unique complete evidence cards", "tuning_in_E01": false, "equal_text_length_claim": false},
+  "stop": "No retrieval even on debug questions, no generated answers, no semantic verification pipeline, no classifier, no API/web, no scenario expansion. Stop after E01 acceptance and plan registration."
+}

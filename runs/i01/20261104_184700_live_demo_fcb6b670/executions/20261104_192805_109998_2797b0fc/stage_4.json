@@ -1,0 +1,663 @@
+{
+  "run_id": "20261104_192805_109998_2797b0fc",
+  "case_key": "demo_1",
+  "started_at": "2026-11-04T19:28:05+09:00",
+  "origin": "LIVE",
+  "status": "completed",
+  "classifier": {
+    "kind": "fresh_image_inference",
+    "sample_id": "s_00a5ed732e812f840c4f9356",
+    "predicted_class": "outer_race",
+    "prediction": {
+      "sample_id": "s_00a5ed732e812f840c4f9356",
+      "record_id": "cwru_132",
+      "group_id": "cwru_132",
+      "source_family_id": "cwru_DE_007_outer_race_6oclock",
+      "split": "validation",
+      "true_label": "outer_race",
+      "predicted_class": "outer_race",
+      "decision_score": "[-0.25312420312965256, 1.8775555799176142, 3.2627689149235577, 1.0041470198900344]",
+      "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006"
+    },
+    "feature_sha256": "4b47ead63406e6ebf16298358d8a711e43ac0aba837d5ad2a21ced7508ed6932",
+    "weight_identity": {
+      "enum": "ResNet18_Weights.IMAGENET1K_V1",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "file_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "official_full_state_sha256": "9af32d5e7fbb87ef324882e37010f3766ddb307aa8b7f8ebcb44c7c21dec2a18",
+      "extractor_state_sha256": "44e0dbdc214a5d41d5254de53953807f7a29c41fed6527d9d4b81bd1037a39fb",
+      "strict_load": true,
+      "feature_layer": "avgpool -> flatten(1), before fc; 512 dimensions",
+      "feature_dim": 512
+    },
+    "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+    "elapsed_seconds": 0.1862237500026822
+  },
+  "task_report": {
+    "message": null,
+    "status": "identified",
+    "task_types": [
+      "explanation"
+    ]
+  },
+  "scenario": {
+    "assumption_text": "本演示独立假定：一只通用深沟球轴承在停机时受到外部振动，考虑外圈滚道假性布氏压痕这一可能机制。没有真实设备观察或分类器原因诊断。",
+    "assumed_cause": "external_vibration_during_standstill",
+    "applicability": "通用轴承课程演示；不是具体型号维修或真实故障鉴定。",
+    "unknown_information": "实际损伤形貌、振动源/幅值/持续时间、润滑情况、载荷、型号、装配配合、维护历史及航空适用性均未知。",
+    "class_origin": "frozen_classifier_fresh_image_inference"
+  },
+  "retrieval": {
+    "status": "retrieved",
+    "reason": "Positive-similarity cards retrieved; see per_task for card coverage, not answer correctness.",
+    "request": {
+      "predicted_class": "outer_race",
+      "scenario_id": "SC-K01-OR-001",
+      "task_types": [
+        "explanation"
+      ],
+      "question": "What does this bearing result mean under the stated demonstration assumption?",
+      "explicitly_allowed_operating_context": {}
+    },
+    "implementation_version": "i01.retriever.v1_rev025",
+    "knowledge_version": "i01.knowledge.v1_rev025",
+    "retrieval_mode": "graph",
+    "configuration_id": "df4117ee797dbfdd2c056f41292a9c251b4bf2c6a132a651325537affbff4a6d",
+    "shared_config_id": "fa064f53d206e2899f3fe02d31a1dd3b6327f4873624e9a557a673ec459460e1",
+    "config_file_sha256": null,
+    "index_id": "c47eeb0161671cf17df2f08d6db7f7becbd5afa6101d6e87902dfb1b2cbebf7f",
+    "canonical_task_order": [
+      "explanation"
+    ],
+    "score_semantics": "TF-IDF cosine text similarity only",
+    "budget": {
+      "top_k": 3,
+      "unit": "unique_complete_evidence_cards",
+      "allocation": "global_top_k_unique_complete_cards_no_task_quotas",
+      "truncation": "none",
+      "unused_slots": 1
+    },
+    "information_separation": {
+      "caller_class": "outer_race",
+      "class_origin": "caller_supplied_not_verified",
+      "demo_scenario": {
+        "scenario_id": "SC-K01-OR-001",
+        "predicted_class": "outer_race",
+        "class_semantics": "routing_category_only_not_an_actual_prediction",
+        "assumed_cause": "external_vibration_during_standstill",
+        "assumption_text": "本演示独立假定：一只通用深沟球轴承在停机时受到外部振动，考虑外圈滚道假性布氏压痕这一可能机制。没有真实设备观察或分类器原因诊断。",
+        "known_conditions": "仅固定类别路由 outer_race、三种任务与演示设定；本轮不绑定样本。",
+        "unknown_information": "实际损伤形貌、振动源/幅值/持续时间、润滑情况、载荷、型号、装配配合、维护历史及航空适用性均未知。",
+        "applicability": "通用轴承课程演示；不是具体型号维修或真实故障鉴定。",
+        "cannot_infer": "不能由部位分类推出假性布氏压痕或其根因；不能将 CWRU 人工缺陷解释为此机理；不能输出型号参数、寿命、复用/更换/放行决定或航空泛化。",
+        "supporting_evidence_ids": "EV-K01-001|EV-K01-002",
+        "support_meaning": "仅支持选择此演示关联有文献依据，不证明假设在任何项目样本上发生。",
+        "task_types": "explanation|inspection|preparation",
+        "status": "reviewed_for_K01"
+      },
+      "operating_context_semantics": "caller-selected demo assumptions or unknown; no observed measurements",
+      "source_knowledge": "evidence cards below retain modality and source provenance",
+      "unknowns": "实际损伤形貌、振动源/幅值/持续时间、润滑情况、载荷、型号、装配配合、维护历史及航空适用性均未知。"
+    },
+    "notices": [
+      "Retrieval and caller-supplied class do not establish source truth, cause, answer sufficiency or semantic verification.",
+      "The I01 corpus uses unchanged K02 TF-IDF scoring, graph traversal, ranking and global complete-card budget.",
+      "Graph candidates follow explicit scenario-specific task nodes; text mode searches the whole pinned evidence corpus.",
+      "Scenario causes are independent educational assumptions; a location class cannot establish a mechanism or root cause.",
+      "Normal has no assumed fault cause and does not establish absence of damage, serviceability or safety.",
+      "Every returned card retains its source, modality, conditions, limitations and locators; sources are not indexed.",
+      "Physical inspection guidance is not a CWT image criterion or an authorization to disassemble equipment.",
+      "Timken provenance still lacks same-version local PDF/hash and visual checks; this inherited limitation remains explicit.",
+      "No model-specific or aviation parameters, reuse, replacement or release decisions are produced."
+    ],
+    "claim_en_semantics": "Project-agent-authored English paraphrase, not a verbatim manufacturer quotation; no human or domain-expert sign-off is claimed.",
+    "candidate_count": 3,
+    "candidate_ids": [
+      "EV-K01-001",
+      "EV-K01-002",
+      "EV-K01-003"
+    ],
+    "positive_candidate_count": 2,
+    "returned_count": 2,
+    "scored_candidates": [
+      {
+        "evidence_id": "EV-K01-001",
+        "score": 0.6269815593518576
+      },
+      {
+        "evidence_id": "EV-K01-002",
+        "score": 0.28753913212378257
+      },
+      {
+        "evidence_id": "EV-K01-003",
+        "score": 0.0
+      }
+    ],
+    "graph_candidate_paths": {
+      "EV-K01-001": [
+        [
+          {
+            "from_node": "PART-OUTER-RACE",
+            "to_node": "SC-K01-OR-001",
+            "direction": "reverse",
+            "edge": {
+              "relation_id": "REL-K01-001",
+              "subject_id": "SC-K01-OR-001",
+              "relation": "routes_from_class",
+              "object_id": "PART-OUTER-RACE",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "未来收到 outer_race 类别时可选此演示；本轮没有调用分类器。",
+              "limitations": "路由映射不代表因果。",
+              "semantic_note": "项目组织关系；无来源事实断言。"
+            }
+          },
+          {
+            "from_node": "SC-K01-OR-001",
+            "to_node": "TASK-EXPLANATION",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-003",
+              "subject_id": "SC-K01-OR-001",
+              "relation": "has_task",
+              "object_id": "TASK-EXPLANATION",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "本情景的项目任务分类。",
+              "limitations": "不代表问答或检索已实现。",
+              "semantic_note": "组织关系。"
+            }
+          },
+          {
+            "from_node": "TASK-EXPLANATION",
+            "to_node": "KN-K01-001",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-008",
+              "subject_id": "TASK-EXPLANATION",
+              "relation": "has_evidence_backed_content",
+              "object_id": "KN-K01-001",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-001",
+              "conditions": "案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。",
+              "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。",
+              "semantic_note": "任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。"
+            }
+          },
+          {
+            "from_node": "KN-K01-001",
+            "to_node": "EV-K01-001",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-009",
+              "subject_id": "KN-K01-001",
+              "relation": "supported_by",
+              "object_id": "EV-K01-001",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-001",
+              "conditions": "案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。",
+              "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。",
+              "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+            }
+          }
+        ]
+      ],
+      "EV-K01-002": [
+        [
+          {
+            "from_node": "PART-OUTER-RACE",
+            "to_node": "SC-K01-OR-001",
+            "direction": "reverse",
+            "edge": {
+              "relation_id": "REL-K01-001",
+              "subject_id": "SC-K01-OR-001",
+              "relation": "routes_from_class",
+              "object_id": "PART-OUTER-RACE",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "未来收到 outer_race 类别时可选此演示；本轮没有调用分类器。",
+              "limitations": "路由映射不代表因果。",
+              "semantic_note": "项目组织关系；无来源事实断言。"
+            }
+          },
+          {
+            "from_node": "SC-K01-OR-001",
+            "to_node": "TASK-EXPLANATION",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-003",
+              "subject_id": "SC-K01-OR-001",
+              "relation": "has_task",
+              "object_id": "TASK-EXPLANATION",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "本情景的项目任务分类。",
+              "limitations": "不代表问答或检索已实现。",
+              "semantic_note": "组织关系。"
+            }
+          },
+          {
+            "from_node": "TASK-EXPLANATION",
+            "to_node": "KN-K01-002",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-010",
+              "subject_id": "TASK-EXPLANATION",
+              "relation": "has_evidence_backed_content",
+              "object_id": "KN-K01-002",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-002",
+              "conditions": "保留静止、小幅运动与接触位置；来源使用可能原因列表。",
+              "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。",
+              "semantic_note": "任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。"
+            }
+          },
+          {
+            "from_node": "KN-K01-002",
+            "to_node": "EV-K01-002",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-011",
+              "subject_id": "KN-K01-002",
+              "relation": "supported_by",
+              "object_id": "EV-K01-002",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-002",
+              "conditions": "保留静止、小幅运动与接触位置；来源使用可能原因列表。",
+              "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。",
+              "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+            }
+          }
+        ]
+      ],
+      "EV-K01-003": [
+        [
+          {
+            "from_node": "PART-OUTER-RACE",
+            "to_node": "SC-K01-OR-001",
+            "direction": "reverse",
+            "edge": {
+              "relation_id": "REL-K01-001",
+              "subject_id": "SC-K01-OR-001",
+              "relation": "routes_from_class",
+              "object_id": "PART-OUTER-RACE",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "未来收到 outer_race 类别时可选此演示；本轮没有调用分类器。",
+              "limitations": "路由映射不代表因果。",
+              "semantic_note": "项目组织关系；无来源事实断言。"
+            }
+          },
+          {
+            "from_node": "SC-K01-OR-001",
+            "to_node": "TASK-EXPLANATION",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-003",
+              "subject_id": "SC-K01-OR-001",
+              "relation": "has_task",
+              "object_id": "TASK-EXPLANATION",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "本情景的项目任务分类。",
+              "limitations": "不代表问答或检索已实现。",
+              "semantic_note": "组织关系。"
+            }
+          },
+          {
+            "from_node": "TASK-EXPLANATION",
+            "to_node": "KN-K01-003",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-012",
+              "subject_id": "TASK-EXPLANATION",
+              "relation": "has_evidence_backed_content",
+              "object_id": "KN-K01-003",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-003",
+              "conditions": "这些是候选可能性；本演示未设定润滑状态。",
+              "limitations": "不能把候选原因写为已观测事实，也不能凭列表给原因排序。",
+              "semantic_note": "任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。"
+            }
+          },
+          {
+            "from_node": "KN-K01-003",
+            "to_node": "EV-K01-003",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-013",
+              "subject_id": "KN-K01-003",
+              "relation": "supported_by",
+              "object_id": "EV-K01-003",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-003",
+              "conditions": "这些是候选可能性；本演示未设定润滑状态。",
+              "limitations": "不能把候选原因写为已观测事实，也不能凭列表给原因排序。",
+              "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+            }
+          }
+        ]
+      ]
+    },
+    "query_text": "What does this bearing result mean under the stated demonstration assumption?\nouter race\nexternal vibration during standstill\nexplanation",
+    "per_task": {
+      "explanation": {
+        "status": "retrieved",
+        "reason": "At least one card tagged for this task was returned; answer sufficiency is unverified.",
+        "candidate_count": 3,
+        "positive_count": 2,
+        "returned_ids": [
+          "EV-K01-001",
+          "EV-K01-002"
+        ]
+      }
+    },
+    "results": [
+      {
+        "evidence_id": "EV-K01-001",
+        "source_id": "SRC-K01-01",
+        "knowledge_id": "KN-K01-001",
+        "task_type": "explanation",
+        "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+        "source_version": "undated web page; accessed 2026-10-23",
+        "pdf_file_page": "",
+        "printed_page": "",
+        "page_or_section": "False Brinelling 2; read alongside False Brinelling 1",
+        "original_text": "Vibration from an external source while stationary",
+        "chinese_paraphrase": "NSK 的外圈案例将静止时外部振动与滚道假性布氏压痕关联；这是厂家案例，不是当前样本诊断。",
+        "claim_en": "An NSK outer-ring example attributes raceway false brinelling to external vibration during standstill.",
+        "conditions": "案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。",
+        "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。",
+        "modality": "reported_example",
+        "applicability": "generic_bearing_education_only",
+        "reviewed_by": "本轮 agent 逐条原文对照；非专家复核",
+        "rank": 1,
+        "score": 0.6269815593518576,
+        "source": {
+          "source_id": "SRC-K01-01",
+          "title": "False Brinelling",
+          "organization_author": "NSK Europe / NSK Ltd.",
+          "version_or_date": "undated web page; accessed 2026-10-23",
+          "original_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+          "access_date": "2026-10-23",
+          "timezone": "Asia/Hong_Kong",
+          "format": "html",
+          "page_or_section": "Damage Condition / Possible Causes; False Brinelling 1 and 2; other examples read for scope",
+          "applicability": "通用滚动轴承；案例 1/2 为同一深沟球轴承的内圈和外圈；案例不等于本项目样本",
+          "full_text_status": "full_html_saved_main_content_read",
+          "local_path": "knowledge/k01/sources/nsk_false_brinelling.html",
+          "sha256": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+          "local_copy_status": "saved_public_html",
+          "access_limitations": "无原文发布日期；页脚年份不是版本日期",
+          "rights_use": "版权归原机构；公开网页/指南仅作本地课程核查。非开放许可证；短摘录加自写释义，不重新发布原网页/PDF/照片；对外分发前复核许可。",
+          "reviewed_by": "本轮 agent 原文核查；非第二位人工或领域专家"
+        },
+        "relation_paths": [
+          [
+            {
+              "from_node": "PART-OUTER-RACE",
+              "to_node": "SC-K01-OR-001",
+              "direction": "reverse",
+              "edge": {
+                "relation_id": "REL-K01-001",
+                "subject_id": "SC-K01-OR-001",
+                "relation": "routes_from_class",
+                "object_id": "PART-OUTER-RACE",
+                "assertion_basis": "project_contract",
+                "evidence_id": "",
+                "conditions": "未来收到 outer_race 类别时可选此演示；本轮没有调用分类器。",
+                "limitations": "路由映射不代表因果。",
+                "semantic_note": "项目组织关系；无来源事实断言。"
+              }
+            },
+            {
+              "from_node": "SC-K01-OR-001",
+              "to_node": "TASK-EXPLANATION",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-K01-003",
+                "subject_id": "SC-K01-OR-001",
+                "relation": "has_task",
+                "object_id": "TASK-EXPLANATION",
+                "assertion_basis": "project_contract",
+                "evidence_id": "",
+                "conditions": "本情景的项目任务分类。",
+                "limitations": "不代表问答或检索已实现。",
+                "semantic_note": "组织关系。"
+              }
+            },
+            {
+              "from_node": "TASK-EXPLANATION",
+              "to_node": "KN-K01-001",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-K01-008",
+                "subject_id": "TASK-EXPLANATION",
+                "relation": "has_evidence_backed_content",
+                "object_id": "KN-K01-001",
+                "assertion_basis": "source_knowledge",
+                "evidence_id": "EV-K01-001",
+                "conditions": "案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。",
+                "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。",
+                "semantic_note": "任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。"
+              }
+            },
+            {
+              "from_node": "KN-K01-001",
+              "to_node": "EV-K01-001",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-K01-009",
+                "subject_id": "KN-K01-001",
+                "relation": "supported_by",
+                "object_id": "EV-K01-001",
+                "assertion_basis": "source_knowledge",
+                "evidence_id": "EV-K01-001",
+                "conditions": "案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。",
+                "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。",
+                "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "evidence_id": "EV-K01-002",
+        "source_id": "SRC-K01-01",
+        "knowledge_id": "KN-K01-002",
+        "task_type": "explanation",
+        "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+        "source_version": "undated web page; accessed 2026-10-23",
+        "pdf_file_page": "",
+        "printed_page": "",
+        "page_or_section": "Damage Condition and Possible Causes, first two bullets",
+        "original_text": "Wear caused by vibration and swaying",
+        "chinese_paraphrase": "假性布氏压痕属于滚动体与滚道接触处的磨损；静止时振动或小幅摆动是列出的可能原因。",
+        "claim_en": "False brinelling is contact wear; standstill vibration or small oscillations are listed possible causes.",
+        "conditions": "保留静止、小幅运动与接触位置；来源使用可能原因列表。",
+        "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。",
+        "modality": "possible_cause",
+        "applicability": "generic_bearing_education_only",
+        "reviewed_by": "本轮 agent 逐条原文对照；非专家复核",
+        "rank": 2,
+        "score": 0.28753913212378257,
+        "source": {
+          "source_id": "SRC-K01-01",
+          "title": "False Brinelling",
+          "organization_author": "NSK Europe / NSK Ltd.",
+          "version_or_date": "undated web page; accessed 2026-10-23",
+          "original_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+          "access_date": "2026-10-23",
+          "timezone": "Asia/Hong_Kong",
+          "format": "html",
+          "page_or_section": "Damage Condition / Possible Causes; False Brinelling 1 and 2; other examples read for scope",
+          "applicability": "通用滚动轴承；案例 1/2 为同一深沟球轴承的内圈和外圈；案例不等于本项目样本",
+          "full_text_status": "full_html_saved_main_content_read",
+          "local_path": "knowledge/k01/sources/nsk_false_brinelling.html",
+          "sha256": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+          "local_copy_status": "saved_public_html",
+          "access_limitations": "无原文发布日期；页脚年份不是版本日期",
+          "rights_use": "版权归原机构；公开网页/指南仅作本地课程核查。非开放许可证；短摘录加自写释义，不重新发布原网页/PDF/照片；对外分发前复核许可。",
+          "reviewed_by": "本轮 agent 原文核查；非第二位人工或领域专家"
+        },
+        "relation_paths": [
+          [
+            {
+              "from_node": "PART-OUTER-RACE",
+              "to_node": "SC-K01-OR-001",
+              "direction": "reverse",
+              "edge": {
+                "relation_id": "REL-K01-001",
+                "subject_id": "SC-K01-OR-001",
+                "relation": "routes_from_class",
+                "object_id": "PART-OUTER-RACE",
+                "assertion_basis": "project_contract",
+                "evidence_id": "",
+                "conditions": "未来收到 outer_race 类别时可选此演示；本轮没有调用分类器。",
+                "limitations": "路由映射不代表因果。",
+                "semantic_note": "项目组织关系；无来源事实断言。"
+              }
+            },
+            {
+              "from_node": "SC-K01-OR-001",
+              "to_node": "TASK-EXPLANATION",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-K01-003",
+                "subject_id": "SC-K01-OR-001",
+                "relation": "has_task",
+                "object_id": "TASK-EXPLANATION",
+                "assertion_basis": "project_contract",
+                "evidence_id": "",
+                "conditions": "本情景的项目任务分类。",
+                "limitations": "不代表问答或检索已实现。",
+                "semantic_note": "组织关系。"
+              }
+            },
+            {
+              "from_node": "TASK-EXPLANATION",
+              "to_node": "KN-K01-002",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-K01-010",
+                "subject_id": "TASK-EXPLANATION",
+                "relation": "has_evidence_backed_content",
+                "object_id": "KN-K01-002",
+                "assertion_basis": "source_knowledge",
+                "evidence_id": "EV-K01-002",
+                "conditions": "保留静止、小幅运动与接触位置；来源使用可能原因列表。",
+                "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。",
+                "semantic_note": "任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。"
+              }
+            },
+            {
+              "from_node": "KN-K01-002",
+              "to_node": "EV-K01-002",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-K01-011",
+                "subject_id": "KN-K01-002",
+                "relation": "supported_by",
+                "object_id": "EV-K01-002",
+                "assertion_basis": "source_knowledge",
+                "evidence_id": "EV-K01-002",
+                "conditions": "保留静止、小幅运动与接触位置；来源使用可能原因列表。",
+                "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。",
+                "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "interface_version": "i01.knowledge.v1",
+    "manifest_sha256": "612ccb8408a04cb938108641bdee453c5b4fac0273996e03b4d5d115e0c02d4d",
+    "algorithm_version": "k02.v1_rev013",
+    "configuration_kind": "inline fixed adapter configuration"
+  },
+  "answer": "# 轴承结果解读（演示假设下）\n\n## 支持性说明\n\n- 在本演示的独立假设下，情景设定为：一只通用深沟球轴承在停机时受到外部振动，并考虑外圈滚道假性布氏压痕这一可能机制。该假设属于教学假定，不是对真实设备的观察或原因诊断。\n- 有厂家案例将外圈滚道假性布氏压痕归因于静止期间的外部振动 [EV-K01-001]。该案例为厂家示例，并非对本样本的诊断 [EV-K01-001]。\n- 假性布氏压痕属于接触磨损；来源将静止时的振动或小幅摆动列为可能原因 [EV-K01-002]。\n\n## 预测类别的含义与边界\n\n- 本次预测类别为 `outer_race`，这是本次调用中冻结的分类器输出，不是原因诊断。\n- 情景中的原因（停机时外部振动）是独立的教学假设，不能由分类器输出反推得出。\n- 不能由此推出所有外圈故障都是该机制，也不能证明任何具体样本存在该工况 [EV-K01-001]。\n\n## 缺失信息\n\n以下信息均未知，无法据此作出判断：实际损伤形貌、振动源/幅值/持续时间、润滑情况、载荷、型号、装配配合、维护历史及航空适用性。\n\n## 局限\n\n- 来源未给出发生概率或振幅/时长阈值，也不能由部位标签反向确定原因 [EV-K01-002]。\n- 本回答仅适用于通用轴承课程演示，不构成具体型号维修、真实故障鉴定、航空适用性、设备安全或放行决定。\n- 现有证据仅支持上述一般性关联说明；对于本样本是否确实存在假性布氏压痕或其成因，证据不足，无法判定。",
+  "publishable": true,
+  "calls": [
+    {
+      "action": "identify",
+      "started_at": "2026-11-04T19:28:05+09:00",
+      "status": "completed",
+      "http_status": 200,
+      "request_id": null,
+      "usage": {
+        "prompt_tokens": 297,
+        "completion_tokens": 17,
+        "total_tokens": 314,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 169
+      },
+      "actual_bill": "unknown",
+      "received_bytes": 537,
+      "received_sha256": "9024fca2cbeeba4a0117dd955b880fd9cf552622c639023e667e1dab91aebb4c",
+      "raw_redacted": false,
+      "returned_model": "deepseek-flash",
+      "elapsed_seconds": 0.9464224580005975
+    },
+    {
+      "action": "answer",
+      "started_at": "2026-11-04T19:28:06+09:00",
+      "status": "completed",
+      "http_status": 200,
+      "request_id": null,
+      "usage": {
+        "prompt_tokens": 2975,
+        "completion_tokens": 380,
+        "total_tokens": 3355,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2975
+      },
+      "actual_bill": "unknown",
+      "received_bytes": 2096,
+      "received_sha256": "cf6f5ab721f33e205096a9dba026df3274196dc78ba22ec79d1652906f3cf1db",
+      "raw_redacted": false,
+      "returned_model": "deepseek-flash",
+      "elapsed_seconds": 3.0937265419997857
+    }
+  ],
+  "stages": [
+    {
+      "name": "SVM 图像分类",
+      "status": "completed",
+      "started_at": "2026-11-04T19:28:05+09:00",
+      "elapsed_seconds": 0.24397762500302633
+    },
+    {
+      "name": "API 识别问题类型",
+      "status": "completed",
+      "started_at": "2026-11-04T19:28:05+09:00",
+      "elapsed_seconds": 0.9491995839998708
+    },
+    {
+      "name": "知识图谱检索",
+      "status": "completed",
+      "started_at": "2026-11-04T19:28:06+09:00",
+      "elapsed_seconds": 0.06741150000016205
+    },
+    {
+      "name": "API 结合证据回答",
+      "status": "completed",
+      "started_at": "2026-11-04T19:28:06+09:00",
+      "elapsed_seconds": 3.0970061249972787
+    }
+  ],
+  "request": {
+    "predicted_class": "outer_race",
+    "scenario_id": "SC-K01-OR-001",
+    "task_types": [
+      "explanation"
+    ],
+    "question": "What does this bearing result mean under the stated demonstration assumption?",
+    "explicitly_allowed_operating_context": {}
+  }
+}

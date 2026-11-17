@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T19:09:34.334053+08:00",
+  "scope": "D01 metadata and synthetic configuration checks only; no model or test evaluation",
+  "records": 16,
+  "unique_selected_signal_hashes": 16,
+  "group_split_overlap": false,
+  "per_class_record_counts": {
+    "train": {
+      "normal": 2,
+      "inner_race": 2,
+      "outer_race": 2,
+      "rolling_element": 2
+    },
+    "validation": {
+      "normal": 1,
+      "inner_race": 1,
+      "outer_race": 1,
+      "rolling_element": 1
+    },
+    "test": {
+      "normal": 1,
+      "inner_race": 1,
+      "outer_race": 1,
+      "rolling_element": 1
+    }
+  },
+  "source_families_spanning_splits_not_confirmed_specimens": {
+    "cwru_normal": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "cwru_DE_007_inner_race": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "cwru_DE_007_outer_race_6oclock": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "cwru_DE_007_rolling_element": [
+      "test",
+      "train",
+      "validation"
+    ]
+  },
+  "excluded_duplicate_arrays": [
+    [
+      "98.mat:X098_DE_time",
+      "99.mat:X098_DE_time"
+    ],
+    [
+      "98.mat:X098_FE_time",
+      "99.mat:X098_FE_time"
+    ]
+  ],
+  "rpm_table_vs_mat_differences": [
+    {
+      "record_id": "cwru_097",
+      "table": 1797.0,
+      "MAT": 1796.0
+    },
+    {
+      "record_id": "cwru_100",
+      "table": 1730.0,
+      "MAT": 1725.0
+    },
+    {
+      "record_id": "cwru_107",
+      "table": 1750.0,
+      "MAT": 1748.0
+    },
+    {
+      "record_id": "cwru_108",
+      "table": 1730.0,
+      "MAT": 1721.0
+    },
+    {
+      "record_id": "cwru_130",
+      "table": 1797.0,
+      "MAT": 1796.0
+    },
+    {
+      "record_id": "cwru_131",
+      "table": 1772.0,
+      "MAT": 1773.0
+    },
+    {
+      "record_id": "cwru_133",
+      "table": 1730.0,
+      "MAT": 1725.0
+    },
+    {
+      "record_id": "cwru_118",
+      "table": 1797.0,
+      "MAT": 1796.0
+    },
+    {
+      "record_id": "cwru_120",
+      "table": 1750.0,
+      "MAT": 1748.0
+    },
+    {
+      "record_id": "cwru_121",
+      "table": 1730.0,
+      "MAT": 1722.0
+    }
+  ],
+  "window_counts_are_predictions_not_generated_samples": {
+    "cwru_097": {
+      "split": "train",
+      "eligible_windows_estimate": 29,
+      "processed_length_estimate": 60985,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_098": {
+      "split": "train",
+      "eligible_windows_estimate": 58,
+      "processed_length_estimate": 120976,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_099": {
+      "split": "validation",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121266,
+      "planned_windows_after_train_balance": 59
+    },
+    "cwru_100": {
+      "split": "test",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121411,
+      "planned_windows_after_train_balance": 59
+    },
+    "cwru_105": {
+      "split": "train",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121265,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_106": {
+      "split": "train",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121991,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_107": {
+      "split": "validation",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 122136,
+      "planned_windows_after_train_balance": 59
+    },
+    "cwru_108": {
+      "split": "test",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 122917,
+      "planned_windows_after_train_balance": 59
+    },
+    "cwru_130": {
+      "split": "train",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121991,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_131": {
+      "split": "train",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 122426,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_132": {
+      "split": "validation",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121410,
+      "planned_windows_after_train_balance": 59
+    },
+    "cwru_133": {
+      "split": "test",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 122571,
+      "planned_windows_after_train_balance": 59
+    },
+    "cwru_118": {
+      "split": "train",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 122571,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_119": {
+      "split": "train",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121410,
+      "planned_windows_after_train_balance": 29
+    },
+    "cwru_120": {
+      "split": "validation",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121556,
+      "planned_windows_after_train_balance": 59
+    },
+    "cwru_121": {
+      "split": "test",
+      "eligible_windows_estimate": 59,
+      "processed_length_estimate": 121556,
+      "planned_windows_after_train_balance": 59
+    }
+  },
+  "planned_total_windows": 704,
+  "train_windows_per_record": 29,
+  "synthetic_checks": {
+    "anti_alias_8khz_attenuation_db": -60.25703315105363,
+    "cwt_shape": [
+      128,
+      2048
+    ],
+    "cwt_1khz_peak_hz": 974.146920183621,
+    "scale_min": 4.0,
+    "scale_max": 120.0
+  },
+  "environment": {
+    "python": "3.12.15 (main, Oct 13 2026, 16:47:20) [Clang 21.1.8 ]",
+    "executable": "/Users/moonquakes/miniforge3/envs/aae5103/bin/python",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "mps_available": false,
+    "pip_check": "No broken requirements found."
+  },
+  "artifact_sha256": {
+    "data/records.csv": "6bfe114f193cd9822e2198d2397ebfd0c13d132df77497d4ff6609bc1faa3aac",
+    "configs/data.yaml": "02b79bd9ee20f846b9d09cc6799d50eb83d326ba721996b566a08364b17e98d7",
+    "docs/data_protocol.md": "a0a9c328ee7ff2a7628fdd354a84c0457570fc1cffee04b1a11625519318c7a4",
+    "scripts/validate_d01.py": "9a66092fdd21c256f97caa016490fb8793147c266e682fa17f5785338ca008a1"
+  }
+}

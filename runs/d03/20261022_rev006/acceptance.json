@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-22T19:24:09.784390+08:00",
+  "scope": "D03 train/validation baseline and freeze only",
+  "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+  "initial_baseline_files": 1846,
+  "initial_regressions": 31,
+  "final_regressions": 48,
+  "independent_verification": "PASS",
+  "reloaded_inference_csv_byte_equal": true,
+  "counts": {
+    "train_features": 232,
+    "validation_features": 236,
+    "test_features": 0
+  },
+  "selected_params": {
+    "kernel": "linear",
+    "C": 0.01
+  },
+  "metrics": {
+    "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+    "train": {
+      "n_windows": 232,
+      "class_order": [
+        "normal",
+        "inner_race",
+        "outer_race",
+        "rolling_element"
+      ],
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "per_class_recall": {
+        "normal": 1.0,
+        "inner_race": 1.0,
+        "outer_race": 1.0,
+        "rolling_element": 1.0
+      },
+      "confusion_matrix_rows_true_columns_predicted": [
+        [
+          58,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          58,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          58,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          58
+        ]
+      ]
+    },
+    "validation": {
+      "n_windows": 236,
+      "class_order": [
+        "normal",
+        "inner_race",
+        "outer_race",
+        "rolling_element"
+      ],
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "per_class_recall": {
+        "normal": 1.0,
+        "inner_race": 1.0,
+        "outer_race": 1.0,
+        "rolling_element": 1.0
+      },
+      "confusion_matrix_rows_true_columns_predicted": [
+        [
+          59,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          59,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          59,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          59
+        ]
+      ]
+    },
+    "test": "not executed"
+  },
+  "protected_existing_files_checked": 1850,
+  "only_authorized_plan_changed": true,
+  "freeze_sha256": "7c8c35c9eb7ff1d5b2964ab9060e5530b48e09f281315a7c78adc4b77219e3db",
+  "tests_not_performed": [
+    "formal test extraction/prediction/scoring",
+    "cross-machine/device/dependency-version reproduction",
+    "fresh full D02 CWT/review regeneration",
+    "knowledge/RAG/QA/web/end-to-end experiments"
+  ],
+  "new_baseline": "runs/d03/20261022_rev006/deliverables.sha256",
+  "baseline_exclusions": [
+    "deliverables.sha256 itself",
+    "post-seal validation.json and validation.log"
+  ]
+}

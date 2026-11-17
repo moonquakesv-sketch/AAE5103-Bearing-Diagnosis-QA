@@ -1,0 +1,805 @@
+{
+  "point_reviews": [
+    {
+      "question_id": "E02P-D01",
+      "point_id": "E02P-D01-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-001",
+        "EV-K01-002"
+      ],
+      "source_ids": [
+        "SRC-K01-01"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D01",
+      "point_id": "E02P-D01-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-003"
+      ],
+      "source_ids": [
+        "SRC-K01-01"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D01",
+      "point_id": "E02P-D01-P3",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D02",
+      "point_id": "E02P-D02-P1",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-004"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-D02",
+      "point_id": "E02P-D02-P2",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-004"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-D02",
+      "point_id": "E02P-D02-P3",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-001",
+        "EV-K01-002"
+      ],
+      "source_ids": [
+        "SRC-K01-01"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-009"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P3",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-009"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P4",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-009"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P5",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P6",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P7",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P8",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P9",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D03",
+      "point_id": "E02P-D03-P10",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D04",
+      "point_id": "E02P-D04-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-001"
+      ],
+      "source_ids": [
+        "SRC-I01-01"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D04",
+      "point_id": "E02P-D04-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-001"
+      ],
+      "source_ids": [
+        "SRC-I01-01"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D04",
+      "point_id": "E02P-D04-P3",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-001"
+      ],
+      "source_ids": [
+        "SRC-I01-01"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D04",
+      "point_id": "E02P-D04-P4",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D05",
+      "point_id": "E02P-D05-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D05",
+      "point_id": "E02P-D05-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D05",
+      "point_id": "E02P-D05-P3",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D05",
+      "point_id": "E02P-D05-P4",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D05",
+      "point_id": "E02P-D05-P5",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D05",
+      "point_id": "E02P-D05-P6",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D05",
+      "point_id": "E02P-D05-P7",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-010"
+      ],
+      "source_ids": [
+        "SRC-K01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D06",
+      "point_id": "E02P-D06-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-011"
+      ],
+      "source_ids": [
+        "SRC-K01-04"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D06",
+      "point_id": "E02P-D06-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-K01-011"
+      ],
+      "source_ids": [
+        "SRC-K01-04"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D06",
+      "point_id": "E02P-D06-P3",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D07",
+      "point_id": "E02P-D07-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-002"
+      ],
+      "source_ids": [
+        "SRC-I01-02"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D07",
+      "point_id": "E02P-D07-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-002"
+      ],
+      "source_ids": [
+        "SRC-I01-02"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D07",
+      "point_id": "E02P-D07-P3",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-002"
+      ],
+      "source_ids": [
+        "SRC-I01-02"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D07",
+      "point_id": "E02P-D07-P4",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D08",
+      "point_id": "E02P-D08-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D08",
+      "point_id": "E02P-D08-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D08",
+      "point_id": "E02P-D08-P3",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D08",
+      "point_id": "E02P-D08-P4",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D08",
+      "point_id": "E02P-D08-P5",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D09",
+      "point_id": "E02P-D09-P1",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-005"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-D09",
+      "point_id": "E02P-D09-P2",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-005"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-D09",
+      "point_id": "E02P-D09-P3",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-005"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-D09",
+      "point_id": "E02P-D09-P4",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-005"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-D09",
+      "point_id": "E02P-D09-P5",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D10",
+      "point_id": "E02P-D10-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-003"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D10",
+      "point_id": "E02P-D10-P2",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D10",
+      "point_id": "E02P-D10-P3",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D11",
+      "point_id": "E02P-D11-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D11",
+      "point_id": "E02P-D11-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D11",
+      "point_id": "E02P-D11-P3",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D11",
+      "point_id": "E02P-D11-P4",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-004"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D11",
+      "point_id": "E02P-D11-P5",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D12",
+      "point_id": "E02P-D12-P1",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-005"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D12",
+      "point_id": "E02P-D12-P2",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-005"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D12",
+      "point_id": "E02P-D12-P3",
+      "status": "registered_local_text_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [
+        "EV-I01-005"
+      ],
+      "source_ids": [
+        "SRC-I01-03"
+      ],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-D12",
+      "point_id": "E02P-D12-P4",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-H01",
+      "point_id": "E02P-H01-P1",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-006"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-H01",
+      "point_id": "E02P-H01-P2",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-006"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-H01",
+      "point_id": "E02P-H01-P3",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-006"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-H01",
+      "point_id": "E02P-H01-P4",
+      "status": "needs_source_review",
+      "deterministic_source_truth_scoring": "suspended",
+      "evidence_ids": [
+        "EV-K01-006"
+      ],
+      "source_ids": [
+        "SRC-K01-02"
+      ],
+      "reason": "Same-version Timken local PDF/hash/visual QA missing; no independent source-truth confirmation."
+    },
+    {
+      "question_id": "E02P-H01",
+      "point_id": "E02P-H01-P5",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-H02",
+      "point_id": "E02P-H02-P1",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-H02",
+      "point_id": "E02P-H02-P2",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-H02",
+      "point_id": "E02P-H02-P3",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-H02",
+      "point_id": "E02P-H02-P4",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    },
+    {
+      "question_id": "E02P-H02",
+      "point_id": "E02P-H02-P5",
+      "status": "project_record_checked",
+      "deterministic_source_truth_scoring": "relative_to_registered_basis_only",
+      "evidence_ids": [],
+      "source_ids": [],
+      "reason": "Exact fixed evidence or project/source record checked; no human/domain-expert approval claimed."
+    }
+  ],
+  "suspended_point_policy": "Do not assign deterministic source-truth scores, delete these points, or silently reduce planned formal denominators. Separate source task/approval needed before formal release.",
+  "followup_tasks": [
+    {
+      "id": "SRC-S02-TIMKEN",
+      "status": "pending_separate_authorization",
+      "work": "Obtain same-version official Timken PDF, register hash, inspect cited pages visually and semantically; do not overwrite old source records."
+    },
+    {
+      "id": "SRC-S02-TRANSFER",
+      "status": "limitation_preserved",
+      "work": "Human/domain applicability confirmation for angular-contact and spherical-roller cases versus CWRU deep-groove artificial faults; no current natural-cause or aviation claim."
+    }
+  ]
+}

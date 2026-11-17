@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "revision": "008",
+  "model_run": "runs/d03/20261022_rev006",
+  "compatibility": "runs/d03_fix/rev007/compatibility.json",
+  "baseline": "runs/d03_fix/rev007/deliverables.sha256",
+  "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+  "freeze_sha256": "7c8c35c9eb7ff1d5b2964ab9060e5530b48e09f281315a7c78adc4b77219e3db",
+  "samples_manifest": "data/samples.csv",
+  "split": "test",
+  "load_hp": 3,
+  "n_windows": 236,
+  "n_records": 4,
+  "windows_per_class": 59,
+  "class_order": ["normal", "inner_race", "outer_race", "rolling_element"],
+  "metrics": {
+    "unit": "window; correlated within original record, not independent specimen",
+    "macro_f1": "mean of four 2TP/(2TP+FP+FN); zero denominator gives 0",
+    "balanced_accuracy": "mean recall of true-supported classes; all four supported here",
+    "accuracy": "total correct / total windows",
+    "recall": "TP/(TP+FN); zero denominator gives 0",
+    "confusion_matrix": "rows true, columns predicted, fixed class_order",
+    "per_record": "window count, correct count, predicted counts, true-class recall/accuracy, four-class matrix"
+  },
+  "output_rules": {
+    "all_windows": true,
+    "decision_score": "four uncalibrated OVR scores in class_order; not probabilities",
+    "prediction": "SVC.predict OVO voting; do not substitute OVR argmax",
+    "errors": "retain all misclassifications and all execution failures; never omit failed rows",
+    "resume": "explicit --resume only; validate persisted batches; record every interruption and recovery",
+    "repeat": "one complete formal evaluation; subsequent metric checks read persisted results only"
+  }
+}

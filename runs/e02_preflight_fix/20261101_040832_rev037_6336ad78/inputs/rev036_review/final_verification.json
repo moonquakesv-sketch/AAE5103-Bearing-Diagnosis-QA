@@ -1,0 +1,31 @@
+{
+  "status": "EVIDENCE_SEAL_PASS",
+  "audit_verdict": "NOT_READY",
+  "user_formal_release_step": "不可进入用户正式放行步骤",
+  "sealed_at_JST": "2026-11-01T04:04:41.356383+09:00",
+  "manifest_entries": 1308,
+  "manifest_sha256": "077fd1272be30cc663a8798cc16b7cb8d60aa4fdd68cb1cc5cf35613e5a60d6a",
+  "regular_files_final": 1310,
+  "own_links_final": 0,
+  "self_files_sha256": "d8271c6158af61e349cdbbab5c1db79c03996c997d59d5b051d104e2e9bc6fdd",
+  "report_sha256": "06c6f50ecaf5d38a402e877aa52dbd5c155cf3c758943e347d6041ad6a4cee09",
+  "history_final_sha256": "f114af2a8bb8559e010d164c5328137fc757d1f28ddc31dd2800e2915d32b555",
+  "old_regular_files_preserved": 17902,
+  "old_links_preserved": 6,
+  "formal_experiment_released": false,
+  "independent_cross_audit_accepted": false,
+  "paid_execution_authorized": false,
+  "E02_started": false,
+  "project_model_API_calls": 0,
+  "credential_or_account_reads": 0,
+  "real_question_dynamic_calls": 0,
+  "old_batch_D04_or_service_ops": 0,
+  "blocking_findings": 2,
+  "active_findings": 4,
+  "excluded_from_hash_manifest": [
+    "deliverables.sha256",
+    "final_verification.json"
+  ],
+  "last_write": true,
+  "next": "Run only pure read-only verifier; stop after verification. Do not run E02 or change plan/release."
+}

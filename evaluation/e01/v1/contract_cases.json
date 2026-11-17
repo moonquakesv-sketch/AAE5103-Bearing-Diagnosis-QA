@@ -1,0 +1,50 @@
+[
+  {
+    "case_id": "E01-C001",
+    "payload_json": "{",
+    "expected": "reject",
+    "reason": "Malformed JSON"
+  },
+  {
+    "case_id": "E01-C002",
+    "payload_json": "{\"question\":\"a\",\"question\":\"b\"}",
+    "expected": "reject",
+    "reason": "Duplicate JSON key"
+  },
+  {
+    "case_id": "E01-C003",
+    "payload_json": "{\"predicted_class\": \"outer_race\", \"scenario_id\": \"SC-K01-OR-001\", \"question\": \"What information is available?\", \"task_types\": [\"explanation\"], \"explicitly_allowed_operating_context\": {}, \"reference_answer\": \"SYNTHETIC_SECRET\"}",
+    "expected": "reject",
+    "reason": "Forbidden evaluation field"
+  },
+  {
+    "case_id": "E01-C004",
+    "payload_json": "{\"predicted_class\": \"outer_race\", \"scenario_id\": \"SC-K01-OR-001\", \"question\": \"What information is available?\", \"task_types\": \"explanation\", \"explicitly_allowed_operating_context\": {}}",
+    "expected": "reject",
+    "reason": "Wrong task type"
+  },
+  {
+    "case_id": "E01-C005",
+    "payload_json": "{\"predicted_class\": \"outer_race\", \"scenario_id\": \"SC-K01-OR-001\", \"question\": \"What information is available?\", \"task_types\": [\"explanation\"], \"explicitly_allowed_operating_context\": {\"operating_state\": {\"notes\": \"SYNTHETIC_SECRET\"}}}",
+    "expected": "reject",
+    "reason": "Nested context"
+  },
+  {
+    "case_id": "E01-C006",
+    "payload_json": "{\"predicted_class\": \"outer_race\", \"scenario_id\": \"SC-K01-OR-001\", \"question\": \"What information is available?\", \"task_types\": [\"explanation\"], \"explicitly_allowed_operating_context\": {}, \"retrieval_mode\": \"text\"}",
+    "expected": "reject",
+    "reason": "Run config in business request"
+  },
+  {
+    "case_id": "E01-C007",
+    "payload_json": "{\"predicted_class\": \"outer_race\", \"scenario_id\": \"SC-K01-OR-001\", \"question\": \"What information is available?\", \"task_types\": [\"explanation\"], \"explicitly_allowed_operating_context\": {},\"extra\":NaN}",
+    "expected": "reject",
+    "reason": "Non-finite JSON"
+  },
+  {
+    "case_id": "E01-C008",
+    "payload_json": "{\"predicted_class\": \"outer_race\", \"scenario_id\": \"SC-K01-OR-001\", \"question\": \"\\ud800\", \"task_types\": [\"explanation\"], \"explicitly_allowed_operating_context\": {}}",
+    "expected": "reject",
+    "reason": "Invalid Unicode scalar"
+  }
+]

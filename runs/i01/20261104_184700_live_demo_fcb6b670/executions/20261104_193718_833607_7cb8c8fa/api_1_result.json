@@ -1,0 +1,23 @@
+{
+  "action": "identify",
+  "started_at": "2026-11-04T19:37:19+09:00",
+  "status": "completed",
+  "http_status": 200,
+  "request_id": null,
+  "usage": {
+    "prompt_tokens": 300,
+    "completion_tokens": 17,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 172
+  },
+  "actual_bill": "unknown",
+  "received_bytes": 537,
+  "received_sha256": "27da7478e44e074060b49257f27c5686f72a9c6f2477db963de1f319eeff173e",
+  "raw_redacted": false,
+  "returned_model": "deepseek-flash",
+  "elapsed_seconds": 0.6217463339999085
+}

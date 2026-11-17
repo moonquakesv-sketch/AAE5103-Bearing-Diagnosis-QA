@@ -1,0 +1,545 @@
+{
+  "schema": "e01.release_checklist.v2_rev027",
+  "prepared_date_HK": "2026-10-26",
+  "formal_experiment_released": false,
+  "E02_started": false,
+  "new_real_api_calls": 0,
+  "authority": "E01-S02 static/synthetic preparation only",
+  "candidate_configuration": {
+    "status": "candidate_only",
+    "not_E02_authorization": true,
+    "service": {
+      "provider": "DeepSeek",
+      "endpoint": "https://api.deepseek.com/chat/completions",
+      "request_model_aliases": {
+        "generate": "deepseek-flash",
+        "verify": "deepseek-flash",
+        "revise": "deepseek-flash"
+      },
+      "historically_documented_route": "DeepSeek-V4.1-Flash-1017",
+      "actual_backend_immutable_version": null,
+      "actual_backend_independently_confirmed": false,
+      "historical_response_alias_is_not_immutable_backend_proof": true
+    },
+    "provider_configuration": {
+      "path": "configs/q01_deepseek.json",
+      "sha256": "93e91dca17cb23de9483476764492935dfb3427135a749669e7a019b1ff64a6e"
+    },
+    "parameters": {
+      "generate": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "temperature": 0
+      },
+      "verify": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "temperature": 0
+      },
+      "revise": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "temperature": 0
+      }
+    },
+    "input_token_cap": {
+      "generate": 8192,
+      "verify": 8192,
+      "revise": 8192
+    },
+    "output_token_cap": {
+      "generate": 1024,
+      "verify": 512,
+      "revise": 1024
+    },
+    "retries": 0,
+    "timeout_seconds": 60,
+    "concurrency": 1,
+    "counter": {
+      "asset_manifest": {
+        "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/verification/counter_assets.json",
+        "sha256": "1438dcb3694052074478c960c0c8fd29bbd1add905070c2928cf058c74066677"
+      },
+      "recipe_version": "0.2.0",
+      "recipe_commit": "935817c66f5d6e64838f419692545f06787e485f",
+      "model_revision": "1bae0e1088993b9b82de08f59de5be5a34e42170",
+      "tokenizer": {
+        "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/hf1017_tokenizer.json",
+        "sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b"
+      },
+      "chat_template": {
+        "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/hf1017_encoding.py",
+        "sha256": "13231c592e958fb39e2af6001dae69d90e7a36b265702b9b390236fb387599e2"
+      },
+      "recipe_template": {
+        "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/recipe_source/deepseek-recipe-encoding/src/v4/dsv41.rs",
+        "sha256": "33f7b0e0c3dde66020a4746ffc6c35df8dd30933e653aaf9071c1beb21439a90"
+      },
+      "implementation": {
+        "path": "scripts/q01_token_counter.py",
+        "sha256": "9f10221d0059e49b8d7ec6f0ee3e9be2fd5973385a589a4934f5507177ca10d7"
+      },
+      "historical_certificate_identity": {
+        "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/verification/approved_counter_identity.json",
+        "sha256": "454f74c2117716a8b5c8bcff84e9541d317553af97139d190abbf2816e702711"
+      },
+      "profile": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "roles": [
+          "system",
+          "user"
+        ],
+        "text_only": true,
+        "reject_added_token_literals": true
+      },
+      "provider_token_equivalence_proven": false,
+      "new_E02_profile_independent_reapproval_required": true
+    },
+    "prompts": {
+      "configs/q01_provider_prompts.json": {
+        "path": "configs/q01_provider_prompts.json",
+        "sha256": "06a3c51c14ab45dcb20f4b4017f9ed5e5e14a346ea04664e5d87eccc3642c516"
+      },
+      "configs/i01_provider_prompts.json": {
+        "path": "configs/i01_provider_prompts.json",
+        "sha256": "4fc4080500c570fa2a68294370f4523f7777be2248856443902a307662f77dfc"
+      },
+      "configs/q01_intent_prompts.json": {
+        "path": "configs/q01_intent_prompts.json",
+        "sha256": "621a6949913a0f09bc8238fb93c950b2404cf7143c558aa7b7ddfa65950e8b95"
+      }
+    },
+    "schema_summary": {
+      "generate_and_revise": {
+        "required_exact_fields": [
+          "answer",
+          "citations",
+          "evidence_sufficiency"
+        ],
+        "answer": "nonempty string",
+        "citations": "unique nonempty strings; at least one",
+        "evidence_sufficiency": [
+          "sufficient",
+          "partial",
+          "insufficient"
+        ]
+      },
+      "verify": {
+        "required_exact_fields": [
+          "verdict",
+          "issues"
+        ],
+        "verdict": [
+          "pass",
+          "issues"
+        ],
+        "issues": "nonempty strings; pass iff empty; issues iff nonempty"
+      },
+      "semantics": "Static contract summary from q01_flow/q01_provider; approved executable schemas still require exact source and payload identity freeze."
+    },
+    "schema_summary_sha256": "7d06803c2c4d96d941309fbac14dffba655fa2a43b9b417a321defc884bde14d",
+    "schema_source_identities": [
+      {
+        "path": "scripts/q01_flow.py",
+        "sha256": "d410ad922d1350ab5899638c97a61da1118b90d86c688303aedac324d793fdb4"
+      },
+      {
+        "path": "scripts/q01_provider.py",
+        "sha256": "1f8f3ebfc6a0a4420e753e1ae834a4bbf570c6c46ab020e47509ce54399e1a2e"
+      }
+    ],
+    "historical_price_reference": {
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "checked_date_HK": "2026-10-25",
+      "status": "historical_only_not_rechecked_for_E02",
+      "current_price_per_million": null,
+      "current_fee_authorization": null
+    },
+    "prior_I01_budget": {
+      "twelve_flows": "consumed",
+      "reusable": false,
+      "new_budget": null
+    }
+  },
+  "approved_configuration": {
+    "provider": null,
+    "model": null,
+    "backend_immutable_version": null,
+    "tokenizer_sha256": null,
+    "template_sha256": null,
+    "schema_sha256": null,
+    "prompt_sha256": null,
+    "parameters": null,
+    "new_budget": null,
+    "personnel": null,
+    "top_p": null,
+    "seed_and_support_status": null,
+    "api_client_version": null,
+    "runtime_profile": null
+  },
+  "gates": [
+    {
+      "id": "E02-AUTH",
+      "status": "not_authorized",
+      "approved": false,
+      "required_evidence": [
+        "Direct human authorization for exact new E02 scope, permitted provider requests and new hard budget; preparation or historical PASS is insufficient."
+      ],
+      "details": {}
+    },
+    {
+      "id": "DATASET-SEAL",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Final v2 question/rubric/coverage/exposure/schema hashes, independent static review, before/diff/protection and final manifest readback."
+      ],
+      "details": {
+        "proposed_question_count": 14,
+        "debug": 12,
+        "heldout": 2,
+        "reserve_by_class": {
+          "outer_race": 1,
+          "rolling_element": 1,
+          "inner_race": 0,
+          "normal": 0
+        },
+        "reserve_families": [
+          "source_verifiability",
+          "sample_provenance"
+        ],
+        "reserve_claim": "Author-visible operational reserve; cannot estimate four-scenario heldout efficacy or unseen-device generalization.",
+        "status_interpretation": "This gate awaits future E02 release approval even after E01-S02 preparation seal; preparation evidence is not authority to execute."
+      }
+    },
+    {
+      "id": "KNOWLEDGE-SOURCE",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Freeze unchanged knowledge/i01/v1 manifest and all complete-card identities; resolve or explicitly suspend needs_source_review points before scoring.",
+        "Obtain same-version Timken original PDF/hash/visual verification, or explicitly accept remaining documentary gap and its impact on score eligibility.",
+        "Human review of migration restrictions or explicit educational-only limitation acceptance."
+      ],
+      "details": {
+        "migration_limits": [
+          "Angular-contact ball-bearing case cannot establish mechanisms or numeric limits for CWRU deep-groove ball bearings with seeded artificial defects.",
+          "Spherical-roller-bearing case cannot establish applicability to CWRU deep-groove ball bearings.",
+          "No inference of health, airworthiness, maintenance disposition or release from normal/class label."
+        ],
+        "source_repair_is_separate_task": true,
+        "new_knowledge_to_fit_questions": false
+      }
+    },
+    {
+      "id": "UPSTREAM-PROVENANCE",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Freeze caller-specified predicted_class/task_types as module-test inputs common to all four groups; use module semantics in all prompts.",
+        "If real upstream is later requested, obtain separate authorization and bind one shared classifier/task result per input before any four-group divergence.",
+        "Separately authorize and define later end-to-end assessment including classification errors."
+      ],
+      "details": {
+        "current_scope": "manual_module_inputs",
+        "scenario_cause": "independent_assumption",
+        "use_I01_actual_inference_prompt_to_describe_manual_inputs": false
+      }
+    },
+    {
+      "id": "MODEL-ROUTE",
+      "status": "candidate_only",
+      "approved": false,
+      "required_evidence": [
+        "New dated provider/endpoint/alias approval, declared generation/verification/revision identities and immutable-version limitations.",
+        "Bind request alias, returned alias, request IDs and known route metadata; do not claim an independently confirmed hidden backend version."
+      ],
+      "details": {
+        "provider": "DeepSeek",
+        "endpoint": "https://api.deepseek.com/chat/completions",
+        "request_model_aliases": {
+          "generate": "deepseek-flash",
+          "verify": "deepseek-flash",
+          "revise": "deepseek-flash"
+        },
+        "historically_documented_route": "DeepSeek-V4.1-Flash-1017",
+        "actual_backend_immutable_version": null,
+        "actual_backend_independently_confirmed": false,
+        "historical_response_alias_is_not_immutable_backend_proof": true
+      }
+    },
+    {
+      "id": "COUNTER-TEMPLATE",
+      "status": "candidate_only",
+      "approved": false,
+      "required_evidence": [
+        "Independently approve candidate tokenizer, recipe, full chat template, native/runtime profile and exact source hashes for E02.",
+        "Count full system/user payload, JSON wrapper/schema and evidence; reject unsupported literal special tokens and unapproved profiles.",
+        "Record provider usage separately; preserve unknown values rather than equating local count with service billing."
+      ],
+      "details": {
+        "asset_manifest": {
+          "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/verification/counter_assets.json",
+          "sha256": "1438dcb3694052074478c960c0c8fd29bbd1add905070c2928cf058c74066677"
+        },
+        "recipe_version": "0.2.0",
+        "recipe_commit": "935817c66f5d6e64838f419692545f06787e485f",
+        "model_revision": "1bae0e1088993b9b82de08f59de5be5a34e42170",
+        "tokenizer": {
+          "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/hf1017_tokenizer.json",
+          "sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b"
+        },
+        "chat_template": {
+          "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/hf1017_encoding.py",
+          "sha256": "13231c592e958fb39e2af6001dae69d90e7a36b265702b9b390236fb387599e2"
+        },
+        "recipe_template": {
+          "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/recipe_source/deepseek-recipe-encoding/src/v4/dsv41.rs",
+          "sha256": "33f7b0e0c3dde66020a4746ffc6c35df8dd30933e653aaf9071c1beb21439a90"
+        },
+        "implementation": {
+          "path": "scripts/q01_token_counter.py",
+          "sha256": "9f10221d0059e49b8d7ec6f0ee3e9be2fd5973385a589a4934f5507177ca10d7"
+        },
+        "historical_certificate_identity": {
+          "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/verification/approved_counter_identity.json",
+          "sha256": "454f74c2117716a8b5c8bcff84e9541d317553af97139d190abbf2816e702711"
+        },
+        "profile": {
+          "thinking": {
+            "type": "disabled"
+          },
+          "response_format": {
+            "type": "json_object"
+          },
+          "roles": [
+            "system",
+            "user"
+          ],
+          "text_only": true,
+          "reject_added_token_literals": true
+        },
+        "provider_token_equivalence_proven": false,
+        "new_E02_profile_independent_reapproval_required": true
+      }
+    },
+    {
+      "id": "PROMPT-SCHEMA",
+      "status": "candidate_only",
+      "approved": false,
+      "required_evidence": [
+        "Approve and freeze exact generation, verification, revision and manual-provenance prompts and executable schema hashes.",
+        "I01 prompt asserting actual image/model origins cannot be reused for manually assigned E01 inputs.",
+        "Freeze the same common generation template/parameters and basic citation check across four groups."
+      ],
+      "details": {
+        "candidate_prompt_files": {
+          "configs/q01_provider_prompts.json": {
+            "path": "configs/q01_provider_prompts.json",
+            "sha256": "06a3c51c14ab45dcb20f4b4017f9ed5e5e14a346ea04664e5d87eccc3642c516"
+          },
+          "configs/i01_provider_prompts.json": {
+            "path": "configs/i01_provider_prompts.json",
+            "sha256": "4fc4080500c570fa2a68294370f4523f7777be2248856443902a307662f77dfc"
+          },
+          "configs/q01_intent_prompts.json": {
+            "path": "configs/q01_intent_prompts.json",
+            "sha256": "621a6949913a0f09bc8238fb93c950b2404cf7143c558aa7b7ddfa65950e8b95"
+          }
+        },
+        "schema_summary_sha256": "7d06803c2c4d96d941309fbac14dffba655fa2a43b9b417a321defc884bde14d",
+        "approved_prompt_hashes": null,
+        "approved_schema_hashes": null
+      }
+    },
+    {
+      "id": "PARAMETERS",
+      "status": "candidate_only",
+      "approved": false,
+      "required_evidence": [
+        "Approve per-action models, thinking mode, response format, temperature, input/output limits, sampling/seed behavior and known nondeterminism.",
+        "Any model/profile change invalidates candidate counter/price and requires new review."
+      ],
+      "details": {
+        "historical_candidate_parameters": {
+          "generate": {
+            "thinking": {
+              "type": "disabled"
+            },
+            "temperature": 0
+          },
+          "verify": {
+            "thinking": {
+              "type": "disabled"
+            },
+            "temperature": 0
+          },
+          "revise": {
+            "thinking": {
+              "type": "disabled"
+            },
+            "temperature": 0
+          }
+        },
+        "historical_candidate_input_tokens": {
+          "generate": 8192,
+          "verify": 8192,
+          "revise": 8192
+        },
+        "historical_candidate_output_tokens": {
+          "generate": 1024,
+          "verify": 512,
+          "revise": 1024
+        },
+        "approved_parameters": null
+      }
+    },
+    {
+      "id": "FOUR-GROUP-FAIRNESS",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Freeze text/text+verify/graph/graph+verify paired comparison with identical request/upstream provenance/common knowledge/common generation/basic citation check.",
+        "Only retrieval mode and additional content verification vary; preserve original ordering, global top_k=3 unique complete cards and at most one revision using the same cards.",
+        "Record actual card count, full payload characters, UTF-8 bytes, full-chat input tokens/output usage; equal card counts do not imply equal text budgets."
+      ],
+      "details": {
+        "platform_implementation_authorized": false,
+        "task_card_refill": false,
+        "condition_or_source_trimming": false,
+        "revision_limit": 1,
+        "top_k": 3
+      }
+    },
+    {
+      "id": "FULL-CARD-LENGTH",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Implement/verify fail-closed complete-payload limit before sending: if any full card bundle plus prompts/schema/wrappers exceeds approved input/context/reserve, save overlength status and stop that cell; no trimming, refilling, hidden truncation or automatic retry.",
+        "Preflight each verification and single-revision payload too; output truncation remains explicit failure.",
+        "Approve length-stop denominator handling before run."
+      ],
+      "details": {
+        "candidate_rule": "Keep full cards or stop; no silent evidence or condition removal.",
+        "approved_context_and_reserve": null
+      }
+    },
+    {
+      "id": "TRANSPORT-ATTEMPTS",
+      "status": "candidate_only",
+      "approved": false,
+      "required_evidence": [
+        "Approve exact E02 per-stage/per-cell/whole-batch attempt ceilings, timeouts, retries, concurrency, redirects and environment-proxy policy.",
+        "Preserve failure/TLS/rate-limit/malformed/truncated responses and all attempted-cost reservations; unknown cost stays unknown; no replay on restart or late success.",
+        "Confirm at most generate+verify+one revise+verify for verify groups; one generate for unverified groups subject to independent release."
+      ],
+      "details": {
+        "historical_retries": 0,
+        "historical_timeout_seconds": 60,
+        "historical_concurrency": 1,
+        "approved_attempt_limits": null,
+        "approved_transport_settings": null
+      }
+    },
+    {
+      "id": "REPEATS-ORDER",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Approve number of repeats, exact question and group ordering/randomization seed and schedule before observing outputs.",
+        "Use paired cells and preserve every outcome; no best-of selection, output-dependent order, selective retry or replacement.",
+        "Treat repeats as nested within question and knowledge corpus; never as independent devices."
+      ],
+      "details": {
+        "candidate_repeats": 1,
+        "candidate_total_cells_if_14_questions_4_groups_1_repeat": 56,
+        "approved_repeats": null,
+        "approved_seed": null,
+        "approved_order_manifest": null
+      }
+    },
+    {
+      "id": "DATED-PRICE-HARD-BUDGET",
+      "status": "not_authorized",
+      "approved": false,
+      "required_evidence": [
+        "Fresh dated official pricing snapshot/URL/hash for selected model and cache-miss input/output rates, currency, discounts and billing assumptions.",
+        "Human-approved new E02 hard currency ceiling plus worst-case full-cap reserve calculation for all authorized attempts; reject batch if budget is insufficient.",
+        "Freeze new durable batch ledger/nonrefund rules, concurrency control and actual/estimated/unknown cost reporting.",
+        "Do not inherit or reset any prior I01/Q01 budget or ledger."
+      ],
+      "details": {
+        "historical_price_date_HK": "2026-10-25",
+        "fresh_price_date_HK": null,
+        "fresh_price_source_sha256": null,
+        "new_currency": null,
+        "new_hard_budget": null,
+        "approved_cost_calculation": null,
+        "I01_twelve_flows_consumed": true,
+        "old_budget_reuse": false
+      }
+    },
+    {
+      "id": "HUMAN-BLIND-RATING",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Name primary human scorer(s), second scorer and separate blind-code custodian with access rules; none currently assigned.",
+        "Freeze configuration-blind answer package and code key kept outside business requests/prompts.",
+        "Preselect at least 25% of answer cells, stratified by scenario, family, task, split, answerability and all four configurations. Select same-question four-group blocks; each applicable stratum needs at least one block, so the quota may exceed 25%. Failure/insufficiency disputes get additional double review separately from preselected agreement counts.",
+        "Freeze agreement reporting and discrepancy arbitration by a named human; preserve both original scores and adjudication rationale.",
+        "Do not use a model or agent as sole judge or claim domain-expert review."
+      ],
+      "details": {
+        "raters": null,
+        "second_rater": null,
+        "blind_code_custodian": null,
+        "arbitrator": null,
+        "minimum_double_rating_fraction": 0.25,
+        "selection_before_outputs": true,
+        "expert_status": "not_claimed",
+        "approved_assignment_manifest": null,
+        "illustrative_baseline_if_56_cells": "ceil(56*0.25)=14 cells; same-question four-group blocks require at least 16 before additional stratification.",
+        "missing_arbitrator_policy": "Keep original scores and unresolved disputes; report sensitivity/ranges, never force agreement."
+      }
+    },
+    {
+      "id": "METRICS-FAILURE",
+      "status": "pending",
+      "approved": false,
+      "required_evidence": [
+        "Freeze original E01 metric definitions and synthetic oracle, separate expected failure/missing/service failure from reasonable evidence insufficiency and knowledge-score zeros.",
+        "Report zero denominator as undefined/NA with counts; do not turn missing into success or exclude failures after looking.",
+        "Record verification-added errors separately from fixed/retained errors; publish per-cell counts and paired descriptive summaries.",
+        "Document weak reserve coverage: two narrow intents across OR/RE only; no independent four-scenario heldout claim."
+      ],
+      "details": {}
+    },
+    {
+      "id": "FINAL-RELEASE",
+      "status": "not_authorized",
+      "approved": false,
+      "required_evidence": [
+        "Recheck current code/data/source/link/cache/historical anchors, all prior gates and exact new run identity.",
+        "Receive direct authorization after reviewable configuration/budget/personnel/source restrictions exist.",
+        "Write a new explicit release record for a separately scoped E02 run; this preparation checklist never flips release by itself."
+      ],
+      "details": {
+        "formal_experiment_released": false,
+        "automatic_E02_start": false,
+        "old_finalize_freeze_launch_rerun": false
+      }
+    }
+  ],
+  "unresolved_gate_count": 16,
+  "gate_status_semantics": "candidate_only records a local historical candidate, not a satisfied release gate. All approved flags false until a separate authorized release."
+}

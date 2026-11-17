@@ -1,0 +1,39 @@
+{
+  "version": "e01.single_scenario.v1_rev015",
+  "scope": "SC-K01-OR-001 only",
+  "retrieval_implementation": "k02.v1_rev013",
+  "knowledge_version": "20261023_rev011",
+  "knowledge_hashes": {
+    "sources.csv": "8b18c3b602e85844859622e3c46a69f0ad1fb8e46feaee38adeeb9ffb6d92987",
+    "scenarios.csv": "64ad3bad7a7e1581ed64515476e490afce13be21315a88978fbd1d5f7ba0bfe0",
+    "evidence.csv": "87af57bd684f3abb9a29e11bde5749363ed7451834ca74dab11e0e7d2559c262",
+    "entities.csv": "9ae1e2838d0226bd57f2ba286fad4507a83c476787005cd6e3cbd60fbcd6d16d",
+    "relations.csv": "cf54bd05be9aad91f1dd634bd22cdf787bfea90220663d2210804b7ca47fc181",
+    "interface.json": "708b48aaa4a8b5ff2c72832f9d7c0373569d05464f612e5d648382a37ef3a607"
+  },
+  "code_sha256": "3606a15518d591dfb955c8acabfc2dddb4e71a9f3ca0de643dca2afbf4620678",
+  "config_sha256": "c89f101a70dd19b8df68dd6d7a279aad8e1b8f674a2ec90a3c52381db58e3b81",
+  "run_configuration_file": "retrieval_run_config.json",
+  "question_files": {
+    "contract_cases.json": "9b0a2c67188bc3ac934a536665475e76fd511e323c16006d7a76d8a617c0ee67",
+    "boundary_cases.json": "2bc8303cc0f7ccfdb93d8a23b610c6c401f8dd37b0358eea132bd444e08e3761",
+    "question_bindings.json": "920bec134e17c1744cd3bf53dc0c6f9a95e1151fa4329f426f5a8e7099a8c61c",
+    "debug_requests.jsonl": "b0cc0a80adb6df6383fabe9f5e9322dd34cecd2e12d3439827ac98471fe519dd",
+    "rubrics.json": "ad6d7064d44b47fc5f4db6e1cad30b67d34518cdfa53f90d6f70261ca2b4124c",
+    "heldout_requests.jsonl": "447e9b7e03f825a9b61d3efae5152b9f0175716b04805c2506aa59eae4b8a6a2",
+    "design_contract.json": "8b8d11c96a97675de328d5a073691aa8f558dc6487daed7c697d3d0811bb5bb3"
+  },
+  "generation_model": null,
+  "verification_model": null,
+  "tokenizer": null,
+  "prompts_and_schemas": null,
+  "generation_parameters": null,
+  "run_repeat_count": null,
+  "timeout_retry_concurrency": null,
+  "token_length_control": null,
+  "price_schedule": null,
+  "human_raters_and_blind_code_custodian": null,
+  "formal_experiment_released": false,
+  "pending_gate": "All null fields require explicit authorization and pre-result freeze; Timken limitation accepted or separately resolved; human scoring pending.",
+  "change_policy": "New version + before/diff/hash; exposed heldout families cannot be relabelled unseen."
+}

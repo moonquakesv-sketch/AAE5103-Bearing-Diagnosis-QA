@@ -1,0 +1,3071 @@
+[
+  {
+    "question_id": "E02P-D01",
+    "split": "debug",
+    "family_id": "case_explanation_and_provenance",
+    "tasks": [
+      "explanation"
+    ],
+    "answerability": "false_premise",
+    "points": [
+      {
+        "point_id": "E02P-D01-P1",
+        "task_type": "explanation",
+        "claim": "Standstill external vibration / small oscillation is a possible false-brinelling contact-wear mechanism.",
+        "conditions": [
+          "standstill / small-motion context",
+          "possibility or reported example, not an observation"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-001"
+          ],
+          [
+            "EV-K01-002"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-001",
+            "source_id": "SRC-K01-01",
+            "knowledge_id": "KN-K01-001",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "False Brinelling 2; read alongside False Brinelling 1",
+            "original_text": "Vibration from an external source while stationary",
+            "chinese_paraphrase": "NSK 的外圈案例将静止时外部振动与滚道假性布氏压痕关联；这是厂家案例，不是当前样本诊断。",
+            "claim_en": "An NSK outer-ring example attributes raceway false brinelling to external vibration during standstill.",
+            "conditions": "案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。",
+            "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          },
+          {
+            "evidence_id": "EV-K01-002",
+            "source_id": "SRC-K01-01",
+            "knowledge_id": "KN-K01-002",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Damage Condition and Possible Causes, first two bullets",
+            "original_text": "Wear caused by vibration and swaying",
+            "chinese_paraphrase": "假性布氏压痕属于滚动体与滚道接触处的磨损；静止时振动或小幅摆动是列出的可能原因。",
+            "claim_en": "False brinelling is contact wear; standstill vibration or small oscillations are listed possible causes.",
+            "conditions": "保留静止、小幅运动与接触位置；来源使用可能原因列表。",
+            "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。",
+            "modality": "possible_cause",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Standstill external vibration / small oscillation is a possible false-brinelling contact-wear mechanism. Preserve: standstill / small-motion context; possibility or reported example, not an observation.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D01-P2",
+        "task_type": "explanation",
+        "claim": "Poor lubrication remains another listed possibility.",
+        "conditions": [
+          "no observed lubrication state or ranking"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-003"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-003",
+            "source_id": "SRC-K01-01",
+            "knowledge_id": "KN-K01-003",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Possible Causes, second and third bullets",
+            "original_text": "Oscillating motion with a small amplitude; Poor lubrication",
+            "chinese_paraphrase": "原文另列小幅摆动与润滑不良；所选演示工况不是穷尽原因。",
+            "claim_en": "Other listed possibilities include small oscillations and poor lubrication.",
+            "conditions": "这些是候选可能性；本演示未设定润滑状态。",
+            "limitations": "不能把候选原因写为已观测事实，也不能凭列表给原因排序。",
+            "modality": "alternative_possibilities",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Poor lubrication remains another listed possibility. Preserve: no observed lubrication state or ranking.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D01-P3",
+        "task_type": "explanation",
+        "claim": "The supplied module class and independent scenario do not establish that mechanism or cause in this bearing.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-K01-OR-001:cannot_infer",
+            "exact_value": "不能由部位分类推出假性布氏压痕或其根因；不能将 CWRU 人工缺陷解释为此机理；不能输出型号参数、寿命、复用/更换/放行决定或航空泛化。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: The supplied module class and independent scenario do not establish that mechanism or cause in this bearing.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-K01-001",
+      "EV-K01-002",
+      "EV-K01-003"
+    ],
+    "forbidden_claims": [
+      "The label proves false brinelling or external vibration.",
+      "Poor lubrication was observed."
+    ],
+    "required_unknowns": [
+      "Actual mechanism/cause and lubrication state have not been established."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D02",
+    "split": "debug",
+    "family_id": "physical_discrimination",
+    "tasks": [
+      "inspection"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-D02-P1",
+        "task_type": "inspection",
+        "claim": "False-brinelling wear removes the original depression surface texture.",
+        "conditions": [
+          "actual raceway inspection",
+          "generic roller-bearing example; not a CWT criterion"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-004",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-004",
+            "task_type": "inspection",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "19",
+            "printed_page": "19",
+            "page_or_section": "FALSE BRINELLING, paragraph beginning You can distinguish; compare BRINELL AND IMPACT DAMAGE on page 18",
+            "original_text": "wear away the surface texture",
+            "chinese_paraphrase": "辨别线索是凹陷处原始表面纹理：假性磨损会磨去纹理，真布氏压痕可保留纹理。",
+            "claim_en": "Examine depression texture: wear removes it in false brinelling, unlike deformation in true brinelling.",
+            "conditions": "需要实际滚道表面的检查；此页以滚子轴承为例。",
+            "limitations": "不是 CWT 图片判据；无量化判定阈值，不能仅凭外圈分类完成鉴别。",
+            "modality": "inspection_cue",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: False-brinelling wear removes the original depression surface texture. Preserve: actual raceway inspection; generic roller-bearing example; not a CWT criterion.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D02-P2",
+        "task_type": "inspection",
+        "claim": "Deformation in true brinelling can retain the original surface texture.",
+        "conditions": [
+          "actual raceway inspection",
+          "qualitative cue, no numerical acceptance rule"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-004",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-004",
+            "task_type": "inspection",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "19",
+            "printed_page": "19",
+            "page_or_section": "FALSE BRINELLING, paragraph beginning You can distinguish; compare BRINELL AND IMPACT DAMAGE on page 18",
+            "original_text": "wear away the surface texture",
+            "chinese_paraphrase": "辨别线索是凹陷处原始表面纹理：假性磨损会磨去纹理，真布氏压痕可保留纹理。",
+            "claim_en": "Examine depression texture: wear removes it in false brinelling, unlike deformation in true brinelling.",
+            "conditions": "需要实际滚道表面的检查；此页以滚子轴承为例。",
+            "limitations": "不是 CWT 图片判据；无量化判定阈值，不能仅凭外圈分类完成鉴别。",
+            "modality": "inspection_cue",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Deformation in true brinelling can retain the original surface texture. Preserve: actual raceway inspection; qualitative cue, no numerical acceptance rule.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D02-P3",
+        "task_type": "inspection",
+        "claim": "A CWT image and class cannot establish the actual raceway texture; physical surface evidence is missing.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/evidence.csv",
+            "locator": "EV-K01-004:limitations",
+            "exact_value": "不是 CWT 图片判据；无量化判定阈值，不能仅凭外圈分类完成鉴别。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: A CWT image and class cannot establish the actual raceway texture; physical surface evidence is missing.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-K01-004"
+    ],
+    "forbidden_claims": [
+      "CWT establishes physical texture.",
+      "Texture alone authorizes reuse or release."
+    ],
+    "required_unknowns": [
+      "Actual depression texture has not been inspected."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release.",
+      "Timken-dependent positive points require source review; no same-version local PDF/hash/visual QA."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D03",
+    "split": "debug",
+    "family_id": "multi_overview",
+    "tasks": [
+      "explanation",
+      "inspection",
+      "preparation"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-D03-P1",
+        "task_type": "explanation",
+        "claim": "The demonstration considers standstill external-vibration false brinelling as a possibility.",
+        "conditions": [
+          "independent assumption, not diagnosed cause",
+          "standstill"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-001"
+          ],
+          [
+            "EV-K01-002"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-001",
+            "source_id": "SRC-K01-01",
+            "knowledge_id": "KN-K01-001",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "False Brinelling 2; read alongside False Brinelling 1",
+            "original_text": "Vibration from an external source while stationary",
+            "chinese_paraphrase": "NSK 的外圈案例将静止时外部振动与滚道假性布氏压痕关联；这是厂家案例，不是当前样本诊断。",
+            "claim_en": "An NSK outer-ring example attributes raceway false brinelling to external vibration during standstill.",
+            "conditions": "案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。",
+            "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          },
+          {
+            "evidence_id": "EV-K01-002",
+            "source_id": "SRC-K01-01",
+            "knowledge_id": "KN-K01-002",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Damage Condition and Possible Causes, first two bullets",
+            "original_text": "Wear caused by vibration and swaying",
+            "chinese_paraphrase": "假性布氏压痕属于滚动体与滚道接触处的磨损；静止时振动或小幅摆动是列出的可能原因。",
+            "claim_en": "False brinelling is contact wear; standstill vibration or small oscillations are listed possible causes.",
+            "conditions": "保留静止、小幅运动与接触位置；来源使用可能原因列表。",
+            "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。",
+            "modality": "possible_cause",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: The demonstration considers standstill external-vibration false brinelling as a possibility. Preserve: independent assumption, not diagnosed cause; standstill.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P2",
+        "task_type": "preparation",
+        "claim": "Record the initial bearing appearance.",
+        "conditions": [
+          "before cleaning"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-009"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-009",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-009",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Bearing Cleaning, paragraph 1",
+            "original_text": "After the lubricant has been sampled, the bearings should be cleaned.",
+            "chinese_paraphrase": "先记录外观及残余润滑剂状态，取得润滑样品之后再清洁，以保留检查前信息。",
+            "claim_en": "Record the initial appearance and residual lubricant; sample the lubricant before cleaning.",
+            "conditions": "适用于准备拆下轴承检查的资料保存顺序。",
+            "limitations": "仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。",
+            "modality": "sequence_constraint",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Record the initial bearing appearance. Preserve: before cleaning.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P3",
+        "task_type": "preparation",
+        "claim": "Record the amount and condition of residual lubricant.",
+        "conditions": [
+          "before cleaning"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-009"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-009",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-009",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Bearing Cleaning, paragraph 1",
+            "original_text": "After the lubricant has been sampled, the bearings should be cleaned.",
+            "chinese_paraphrase": "先记录外观及残余润滑剂状态，取得润滑样品之后再清洁，以保留检查前信息。",
+            "claim_en": "Record the initial appearance and residual lubricant; sample the lubricant before cleaning.",
+            "conditions": "适用于准备拆下轴承检查的资料保存顺序。",
+            "limitations": "仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。",
+            "modality": "sequence_constraint",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Record the amount and condition of residual lubricant. Preserve: before cleaning.",
+        "partial_credit": "0.5: Record either amount or condition before cleaning, with no reversal of order.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P4",
+        "task_type": "preparation",
+        "claim": "Sample the lubricant before cleaning.",
+        "conditions": [
+          "sample first, clean afterwards",
+          "applicable investigation procedure"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-009"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-009",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-009",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Bearing Cleaning, paragraph 1",
+            "original_text": "After the lubricant has been sampled, the bearings should be cleaned.",
+            "chinese_paraphrase": "先记录外观及残余润滑剂状态，取得润滑样品之后再清洁，以保留检查前信息。",
+            "claim_en": "Record the initial appearance and residual lubricant; sample the lubricant before cleaning.",
+            "conditions": "适用于准备拆下轴承检查的资料保存顺序。",
+            "limitations": "仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。",
+            "modality": "sequence_constraint",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Sample the lubricant before cleaning. Preserve: sample first, clean afterwards; applicable investigation procedure.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P5",
+        "task_type": "inspection",
+        "claim": "Inspect raceways and external surfaces.",
+        "conditions": [
+          "after thorough cleaning",
+          "general direction, not an acceptance limit"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect raceways and external surfaces. Preserve: after thorough cleaning; general direction, not an acceptance limit.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P6",
+        "task_type": "inspection",
+        "claim": "Inspect cage wear.",
+        "conditions": [
+          "after thorough cleaning",
+          "general direction, not an acceptance limit"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect cage wear. Preserve: after thorough cleaning; general direction, not an acceptance limit.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P7",
+        "task_type": "inspection",
+        "claim": "Inspect increased internal clearance.",
+        "conditions": [
+          "after thorough cleaning",
+          "general direction, not an acceptance limit"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect increased internal clearance. Preserve: after thorough cleaning; general direction, not an acceptance limit.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P8",
+        "task_type": "inspection",
+        "claim": "Inspect degraded tolerances.",
+        "conditions": [
+          "after thorough cleaning",
+          "general direction, not an acceptance limit"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect degraded tolerances. Preserve: after thorough cleaning; general direction, not an acceptance limit.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P9",
+        "task_type": "inspection",
+        "claim": "Inspect other damage or abnormalities.",
+        "conditions": [
+          "after thorough cleaning",
+          "general direction, not an acceptance limit"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect other damage or abnormalities. Preserve: after thorough cleaning; general direction, not an acceptance limit.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D03-P10",
+        "task_type": "inspection",
+        "claim": "No actual inspection findings are available in this demonstration.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-K01-OR-001:unknown_information",
+            "exact_value": "实际损伤形貌、振动源/幅值/持续时间、润滑情况、载荷、型号、装配配合、维护历史及航空适用性均未知。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: No actual inspection findings are available in this demonstration.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-K01-001",
+      "EV-K01-002",
+      "EV-K01-009",
+      "EV-K01-010"
+    ],
+    "forbidden_claims": [
+      "Cleaning should precede lubricant sampling.",
+      "The assumed mechanism or inspection findings have been observed."
+    ],
+    "required_unknowns": [
+      "Actual post-clean inspection findings are unavailable."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D04",
+    "split": "debug",
+    "family_id": "case_explanation_and_provenance",
+    "tasks": [
+      "explanation"
+    ],
+    "answerability": "false_premise",
+    "points": [
+      {
+        "point_id": "E02P-D04-P1",
+        "task_type": "explanation",
+        "claim": "The source example is an angular-contact ball-bearing inner ring.",
+        "conditions": [
+          "reported manufacturer example"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-001"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-001",
+            "source_id": "SRC-I01-01",
+            "knowledge_id": "KN-I01-001",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/flaking/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Flaking 2 (Part / Symptom / Cause)",
+            "original_text": "Inner ring of an angular contact ball bearing; Flaking diagonally along raceway; Poor alignment between shaft and housing during mounting",
+            "chinese_paraphrase": "NSK 的角接触球轴承内圈实例把斜向滚道剥落归因于安装时轴与轴承座对中不良。仅为厂家案例。",
+            "claim_en": "NSK reports an angular-contact ball-bearing inner-ring example with diagonal raceway flaking attributed to shaft/housing misalignment during mounting.",
+            "conditions": "必须保留角接触球轴承、内圈、斜向滚道剥落和安装条件；只陈述厂家案例。",
+            "limitations": "与 CWRU 深沟球轴承人工缺陷不同；分类标签不能证明剥落、装配偏斜或因果；无对中限值、修复或放行规则。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: The source example is an angular-contact ball-bearing inner ring. Preserve: reported manufacturer example.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D04-P2",
+        "task_type": "explanation",
+        "claim": "The example shows diagonal flaking along the raceway.",
+        "conditions": [
+          "same angular-contact inner-ring example"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-001"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-001",
+            "source_id": "SRC-I01-01",
+            "knowledge_id": "KN-I01-001",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/flaking/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Flaking 2 (Part / Symptom / Cause)",
+            "original_text": "Inner ring of an angular contact ball bearing; Flaking diagonally along raceway; Poor alignment between shaft and housing during mounting",
+            "chinese_paraphrase": "NSK 的角接触球轴承内圈实例把斜向滚道剥落归因于安装时轴与轴承座对中不良。仅为厂家案例。",
+            "claim_en": "NSK reports an angular-contact ball-bearing inner-ring example with diagonal raceway flaking attributed to shaft/housing misalignment during mounting.",
+            "conditions": "必须保留角接触球轴承、内圈、斜向滚道剥落和安装条件；只陈述厂家案例。",
+            "limitations": "与 CWRU 深沟球轴承人工缺陷不同；分类标签不能证明剥落、装配偏斜或因果；无对中限值、修复或放行规则。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: The example shows diagonal flaking along the raceway. Preserve: same angular-contact inner-ring example.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D04-P3",
+        "task_type": "explanation",
+        "claim": "The source attributes that example to poor shaft/housing alignment during mounting.",
+        "conditions": [
+          "during mounting",
+          "reported case attribution, not current diagnosis"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-001"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-001",
+            "source_id": "SRC-I01-01",
+            "knowledge_id": "KN-I01-001",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/flaking/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Flaking 2 (Part / Symptom / Cause)",
+            "original_text": "Inner ring of an angular contact ball bearing; Flaking diagonally along raceway; Poor alignment between shaft and housing during mounting",
+            "chinese_paraphrase": "NSK 的角接触球轴承内圈实例把斜向滚道剥落归因于安装时轴与轴承座对中不良。仅为厂家案例。",
+            "claim_en": "NSK reports an angular-contact ball-bearing inner-ring example with diagonal raceway flaking attributed to shaft/housing misalignment during mounting.",
+            "conditions": "必须保留角接触球轴承、内圈、斜向滚道剥落和安装条件；只陈述厂家案例。",
+            "limitations": "与 CWRU 深沟球轴承人工缺陷不同；分类标签不能证明剥落、装配偏斜或因果；无对中限值、修复或放行规则。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: The source attributes that example to poor shaft/housing alignment during mounting. Preserve: during mounting; reported case attribution, not current diagnosis.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D04-P4",
+        "task_type": "explanation",
+        "claim": "The module label cannot establish flaking or mounting misalignment; the CWRU deep-groove artificial-defect setting is a different case.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-I01-IR-001:cannot_infer",
+            "exact_value": "不能把 CWRU 人工缺陷等同来源自然损伤；不能由类别推出原因、健康、安全、复用或放行。"
+          },
+          {
+            "path": "knowledge/i01/v1/evidence.csv",
+            "locator": "EV-I01-001:limitations",
+            "exact_value": "与 CWRU 深沟球轴承人工缺陷不同；分类标签不能证明剥落、装配偏斜或因果；无对中限值、修复或放行规则。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: The module label cannot establish flaking or mounting misalignment; the CWRU deep-groove artificial-defect setting is a different case.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-I01-001"
+    ],
+    "forbidden_claims": [
+      "CWRU label proves diagonal flaking or mounting error.",
+      "The source example was a deep-groove CWRU bearing."
+    ],
+    "required_unknowns": [
+      "Actual morphology and mounting alignment/cause in the CWRU bearing are unknown."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D05",
+    "split": "debug",
+    "family_id": "inspection_scope",
+    "tasks": [
+      "inspection"
+    ],
+    "answerability": "false_premise",
+    "points": [
+      {
+        "point_id": "E02P-D05-P1",
+        "task_type": "inspection",
+        "claim": "Inspect raceways and external surfaces.",
+        "conditions": [
+          "after thorough cleaning",
+          "structure/size-specific inspection methods"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect raceways and external surfaces. Preserve: after thorough cleaning; structure/size-specific inspection methods.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D05-P2",
+        "task_type": "inspection",
+        "claim": "Inspect cage wear.",
+        "conditions": [
+          "after thorough cleaning",
+          "structure/size-specific inspection methods"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect cage wear. Preserve: after thorough cleaning; structure/size-specific inspection methods.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D05-P3",
+        "task_type": "inspection",
+        "claim": "Inspect increased internal clearance.",
+        "conditions": [
+          "after thorough cleaning",
+          "structure/size-specific inspection methods"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect increased internal clearance. Preserve: after thorough cleaning; structure/size-specific inspection methods.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D05-P4",
+        "task_type": "inspection",
+        "claim": "Inspect degraded tolerances.",
+        "conditions": [
+          "after thorough cleaning",
+          "structure/size-specific inspection methods"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect degraded tolerances. Preserve: after thorough cleaning; structure/size-specific inspection methods.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D05-P5",
+        "task_type": "inspection",
+        "claim": "Inspect other damage or abnormalities.",
+        "conditions": [
+          "after thorough cleaning",
+          "structure/size-specific inspection methods"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Inspect other damage or abnormalities. Preserve: after thorough cleaning; structure/size-specific inspection methods.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D05-P6",
+        "task_type": "inspection",
+        "claim": "Reuse assessment considers wear, machine function, bearing importance, operating conditions and time to the next inspection.",
+        "conditions": [
+          "general assessment context; not a complete reuse/rejection rule"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Reuse assessment considers wear, machine function, bearing importance, operating conditions and time to the next inspection. Preserve: general assessment context; not a complete reuse/rejection rule.",
+        "partial_credit": "0.5: Name at least three of the five assessment factors without claiming that these alone authorize reuse.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D05-P7",
+        "task_type": "inspection",
+        "claim": "Free rotation alone is insufficient; the card is not a complete reuse or release decision rule.",
+        "conditions": [
+          "actual detailed inspection and applicable full equipment/OEM criteria still required"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-010",
+            "source_id": "SRC-K01-03",
+            "knowledge_id": "KN-K01-010",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+            "original_text": "examine the condition of bearing raceways and external surfaces",
+            "chinese_paraphrase": "彻底清洁后，检查滚道和外表面、保持架磨损、内部游隙增加、公差退化，以及其他损伤或异常。复用评价还须考虑磨损程度、机器功能、轴承在机器中的重要性、运行条件和距下次检查的时间。本卡仅提供检查方向，不构成完整复用判据。",
+            "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+            "conditions": "先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。",
+            "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent; R1 source-context recheck in rev011; no human/domain-expert sign-off"
+          }
+        ],
+        "full_credit": "1: Free rotation alone is insufficient; the card is not a complete reuse or release decision rule. Preserve: actual detailed inspection and applicable full equipment/OEM criteria still required.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-K01-010"
+    ],
+    "forbidden_claims": [
+      "Free rotation proves reuse is acceptable.",
+      "This card is a complete rejection list."
+    ],
+    "required_unknowns": [
+      "Actual condition and applicability of the complete reuse criteria are unknown."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D06",
+    "split": "debug",
+    "family_id": "removal_planning",
+    "tasks": [
+      "preparation"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-D06-P1",
+        "task_type": "preparation",
+        "claim": "Study the machine drawings before planning removal.",
+        "conditions": [
+          "before disassembly"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-011"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-011",
+            "source_id": "SRC-K01-04",
+            "knowledge_id": "KN-K01-011",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-dismounting/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Dismounting introduction, paragraph 2",
+            "original_text": "the procedure and sequence of removal should first be studied using the machine plan",
+            "chinese_paraphrase": "拆卸前先结合设备图纸和安装配合类型研究顺序与方法。",
+            "claim_en": "Plan removal from machine drawings and mounting-fit information before any disassembly.",
+            "conditions": "仅作为资料和前提准备；具体拆卸方法依赖结构及配合。",
+            "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Study the machine drawings before planning removal. Preserve: before disassembly.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D06-P2",
+        "task_type": "preparation",
+        "claim": "Establish the mounting-fit/structural information needed for the procedure and sequence.",
+        "conditions": [
+          "procedure depends on structure and fit",
+          "planning only; not execution authorization"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-011"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-011",
+            "source_id": "SRC-K01-04",
+            "knowledge_id": "KN-K01-011",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-dismounting/",
+            "source_version": "undated web page; accessed 2026-10-23",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Dismounting introduction, paragraph 2",
+            "original_text": "the procedure and sequence of removal should first be studied using the machine plan",
+            "chinese_paraphrase": "拆卸前先结合设备图纸和安装配合类型研究顺序与方法。",
+            "claim_en": "Plan removal from machine drawings and mounting-fit information before any disassembly.",
+            "conditions": "仅作为资料和前提准备；具体拆卸方法依赖结构及配合。",
+            "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Establish the mounting-fit/structural information needed for the procedure and sequence. Preserve: procedure depends on structure and fit; planning only; not execution authorization.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D06-P3",
+        "task_type": "preparation",
+        "claim": "No removal force or heating temperature can be specified from this card.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "explicitly_unsupported",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/evidence.csv",
+            "locator": "EV-K01-011:limitations",
+            "exact_value": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: No removal force or heating temperature can be specified from this card.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-K01-011"
+    ],
+    "forbidden_claims": [
+      "A numerical force or temperature is established here."
+    ],
+    "required_unknowns": [
+      "Applicable removal-force and heating-temperature specifications are unavailable."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D07",
+    "split": "debug",
+    "family_id": "case_explanation_and_provenance",
+    "tasks": [
+      "explanation"
+    ],
+    "answerability": "false_premise",
+    "points": [
+      {
+        "point_id": "E02P-D07-P1",
+        "task_type": "explanation",
+        "claim": "Smearing 7 shows the convex rollers of the same spherical roller bearing as Smearing 5.",
+        "conditions": [
+          "retain the 7-to-5 same-bearing link",
+          "spherical roller bearing, not the CWRU deep-groove ball bearing"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-002"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-002",
+            "source_id": "SRC-I01-02",
+            "knowledge_id": "KN-I01-002",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/smearing/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Smearing 7 (Part / Symptom / Cause); bearing type from Smearing 5",
+            "original_text": "Convex rollers of damage “Smearing 5”; Smearing of rolling surfaces; Poor lubrication",
+            "chinese_paraphrase": "NSK 的 Smearing 7 为 Smearing 5 同一调心滚子轴承的凸滚子，厂家将滚动面涂抹损伤归因于润滑不良。",
+            "claim_en": "NSK reports smearing on the convex rollers of the spherical roller bearing shown in Smearing 5 and attributes that example to poor lubrication.",
+            "conditions": "保持 Smearing 7 与 Smearing 5 的同轴承关联、凸滚子表面和厂家案例语气。",
+            "limitations": "来源为调心滚子轴承而非 CWRU 深沟球轴承；滚动体分类不证明涂抹或润滑原因；未建立具体润滑剂、用量或合格限值。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Smearing 7 shows the convex rollers of the same spherical roller bearing as Smearing 5. Preserve: retain the 7-to-5 same-bearing link; spherical roller bearing, not the CWRU deep-groove ball bearing.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D07-P2",
+        "task_type": "explanation",
+        "claim": "The reported symptom is smearing on the rolling surfaces.",
+        "conditions": [
+          "manufacturer example only"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-002"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-002",
+            "source_id": "SRC-I01-02",
+            "knowledge_id": "KN-I01-002",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/smearing/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Smearing 7 (Part / Symptom / Cause); bearing type from Smearing 5",
+            "original_text": "Convex rollers of damage “Smearing 5”; Smearing of rolling surfaces; Poor lubrication",
+            "chinese_paraphrase": "NSK 的 Smearing 7 为 Smearing 5 同一调心滚子轴承的凸滚子，厂家将滚动面涂抹损伤归因于润滑不良。",
+            "claim_en": "NSK reports smearing on the convex rollers of the spherical roller bearing shown in Smearing 5 and attributes that example to poor lubrication.",
+            "conditions": "保持 Smearing 7 与 Smearing 5 的同轴承关联、凸滚子表面和厂家案例语气。",
+            "limitations": "来源为调心滚子轴承而非 CWRU 深沟球轴承；滚动体分类不证明涂抹或润滑原因；未建立具体润滑剂、用量或合格限值。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: The reported symptom is smearing on the rolling surfaces. Preserve: manufacturer example only.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D07-P3",
+        "task_type": "explanation",
+        "claim": "The source attributes the example to poor lubrication.",
+        "conditions": [
+          "case attribution, not a measured current cause"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-002"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-002",
+            "source_id": "SRC-I01-02",
+            "knowledge_id": "KN-I01-002",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/smearing/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Smearing 7 (Part / Symptom / Cause); bearing type from Smearing 5",
+            "original_text": "Convex rollers of damage “Smearing 5”; Smearing of rolling surfaces; Poor lubrication",
+            "chinese_paraphrase": "NSK 的 Smearing 7 为 Smearing 5 同一调心滚子轴承的凸滚子，厂家将滚动面涂抹损伤归因于润滑不良。",
+            "claim_en": "NSK reports smearing on the convex rollers of the spherical roller bearing shown in Smearing 5 and attributes that example to poor lubrication.",
+            "conditions": "保持 Smearing 7 与 Smearing 5 的同轴承关联、凸滚子表面和厂家案例语气。",
+            "limitations": "来源为调心滚子轴承而非 CWRU 深沟球轴承；滚动体分类不证明涂抹或润滑原因；未建立具体润滑剂、用量或合格限值。",
+            "modality": "reported_example",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: The source attributes the example to poor lubrication. Preserve: case attribution, not a measured current cause.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D07-P4",
+        "task_type": "explanation",
+        "claim": "The module label proves neither natural smearing nor poor lubrication in CWRU artificial defects.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-I01-RE-001:cannot_infer",
+            "exact_value": "不能把 CWRU 人工缺陷等同来源自然损伤；不能由类别推出原因、健康、安全、复用或放行。"
+          },
+          {
+            "path": "knowledge/i01/v1/evidence.csv",
+            "locator": "EV-I01-002:limitations",
+            "exact_value": "来源为调心滚子轴承而非 CWRU 深沟球轴承；滚动体分类不证明涂抹或润滑原因；未建立具体润滑剂、用量或合格限值。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: The module label proves neither natural smearing nor poor lubrication in CWRU artificial defects.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-I01-002"
+    ],
+    "forbidden_claims": [
+      "CWRU classification proves natural smearing or poor lubrication.",
+      "The source rollers are CWRU balls."
+    ],
+    "required_unknowns": [
+      "Actual morphology and lubrication cause of this bearing are unknown."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D08",
+    "split": "debug",
+    "family_id": "operating_checks",
+    "tasks": [
+      "inspection"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-D08-P1",
+        "task_type": "inspection",
+        "claim": "Check bearing noise.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures; not CWT-only inspection"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check bearing noise. Preserve: actual operating equipment; specified applicable procedures; not CWT-only inspection.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D08-P2",
+        "task_type": "inspection",
+        "claim": "Check vibration.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures; not CWT-only inspection"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check vibration. Preserve: actual operating equipment; specified applicable procedures; not CWT-only inspection.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D08-P3",
+        "task_type": "inspection",
+        "claim": "Check temperature.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures; not CWT-only inspection"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check temperature. Preserve: actual operating equipment; specified applicable procedures; not CWT-only inspection.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D08-P4",
+        "task_type": "inspection",
+        "claim": "Check lubrication.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures; not CWT-only inspection"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check lubrication. Preserve: actual operating equipment; specified applicable procedures; not CWT-only inspection.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D08-P5",
+        "task_type": "inspection",
+        "claim": "No corresponding actual operating measurements are supplied in this demonstration.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-I01-RE-001:unknown_information",
+            "exact_value": "真实形貌、根因、型号、载荷、润滑、安装、维护历史和航空适用性均未知。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: No corresponding actual operating measurements are supplied in this demonstration.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-I01-004"
+    ],
+    "forbidden_claims": [
+      "The demonstration supplies actual operating readings."
+    ],
+    "required_unknowns": [
+      "Actual noise, vibration, temperature and lubrication observations are unavailable."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D09",
+    "split": "debug",
+    "family_id": "record_assembly",
+    "tasks": [
+      "preparation"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-D09-P1",
+        "task_type": "preparation",
+        "claim": "Assemble operating history.",
+        "conditions": [
+          "investigation preparation, distinguish requested material from observed records"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-005"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-005",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-005",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 1-2",
+            "original_text": "Gather operating data",
+            "chinese_paraphrase": "准备监测运行数据、维护记录和设备图纸，并用检查表与照片保存观察。",
+            "claim_en": "Assemble operating history, maintenance records, drawings, and an observation record with photographs.",
+            "conditions": "用于调查准备；先区分已有事实与待采集资料。",
+            "limitations": "资料本身不证明所假定振动原因；本轮未采集真实设备记录。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Assemble operating history. Preserve: investigation preparation, distinguish requested material from observed records.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D09-P2",
+        "task_type": "preparation",
+        "claim": "Assemble maintenance records.",
+        "conditions": [
+          "investigation preparation, distinguish requested material from observed records"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-005"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-005",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-005",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 1-2",
+            "original_text": "Gather operating data",
+            "chinese_paraphrase": "准备监测运行数据、维护记录和设备图纸，并用检查表与照片保存观察。",
+            "claim_en": "Assemble operating history, maintenance records, drawings, and an observation record with photographs.",
+            "conditions": "用于调查准备；先区分已有事实与待采集资料。",
+            "limitations": "资料本身不证明所假定振动原因；本轮未采集真实设备记录。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Assemble maintenance records. Preserve: investigation preparation, distinguish requested material from observed records.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D09-P3",
+        "task_type": "preparation",
+        "claim": "Assemble equipment drawings.",
+        "conditions": [
+          "investigation preparation, distinguish requested material from observed records"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-005"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-005",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-005",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 1-2",
+            "original_text": "Gather operating data",
+            "chinese_paraphrase": "准备监测运行数据、维护记录和设备图纸，并用检查表与照片保存观察。",
+            "claim_en": "Assemble operating history, maintenance records, drawings, and an observation record with photographs.",
+            "conditions": "用于调查准备；先区分已有事实与待采集资料。",
+            "limitations": "资料本身不证明所假定振动原因；本轮未采集真实设备记录。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Assemble equipment drawings. Preserve: investigation preparation, distinguish requested material from observed records.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D09-P4",
+        "task_type": "preparation",
+        "claim": "Prepare observation records with photographs.",
+        "conditions": [
+          "investigation preparation, distinguish requested material from observed records"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-005"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-005",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-005",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 1-2",
+            "original_text": "Gather operating data",
+            "chinese_paraphrase": "准备监测运行数据、维护记录和设备图纸，并用检查表与照片保存观察。",
+            "claim_en": "Assemble operating history, maintenance records, drawings, and an observation record with photographs.",
+            "conditions": "用于调查准备；先区分已有事实与待采集资料。",
+            "limitations": "资料本身不证明所假定振动原因；本轮未采集真实设备记录。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Prepare observation records with photographs. Preserve: investigation preparation, distinguish requested material from observed records.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D09-P5",
+        "task_type": "preparation",
+        "claim": "The required real equipment records have not been collected in this demonstration.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-I01-RE-001:unknown_information",
+            "exact_value": "真实形貌、根因、型号、载荷、润滑、安装、维护历史和航空适用性均未知。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: The required real equipment records have not been collected in this demonstration.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-K01-005"
+    ],
+    "forbidden_claims": [
+      "Required records were already collected.",
+      "Assembling records proves the cause."
+    ],
+    "required_unknowns": [
+      "The listed actual equipment records are unavailable."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release.",
+      "Timken-dependent positive points require source review; no same-version local PDF/hash/visual QA."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D10",
+    "split": "debug",
+    "family_id": "case_explanation_and_provenance",
+    "tasks": [
+      "explanation"
+    ],
+    "answerability": "false_premise",
+    "points": [
+      {
+        "point_id": "E02P-D10-P1",
+        "task_type": "explanation",
+        "claim": "NSK describes proper maintenance and inspection as necessary to preserve bearing performance.",
+        "conditions": [
+          "general manufacturer maintenance purpose, not a finding about this equipment"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-003"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-003",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-003",
+            "task_type": "explanation",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 1",
+            "original_text": "proper maintenance and inspection must be performed",
+            "chinese_paraphrase": "厂家要求通过适当维护与检查保持轴承原有性能；normal 分类不取代实际检查。",
+            "claim_en": "NSK describes proper maintenance and inspection as necessary for preserving bearing performance.",
+            "conditions": "通用维护目的；没有本项目设备的实际维护或状态观察。",
+            "limitations": "normal 是模型类别，不证明无损伤、剩余寿命、可用性或安全；不授予维修放行。",
+            "modality": "scope_constraint",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: NSK describes proper maintenance and inspection as necessary to preserve bearing performance. Preserve: general manufacturer maintenance purpose, not a finding about this equipment.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D10-P2",
+        "task_type": "explanation",
+        "claim": "The author-specified normal category does not establish that the bearing is undamaged or safe.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-I01-NORMAL-001:cannot_infer",
+            "exact_value": "不能把 CWRU 人工缺陷等同来源自然损伤；不能由类别推出原因、健康、安全、复用或放行。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: The author-specified normal category does not establish that the bearing is undamaged or safe.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D10-P3",
+        "task_type": "explanation",
+        "claim": "No actual equipment condition finding is supplied in this demonstration.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/scenarios.csv",
+            "locator": "SC-I01-NORMAL-001:assumption_text",
+            "exact_value": "normal 仅表示本次模型的类别输出；不设故障原因。进入通用状态监视与维护资料分支，不证明真实设备无损伤、适航或可放行。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: No actual equipment condition finding is supplied in this demonstration.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-I01-003"
+    ],
+    "forbidden_claims": [
+      "normal proves healthy, undamaged, airworthy or cleared for service.",
+      "The input was an actual image inference in this evaluation."
+    ],
+    "required_unknowns": [
+      "Actual equipment condition has not been established; no-damage and safety are unknown."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D11",
+    "split": "debug",
+    "family_id": "operating_checks",
+    "tasks": [
+      "inspection"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-D11-P1",
+        "task_type": "inspection",
+        "claim": "Check bearing noise.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check bearing noise. Preserve: actual operating equipment; specified applicable procedures.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D11-P2",
+        "task_type": "inspection",
+        "claim": "Check vibration.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check vibration. Preserve: actual operating equipment; specified applicable procedures.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D11-P3",
+        "task_type": "inspection",
+        "claim": "Check temperature.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check temperature. Preserve: actual operating equipment; specified applicable procedures.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D11-P4",
+        "task_type": "inspection",
+        "claim": "Check lubrication.",
+        "conditions": [
+          "actual operating equipment",
+          "specified applicable procedures"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-004",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-004",
+            "task_type": "inspection",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "bearing noise, vibration, temperature, and lubrication",
+            "chinese_paraphrase": "一般运转检查方向包括噪声、振动、温度和润滑；具体方法与标准须来自适用流程。",
+            "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+            "conditions": "这些检查针对实际运转设备；应遵循规定程序，而不是仅查看时频图。",
+            "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。",
+            "modality": "inspection_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Check lubrication. Preserve: actual operating equipment; specified applicable procedures.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D11-P5",
+        "task_type": "inspection",
+        "claim": "This material supplies no equipment-specific numerical vibration or temperature acceptance limits.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "explicitly_unsupported",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/evidence.csv",
+            "locator": "EV-I01-004:limitations",
+            "exact_value": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: This material supplies no equipment-specific numerical vibration or temperature acceptance limits.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-I01-004"
+    ],
+    "forbidden_claims": [
+      "Generic material or the normal label establishes numerical acceptance limits."
+    ],
+    "required_unknowns": [
+      "Equipment-specific vibration and temperature acceptance limits are unavailable."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-D12",
+    "split": "debug",
+    "family_id": "maintenance_procedure_scope",
+    "tasks": [
+      "preparation"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-D12-P1",
+        "task_type": "preparation",
+        "claim": "Identify specified procedures for supervision of operating conditions.",
+        "conditions": [
+          "procedure preparation, not execution instructions"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-005",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-005",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "Periodic maintenance should be performed following specified procedures.",
+            "chinese_paraphrase": "准备周期性维护时应先确定适用的规定程序；维护范围包括状态监视、润滑补给或更换及定期检查。",
+            "claim_en": "For maintenance preparation, identify the specified procedures covering condition supervision, lubricant supply or replacement and periodic inspection.",
+            "conditions": "仅为程序与范围准备；具体执行条件需来自适用设备文件。",
+            "limitations": "本卡不提供维护周期、油品、剂量或操作步骤；不能用通用网页替代设备/OEM文件。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Identify specified procedures for supervision of operating conditions. Preserve: procedure preparation, not execution instructions.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D12-P2",
+        "task_type": "preparation",
+        "claim": "Identify specified procedures for lubricant supply or replacement.",
+        "conditions": [
+          "applicable equipment procedures; no product or dose is provided"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-005",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-005",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "Periodic maintenance should be performed following specified procedures.",
+            "chinese_paraphrase": "准备周期性维护时应先确定适用的规定程序；维护范围包括状态监视、润滑补给或更换及定期检查。",
+            "claim_en": "For maintenance preparation, identify the specified procedures covering condition supervision, lubricant supply or replacement and periodic inspection.",
+            "conditions": "仅为程序与范围准备；具体执行条件需来自适用设备文件。",
+            "limitations": "本卡不提供维护周期、油品、剂量或操作步骤；不能用通用网页替代设备/OEM文件。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Identify specified procedures for lubricant supply or replacement. Preserve: applicable equipment procedures; no product or dose is provided.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D12-P3",
+        "task_type": "preparation",
+        "claim": "Identify specified procedures for periodic inspection.",
+        "conditions": [
+          "no interval inferred from the word periodic"
+        ],
+        "support_any_of": [
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-I01-005",
+            "source_id": "SRC-I01-03",
+            "knowledge_id": "KN-I01-005",
+            "task_type": "preparation",
+            "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+            "source_version": "undated web page; accessed 2026-10-26",
+            "pdf_file_page": "",
+            "printed_page": "",
+            "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+            "original_text": "Periodic maintenance should be performed following specified procedures.",
+            "chinese_paraphrase": "准备周期性维护时应先确定适用的规定程序；维护范围包括状态监视、润滑补给或更换及定期检查。",
+            "claim_en": "For maintenance preparation, identify the specified procedures covering condition supervision, lubricant supply or replacement and periodic inspection.",
+            "conditions": "仅为程序与范围准备；具体执行条件需来自适用设备文件。",
+            "limitations": "本卡不提供维护周期、油品、剂量或操作步骤；不能用通用网页替代设备/OEM文件。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "project agent source comparison; no independent human/domain-expert approval"
+          }
+        ],
+        "full_credit": "1: Identify specified procedures for periodic inspection. Preserve: no interval inferred from the word periodic.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-D12-P4",
+        "task_type": "preparation",
+        "claim": "An actual maintenance interval cannot be selected from this card.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "explicitly_unsupported",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/evidence.csv",
+            "locator": "EV-I01-005:limitations",
+            "exact_value": "本卡不提供维护周期、油品、剂量或操作步骤；不能用通用网页替代设备/OEM文件。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: An actual maintenance interval cannot be selected from this card.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-I01-005"
+    ],
+    "forbidden_claims": [
+      "A maintenance interval is established here."
+    ],
+    "required_unknowns": [
+      "The applicable equipment maintenance interval is unavailable."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Public I01/test intent or conservative near-family overlap; debug only.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-H01",
+    "split": "heldout",
+    "family_id": "sample_provenance",
+    "tasks": [
+      "preparation"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-H01-P1",
+        "task_type": "preparation",
+        "claim": "Keep used lubricant samples distinctly labelled.",
+        "conditions": [
+          "used sample identity preserved"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-006",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-006",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 3-4",
+            "original_text": "label it properly",
+            "chinese_paraphrase": "旧润滑样品应分开标识；准备未用润滑剂对照、批次/规格及随样技术与安全资料。",
+            "claim_en": "Keep labelled used and unused lubricant samples distinct; retain batch, specification and safety information.",
+            "conditions": "这是取样及送检资料准备；实际方法须遵循适用设备流程。",
+            "limitations": "未提供采样量、容器型号、油品牌号或化验合格限值。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Keep used lubricant samples distinctly labelled. Preserve: used sample identity preserved.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H01-P2",
+        "task_type": "preparation",
+        "claim": "Keep an unused lubricant comparison sample distinct from used samples.",
+        "conditions": [
+          "used/unused not conflated"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-006",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-006",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 3-4",
+            "original_text": "label it properly",
+            "chinese_paraphrase": "旧润滑样品应分开标识；准备未用润滑剂对照、批次/规格及随样技术与安全资料。",
+            "claim_en": "Keep labelled used and unused lubricant samples distinct; retain batch, specification and safety information.",
+            "conditions": "这是取样及送检资料准备；实际方法须遵循适用设备流程。",
+            "limitations": "未提供采样量、容器型号、油品牌号或化验合格限值。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Keep an unused lubricant comparison sample distinct from used samples. Preserve: used/unused not conflated.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H01-P3",
+        "task_type": "preparation",
+        "claim": "Retain batch and specification information.",
+        "conditions": [
+          "actual applicable lubricant identity; no invented product"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-006",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-006",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 3-4",
+            "original_text": "label it properly",
+            "chinese_paraphrase": "旧润滑样品应分开标识；准备未用润滑剂对照、批次/规格及随样技术与安全资料。",
+            "claim_en": "Keep labelled used and unused lubricant samples distinct; retain batch, specification and safety information.",
+            "conditions": "这是取样及送检资料准备；实际方法须遵循适用设备流程。",
+            "limitations": "未提供采样量、容器型号、油品牌号或化验合格限值。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Retain batch and specification information. Preserve: actual applicable lubricant identity; no invented product.",
+        "partial_credit": "0.5: Retain either batch or specification information without fabrication.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H01-P4",
+        "task_type": "preparation",
+        "claim": "Retain accompanying technical and safety information.",
+        "conditions": [
+          "applicable sample documentation"
+        ],
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "basis_kind": "registered_knowledge",
+        "basis_refs": [],
+        "citations": [
+          {
+            "evidence_id": "EV-K01-006",
+            "source_id": "SRC-K01-02",
+            "knowledge_id": "KN-K01-006",
+            "task_type": "preparation",
+            "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+            "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+            "pdf_file_page": "5",
+            "printed_page": "5",
+            "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 3-4",
+            "original_text": "label it properly",
+            "chinese_paraphrase": "旧润滑样品应分开标识；准备未用润滑剂对照、批次/规格及随样技术与安全资料。",
+            "claim_en": "Keep labelled used and unused lubricant samples distinct; retain batch, specification and safety information.",
+            "conditions": "这是取样及送检资料准备；实际方法须遵循适用设备流程。",
+            "limitations": "未提供采样量、容器型号、油品牌号或化验合格限值。",
+            "modality": "preparation_guidance",
+            "applicability": "generic_bearing_education_only",
+            "reviewed_by": "本轮 agent 逐条原文对照；非专家复核"
+          }
+        ],
+        "full_credit": "1: Retain accompanying technical and safety information. Preserve: applicable sample documentation.",
+        "partial_credit": "0.5: Retain either technical or safety information without fabrication.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H01-P5",
+        "task_type": "preparation",
+        "claim": "The required sample quantity is not provided here.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "explicitly_unsupported",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/evidence.csv",
+            "locator": "EV-K01-006:limitations",
+            "exact_value": "未提供采样量、容器型号、油品牌号或化验合格限值。"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: The required sample quantity is not provided here.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [
+      "EV-K01-006"
+    ],
+    "forbidden_claims": [
+      "The card specifies a sample quantity.",
+      "Used and unused samples can be conflated."
+    ],
+    "required_unknowns": [
+      "The required sample quantity is unknown."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release.",
+      "Timken-dependent positive points require source review; no same-version local PDF/hash/visual QA."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Author-visible operational reserve; no matching public question target found in the bounded static inventory; shared knowledge is exposed, not independent blind testing.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  },
+  {
+    "question_id": "E02P-H02",
+    "split": "heldout",
+    "family_id": "source_verifiability",
+    "tasks": [
+      "preparation"
+    ],
+    "answerability": "partial_requires_uncertainty",
+    "points": [
+      {
+        "point_id": "E02P-H02-P1",
+        "task_type": "preparation",
+        "claim": "The Timken guide is registered as 02-23 / Order No. 5892 / copyright 2023; this is recorded version information, not independently reverified PDF identity.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:version_or_date",
+            "exact_value": "02-23; Order No. 5892; copyright 2023; back cover"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: The Timken guide is registered as 02-23 / Order No. 5892 / copyright 2023; this is recorded version information, not independently reverified PDF identity.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H02-P2",
+        "task_type": "preparation",
+        "claim": "Selected online PDF pages were read in the earlier source review; the guide was not recorded as unavailable everywhere.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:full_text_status",
+            "exact_value": "full_pdf_available_online_selected_pages_read"
+          },
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:access_limitations",
+            "exact_value": "联网工具可读 24 页 PDF 的全文文本；本机两个官方 URL 均 403，无本地 PDF 哈希；截图未得到可检查像素，不声称完成版面核查"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: Selected online PDF pages were read in the earlier source review; the guide was not recorded as unavailable everywhere.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H02-P3",
+        "task_type": "preparation",
+        "claim": "No local same-version PDF was saved for offline handoff.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:local_copy_status",
+            "exact_value": "not_saved_http_403"
+          },
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:local_path",
+            "exact_value": ""
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: No local same-version PDF was saved for offline handoff.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H02-P4",
+        "task_type": "preparation",
+        "claim": "No local PDF SHA-256 is available to establish the handed-off file identity.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:sha256",
+            "exact_value": ""
+          },
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:access_limitations",
+            "exact_value": "联网工具可读 24 页 PDF 的全文文本；本机两个官方 URL 均 403，无本地 PDF 哈希；截图未得到可检查像素，不声称完成版面核查"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: No local PDF SHA-256 is available to establish the handed-off file identity.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      },
+      {
+        "point_id": "E02P-H02-P5",
+        "task_type": "preparation",
+        "claim": "Visual page/layout verification remains incomplete, so no visual QA completion may be claimed.",
+        "conditions": [],
+        "support_any_of": [],
+        "basis_kind": "project_boundary",
+        "basis_refs": [
+          {
+            "path": "knowledge/i01/v1/sources.csv",
+            "locator": "SRC-K01-02:access_limitations",
+            "exact_value": "联网工具可读 24 页 PDF 的全文文本；本机两个官方 URL 均 403，无本地 PDF 哈希；截图未得到可检查像素，不声称完成版面核查"
+          }
+        ],
+        "citations": [],
+        "full_credit": "1: Visual page/layout verification remains incomplete, so no visual QA completion may be claimed.",
+        "partial_credit": "No half credit. Score 0 unless this atomic point is fully met.",
+        "unsupported_credit": "0: omitted, contradicted, invented, outside the stated basis, or missing/reversing a key condition. Assumed or reported examples cannot be upgraded to a diagnosis."
+      }
+    ],
+    "relevant_evidence_ids": [],
+    "forbidden_claims": [
+      "The offline PDF/hash/visual checks are complete.",
+      "The Timken source does not exist or was never accessible online."
+    ],
+    "required_unknowns": [
+      "Same-version local PDF identity and visual page verification remain unconfirmed."
+    ],
+    "source_limitations": [
+      "Relative to the fixed i01.v1_rev025 common corpus, not manufacturer truth or human/domain-expert approval.",
+      "Caller class/task are author-specified module inputs. Scenario cause is independently assumed; no real measurements provided.",
+      "Generic case/inspection material cannot establish CWRU artificial-defect natural mechanism, model-specific limits, reuse, aviation suitability or release."
+    ],
+    "manual_confirmation": [
+      "Future human raters, blind-code custodian, stratified double scoring and arbitration remain pending. Agent checking is not domain-expert approval.",
+      "needs_source_review points remain suspended for deterministic source-truth scoring until separately resolved; planned denominators are not silently reduced."
+    ],
+    "exposure_note": "Author-visible operational reserve; no matching public question target found in the bounded static inventory; shared knowledge is exposed, not independent blind testing.",
+    "insufficiency_criteria": [
+      {
+        "criterion_id": "i1",
+        "applicable": true,
+        "full_credit": "1: Correct the requested false premise or refuse only the unsupported requested conclusion.",
+        "partial_credit": "0.5: Uncertainty is correctly signalled but the unsupported inference is incompletely identified.",
+        "zero_credit": "0: No correction, invented conclusion or service/format failure."
+      },
+      {
+        "criterion_id": "i2",
+        "applicable": true,
+        "full_credit": "1: Identify the concrete requested gap(s) in required_unknowns; no additional unasked gaps are mandatory.",
+        "partial_credit": "0.5: Identify some but not all of the listed gaps without fabrication; if a single indivisible gap is required, no half credit.",
+        "zero_credit": "0: No concrete gap, falsely claims availability or service/format failure."
+      },
+      {
+        "criterion_id": "i3",
+        "applicable": true,
+        "full_credit": "1: Preserve the supported portion, or explain the documented project/source scope if there is no positive knowledge point.",
+        "partial_credit": "0.5: Preserve some supported content with key conditions, but omit another available requested component.",
+        "zero_credit": "0: No supported portion/scope explanation, contradicts limits or failure."
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-22T19:19:27.814473+08:00",
+  "device": "cpu",
+  "tolerance": {
+    "atol": 1e-06,
+    "rtol": 1e-05
+  },
+  "feature_repeat": {
+    "train": {
+      "rows": 232,
+      "dimensions": 512,
+      "max_absolute_difference": 0.0,
+      "allclose": true,
+      "array_exact_equal": true,
+      "labels_permuted": true,
+      "reference": "fresh full official net; independent NumPy normalization; avgpool hook"
+    },
+    "validation": {
+      "rows": 236,
+      "dimensions": 512,
+      "max_absolute_difference": 0.0,
+      "allclose": true,
+      "array_exact_equal": true,
+      "labels_permuted": true,
+      "reference": "fresh full official net; independent NumPy normalization; avgpool hook"
+    }
+  },
+  "network_full_state_before": "9af32d5e7fbb87ef324882e37010f3766ddb307aa8b7f8ebcb44c7c21dec2a18",
+  "network_full_state_after": "9af32d5e7fbb87ef324882e37010f3766ddb307aa8b7f8ebcb44c7c21dec2a18",
+  "production_validation_label_invariance_rows": 16,
+  "independent_scaler_training_rows": 232,
+  "contaminated_scaler_rejected": "Scaler sample count includes non-training rows",
+  "all_candidate_independent_refits": 8,
+  "candidate_predictions_and_scores_exact": true,
+  "manual_metrics_and_confusion_matrices": "all 8 candidates train/validation plus selected model",
+  "selected_per_record_verified": 12,
+  "model_reload_predictions_exact": true,
+  "model_reload_decision_scores_exact": true,
+  "standalone_components_equal_pipeline": true,
+  "selected_candidate_index": 0,
+  "test_decoded_or_extracted_or_predicted_or_scored": false,
+  "cross_device_or_version_verified": false,
+  "file_byte_reproduction_claimed": false,
+  "independence_boundary": "separate preprocessing/layer reference, fit orchestration and manual metrics; same PyTorch/sklearn algorithms"
+}

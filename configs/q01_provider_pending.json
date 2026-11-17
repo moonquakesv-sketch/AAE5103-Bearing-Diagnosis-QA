@@ -1,0 +1,63 @@
+{
+  "stage": "Q01-S02",
+  "state": "adapter_and_offline_acceptance_complete_live_credentials_counter_pending",
+  "provider_name": "DeepSeek",
+  "official_endpoint": "https://api.deepseek.com/chat/completions",
+  "models": {
+    "generate": "deepseek-flash",
+    "verify": "deepseek-flash",
+    "revise": "deepseek-flash"
+  },
+  "parameters": {
+    "generate": {
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0
+    },
+    "verify": {
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0
+    },
+    "revise": {
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0
+    }
+  },
+  "credential_environment_variable": "DEEPSEEK_API_KEY",
+  "api_permission_confirmed": false,
+  "max_attempts": 5,
+  "max_input_tokens": {
+    "generate": 8192,
+    "verify": 8192,
+    "revise": 8192
+  },
+  "max_output_tokens": {
+    "generate": 1024,
+    "verify": 512,
+    "revise": 1024
+  },
+  "timeout_seconds": 60,
+  "retries": 0,
+  "concurrency": 1,
+  "money_hard_budget": {
+    "currency": "USD",
+    "amount": "0.02"
+  },
+  "cost_enforcement": "implemented durable SessionBudget before-post peak-cap reservation; real gate requires independently approved tokenizer and credential",
+  "real_requests_enabled": false,
+  "formal_experiment_released": false,
+  "selected_request_model": "deepseek-flash",
+  "documented_served_model": "DeepSeek-V4.1-Flash-1017",
+  "model_mapping_accepted": true,
+  "selected_configuration": "configs/q01_deepseek.json",
+  "session_control": "configs/q01_deepseek_session.json",
+  "human_authorization_for_bounded_request": true,
+  "provider_account_access": "unknown_no_credential_configured",
+  "budget_configuration": "configs/q01_deepseek_budget.json",
+  "http_implementation": "scripts/q01_deepseek_http.py"
+}

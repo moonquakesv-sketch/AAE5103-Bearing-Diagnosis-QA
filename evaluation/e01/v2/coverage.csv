@@ -1,0 +1,15 @@
+question_id,split,family_id,predicted_class,scenario_id,tasks,answerability,knowledge_points,total_points,minimum_complete_cards,source_review_suspended_points,coverage_role
+E02P-D01,debug,case_explanation_and_provenance,outer_race,SC-K01-OR-001,explanation,false_premise,2,3,2,0,development_exposed
+E02P-D02,debug,physical_discrimination,outer_race,SC-K01-OR-001,inspection,partial_requires_uncertainty,2,3,1,2,development_exposed
+E02P-D03,debug,multi_overview,outer_race,SC-K01-OR-001,explanation|inspection|preparation,partial_requires_uncertainty,9,10,3,0,development_exposed
+E02P-D04,debug,case_explanation_and_provenance,inner_race,SC-I01-IR-001,explanation,false_premise,3,4,1,0,development_exposed
+E02P-D05,debug,inspection_scope,inner_race,SC-I01-IR-001,inspection,false_premise,7,7,1,0,development_exposed
+E02P-D06,debug,removal_planning,inner_race,SC-I01-IR-001,preparation,partial_requires_uncertainty,2,3,1,0,development_exposed
+E02P-D07,debug,case_explanation_and_provenance,rolling_element,SC-I01-RE-001,explanation,false_premise,3,4,1,0,development_exposed
+E02P-D08,debug,operating_checks,rolling_element,SC-I01-RE-001,inspection,partial_requires_uncertainty,4,5,1,0,development_exposed
+E02P-D09,debug,record_assembly,rolling_element,SC-I01-RE-001,preparation,partial_requires_uncertainty,4,5,1,4,development_exposed
+E02P-D10,debug,case_explanation_and_provenance,normal,SC-I01-NORMAL-001,explanation,false_premise,1,3,1,0,development_exposed
+E02P-D11,debug,operating_checks,normal,SC-I01-NORMAL-001,inspection,partial_requires_uncertainty,4,5,1,0,development_exposed
+E02P-D12,debug,maintenance_procedure_scope,normal,SC-I01-NORMAL-001,preparation,partial_requires_uncertainty,3,4,1,0,development_exposed
+E02P-H01,heldout,sample_provenance,rolling_element,SC-I01-RE-001,preparation,partial_requires_uncertainty,4,5,1,4,operational_reserve
+E02P-H02,heldout,source_verifiability,outer_race,SC-K01-OR-001,preparation,partial_requires_uncertainty,0,5,0,0,operational_reserve

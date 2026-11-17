@@ -1,0 +1,11 @@
+{
+  "project": ".",
+  "external": "docs/provenance/external_audit_not_distributed/20261106_024041_rev050_ref4",
+  "run": "runs/e02_ref4_common/20261106_024041_rev050_ref4",
+  "output": "runs/e02_ref4_execution/20261106_024041_rev050_ref4",
+  "candidate_id": "20261106_024041_rev050_ref4",
+  "source_ready": "runs/e02_l13_rating_ready/20261106_005722_rev048_6eb8cc5e",
+  "old_answers": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78",
+  "L_execution": "runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a",
+  "metadata_helper": "runs/e02_llm_baseline_acceptance/20261105_125957_rev045_3b109719/verify_acceptance.py"
+}

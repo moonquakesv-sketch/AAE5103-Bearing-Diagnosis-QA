@@ -1,0 +1,12 @@
+# Inferred from the provided source imports; original tested versions were not supplied.
+# This list documents the separate collaborator environment and is not a lock file.
+numpy
+pandas
+PyWavelets
+scipy
+openpyxl
+opencv-python
+tensorflow
+tensorflow-addons
+vit-keras
+scikit-learn

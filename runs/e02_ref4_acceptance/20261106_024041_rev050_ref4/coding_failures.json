@@ -1,0 +1,189 @@
+[
+  {
+    "slot": "QV3-D11_GV_R01_L_REF047_A",
+    "cell_key": "QV3-D11_GV_R01",
+    "group": "GV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D11_GV_R01_L_REF047_B",
+    "cell_key": "QV3-D11_GV_R01",
+    "group": "GV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D01_T_R01_L_REF047_B",
+    "cell_key": "QV3-D01_T_R01",
+    "group": "T",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D02_GV_R01_L_REF047_A",
+    "cell_key": "QV3-D02_GV_R01",
+    "group": "GV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D02_GV_R01_L_REF047_B",
+    "cell_key": "QV3-D02_GV_R01",
+    "group": "GV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D02_GV_R01_L_REF047_C",
+    "cell_key": "QV3-D02_GV_R01",
+    "group": "GV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D03_GV_R01_L_REF047_B",
+    "cell_key": "QV3-D03_GV_R01",
+    "group": "GV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D06_TV_R01_L_REF047_B",
+    "cell_key": "QV3-D06_TV_R01",
+    "group": "TV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-H01_TV_R01_L_REF047_A",
+    "cell_key": "QV3-H01_TV_R01",
+    "group": "TV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-H01_TV_R01_L_REF047_B",
+    "cell_key": "QV3-H01_TV_R01",
+    "group": "TV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-H01_TV_R01_L_REF047_C",
+    "cell_key": "QV3-H01_TV_R01",
+    "group": "TV",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D03_TV_R01_L_REF047_A",
+    "cell_key": "QV3-D03_TV_R01",
+    "group": "TV",
+    "status": "evaluator_failure",
+    "reason": "duplicate coding ID",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "duplicate coding ID"
+    }
+  },
+  {
+    "slot": "QV3-D03_TV_R01_L_REF047_B",
+    "cell_key": "QV3-D03_TV_R01",
+    "group": "TV",
+    "status": "evaluator_failure",
+    "reason": "duplicate coding ID",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "duplicate coding ID"
+    }
+  },
+  {
+    "slot": "QV3-D11_G_R01_L_REF047_B",
+    "cell_key": "QV3-D11_G_R01",
+    "group": "G",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D04_T_R01_L_REF047_A",
+    "cell_key": "QV3-D04_T_R01",
+    "group": "T",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  },
+  {
+    "slot": "QV3-D03_T_R01_L_REF047_B",
+    "cell_key": "QV3-D03_T_R01",
+    "group": "T",
+    "status": "evaluator_failure",
+    "reason": "duplicate coding ID",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "duplicate coding ID"
+    }
+  },
+  {
+    "slot": "QV3-D09_T_R01_L_REF047_A",
+    "cell_key": "QV3-D09_T_R01",
+    "group": "T",
+    "status": "evaluator_failure",
+    "reason": "quote range must be ordered and contiguous",
+    "raw_failure_reproduced": {
+      "type": "Rejected",
+      "reason": "quote range must be ordered and contiguous"
+    }
+  }
+]

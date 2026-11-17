@@ -1,0 +1,6910 @@
+[
+  {
+    "group": "T",
+    "question_id": "QV3-D07",
+    "cell_key": "QV3-D07_T_R01",
+    "unit_id": "N-LREF-013",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-013",
+      "observed_text_sha256": "4ad5a649f820c0651b7b5626fb0c55873bc6f88bc4a7b5ec5e6c43330300f77d",
+      "packet_sha256": "b8aca3d2a96d6796a94a7b52e42914a7cba280ef17d231d13e6591382fcb91fe"
+    },
+    "observed_text_sha256": "4ad5a649f820c0651b7b5626fb0c55873bc6f88bc4a7b5ec5e6c43330300f77d",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D07_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D07-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 1
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D11",
+    "cell_key": "QV3-D11_GV_R01",
+    "unit_id": "N-LREF-014",
+    "family_id": "maintenance_procedure_scope",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-014",
+      "observed_text_sha256": "3c307e25be4625fa679806a494179d781260b049880e95200e2d2138bfe5fb3f",
+      "packet_sha256": "046a0884888c659d6cc936fa10aaf4de5dd5755f72b6e81704c2f31f6ff2129c"
+    },
+    "observed_text_sha256": "3c307e25be4625fa679806a494179d781260b049880e95200e2d2138bfe5fb3f",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D11_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "evaluator_failure",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D11-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D11-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D11-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D11-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 1
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D01",
+    "cell_key": "QV3-D01_T_R01",
+    "unit_id": "N-LREF-015",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-015",
+      "observed_text_sha256": "9321d88676166f3cf9e3a161f2b40028388d83cbc55b0de51c426132f64792e5",
+      "packet_sha256": "5145d505670b73fd1f283d38a236f705bcf9a6b655e7e782e8e99ae2ce045440"
+    },
+    "observed_text_sha256": "9321d88676166f3cf9e3a161f2b40028388d83cbc55b0de51c426132f64792e5",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D01_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D01-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D01-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D01-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 0.5,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.5,
+        "value": 0.5
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 0.3333333333333333,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.3333333333333333,
+        "value": 0.3333333333333333
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 3,
+        "upper": 0.3,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 1
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D07",
+    "cell_key": "QV3-D07_G_R01",
+    "unit_id": "N-LREF-016",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-016",
+      "observed_text_sha256": "210cd50b1749b76c74d063dacd21988a975a8b2f37bd2e83698a9bc8ea92f7b1",
+      "packet_sha256": "eee32e2fb0dc0869a8cb50ba97c10e683bc643b1f3b2a27c42655d238fba4f35"
+    },
+    "observed_text_sha256": "210cd50b1749b76c74d063dacd21988a975a8b2f37bd2e83698a9bc8ea92f7b1",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D07_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D07-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D04",
+    "cell_key": "QV3-D04_TV_R01",
+    "unit_id": "N-LREF-017",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-017",
+      "observed_text_sha256": "1558e971987bd7d84e0bb279e4c91804c6e8521d06df00df9e18299a083add88",
+      "packet_sha256": "40b751ef0e483583b25c01bc6ede35d016ca6866ced27aed20e57212d4384a46"
+    },
+    "observed_text_sha256": "1558e971987bd7d84e0bb279e4c91804c6e8521d06df00df9e18299a083add88",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D04_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D04-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 7,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D08",
+    "cell_key": "QV3-D08_TV_R01",
+    "unit_id": "N-LREF-018",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "reasonable_insufficiency",
+    "source_binding": {
+      "unit_id": "N-LREF-018",
+      "observed_text_sha256": "b67bdc1a83604b29297ac50ee501d3103912e01fd0889addd192f88d066200db",
+      "packet_sha256": "89696840d073206570a6ac8c346fb8e96643b81b1833df669652d6464eb9bbc5"
+    },
+    "observed_text_sha256": "b67bdc1a83604b29297ac50ee501d3103912e01fd0889addd192f88d066200db",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D08_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D08-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P4",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 0.2,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.2,
+        "value": 0.2
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 7,
+      "citations": 3
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D09",
+    "cell_key": "QV3-D09_G_R01",
+    "unit_id": "N-LREF-019",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-019",
+      "observed_text_sha256": "0cbe9ca66307ae6cfc898c024d605cc534d5448f5d655271c5d1a6b80527247e",
+      "packet_sha256": "e4ec94380929151efd312387d412694d59b9a4d78094e794729a870879352927"
+    },
+    "observed_text_sha256": "0cbe9ca66307ae6cfc898c024d605cc534d5448f5d655271c5d1a6b80527247e",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D09_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D09-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P2",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D01",
+    "cell_key": "QV3-D01_TV_R01",
+    "unit_id": "N-LREF-020",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "tested_failure",
+    "source_binding": {
+      "unit_id": "N-LREF-020",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet_sha256": "15cd71cc7fa6e051f1b75923ca96f9ab298d1311a277eb1dd50a482fba94e354"
+    },
+    "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D01_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D01-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D01-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D01-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D01-P4",
+        "content_role": "boundary",
+        "score": 0
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 0,
+      "citations": 0
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D10",
+    "cell_key": "QV3-D10_GV_R01",
+    "unit_id": "N-LREF-021",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-021",
+      "observed_text_sha256": "3493958154c07e878c65c81c4e0dd8aca03d1f66fa554763b572526a8b6e9ab3",
+      "packet_sha256": "f19daea77b6323380543159e41bccea4fc35b9b81968a477022495376834b578"
+    },
+    "observed_text_sha256": "3493958154c07e878c65c81c4e0dd8aca03d1f66fa554763b572526a8b6e9ab3",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D10_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D10-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P5",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P6",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D03",
+    "cell_key": "QV3-D03_G_R01",
+    "unit_id": "N-LREF-022",
+    "family_id": "preservation_sequence",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-022",
+      "observed_text_sha256": "72580a307e63cd380370b410cf03da208a3eccf4a4a149db292dd515f5694708",
+      "packet_sha256": "67c98eb61117b0b89b93b200ad3e8fb2061a4077c29cdb242387b25e2384db7c"
+    },
+    "observed_text_sha256": "72580a307e63cd380370b410cf03da208a3eccf4a4a149db292dd515f5694708",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D03_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D03-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P4",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 1.0,
+        "numerator": 5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 3,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 3
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D02",
+    "cell_key": "QV3-D02_GV_R01",
+    "unit_id": "N-LREF-023",
+    "family_id": "physical_discrimination",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-023",
+      "observed_text_sha256": "7d5410b5c70c1070a60d38752c5ef33ed178633515013967b4dabe598fcdc274",
+      "packet_sha256": "4aa8a28b49f0500429c7a6cc59f1e4f56fc642ad19a444ca66ac8d368f998e2b"
+    },
+    "observed_text_sha256": "7d5410b5c70c1070a60d38752c5ef33ed178633515013967b4dabe598fcdc274",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D02_GV_R01_L_REF047.result.json",
+    "final_valid": false,
+    "final_status": "evaluator_failure",
+    "original_statuses": [
+      "evaluator_failure",
+      "evaluator_failure",
+      "evaluator_failure"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D02-P1",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-D02-P2",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-D02-P3",
+        "content_role": "boundary",
+        "score": null
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 3,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": null,
+        "lower": null,
+        "status": "unknown",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": null,
+        "lower": null,
+        "status": "unknown",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": null,
+      "citations": null
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D05",
+    "cell_key": "QV3-D05_TV_R01",
+    "unit_id": "N-LREF-024",
+    "family_id": "inspection_scope",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-024",
+      "observed_text_sha256": "77f772788a4e6897ee1b76984051839528bd3d40172dba4a2823c45035a28602",
+      "packet_sha256": "dffa5a6e5391ae242ba1f26355940b364f0c16e6a5a63597fdbba9a8f31e76c8"
+    },
+    "observed_text_sha256": "77f772788a4e6897ee1b76984051839528bd3d40172dba4a2823c45035a28602",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D05_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D05-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P5",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P6",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 2
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D05",
+    "cell_key": "QV3-D05_G_R01",
+    "unit_id": "N-LREF-025",
+    "family_id": "inspection_scope",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-025",
+      "observed_text_sha256": "e75bb197a38a40dd9492f67ed2214922866a5c0476a00ff772ab826719c5a6fd",
+      "packet_sha256": "ec7e4b9b2ad00ef377d053e475a59f182a3c1dae071f3f22e29f95966fc27fec"
+    },
+    "observed_text_sha256": "e75bb197a38a40dd9492f67ed2214922866a5c0476a00ff772ab826719c5a6fd",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D05_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D05-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P5",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P6",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 1
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D03",
+    "cell_key": "QV3-D03_GV_R01",
+    "unit_id": "N-LREF-026",
+    "family_id": "preservation_sequence",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-026",
+      "observed_text_sha256": "25500770e3320f212637fedd1751bc38f89a5d81099a80284d57394ab38eed71",
+      "packet_sha256": "db49d9366c992c21d958d3fc95f9cd17436010899fd6acdf0e62c1d7c3d899d1"
+    },
+    "observed_text_sha256": "25500770e3320f212637fedd1751bc38f89a5d81099a80284d57394ab38eed71",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D03_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D03-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P4",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 1.0,
+        "numerator": 5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 3
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D08",
+    "cell_key": "QV3-D08_GV_R01",
+    "unit_id": "N-LREF-027",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-027",
+      "observed_text_sha256": "976dc69a32b50e23e7b52bc6773b1abf418930d98cbce93423f8fcae8b069bea",
+      "packet_sha256": "5a218ddb5a6a7f5cb977f603925ac5131f0c10f597d4d4e3d70fc9cfae1babbb"
+    },
+    "observed_text_sha256": "976dc69a32b50e23e7b52bc6773b1abf418930d98cbce93423f8fcae8b069bea",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D08_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D08-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P4",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 0.2,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.2,
+        "value": 0.2
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D06",
+    "cell_key": "QV3-D06_TV_R01",
+    "unit_id": "N-LREF-028",
+    "family_id": "removal_planning",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-028",
+      "observed_text_sha256": "25f1b00aaaeca9779b55dd2080258a637048d465bd21d333f7e1808cb6df5c97",
+      "packet_sha256": "e5b1f3074c456be51cc64c0a614bcc97d0c8eed9e8ce24f6588ed3a764d0c55f"
+    },
+    "observed_text_sha256": "25f1b00aaaeca9779b55dd2080258a637048d465bd21d333f7e1808cb6df5c97",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D06_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D06-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P3",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 2
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D02",
+    "cell_key": "QV3-D02_T_R01",
+    "unit_id": "N-LREF-029",
+    "family_id": "physical_discrimination",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-029",
+      "observed_text_sha256": "2dd2647c4e7cb8bbd420109c1b50a8bf189b99b1c1dc0863dd3b580d9a447b27",
+      "packet_sha256": "62c390727be0e1f46fd9df6b74106838517007f7bc124b996ac558eac59addb1"
+    },
+    "observed_text_sha256": "2dd2647c4e7cb8bbd420109c1b50a8bf189b99b1c1dc0863dd3b580d9a447b27",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D02_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D02-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 2
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-H01",
+    "cell_key": "QV3-H01_G_R01",
+    "unit_id": "N-LREF-030",
+    "family_id": "sample_provenance",
+    "split": "operational_reserve",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-030",
+      "observed_text_sha256": "52cdcc2efa42df10009bad256971baeef3474927f3f0b6c6c86221bd349b3bfa",
+      "packet_sha256": "fe3187bfe548ba9b93b11ccaff120dc538b06819b0be241b58c22575b2e26a78"
+    },
+    "observed_text_sha256": "52cdcc2efa42df10009bad256971baeef3474927f3f0b6c6c86221bd349b3bfa",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H01_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H01-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P4",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P5",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P6",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 0.2857142857142857,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.2857142857142857,
+        "value": 0.2857142857142857
+      },
+      "REF_knowledge": {
+        "denominator": 5,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 12,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 12,
+      "citations": 2
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-H01",
+    "cell_key": "QV3-H01_TV_R01",
+    "unit_id": "N-LREF-031",
+    "family_id": "sample_provenance",
+    "split": "operational_reserve",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-031",
+      "observed_text_sha256": "9ac1127231929dc1c44c558a3569991a4efeadd3313f0931a5123254334b52a8",
+      "packet_sha256": "9496f254705b3d6b9f85922b9da46c38c19a737fac3cea111cc4bbe3124ad0e3"
+    },
+    "observed_text_sha256": "9ac1127231929dc1c44c558a3569991a4efeadd3313f0931a5123254334b52a8",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H01_TV_R01_L_REF047.result.json",
+    "final_valid": false,
+    "final_status": "evaluator_failure",
+    "original_statuses": [
+      "evaluator_failure",
+      "evaluator_failure",
+      "evaluator_failure"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H01-P1",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-H01-P2",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-H01-P3",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-H01-P4",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-H01-P5",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-H01-P6",
+        "content_role": "boundary",
+        "score": null
+      },
+      {
+        "point_id": "QV3-H01-P7",
+        "content_role": "boundary",
+        "score": null
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 7,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_knowledge": {
+        "denominator": 5,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 5,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": null,
+        "lower": null,
+        "status": "unknown",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": null,
+        "lower": null,
+        "status": "unknown",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": null,
+      "citations": null
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D06",
+    "cell_key": "QV3-D06_GV_R01",
+    "unit_id": "N-LREF-032",
+    "family_id": "removal_planning",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-032",
+      "observed_text_sha256": "ac9c14b0368b3eee6d4cfbf4846e2dd7cd2ee83b652a24163059fbd5c241ec60",
+      "packet_sha256": "a61919878e0bb9606679124c544f485149926bc3c93698af5be7bc753541f7d8"
+    },
+    "observed_text_sha256": "ac9c14b0368b3eee6d4cfbf4846e2dd7cd2ee83b652a24163059fbd5c241ec60",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D06_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D06-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P3",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D11",
+    "cell_key": "QV3-D11_T_R01",
+    "unit_id": "N-LREF-033",
+    "family_id": "maintenance_procedure_scope",
+    "split": "debug",
+    "source_status": "tested_failure",
+    "source_binding": {
+      "unit_id": "N-LREF-033",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet_sha256": "7590d04e9e9a4279917f9f2cf4cd8d57b6f6640f0c68f04e0a6821fd7084838d"
+    },
+    "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D11_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D11-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D11-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D11-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D11-P4",
+        "content_role": "boundary",
+        "score": 0
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 0,
+      "citations": 0
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D06",
+    "cell_key": "QV3-D06_G_R01",
+    "unit_id": "N-LREF-034",
+    "family_id": "removal_planning",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-034",
+      "observed_text_sha256": "fa9bc1f9176b11120a46d20586bd5f1c5e61164f52932f2e78a9976767191ce2",
+      "packet_sha256": "a9affb6cf29ec9b63fe35bdedda6782afa33777ebac4bef31eb249943376492b"
+    },
+    "observed_text_sha256": "fa9bc1f9176b11120a46d20586bd5f1c5e61164f52932f2e78a9976767191ce2",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D06_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D06-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P3",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 2
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D03",
+    "cell_key": "QV3-D03_TV_R01",
+    "unit_id": "N-LREF-035",
+    "family_id": "preservation_sequence",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-035",
+      "observed_text_sha256": "fd374f93db9e02b742167ac86c9df4cbb1d2d42da0ebd6549aa2706560203e01",
+      "packet_sha256": "923d872fa33d8b762bc134d48dade8b8848521ed57e6b5d9f61fc0c4aa421358"
+    },
+    "observed_text_sha256": "fd374f93db9e02b742167ac86c9df4cbb1d2d42da0ebd6549aa2706560203e01",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D03_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "evaluator_failure",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D03-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P4",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 1.0,
+        "numerator": 5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 11,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 11,
+      "citations": 3
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D09",
+    "cell_key": "QV3-D09_TV_R01",
+    "unit_id": "N-LREF-036",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "reasonable_insufficiency",
+    "source_binding": {
+      "unit_id": "N-LREF-036",
+      "observed_text_sha256": "5be2d516fb2f784705ef46388ac1ce457173ddff77c9c285cfe5bbead3d1512c",
+      "packet_sha256": "6e032d09b9c9c2e401a58e20f70c38661cacf456f2c3fd29b3d7de85e51ce7a3"
+    },
+    "observed_text_sha256": "5be2d516fb2f784705ef46388ac1ce457173ddff77c9c285cfe5bbead3d1512c",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D09_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D09-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P2",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 3
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D11",
+    "cell_key": "QV3-D11_G_R01",
+    "unit_id": "N-LREF-037",
+    "family_id": "maintenance_procedure_scope",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-037",
+      "observed_text_sha256": "5d4f44ef9838e7a04d76e7e1c7446d8e631f93874dc1882b1c9d3f46b94921f8",
+      "packet_sha256": "d00b45f6c95a6dd05494e77b2ee5a92237338d2fb3d5b8d56abfc1409ebc9ad5"
+    },
+    "observed_text_sha256": "5d4f44ef9838e7a04d76e7e1c7446d8e631f93874dc1882b1c9d3f46b94921f8",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D11_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D11-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D11-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D11-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D11-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D02",
+    "cell_key": "QV3-D02_TV_R01",
+    "unit_id": "N-LREF-038",
+    "family_id": "physical_discrimination",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-038",
+      "observed_text_sha256": "017b63420f10e237659da1c4e3bdbc80f82532eaadb1f3506993b4ba7550a86f",
+      "packet_sha256": "894ca69bce53ebcced08a204ad6d79f97916dd70e52bb087ca4609dafcfc8f33"
+    },
+    "observed_text_sha256": "017b63420f10e237659da1c4e3bdbc80f82532eaadb1f3506993b4ba7550a86f",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D02_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D02-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 3,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 3
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D08",
+    "cell_key": "QV3-D08_G_R01",
+    "unit_id": "N-LREF-039",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-039",
+      "observed_text_sha256": "2cb5336a66b1daae100fb31aa343a090cdde5b55929b4d80ab26745b513a4bdf",
+      "packet_sha256": "f851953373c2e88acd6a4abce018b4ffccb8cdf042e70ca5eb8266161bb62b88"
+    },
+    "observed_text_sha256": "2cb5336a66b1daae100fb31aa343a090cdde5b55929b4d80ab26745b513a4bdf",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D08_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D08-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P4",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 0.2,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.2,
+        "value": 0.2
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D04",
+    "cell_key": "QV3-D04_T_R01",
+    "unit_id": "N-LREF-040",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-040",
+      "observed_text_sha256": "b346b373f24a6f53d728b970e3532bfeba5a6af4bb0983b377835115afe662f0",
+      "packet_sha256": "4aafab576e0b76abe8ac9bb42f7593e09b81091c79757439d04d6f5b61397f26"
+    },
+    "observed_text_sha256": "b346b373f24a6f53d728b970e3532bfeba5a6af4bb0983b377835115afe662f0",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D04_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "evaluator_failure",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D04-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 7,
+      "citations": 1
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D01",
+    "cell_key": "QV3-D01_G_R01",
+    "unit_id": "N-LREF-041",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-041",
+      "observed_text_sha256": "3e4310083b1a5f63f079a3b704c46e2d4c8db90d735c57eddad88e8fc58fac96",
+      "packet_sha256": "140546bcc450707822f354ebffc1972102c72ff4e06d3ec5f9c19a3458d856ee"
+    },
+    "observed_text_sha256": "3e4310083b1a5f63f079a3b704c46e2d4c8db90d735c57eddad88e8fc58fac96",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D01_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D01-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 3,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 3
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D10",
+    "cell_key": "QV3-D10_T_R01",
+    "unit_id": "N-LREF-042",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-042",
+      "observed_text_sha256": "16b3a4b4dc547d42ca137d8e999a58a3ca940d94a2148e276ebceb337f66b00c",
+      "packet_sha256": "a25480c524656067a4a9502707eacb1c99e08adb9677c6a8cd2d5112a0d9878b"
+    },
+    "observed_text_sha256": "16b3a4b4dc547d42ca137d8e999a58a3ca940d94a2148e276ebceb337f66b00c",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D10_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D10-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P5",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P6",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-H02",
+    "cell_key": "QV3-H02_TV_R01",
+    "unit_id": "N-LREF-043",
+    "family_id": "source_verifiability",
+    "split": "operational_reserve",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-043",
+      "observed_text_sha256": "f1b713321cda2661c8fcb2ff9bd08d605820c10318b8033c433d257e003870ad",
+      "packet_sha256": "34647869e1682a89fcef3aeb63e7f7867fce4bd75c1fc56efb5bdf9e373440bc"
+    },
+    "observed_text_sha256": "f1b713321cda2661c8fcb2ff9bd08d605820c10318b8033c433d257e003870ad",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H02_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H02-P1",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P2",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P3",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P4",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P5",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P6",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P7",
+        "content_role": "source_status",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D11",
+    "cell_key": "QV3-D11_TV_R01",
+    "unit_id": "N-LREF-044",
+    "family_id": "maintenance_procedure_scope",
+    "split": "debug",
+    "source_status": "tested_failure",
+    "source_binding": {
+      "unit_id": "N-LREF-044",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet_sha256": "30340f7bc0a92000319f1edc0c8405fbdae94ca2da66427c66934d3fa798151a"
+    },
+    "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D11_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D11-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D11-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D11-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D11-P4",
+        "content_role": "boundary",
+        "score": 0
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 0,
+      "citations": 0
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D05",
+    "cell_key": "QV3-D05_T_R01",
+    "unit_id": "N-LREF-045",
+    "family_id": "inspection_scope",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-045",
+      "observed_text_sha256": "77f0bbe924c5a5bf55f405d7d6ada0f2510acf0cfbfcf4c3e1619e59339eaedb",
+      "packet_sha256": "2dc48f4563bee5329a12e909fae56dad270b0cb6b7e4dc361f2f5fc93f6dc4ae"
+    },
+    "observed_text_sha256": "77f0bbe924c5a5bf55f405d7d6ada0f2510acf0cfbfcf4c3e1619e59339eaedb",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D05_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D05-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P5",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P6",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 2
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-H02",
+    "cell_key": "QV3-H02_G_R01",
+    "unit_id": "N-LREF-046",
+    "family_id": "source_verifiability",
+    "split": "operational_reserve",
+    "source_status": "tested_failure",
+    "source_binding": {
+      "unit_id": "N-LREF-046",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet_sha256": "0d8aacd99274abeb100b77dcc6c0099d7328e6d51bd9778f308d567945265b77"
+    },
+    "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H02_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H02-P1",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P2",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P3",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P4",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P5",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P6",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P7",
+        "content_role": "source_status",
+        "score": 0
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_knowledge": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_unsupported_claim": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 0,
+      "citations": 0
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D05",
+    "cell_key": "QV3-D05_GV_R01",
+    "unit_id": "N-LREF-047",
+    "family_id": "inspection_scope",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-047",
+      "observed_text_sha256": "d4ae98dd4b57589896abc0b8a1ba148e8f11bbe59801c5cd20e6766908352c8a",
+      "packet_sha256": "0b3a09c5f624443ac92785de8627a40149cb92d52e2eda8a327afc2ae298f9f2"
+    },
+    "observed_text_sha256": "d4ae98dd4b57589896abc0b8a1ba148e8f11bbe59801c5cd20e6766908352c8a",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D05_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D05-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P5",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P6",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 1
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D08",
+    "cell_key": "QV3-D08_T_R01",
+    "unit_id": "N-LREF-048",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "reasonable_insufficiency",
+    "source_binding": {
+      "unit_id": "N-LREF-048",
+      "observed_text_sha256": "bcb882abdaa57720df95c1c2dbba1b1a9d23fcbec301d77aca077300c567f4b2",
+      "packet_sha256": "c9f3467064e43f1542e1644d8b12757c779811cc5ffd8b9893612ebe4a592dbb"
+    },
+    "observed_text_sha256": "bcb882abdaa57720df95c1c2dbba1b1a9d23fcbec301d77aca077300c567f4b2",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D08_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D08-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P4",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D08-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 0.2,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.2,
+        "value": 0.2
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 0.2,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 3
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D02",
+    "cell_key": "QV3-D02_G_R01",
+    "unit_id": "N-LREF-049",
+    "family_id": "physical_discrimination",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-049",
+      "observed_text_sha256": "5d8e39dbe985a04ee4f3b73b226ac90986bf110f2b3845342961df5c8b1e0ef7",
+      "packet_sha256": "20d63111688be270f6aa7bdb91bfde832e4b02e748465eb05fefdb42850f90a1"
+    },
+    "observed_text_sha256": "5d8e39dbe985a04ee4f3b73b226ac90986bf110f2b3845342961df5c8b1e0ef7",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D02_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D02-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 1
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-H01",
+    "cell_key": "QV3-H01_T_R01",
+    "unit_id": "N-LREF-050",
+    "family_id": "sample_provenance",
+    "split": "operational_reserve",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-050",
+      "observed_text_sha256": "2d108bd4b0ca91dad7c2e5bc9941d95def8cc9b93151e9aefd9ada2d3fa88552",
+      "packet_sha256": "7d202919912b1d3a4c08d377ec86e08cdad947bc94c1a9b5351a03134a1c3a0d"
+    },
+    "observed_text_sha256": "2d108bd4b0ca91dad7c2e5bc9941d95def8cc9b93151e9aefd9ada2d3fa88552",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H01_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H01-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P5",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P6",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 5,
+        "lower": 1.0,
+        "numerator": 5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 13,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 3,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 13,
+      "citations": 3
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-H02",
+    "cell_key": "QV3-H02_GV_R01",
+    "unit_id": "N-LREF-051",
+    "family_id": "source_verifiability",
+    "split": "operational_reserve",
+    "source_status": "tested_failure",
+    "source_binding": {
+      "unit_id": "N-LREF-051",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet_sha256": "df3af2e41226d8926a789fed922e38e8e34069b7a773d4a53d9336948a7327f3"
+    },
+    "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H02_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H02-P1",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P2",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P3",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P4",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P5",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P6",
+        "content_role": "source_status",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H02-P7",
+        "content_role": "source_status",
+        "score": 0
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_knowledge": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_unsupported_claim": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 0,
+      "citations": 0
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-H02",
+    "cell_key": "QV3-H02_T_R01",
+    "unit_id": "N-LREF-052",
+    "family_id": "source_verifiability",
+    "split": "operational_reserve",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-052",
+      "observed_text_sha256": "5011a2c2cd8ac81ba223f88b4d207c08f0c7b76409eb96263f5806ad9fda24d7",
+      "packet_sha256": "58cbd79f8335d190001a9a058f51426af71b3c7800f4311368985b4fbba69099"
+    },
+    "observed_text_sha256": "5011a2c2cd8ac81ba223f88b4d207c08f0c7b76409eb96263f5806ad9fda24d7",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H02_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H02-P1",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P2",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P3",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P4",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P5",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P6",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P7",
+        "content_role": "source_status",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D07",
+    "cell_key": "QV3-D07_TV_R01",
+    "unit_id": "N-LREF-053",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-053",
+      "observed_text_sha256": "33a920b0911ed1ca41c76031ac7031b4367d5f8f4d1f99a7ee806fa2edbf9b2b",
+      "packet_sha256": "f73b3cdedb494b12c163bebb1e5a84b6b87c83bb428470f5dc877169e4796290"
+    },
+    "observed_text_sha256": "33a920b0911ed1ca41c76031ac7031b4367d5f8f4d1f99a7ee806fa2edbf9b2b",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D07_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D07-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 12,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 12,
+      "citations": 1
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D03",
+    "cell_key": "QV3-D03_T_R01",
+    "unit_id": "N-LREF-054",
+    "family_id": "preservation_sequence",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-054",
+      "observed_text_sha256": "b34210f58badb40f26cdd95a7ffe763295a785e5cfb2169bd77279f7f4524d73",
+      "packet_sha256": "6f36797238069c60cf9b5595401b7ea9fd30340cb742d36c0b67bfa99564ca61"
+    },
+    "observed_text_sha256": "b34210f58badb40f26cdd95a7ffe763295a785e5cfb2169bd77279f7f4524d73",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D03_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D03-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P4",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 1.0,
+        "numerator": 5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 3
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D10",
+    "cell_key": "QV3-D10_G_R01",
+    "unit_id": "N-LREF-055",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-055",
+      "observed_text_sha256": "1063046b751f8115eb10a03639d4b8c6c32bf506b38051eaba2f4c64e51755fe",
+      "packet_sha256": "c3368af84b70dfc5c91382204ee7e22cbc7bf76fb1471d20ab950d83d6fe6e10"
+    },
+    "observed_text_sha256": "1063046b751f8115eb10a03639d4b8c6c32bf506b38051eaba2f4c64e51755fe",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D10_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D10-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P5",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P6",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "G",
+    "question_id": "QV3-D04",
+    "cell_key": "QV3-D04_G_R01",
+    "unit_id": "N-LREF-056",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-056",
+      "observed_text_sha256": "0687b50b62e1046555ff12309fb5ad5e8a9617ab4e9ea05cdc44932c12fe5c5e",
+      "packet_sha256": "caf8023c93ad9333c6c5d36cb9fadd791ea43ef8bfa487ad7a449e071f9c4aa6"
+    },
+    "observed_text_sha256": "0687b50b62e1046555ff12309fb5ad5e8a9617ab4e9ea05cdc44932c12fe5c5e",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D04_G_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D04-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 1
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D04",
+    "cell_key": "QV3-D04_GV_R01",
+    "unit_id": "N-LREF-057",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-057",
+      "observed_text_sha256": "0d4f32e8235bb416a2e33bf321a63f53aee59013e7bd9b66d178bce808fd1b38",
+      "packet_sha256": "6fafcffdaf1715500a7215932b790ba3918e56b051db2395246206a803cd9bd7"
+    },
+    "observed_text_sha256": "0d4f32e8235bb416a2e33bf321a63f53aee59013e7bd9b66d178bce808fd1b38",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D04_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D04-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D04-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D06",
+    "cell_key": "QV3-D06_T_R01",
+    "unit_id": "N-LREF-058",
+    "family_id": "removal_planning",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-058",
+      "observed_text_sha256": "9bd993823dd207bc1292a8cca4de9a35e8956f9c17f6639139dc0a8de7ad4632",
+      "packet_sha256": "b069effacc2a4eac252a73ec44ed63e7899e0c9300dd778c87577120621574cf"
+    },
+    "observed_text_sha256": "9bd993823dd207bc1292a8cca4de9a35e8956f9c17f6639139dc0a8de7ad4632",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D06_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D06-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P3",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 2
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-H01",
+    "cell_key": "QV3-H01_GV_R01",
+    "unit_id": "N-LREF-059",
+    "family_id": "sample_provenance",
+    "split": "operational_reserve",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-059",
+      "observed_text_sha256": "2864214a073fdd8af24fb20ea9616f656aff8fd7f52a6743fd7e0ada374f1cfc",
+      "packet_sha256": "ac742b332f3b47f90bcb4d4c7ed23edab2c483ba09540d12ee0cf5899babd9d2"
+    },
+    "observed_text_sha256": "2864214a073fdd8af24fb20ea9616f656aff8fd7f52a6743fd7e0ada374f1cfc",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-H01_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H01-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P4",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P5",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-H01-P6",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 0.2857142857142857,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.2857142857142857,
+        "value": 0.2857142857142857
+      },
+      "REF_knowledge": {
+        "denominator": 5,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 2,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 2
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D07",
+    "cell_key": "QV3-D07_GV_R01",
+    "unit_id": "N-LREF-060",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-060",
+      "observed_text_sha256": "4137d7082655b70a49bf9ff566dc20a6681de322e53a0c8bca38a2a0323f313d",
+      "packet_sha256": "84ae85928cbe6a674dc5dcea7821bb82ed1ba010e4037ad61a639ecdf31b23b4"
+    },
+    "observed_text_sha256": "4137d7082655b70a49bf9ff566dc20a6681de322e53a0c8bca38a2a0323f313d",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D07_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D07-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 12,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 12,
+      "citations": 1
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D01",
+    "cell_key": "QV3-D01_GV_R01",
+    "unit_id": "N-LREF-061",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-061",
+      "observed_text_sha256": "55048fc28fb8efe55153c00cbe8298cbbf051b1ca14fb7f37acc73eb66948343",
+      "packet_sha256": "83fdd866500e585593d38301affe2db219a06b1681f6a7d087c7b14653bc4fe5"
+    },
+    "observed_text_sha256": "55048fc28fb8efe55153c00cbe8298cbbf051b1ca14fb7f37acc73eb66948343",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D01_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D01-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 3
+    }
+  },
+  {
+    "group": "TV",
+    "question_id": "QV3-D10",
+    "cell_key": "QV3-D10_TV_R01",
+    "unit_id": "N-LREF-062",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-062",
+      "observed_text_sha256": "80a21018049e97052f99f532753c1994e0ec1cfb0ecfc2479001b26ac14aa37f",
+      "packet_sha256": "f48c4826266e2f2bd5b22eaaf2c3feff6faec8f77fe8ce819f9367c9d64d4ff6"
+    },
+    "observed_text_sha256": "80a21018049e97052f99f532753c1994e0ec1cfb0ecfc2479001b26ac14aa37f",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D10_TV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D10-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P5",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P6",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 2,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 2
+    }
+  },
+  {
+    "group": "T",
+    "question_id": "QV3-D09",
+    "cell_key": "QV3-D09_T_R01",
+    "unit_id": "N-LREF-063",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "reasonable_insufficiency",
+    "source_binding": {
+      "unit_id": "N-LREF-063",
+      "observed_text_sha256": "ae8776f3a0f074c9d82cb48e272c1587a8864de5aa5d0a1b28abd1bc4253e2b9",
+      "packet_sha256": "6fbd642ee935d297c6cb8e1756ac643f869feafbe441a987aaf9b52afbd00b41"
+    },
+    "observed_text_sha256": "ae8776f3a0f074c9d82cb48e272c1587a8864de5aa5d0a1b28abd1bc4253e2b9",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D09_T_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "evaluator_failure",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D09-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P2",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 11,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 11,
+      "citations": 3
+    }
+  },
+  {
+    "group": "GV",
+    "question_id": "QV3-D09",
+    "cell_key": "QV3-D09_GV_R01",
+    "unit_id": "N-LREF-064",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "completed",
+    "source_binding": {
+      "unit_id": "N-LREF-064",
+      "observed_text_sha256": "d89b4c8c4abe266d50407345b6f357fec6d5627dc90d671b9b69ed78a1491c0e",
+      "packet_sha256": "41a6534678c17668867f53c9a0dc395379098f1e5d6ca444c0dfa27dd9ce64c7"
+    },
+    "observed_text_sha256": "d89b4c8c4abe266d50407345b6f357fec6d5627dc90d671b9b69ed78a1491c0e",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_ref4_execution/20261106_024041_rev050_ref4/QV3-D09_GV_R01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D09-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P2",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D01",
+    "cell_key": "QV3-D01",
+    "unit_id": "N-LREF-000",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-000",
+      "observed_text_sha256": "cc4cf565fdc73509cce30d0e7df3c4d44e8cf3d194ae8b656f4a01fdb21d8816",
+      "packet_sha256": "3b8fa6e3b5c40ea4d7d1c3f14ca711053b83e6ea688e750c5be081ad26d0a6c1"
+    },
+    "observed_text_sha256": "cc4cf565fdc73509cce30d0e7df3c4d44e8cf3d194ae8b656f4a01fdb21d8816",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D01-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D01-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 11,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 11,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D02",
+    "cell_key": "QV3-D02",
+    "unit_id": "N-LREF-001",
+    "family_id": "physical_discrimination",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-001",
+      "observed_text_sha256": "97604edc917bcd52347416d5efbd80fbd9269fd1173cb9cca7e3cb89113ccbe8",
+      "packet_sha256": "aa3bf60c1cc592c4dc49698e82e7a08b461f5396bf0e9155db60fa1dd8b97c77"
+    },
+    "observed_text_sha256": "97604edc917bcd52347416d5efbd80fbd9269fd1173cb9cca7e3cb89113ccbe8",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D02_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D02-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D02-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D03",
+    "cell_key": "QV3-D03",
+    "unit_id": "N-LREF-002",
+    "family_id": "preservation_sequence",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-002",
+      "observed_text_sha256": "ee56be9e6097b9725857643bbf9d820aa208e883d8596ca3b6a05fbae1140076",
+      "packet_sha256": "5b46524276337d1dda1881fd0168b3bc133aff19f3a7415bc0c3928897eca41f"
+    },
+    "observed_text_sha256": "ee56be9e6097b9725857643bbf9d820aa208e883d8596ca3b6a05fbae1140076",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D03_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D03-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P2",
+        "content_role": "positive_knowledge",
+        "score": 0.5
+      },
+      {
+        "point_id": "QV3-D03-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P4",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D03-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 0.9,
+        "numerator": 4.5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.9,
+        "value": 0.9
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 0.8333333333333334,
+        "numerator": 2.5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.8333333333333334,
+        "value": 0.8333333333333334
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 16,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 16,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D04",
+    "cell_key": "QV3-D04",
+    "unit_id": "N-LREF-003",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-003",
+      "observed_text_sha256": "6c91c1ad7a2522b1517724d8a7705c795e81cbaaa6034307a0bf6d1936d0e52a",
+      "packet_sha256": "cd2ad179c022d2767e451a70ad6ee7f50f2000f145438eb0b72910ddad5db667"
+    },
+    "observed_text_sha256": "6c91c1ad7a2522b1517724d8a7705c795e81cbaaa6034307a0bf6d1936d0e52a",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D04_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D04-P1",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D04-P2",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D04-P3",
+        "content_role": "positive_knowledge",
+        "score": 0
+      },
+      {
+        "point_id": "QV3-D04-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 0.25,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.25,
+        "value": 0.25
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 11,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 11,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D05",
+    "cell_key": "QV3-D05",
+    "unit_id": "N-LREF-004",
+    "family_id": "inspection_scope",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-004",
+      "observed_text_sha256": "395edc2161785fddc65b26cca58f3596e767ee708a7f409f363565d1ebc72233",
+      "packet_sha256": "6a10487c850ecc705ecdf957efec0c8a1f86f698c31f90883fda3354507ffebc"
+    },
+    "observed_text_sha256": "395edc2161785fddc65b26cca58f3596e767ee708a7f409f363565d1ebc72233",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D05_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D05-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P5",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P6",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D05-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D06",
+    "cell_key": "QV3-D06",
+    "unit_id": "N-LREF-005",
+    "family_id": "removal_planning",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-005",
+      "observed_text_sha256": "a01d40fe2de82285ec0851282f05b76558bfe851fde83e34b9ba7d69c0c8a553",
+      "packet_sha256": "aaa8c299baa53d56c774a7bda226432cce12ce06cb07812b0f1d5db97e35222f"
+    },
+    "observed_text_sha256": "a01d40fe2de82285ec0851282f05b76558bfe851fde83e34b9ba7d69c0c8a553",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D06_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "evaluator_failure",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D06-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P3",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D06-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 1
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D07",
+    "cell_key": "QV3-D07",
+    "unit_id": "N-LREF-006",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-006",
+      "observed_text_sha256": "12388c7eeb7e515e5d4af683747fd6a88bf37b5ff414485bc635276942742d8a",
+      "packet_sha256": "24a33aa0d0d0969c3ec1ea4234177819b469673313a5a38f5ea3129577c9169b"
+    },
+    "observed_text_sha256": "12388c7eeb7e515e5d4af683747fd6a88bf37b5ff414485bc635276942742d8a",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D07_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D07-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D07-P4",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 14,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 14,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D08",
+    "cell_key": "QV3-D08",
+    "unit_id": "N-LREF-007",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-007",
+      "observed_text_sha256": "7df2cb9e1680c68adce5a9e7ca57c7bbe3b5a750c1f0fe60d6ccb228e85f6961",
+      "packet_sha256": "8a797e67ddea602c3bd21dcba9b4c90b1f0a6e4984aab7284beffedfd9f27a47"
+    },
+    "observed_text_sha256": "7df2cb9e1680c68adce5a9e7ca57c7bbe3b5a750c1f0fe60d6ccb228e85f6961",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D08_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D08-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D08-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D08-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D08-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D08-P5",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 5,
+        "lower": 1.0,
+        "numerator": 5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 9,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 9,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-H01",
+    "cell_key": "QV3-H01",
+    "unit_id": "N-LREF-008",
+    "family_id": "sample_provenance",
+    "split": "operational_reserve",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-008",
+      "observed_text_sha256": "84788593abdcaabe74334b5d69b4ce0233bd23741c9b7b2dd920f717b6b7af87",
+      "packet_sha256": "3919f3ce47cbbfd4ae3563726746642b0ae7a83e5fb0173b4b8cf254df7eb9f6"
+    },
+    "observed_text_sha256": "84788593abdcaabe74334b5d69b4ce0233bd23741c9b7b2dd920f717b6b7af87",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-H01_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H01-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P5",
+        "content_role": "positive_knowledge",
+        "score": 0.5
+      },
+      {
+        "point_id": "QV3-H01-P6",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H01-P7",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 0.9285714285714286,
+        "numerator": 6.5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.9285714285714286,
+        "value": 0.9285714285714286
+      },
+      "REF_knowledge": {
+        "denominator": 5,
+        "lower": 0.9,
+        "numerator": 4.5,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.9,
+        "value": 0.9
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 10,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 10,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D09",
+    "cell_key": "QV3-D09",
+    "unit_id": "N-LREF-009",
+    "family_id": "case_explanation_and_provenance",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-009",
+      "observed_text_sha256": "785eefc27f23a4d55bb3df07a03c55437a7bda5bbe6e8f67ce9805cf3e09c46f",
+      "packet_sha256": "fa191245719c84716c090208b22435b9ea09040096d9c855efb8a7701759f31e"
+    },
+    "observed_text_sha256": "785eefc27f23a4d55bb3df07a03c55437a7bda5bbe6e8f67ce9805cf3e09c46f",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D09_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D09-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P2",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D09-P3",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 3,
+        "lower": 1.0,
+        "numerator": 3,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 1,
+        "lower": 1.0,
+        "numerator": 1,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 14,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 14,
+      "citations": 0
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D10",
+    "cell_key": "QV3-D10",
+    "unit_id": "N-LREF-010",
+    "family_id": "operating_checks",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-010",
+      "observed_text_sha256": "96d64cf41ecf5bab0298cdb47798a0853b7d1b825593dd898a776c12069c8ba6",
+      "packet_sha256": "1304f5cd643234d1370bf6aad0c537a0c147cf90cb168882c406a834fe0c1345"
+    },
+    "observed_text_sha256": "96d64cf41ecf5bab0298cdb47798a0853b7d1b825593dd898a776c12069c8ba6",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D10_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "evaluator_failure",
+      "valid",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D10-P1",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P2",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P3",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P4",
+        "content_role": "positive_knowledge",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P5",
+        "content_role": "boundary",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-D10-P6",
+        "content_role": "boundary",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 2,
+        "lower": 1.0,
+        "numerator": 2,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_cov": {
+        "denominator": 6,
+        "lower": 1.0,
+        "numerator": 6,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 4,
+        "lower": 1.0,
+        "numerator": 4,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": 8,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 8,
+      "citations": 1
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-D11",
+    "cell_key": "QV3-D11",
+    "unit_id": "N-LREF-011",
+    "family_id": "maintenance_procedure_scope",
+    "split": "debug",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-011",
+      "observed_text_sha256": "687d75ebc1cda60f80440017a15d5001e5ccaa8a6832c50be2f37a8b7fb96b81",
+      "packet_sha256": "e8c73bddb85f4a2e005bcb16f684a8b5836cbf74aaeae189d759c898b3edbeda"
+    },
+    "observed_text_sha256": "687d75ebc1cda60f80440017a15d5001e5ccaa8a6832c50be2f37a8b7fb96b81",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-D11_L_REF047.result.json",
+    "final_valid": false,
+    "final_status": "evaluator_failure",
+    "original_statuses": [
+      "evaluator_failure",
+      "evaluator_failure",
+      "evaluator_failure"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-D11-P1",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-D11-P2",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-D11-P3",
+        "content_role": "positive_knowledge",
+        "score": null
+      },
+      {
+        "point_id": "QV3-D11-P4",
+        "content_role": "boundary",
+        "score": null
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 1,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 1,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 4,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 4,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_knowledge": {
+        "denominator": 3,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "unknown",
+        "unknown": 3,
+        "upper": 1.0,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_unsupported_claim": {
+        "denominator": null,
+        "lower": null,
+        "status": "unknown",
+        "upper": null,
+        "value": null
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": null,
+        "lower": null,
+        "status": "unknown",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": null,
+      "citations": null
+    }
+  },
+  {
+    "group": "L",
+    "question_id": "QV3-H02",
+    "cell_key": "QV3-H02",
+    "unit_id": "N-LREF-012",
+    "family_id": "source_verifiability",
+    "split": "operational_reserve",
+    "source_status": "L_saved_answer",
+    "source_binding": {
+      "unit_id": "N-LREF-012",
+      "observed_text_sha256": "563b524ac7b7a63c83d7288e4fa74925d8096497ff553603258b6b07b5bf8f4b",
+      "packet_sha256": "30fc246f973d7e5f77a504815f8f06d1a1ed0629c27a68c9bda756de1a6bc464"
+    },
+    "observed_text_sha256": "563b524ac7b7a63c83d7288e4fa74925d8096497ff553603258b6b07b5bf8f4b",
+    "result_path": "/Users/moonquakes/Desktop/Workspace/study/周三/runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a/QV3-H02_L_REF047.result.json",
+    "final_valid": true,
+    "final_status": "resolved_third",
+    "original_statuses": [
+      "valid",
+      "evaluator_failure",
+      "valid"
+    ],
+    "points": [
+      {
+        "point_id": "QV3-H02-P1",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P2",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P3",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P4",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P5",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P6",
+        "content_role": "source_status",
+        "score": 1
+      },
+      {
+        "point_id": "QV3-H02-P7",
+        "content_role": "source_status",
+        "score": 1
+      }
+    ],
+    "metrics": {
+      "REF_boundary": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_cov": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_knowledge": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      },
+      "REF_source_state": {
+        "denominator": 7,
+        "lower": 1.0,
+        "numerator": 7,
+        "status": "known",
+        "unknown": 0,
+        "upper": 1.0,
+        "value": 1.0
+      },
+      "REF_unsupported_claim": {
+        "denominator": 7,
+        "lower": 0.0,
+        "numerator": 0,
+        "status": "known",
+        "unknown": 0,
+        "upper": 0.0,
+        "value": 0.0
+      },
+      "REF_voluntary_citation_error": {
+        "denominator": 0,
+        "lower": null,
+        "status": "not_applicable",
+        "upper": null,
+        "value": null
+      }
+    },
+    "dynamic_denominators": {
+      "claims": 7,
+      "citations": 0
+    }
+  }
+]

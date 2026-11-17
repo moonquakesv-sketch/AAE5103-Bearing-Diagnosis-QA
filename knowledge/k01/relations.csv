@@ -1,0 +1,30 @@
+relation_id,subject_id,relation,object_id,assertion_basis,evidence_id,conditions,limitations,semantic_note
+REL-K01-001,SC-K01-OR-001,routes_from_class,PART-OUTER-RACE,project_contract,,未来收到 outer_race 类别时可选此演示；本轮没有调用分类器。,路由映射不代表因果。,项目组织关系；无来源事实断言。
+REL-K01-002,SC-K01-OR-001,assumes_for_demo,ASM-K01-001,demo_assumption,,独立人工情景设定。,没有真实样本或设备观察。,故意无 evidence_id：假设不是被原文证明的样本事实。
+REL-K01-003,SC-K01-OR-001,has_task,TASK-EXPLANATION,project_contract,,本情景的项目任务分类。,不代表问答或检索已实现。,组织关系。
+REL-K01-004,SC-K01-OR-001,has_task,TASK-INSPECTION,project_contract,,本情景的项目任务分类。,不代表问答或检索已实现。,组织关系。
+REL-K01-005,SC-K01-OR-001,has_task,TASK-PREPARATION,project_contract,,本情景的项目任务分类。,不代表问答或检索已实现。,组织关系。
+REL-K01-006,PART-OUTER-RACE,has_reported_example,MECH-K01-FB,source_knowledge,EV-K01-001,案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。,不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。,只陈述制造商案例存在。
+REL-K01-007,ASM-K01-001,is_possible_cause_of,MECH-K01-FB,source_knowledge,EV-K01-002,保留静止、小幅运动与接触位置；来源使用可能原因列表。,没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。,假设中的工况是来源列出的可能原因；不证明此情景发生。
+REL-K01-008,TASK-EXPLANATION,has_evidence_backed_content,KN-K01-001,source_knowledge,EV-K01-001,案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。,不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-009,KN-K01-001,supported_by,EV-K01-001,source_knowledge,EV-K01-001,案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。,不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-010,TASK-EXPLANATION,has_evidence_backed_content,KN-K01-002,source_knowledge,EV-K01-002,保留静止、小幅运动与接触位置；来源使用可能原因列表。,没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-011,KN-K01-002,supported_by,EV-K01-002,source_knowledge,EV-K01-002,保留静止、小幅运动与接触位置；来源使用可能原因列表。,没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-012,TASK-EXPLANATION,has_evidence_backed_content,KN-K01-003,source_knowledge,EV-K01-003,这些是候选可能性；本演示未设定润滑状态。,不能把候选原因写为已观测事实，也不能凭列表给原因排序。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-013,KN-K01-003,supported_by,EV-K01-003,source_knowledge,EV-K01-003,这些是候选可能性；本演示未设定润滑状态。,不能把候选原因写为已观测事实，也不能凭列表给原因排序。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-014,TASK-INSPECTION,has_evidence_backed_content,KN-K01-004,source_knowledge,EV-K01-004,需要实际滚道表面的检查；此页以滚子轴承为例。,不是 CWT 图片判据；无量化判定阈值，不能仅凭外圈分类完成鉴别。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-015,KN-K01-004,supported_by,EV-K01-004,source_knowledge,EV-K01-004,需要实际滚道表面的检查；此页以滚子轴承为例。,不是 CWT 图片判据；无量化判定阈值，不能仅凭外圈分类完成鉴别。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-016,TASK-PREPARATION,has_evidence_backed_content,KN-K01-005,source_knowledge,EV-K01-005,用于调查准备；先区分已有事实与待采集资料。,资料本身不证明所假定振动原因；本轮未采集真实设备记录。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-017,KN-K01-005,supported_by,EV-K01-005,source_knowledge,EV-K01-005,用于调查准备；先区分已有事实与待采集资料。,资料本身不证明所假定振动原因；本轮未采集真实设备记录。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-018,TASK-PREPARATION,has_evidence_backed_content,KN-K01-006,source_knowledge,EV-K01-006,这是取样及送检资料准备；实际方法须遵循适用设备流程。,未提供采样量、容器型号、油品牌号或化验合格限值。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-019,KN-K01-006,supported_by,EV-K01-006,source_knowledge,EV-K01-006,这是取样及送检资料准备；实际方法须遵循适用设备流程。,未提供采样量、容器型号、油品牌号或化验合格限值。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-020,TASK-INSPECTION,has_evidence_backed_content,KN-K01-007,source_knowledge,EV-K01-007,把外部振动作为本情景的调查方向；来源的通用要求范围更广。,时间相邻不等于因果成立；没有提供某台邻近设备的实测证据。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-021,KN-K01-007,supported_by,EV-K01-007,source_knowledge,EV-K01-007,把外部振动作为本情景的调查方向；来源的通用要求范围更广。,时间相邻不等于因果成立；没有提供某台邻近设备的实测证据。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-022,TASK-PREPARATION,has_evidence_backed_content,KN-K01-008,source_knowledge,EV-K01-008,实际设备与型号已识别并有适用文件时才能落实要求。,通用指南不授予航空发动机维修适用性，不补造扭矩、间隙或放行条件。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-023,KN-K01-008,supported_by,EV-K01-008,source_knowledge,EV-K01-008,实际设备与型号已识别并有适用文件时才能落实要求。,通用指南不授予航空发动机维修适用性，不补造扭矩、间隙或放行条件。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-024,TASK-PREPARATION,has_evidence_backed_content,KN-K01-009,source_knowledge,EV-K01-009,适用于准备拆下轴承检查的资料保存顺序。,仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-025,KN-K01-009,supported_by,EV-K01-009,source_knowledge,EV-K01-009,适用于准备拆下轴承检查的资料保存顺序。,仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-026,TASK-INSPECTION,has_evidence_backed_content,KN-K01-010,source_knowledge,EV-K01-010,先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。,本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-027,KN-K01-010,supported_by,EV-K01-010,source_knowledge,EV-K01-010,先彻底清洁再检查；检查范围含滚道/外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。复用评价须结合磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；轴承结构/尺寸不同，检查方法不同。,本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。,短摘录是定位锚点，支持范围依据完整原文语境核查。
+REL-K01-028,TASK-PREPARATION,has_evidence_backed_content,KN-K01-011,source_knowledge,EV-K01-011,仅作为资料和前提准备；具体拆卸方法依赖结构及配合。,后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。,任务关联是本项目人工整理；知识主张以 evidence.csv 的完整条件为准。
+REL-K01-029,KN-K01-011,supported_by,EV-K01-011,source_knowledge,EV-K01-011,仅作为资料和前提准备；具体拆卸方法依赖结构及配合。,后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。,短摘录是定位锚点，支持范围依据完整原文语境核查。

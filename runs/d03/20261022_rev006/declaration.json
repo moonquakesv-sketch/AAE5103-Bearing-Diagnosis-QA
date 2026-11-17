@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-10-22T19:16:55.980841+08:00",
+  "config": {
+    "schema_version": 1,
+    "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+    "seed": 5103,
+    "device": "cpu",
+    "torch_threads": 4,
+    "batch_size": 16,
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "feature_layer": "avgpool -> flatten(1), before fc; 512 dimensions",
+    "feature_dim": 512,
+    "input": {
+      "mode": "RGB",
+      "width": 224,
+      "height": 224,
+      "divide_by": 255.0,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "resize": false,
+      "crop": false,
+      "augmentation": false
+    },
+    "classes": [
+      "normal",
+      "inner_race",
+      "outer_race",
+      "rolling_element"
+    ],
+    "allowed_feature_splits": [
+      "train",
+      "validation"
+    ],
+    "scaler": {
+      "with_mean": true,
+      "with_std": true,
+      "fit_split": "train"
+    },
+    "svm": {
+      "gamma": "scale",
+      "probability": false,
+      "decision_function_shape": "ovr",
+      "break_ties": false,
+      "class_weight": null,
+      "tol": 0.001,
+      "max_iter": -1,
+      "cache_size": 256
+    },
+    "candidates": [
+      {
+        "kernel": "linear",
+        "C": 0.01
+      },
+      {
+        "kernel": "linear",
+        "C": 0.1
+      },
+      {
+        "kernel": "linear",
+        "C": 1.0
+      },
+      {
+        "kernel": "linear",
+        "C": 10.0
+      },
+      {
+        "kernel": "rbf",
+        "C": 0.01
+      },
+      {
+        "kernel": "rbf",
+        "C": 0.1
+      },
+      {
+        "kernel": "rbf",
+        "C": 1.0
+      },
+      {
+        "kernel": "rbf",
+        "C": 10.0
+      }
+    ],
+    "selection": {
+      "primary": "macro_f1",
+      "secondary": "balanced_accuracy",
+      "tie_atol": 1e-12,
+      "remaining_ties": "linear first, then smaller C, then declaration order",
+      "expand_search": false,
+      "refit_train_plus_validation": false
+    },
+    "repeat_tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "test_policy": "metadata and file-byte integrity only; no feature extraction, prediction or scoring in D03"
+  },
+  "bound_hashes": {
+    "configs/data.yaml": "02b79bd9ee20f846b9d09cc6799d50eb83d326ba721996b566a08364b17e98d7",
+    "data/records.csv": "6bfe114f193cd9822e2198d2397ebfd0c13d132df77497d4ff6609bc1faa3aac",
+    "data/samples.csv": "286f1c348eae661723d8f5d915ca1099c6f6a98c42906ba55739a40d0c53416f",
+    "configs/cwt_color_limits.json": "8b34fc75c44cf922a5b36202d732694afc70ddc3d7d392315c542cbbc7386be1",
+    "runs/d02/cwru_de_007_v0.1/train_selection.json": "4cbade845f90bf51779b4212d763cd2ca00c3a312227ac53b8cd412cb92a68b4",
+    "runs/d02/cwru_de_007_v0.1/heldout_generation.json": "bc5ee7384be9904dc244b3955c324553702c4e36a141da604c6f9a31ff96c9e8",
+    "runs/d02_fix/rev005/compatibility.json": "3c16974ed00e34a0f06ade1353822bd6d8971d83824d528e3ac62ba834fe3a28",
+    "runs/d02_fix/rev005/deliverables.sha256": "eee4ab70b6464ff72e097a875f7aa4779c31943bbe011c36e99fa7394a921f16",
+    "configs/d03.yaml": "f60e5277798a784374811da59b183cf1d8dc5a491185ecc137d8cd521112cd7b",
+    "docs/D03_运行协议.md": "c5786865a4cb91555ff615d70e8711fc5ed475e0bd496713507ddfe5ab3d211d",
+    "scripts/d03_pipeline.py": "f314460cd74dc97c98c6925d2db2ce8d8c303aa0c4aade30c09a148b3cfd3397"
+  },
+  "validation_scores_seen": false,
+  "candidate_count": 8,
+  "preflight_sha256": "51f354ad2250d0720003f9fdfefd1004c9bdfe0e79488f4ac3f95825dfd27b73",
+  "metadata_audit_sha256": "09b2c7d3b2546cc33b4d0b9912df9d72df10ab76c8f6e77a34d7e811cf558c01"
+}

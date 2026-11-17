@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "unit_id": {
+      "type": "string"
+    },
+    "original_rating_a_sha256": {
+      "type": "string"
+    },
+    "original_rating_b_sha256": {
+      "type": "string"
+    },
+    "trigger_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "resolved",
+              "machine_unresolved",
+              "evaluator_failure"
+            ]
+          },
+          "selected_value": {},
+          "quote_spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "channel": {
+                  "enum": [
+                    "final_answer",
+                    "service_message",
+                    "draft",
+                    "verification_issues"
+                  ]
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "channel",
+                "start",
+                "end",
+                "quote"
+              ]
+            }
+          },
+          "reason": {
+            "type": "string"
+          },
+          "rule_version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "status",
+          "selected_value",
+          "quote_spans",
+          "reason",
+          "rule_version"
+        ]
+      }
+    },
+    "adjudicator_configured_identity": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "adjudicator_returned_identity": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "unit_id",
+    "original_rating_a_sha256",
+    "original_rating_b_sha256",
+    "trigger_ids",
+    "decisions",
+    "adjudicator_configured_identity",
+    "adjudicator_returned_identity",
+    "created_at"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "scope_outside_frozen13": [
+    {
+      "id": "C-004",
+      "severity": "P3",
+      "scope": "outside current frozen13 questions; latent reuse contract limitation",
+      "blocking_current_closure": false,
+      "title": "评价缺失时A_insuff无条件取3，不能保留本应N/A",
+      "trigger": "SYNTHETIC仅有两个充分支持的正向知识点，无边界/固定未知，三个I criteria均冻结applicable=false；评价包缺失。",
+      "locations": [
+        "candidate/runtime/reporting.py:149",
+        "candidate/runtime/reporting.py:152"
+      ],
+      "expected": "A_insuff denominator=0,status=not_applicable，不因评价失败改变冻结适用性。",
+      "actual": "A_insuff denominator=3,status=machine_unresolved,lower=0,upper=1。",
+      "counterexample": "agents/c/sandbox/SYNTHETIC_outputs/SYNTHETIC_supplemental_results.json#/valid_NA_actual",
+      "checks": [
+        "VALID NA insuff denominator with evaluator failure",
+        "VALID NA insuff status with evaluator failure"
+      ],
+      "impact": "未来复用到不适用I的题型时，会凭空增加三个未知I单位。当前13题全部I适用；本反例不改变本次冻结题条件，不作为当前E02阻断。",
+      "minimal_direction": "rating为空分支仍先根据冻结insufficiency_criteria判适用性；适用才保留三个固定未知/失败单位。"
+    }
+  ],
+  "additional_limits": [
+    "Current13 all I criteria applicable. I N/A counterexample is latent reuse boundary, not current batch failure.",
+    "Internal counter/transport DI trust boundary is not proof of live gate escape; positive consume path not executed.",
+    "48h constructor freshness check is not a proven continuous each-send freshness guarantee.",
+    "Documentation route is not hidden backend confirmation; no real HTTP/account/usage/bill this audit.",
+    "Independent hand-chat oracle shares frozen tokenizer primitive; local count is not supplier billing.",
+    "Positive reserve only RE preparation one family/card/cell; no independent device or aviation generalization.",
+    "Parent historical context and mandatory author exposure; no complete blind/expert/OEM/error-independence claim."
+  ],
+  "not_implementation_failures": [
+    "Unapproved paid budget",
+    "E02 not executed",
+    "No real supplier billing evidence"
+  ],
+  "formal_experiment_released": false,
+  "independent_cross_audit_accepted": false,
+  "paid_execution_authorized": false
+}

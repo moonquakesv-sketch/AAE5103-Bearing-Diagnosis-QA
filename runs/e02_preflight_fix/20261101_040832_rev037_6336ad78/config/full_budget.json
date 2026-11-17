@@ -1,0 +1,66 @@
+{
+  "actions": [
+    {
+      "action": "generate",
+      "max_calls": 52,
+      "input_cap": 16384,
+      "output_cap": 2048,
+      "full_cap_peak_USD": "0.3833856"
+    },
+    {
+      "action": "verify_initial",
+      "max_calls": 26,
+      "input_cap": 32768,
+      "output_cap": 2048,
+      "full_cap_peak_USD": "0.319488"
+    },
+    {
+      "action": "revise",
+      "max_calls": 26,
+      "input_cap": 32768,
+      "output_cap": 2048,
+      "full_cap_peak_USD": "0.319488"
+    },
+    {
+      "action": "verify_final",
+      "max_calls": 26,
+      "input_cap": 32768,
+      "output_cap": 2048,
+      "full_cap_peak_USD": "0.319488"
+    },
+    {
+      "action": "judge_output",
+      "max_calls": 104,
+      "input_cap": 65536,
+      "output_cap": 16384,
+      "full_cap_peak_USD": "4.0894464"
+    },
+    {
+      "action": "judge_pair",
+      "max_calls": 52,
+      "input_cap": 98304,
+      "output_cap": 24576,
+      "full_cap_peak_USD": "3.0670848"
+    },
+    {
+      "action": "adjudicate_output",
+      "max_calls": 52,
+      "input_cap": 131072,
+      "output_cap": 32768,
+      "full_cap_peak_USD": "4.0894464"
+    },
+    {
+      "action": "adjudicate_pair",
+      "max_calls": 26,
+      "input_cap": 196608,
+      "output_cap": 49152,
+      "full_cap_peak_USD": "3.0670848"
+    }
+  ],
+  "total_max_calls": 364,
+  "full_cap_USD": "15.6549120",
+  "proposed_hard_cap_USD": "20.00",
+  "approved_hard_cap": false,
+  "actual_cost": "not_incurred_project_API0",
+  "other_billable_dimensions": "thinking explicitly disabled; no tools/search/fetch/images; unknown/extra returned dimensions stop batch and require new binding"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "case_id": "E01-B001",
+    "request": {
+      "predicted_class": "inner_race",
+      "scenario_id": "SC-E01-UNREGISTERED-INNER",
+      "question": "What guidance is available for the selected bearing condition?",
+      "task_types": [
+        "explanation"
+      ],
+      "explicitly_allowed_operating_context": {}
+    },
+    "expected_scope_status": "knowledge_not_covered",
+    "scoring_scope": "excluded_from_QA_quality",
+    "reason": "No registered scenario; do not borrow outer-race cards or fabricate knowledge."
+  },
+  {
+    "case_id": "E01-B002",
+    "request": {
+      "predicted_class": "rolling_element",
+      "scenario_id": "SC-E01-UNREGISTERED-ROLLING",
+      "question": "What guidance is available for the selected bearing condition?",
+      "task_types": [
+        "explanation"
+      ],
+      "explicitly_allowed_operating_context": {}
+    },
+    "expected_scope_status": "knowledge_not_covered",
+    "scoring_scope": "excluded_from_QA_quality",
+    "reason": "No registered scenario; do not borrow outer-race cards or fabricate knowledge."
+  },
+  {
+    "case_id": "E01-B003",
+    "request": {
+      "predicted_class": "normal",
+      "scenario_id": "SC-E01-UNREGISTERED-NORMAL",
+      "question": "What guidance is available for the selected bearing condition?",
+      "task_types": [
+        "explanation"
+      ],
+      "explicitly_allowed_operating_context": {}
+    },
+    "expected_scope_status": "knowledge_not_covered",
+    "scoring_scope": "excluded_from_QA_quality",
+    "reason": "No registered scenario; do not borrow outer-race cards or fabricate knowledge."
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "cases": {
+    "demo_1": {
+      "title": "Outer-Race Result Explanation",
+      "question": "What does this bearing result mean under the stated demonstration assumption?",
+      "image": "assets/demo_1_demo_1.png",
+      "registration": "inputs/demo_1_sample_registration.json",
+      "backup_record": "inputs/demo_1_demo_1_nov01_record.json",
+      "backup_view": "inputs/demo_1_demo_1_nov01_view.json"
+    },
+    "demo_2": {
+      "title": "Rolling-Element Maintenance Preparation",
+      "question": "What bearing information and precautions should be prepared before maintenance under this demonstration assumption?",
+      "image": "assets/demo_2_demo_2.png",
+      "registration": "inputs/demo_2_sample_registration.json",
+      "backup_record": "inputs/demo_2_demo_2_nov01_record.json",
+      "backup_view": "inputs/demo_2_demo_2_nov01_view.json"
+    }
+  },
+  "knowledge_manifest_sha256": "a496b98356740c6389d343f93994dc7920440424d38b61ca28dd961ae935ed1a",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-flash",
+  "max_calls_per_click": 2,
+  "intent_output_cap": 256,
+  "answer_output_cap": 1536,
+  "timeout_seconds": 60,
+  "retries": 0,
+  "top_k": 3,
+  "retrieval_mode": "graph",
+  "no_inherited_budget_or_ledger": true,
+  "formal_E02": false,
+  "legacy_replay_directory": "runs/i01/20261104_184700_live_demo_fcb6b670/executions",
+  "presentation_language": "en",
+  "manual_live_request_only": true
+}

@@ -1,0 +1,6 @@
+{
+  "started_at": "2026-10-23T00:59:58.102588+08:00",
+  "declaration_sha256": "00dba7750da4f6c9ea0e16a3d34107fdfb3aa3b6591df5478adb8d4c24f4873e",
+  "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+  "test_set_status": "consumed from this point; never unused holdout again"
+}

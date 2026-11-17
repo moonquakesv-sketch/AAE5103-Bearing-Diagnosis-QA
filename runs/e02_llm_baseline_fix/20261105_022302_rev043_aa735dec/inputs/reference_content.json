@@ -1,0 +1,514 @@
+{
+  "schema": "e01.v3.reference_outline.rev034",
+  "source_freeze_sha256": "66569bb8d9e785a26c880902a3857b82669402f9728b876f0570f840a5960040",
+  "references": [
+    {
+      "question_id": "QV3-D01",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D01-P1",
+          "content": "NSK False Brinelling 2 is the outer-ring raceway of the same deep-groove ball bearing as example 1; its reported attribution is external vibration while stationary.",
+          "conditions": [
+            "manufacturer example, not a current observation",
+            "retain example 2-to-1 link and stationary external-vibration circumstance"
+          ]
+        },
+        {
+          "point_id": "QV3-D01-P2",
+          "content": "The general description is wear at rolling-element/raceway contact points, with stationary vibration/swaying or small-amplitude oscillation presented as possible circumstances.",
+          "conditions": [
+            "possible mechanism; no current root-cause proof"
+          ]
+        },
+        {
+          "point_id": "QV3-D01-P3",
+          "content": "Poor lubrication is another listed possibility, without asserting an observed lubricant state or ranking causes.",
+          "conditions": [
+            "listed alternative, not an observation or likelihood ranking"
+          ]
+        },
+        {
+          "point_id": "QV3-D01-P4",
+          "content": "The caller-specified outer_race class and independent teaching assumption establish no actual damage mechanism or root cause in this bearing.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D02",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D02-P1",
+          "content": "False-brinelling wear removes the original surface texture in the depression or wear area.",
+          "conditions": [
+            "qualitative physical-surface cue in the scoped roller-bearing discussion"
+          ]
+        },
+        {
+          "point_id": "QV3-D02-P2",
+          "content": "True brinelling is deformation in which the original surface texture can remain in the depression.",
+          "conditions": [
+            "qualitative comparison; no numerical acceptance rule"
+          ]
+        },
+        {
+          "point_id": "QV3-D02-P3",
+          "content": "The CWT/category input supplies no actual depression-surface observation, so the physical texture present here cannot be established.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D03",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D03-P1",
+          "content": "Record the initial bearing appearance before cleaning.",
+          "conditions": [
+            "before cleaning"
+          ]
+        },
+        {
+          "point_id": "QV3-D03-P2",
+          "content": "Record both the amount and the condition of residual lubricant before cleaning.",
+          "conditions": [
+            "before cleaning"
+          ]
+        },
+        {
+          "point_id": "QV3-D03-P3",
+          "content": "Sample the lubricant before cleaning.",
+          "conditions": [
+            "sampling precedes cleaning; preparation guidance"
+          ]
+        },
+        {
+          "point_id": "QV3-D03-P4",
+          "content": "No resulting actual bearing or lubricant observations are supplied in this demonstration.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-D03-P5",
+          "content": "The generic evidence-preservation sequence is not an approved executable cleaning procedure for this unidentified equipment.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D04",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D04-P1",
+          "content": "NSK Flaking 2 concerns the inner ring of an angular-contact ball bearing.",
+          "conditions": [
+            "reported manufacturer example"
+          ]
+        },
+        {
+          "point_id": "QV3-D04-P2",
+          "content": "The reported damage is diagonal flaking along the raceway.",
+          "conditions": [
+            "same angular-contact inner-ring example"
+          ]
+        },
+        {
+          "point_id": "QV3-D04-P3",
+          "content": "NSK attributes that example to poor alignment between shaft and housing during mounting.",
+          "conditions": [
+            "during mounting; reported case attribution, not a project diagnosis"
+          ]
+        },
+        {
+          "point_id": "QV3-D04-P4",
+          "content": "The supplied inner_race category establishes neither those actual morphology findings nor a mounting-misalignment cause in the CWRU bearing; the source case and artificial-defect setting are different.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D05",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D05-P1",
+          "content": "Inspect the bearing raceways and external surfaces after thorough cleaning.",
+          "conditions": [
+            "after thorough cleaning; general assessment"
+          ]
+        },
+        {
+          "point_id": "QV3-D05-P2",
+          "content": "Inspect cage wear after thorough cleaning.",
+          "conditions": [
+            "after thorough cleaning; general assessment"
+          ]
+        },
+        {
+          "point_id": "QV3-D05-P3",
+          "content": "Inspect increased internal clearance after thorough cleaning.",
+          "conditions": [
+            "after thorough cleaning; no model-specific limit"
+          ]
+        },
+        {
+          "point_id": "QV3-D05-P4",
+          "content": "Inspect degraded tolerances after thorough cleaning.",
+          "conditions": [
+            "after thorough cleaning; no model-specific limit"
+          ]
+        },
+        {
+          "point_id": "QV3-D05-P5",
+          "content": "Examine other damage or abnormalities after thorough cleaning.",
+          "conditions": [
+            "after thorough cleaning"
+          ]
+        },
+        {
+          "point_id": "QV3-D05-P6",
+          "content": "Reuse consideration also includes degree of wear, machine function, bearing importance, operating conditions and time to the next inspection.",
+          "conditions": [
+            "general assessment context; not a complete decision rule"
+          ]
+        },
+        {
+          "point_id": "QV3-D05-P7",
+          "content": "Smooth hand rotation alone cannot approve reuse here: that method is structure/size dependent, and this card is not a complete reuse/rejection or equipment-release rule.",
+          "conditions": [
+            "hand rotation is described for small nonseparable ball bearings; separable/large-bearing methods differ",
+            "actual condition and applicable full criteria are still needed"
+          ]
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D06",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D06-P1",
+          "content": "Consult the machine plans/drawings before planning removal.",
+          "conditions": [
+            "before removal; preparation only"
+          ]
+        },
+        {
+          "point_id": "QV3-D06-P2",
+          "content": "Establish the mounting-fit type and relevant structural/access information when studying the removal method and sequence.",
+          "conditions": [
+            "method/sequence depend on structure and fit; planning is not execution authorization"
+          ]
+        },
+        {
+          "point_id": "QV3-D06-P3",
+          "content": "A removal force for the unidentified equipment cannot be selected from this teaching material.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-D06-P4",
+          "content": "A heating temperature for the unidentified equipment cannot be selected from this teaching material.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D07",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D07-P1",
+          "content": "Smearing 7 shows convex rollers of the same spherical roller bearing identified in Smearing 5.",
+          "conditions": [
+            "retain the 7-to-5 same-bearing link and spherical-roller scope"
+          ]
+        },
+        {
+          "point_id": "QV3-D07-P2",
+          "content": "The manufacturer reports smearing on the rolling surfaces of those convex rollers.",
+          "conditions": [
+            "manufacturer example, not an observation in this demonstration"
+          ]
+        },
+        {
+          "point_id": "QV3-D07-P3",
+          "content": "The manufacturer attributes that example to poor lubrication.",
+          "conditions": [
+            "reported case attribution, not a current measured cause"
+          ]
+        },
+        {
+          "point_id": "QV3-D07-P4",
+          "content": "The rolling_element category proves neither that natural smearing nor a poor-lubrication cause in the CWRU artificial-defect bearing.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D08",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D08-P1",
+          "content": "Check bearing noise.",
+          "conditions": [
+            "actual running equipment; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D08-P2",
+          "content": "Check vibration.",
+          "conditions": [
+            "actual running equipment; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D08-P3",
+          "content": "Check temperature.",
+          "conditions": [
+            "actual running equipment; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D08-P4",
+          "content": "Check lubrication.",
+          "conditions": [
+            "actual running equipment; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D08-P5",
+          "content": "No corresponding actual noise, vibration, temperature or lubrication measurements/observations are supplied for this demonstration.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-H01",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-H01-P1",
+          "content": "Package used lubricant samples separately so their identities are not conflated.",
+          "conditions": [
+            "investigation handoff; preserve separate sample identity"
+          ]
+        },
+        {
+          "point_id": "QV3-H01-P2",
+          "content": "Properly label the used lubricant samples.",
+          "conditions": [
+            "labels preserve used-sample identity"
+          ]
+        },
+        {
+          "point_id": "QV3-H01-P3",
+          "content": "Secure a new unused lubricant sample and keep it distinct from the used samples.",
+          "conditions": [
+            "new/unused comparison sample is not conflated with used material"
+          ]
+        },
+        {
+          "point_id": "QV3-H01-P4",
+          "content": "Record any available specification or batch information from the container: this is inclusive OR; record both if both exist, and do not require a missing category as though it were available.",
+          "conditions": [
+            "information availability is conditional",
+            "either available category suffices when it is the only one; preserve both when both are present",
+            "do not fabricate an unavailable value"
+          ]
+        },
+        {
+          "point_id": "QV3-H01-P5",
+          "content": "Obtain technical specifications and any related material-safety documentation to accompany lubricant shipments; this is a separate documentation item.",
+          "conditions": [
+            "safety documentation is qualified by related/applicable",
+            "do not invent actual document contents"
+          ]
+        },
+        {
+          "point_id": "QV3-H01-P6",
+          "content": "No actual container lubricant identity, specification or batch information is supplied here; any need to report/obtain missing information follows the project no-fabrication rule, not a quoted Timken missing-data procedure.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-H01-P7",
+          "content": "A required sample quantity cannot be chosen from the supplied material.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D09",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D09-P1",
+          "content": "NSK describes proper maintenance and inspection as necessary to preserve bearing performance, as a general maintenance purpose.",
+          "conditions": [
+            "generic maintenance purpose, not an actual equipment finding"
+          ]
+        },
+        {
+          "point_id": "QV3-D09-P2",
+          "content": "The caller-specified normal category does not establish that this bearing is undamaged or safe.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-D09-P3",
+          "content": "The demonstration supplies no actual equipment-condition finding.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D10",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D10-P1",
+          "content": "Check bearing noise.",
+          "conditions": [
+            "actual equipment operation; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D10-P2",
+          "content": "Check vibration.",
+          "conditions": [
+            "actual equipment operation; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D10-P3",
+          "content": "Check temperature.",
+          "conditions": [
+            "actual equipment operation; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D10-P4",
+          "content": "Check lubrication.",
+          "conditions": [
+            "actual equipment operation; specified applicable procedures"
+          ]
+        },
+        {
+          "point_id": "QV3-D10-P5",
+          "content": "No equipment-specific numerical vibration acceptance limit can be assigned from this material.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-D10-P6",
+          "content": "No equipment-specific numerical temperature acceptance limit can be assigned from this material.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-D11",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-D11-P1",
+          "content": "Identify applicable specified procedures for supervision of operating conditions.",
+          "conditions": [
+            "preparation of applicable procedure scope, not executable instructions"
+          ]
+        },
+        {
+          "point_id": "QV3-D11-P2",
+          "content": "Identify applicable specified procedures for lubricant supply or replacement.",
+          "conditions": [
+            "preparation scope; no product or amount supplied"
+          ]
+        },
+        {
+          "point_id": "QV3-D11-P3",
+          "content": "Identify applicable specified procedures for periodic inspection.",
+          "conditions": [
+            "periodic does not imply a specified interval"
+          ]
+        },
+        {
+          "point_id": "QV3-D11-P4",
+          "content": "The actual equipment maintenance interval cannot be selected from this material.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    },
+    {
+      "question_id": "QV3-H02",
+      "reference_type": "authored source-grounded outline, not an observed model answer",
+      "outline": [
+        {
+          "point_id": "QV3-H02-P1",
+          "content": "The 2026-10-23 historical record reports selected online-page reading; this is a recorded earlier action, not a fresh online read in the current offline review.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-H02-P2",
+          "content": "That historical record separately says the local PDF was not saved due to HTTP 403, has no historical local PDF hash, and reports no inspectable visual pixels.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-H02-P3",
+          "content": "By the specified 2026-10-30 cutoff, the snapshot records a saved local PDF of edition 02-23 / Order No. 5892 / copyright 2023.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-H02-P4",
+          "content": "The cutoff snapshot registers a SHA-256 for the saved local PDF, establishing that saved-file byte identity/integrity; it does not prove historical-byte equivalence or semantic truth.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-H02-P5",
+          "content": "Recorded visual review covers file pages 2, 5, 18, 19 and 24, rather than all 24 pages.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-H02-P6",
+          "content": "Whether the saved PDF has identical bytes to the historical reading remains machine_unresolved because historical PDF bytes/hash were not registered.",
+          "conditions": []
+        },
+        {
+          "point_id": "QV3-H02-P7",
+          "content": "Live online availability is unknown; the offline source-state record does not establish a fresh live connection.",
+          "conditions": []
+        }
+      ],
+      "context_scope": "registered frozen knowledge v2_1 plus approved common context; not whole-library evidence claimed to have been returned",
+      "business_input": false
+    }
+  ],
+  "not_for_retrieval_or_business_input": true,
+  "knowledge_version": "i01.educational.offline.v2_1_rev034",
+  "rebound_HK": "2026-10-31T14:10:17.964759+08:00",
+  "first_draft_source_freeze_sha256": "b43e4f95de763096efd17aa639642abaa6b8862551f3b8733e026336740392e5"
+}

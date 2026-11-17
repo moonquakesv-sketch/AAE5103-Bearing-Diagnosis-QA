@@ -1,0 +1,107 @@
+[
+  {
+    "question_id": "E01-D001",
+    "split": "debug",
+    "line_number": 1,
+    "request_sha256": "acfd1afec2142e91a72cc8dcfe31a1a00c1eea8bc8bb1e1ed64e9b23a422021f",
+    "family_id": "causal_mechanism"
+  },
+  {
+    "question_id": "E01-D002",
+    "split": "debug",
+    "line_number": 2,
+    "request_sha256": "061616ce074cc9980ec05b5a1b2614854e8544dbcd9938c49fe2d889992149c6",
+    "family_id": "diagnosis_boundary"
+  },
+  {
+    "question_id": "E01-D003",
+    "split": "debug",
+    "line_number": 3,
+    "request_sha256": "5d824eff56c45b49dc98ddba1d3bf6c9d684035857f4a27851c8b60afd982a0e",
+    "family_id": "physical_discrimination"
+  },
+  {
+    "question_id": "E01-D004",
+    "split": "debug",
+    "line_number": 4,
+    "request_sha256": "0089af7c643678ddcd17d88a04882b1b57a9e316787514620cb7915742690a35",
+    "family_id": "physical_discrimination"
+  },
+  {
+    "question_id": "E01-D005",
+    "split": "debug",
+    "line_number": 5,
+    "request_sha256": "4004665f07c5a91572dfe2f4974ff3cca93f2d0e4f0ba80371d61f6ef310d1e2",
+    "family_id": "evidence_preservation"
+  },
+  {
+    "question_id": "E01-D006",
+    "split": "debug",
+    "line_number": 6,
+    "request_sha256": "d6937ead9034ca975ab0d4c180d7ae51d61011cf80d3fde8c305e17295f71c8e",
+    "family_id": "inspection_scope"
+  },
+  {
+    "question_id": "E01-D007",
+    "split": "debug",
+    "line_number": 7,
+    "request_sha256": "5523c7c4b2b4b6de5a67800c746c58088044da11a511fd8e660069dfda1075f8",
+    "family_id": "inspection_scope"
+  },
+  {
+    "question_id": "E01-D008",
+    "split": "debug",
+    "line_number": 8,
+    "request_sha256": "ea5e17aa2e867527f5a487a71742bc77b1790120c1fc71a031dedf0a73ef9b77",
+    "family_id": "combined_explanation_inspection"
+  },
+  {
+    "question_id": "E01-D009",
+    "split": "debug",
+    "line_number": 9,
+    "request_sha256": "40614b2ed8d22139184a176eda0d281863b564e4b2bcc629e70edf5227110439",
+    "family_id": "multi_overview"
+  },
+  {
+    "question_id": "E01-D010",
+    "split": "debug",
+    "line_number": 10,
+    "request_sha256": "3e37c9e330b68ced8dd32c09641938990430ed04c6c86efd7194be7af0e76102",
+    "family_id": "record_assembly"
+  },
+  {
+    "question_id": "E01-H001",
+    "split": "heldout",
+    "line_number": 1,
+    "request_sha256": "ec947a38200ad6487252333f12e50f8dfa5b094d979a85a53b5cdd7e47d1e27b",
+    "family_id": "sample_provenance"
+  },
+  {
+    "question_id": "E01-H002",
+    "split": "heldout",
+    "line_number": 2,
+    "request_sha256": "64374ff7faf90db1f43e58c20b10c1adfb3198f035a976f444609ba27dddb743",
+    "family_id": "removal_planning"
+  },
+  {
+    "question_id": "E01-H003",
+    "split": "heldout",
+    "line_number": 3,
+    "request_sha256": "096c59f7ac4ae501e9aec73056a3887642d255bb336b4595a5f76b97974498fb",
+    "family_id": "temporal_attribution"
+  },
+  {
+    "question_id": "E01-H004",
+    "split": "heldout",
+    "line_number": 4,
+    "request_sha256": "648d75665e5dd7c73c7704cf30d57c01d80989c10cc53821344b98bc097538ca",
+    "family_id": "source_verifiability"
+  },
+  {
+    "question_id": "E01-H005",
+    "split": "heldout",
+    "line_number": 5,
+    "request_sha256": "639b502e3a5e5d078d809c566660b1b03e6cfefa12e9eef1094422f4b4be5b20",
+    "family_id": "application_gap"
+  }
+]

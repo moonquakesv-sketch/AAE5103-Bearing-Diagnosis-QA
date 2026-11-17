@@ -1,0 +1,456 @@
+{
+  "run_id": "20261104_221936_033089_b288ebb5",
+  "case_key": "demo_2",
+  "started_at": "2026-11-04T22:19:36+09:00",
+  "origin": "LIVE",
+  "status": "running",
+  "classifier": {
+    "kind": "fresh_image_inference",
+    "sample_id": "s_00b693313ad61a506e427a65",
+    "predicted_class": "rolling_element",
+    "prediction": {
+      "sample_id": "s_00b693313ad61a506e427a65",
+      "record_id": "cwru_120",
+      "group_id": "cwru_120",
+      "source_family_id": "cwru_DE_007_rolling_element",
+      "split": "validation",
+      "true_label": "rolling_element",
+      "predicted_class": "rolling_element",
+      "decision_score": "[1.821429788375229, -0.2218293324559069, 0.8380839678934429, 3.2678175285348448]",
+      "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006"
+    },
+    "feature_sha256": "b4a93eb946472d67712e6e5cd299c41a7324f6e837adb7c28d0dc5c1614cc303",
+    "weight_identity": {
+      "enum": "ResNet18_Weights.IMAGENET1K_V1",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "file_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "official_full_state_sha256": "9af32d5e7fbb87ef324882e37010f3766ddb307aa8b7f8ebcb44c7c21dec2a18",
+      "extractor_state_sha256": "44e0dbdc214a5d41d5254de53953807f7a29c41fed6527d9d4b81bd1037a39fb",
+      "strict_load": true,
+      "feature_layer": "avgpool -> flatten(1), before fc; 512 dimensions",
+      "feature_dim": 512
+    },
+    "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+    "elapsed_seconds": 0.20013191700127209
+  },
+  "task_report": {
+    "message": null,
+    "status": "identified",
+    "task_types": [
+      "preparation"
+    ]
+  },
+  "scenario": {
+    "assumption_text": "本演示独立假定：采用 NSK 调心滚子轴承凸滚子涂抹损伤的厂家案例，考虑润滑不良。此假设不是分类器从图像识别出的原因。",
+    "assumed_cause": "poor_lubrication_spherical_roller_smearing",
+    "applicability": "generic bearing education; no model-specific or aviation validation",
+    "unknown_information": "真实形貌、根因、型号、载荷、润滑、安装、维护历史和航空适用性均未知。",
+    "class_origin": "frozen_classifier_fresh_image_inference"
+  },
+  "retrieval": {
+    "status": "retrieved",
+    "reason": "Positive-similarity cards retrieved; see per_task for card coverage, not answer correctness.",
+    "request": {
+      "predicted_class": "rolling_element",
+      "scenario_id": "SC-I01-RE-001",
+      "task_types": [
+        "preparation"
+      ],
+      "question": "What bearing information and precautions should be prepared before maintenance under this demonstration assumption?",
+      "explicitly_allowed_operating_context": {}
+    },
+    "implementation_version": "i01.retriever.v1_rev025",
+    "knowledge_version": "i01.knowledge.v1_rev025",
+    "retrieval_mode": "graph",
+    "configuration_id": "df4117ee797dbfdd2c056f41292a9c251b4bf2c6a132a651325537affbff4a6d",
+    "shared_config_id": "fa064f53d206e2899f3fe02d31a1dd3b6327f4873624e9a557a673ec459460e1",
+    "config_file_sha256": null,
+    "index_id": "c47eeb0161671cf17df2f08d6db7f7becbd5afa6101d6e87902dfb1b2cbebf7f",
+    "canonical_task_order": [
+      "preparation"
+    ],
+    "score_semantics": "TF-IDF cosine text similarity only",
+    "budget": {
+      "top_k": 3,
+      "unit": "unique_complete_evidence_cards",
+      "allocation": "global_top_k_unique_complete_cards_no_task_quotas",
+      "truncation": "none",
+      "unused_slots": 2
+    },
+    "information_separation": {
+      "caller_class": "rolling_element",
+      "class_origin": "caller_supplied_not_verified",
+      "demo_scenario": {
+        "scenario_id": "SC-I01-RE-001",
+        "predicted_class": "rolling_element",
+        "class_semantics": "routing_category_only_not_an_actual_prediction",
+        "assumed_cause": "poor_lubrication_spherical_roller_smearing",
+        "assumption_text": "本演示独立假定：采用 NSK 调心滚子轴承凸滚子涂抹损伤的厂家案例，考虑润滑不良。此假设不是分类器从图像识别出的原因。",
+        "known_conditions": "本项目仅绑定类别路由和独立演示设定；没有实际设备工况观察。",
+        "unknown_information": "真实形貌、根因、型号、载荷、润滑、安装、维护历史和航空适用性均未知。",
+        "applicability": "generic bearing education; no model-specific or aviation validation",
+        "cannot_infer": "不能把 CWRU 人工缺陷等同来源自然损伤；不能由类别推出原因、健康、安全、复用或放行。",
+        "supporting_evidence_ids": "EV-I01-002",
+        "support_meaning": "仅支持演示关联或一般维护方向，不证明本项目样本满足来源条件。",
+        "task_types": "explanation|inspection|preparation",
+        "status": "reviewed_for_I01_extension"
+      },
+      "operating_context_semantics": "caller-selected demo assumptions or unknown; no observed measurements",
+      "source_knowledge": "evidence cards below retain modality and source provenance",
+      "unknowns": "真实形貌、根因、型号、载荷、润滑、安装、维护历史和航空适用性均未知。"
+    },
+    "notices": [
+      "Retrieval and caller-supplied class do not establish source truth, cause, answer sufficiency or semantic verification.",
+      "The I01 corpus uses unchanged K02 TF-IDF scoring, graph traversal, ranking and global complete-card budget.",
+      "Graph candidates follow explicit scenario-specific task nodes; text mode searches the whole pinned evidence corpus.",
+      "Scenario causes are independent educational assumptions; a location class cannot establish a mechanism or root cause.",
+      "Normal has no assumed fault cause and does not establish absence of damage, serviceability or safety.",
+      "Every returned card retains its source, modality, conditions, limitations and locators; sources are not indexed.",
+      "Physical inspection guidance is not a CWT image criterion or an authorization to disassemble equipment.",
+      "Timken provenance still lacks same-version local PDF/hash and visual checks; this inherited limitation remains explicit.",
+      "No model-specific or aviation parameters, reuse, replacement or release decisions are produced."
+    ],
+    "claim_en_semantics": "Project-agent-authored English paraphrase, not a verbatim manufacturer quotation; no human or domain-expert sign-off is claimed.",
+    "candidate_count": 2,
+    "candidate_ids": [
+      "EV-K01-009",
+      "EV-K01-011"
+    ],
+    "positive_candidate_count": 1,
+    "returned_count": 1,
+    "scored_candidates": [
+      {
+        "evidence_id": "EV-K01-009",
+        "score": 0.0
+      },
+      {
+        "evidence_id": "EV-K01-011",
+        "score": 0.061418171660359185
+      }
+    ],
+    "graph_candidate_paths": {
+      "EV-K01-009": [
+        [
+          {
+            "from_node": "PART-I01-RE",
+            "to_node": "SC-I01-RE-001",
+            "direction": "reverse",
+            "edge": {
+              "relation_id": "REL-I01-015",
+              "subject_id": "SC-I01-RE-001",
+              "relation": "routes_from_class",
+              "object_id": "PART-I01-RE",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "项目组织关系；仅用于演示路由。",
+              "limitations": "不证明样本事实或原因。",
+              "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+            }
+          },
+          {
+            "from_node": "SC-I01-RE-001",
+            "to_node": "TASK-I01-RE-PREPARATION",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-I01-021",
+              "subject_id": "SC-I01-RE-001",
+              "relation": "has_task",
+              "object_id": "TASK-I01-RE-PREPARATION",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "项目组织关系；仅用于演示路由。",
+              "limitations": "不证明样本事实或原因。",
+              "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+            }
+          },
+          {
+            "from_node": "TASK-I01-RE-PREPARATION",
+            "to_node": "KN-K01-009",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-I01-022",
+              "subject_id": "TASK-I01-RE-PREPARATION",
+              "relation": "has_evidence_backed_content",
+              "object_id": "KN-K01-009",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-009",
+              "conditions": "适用于准备拆下轴承检查的资料保存顺序。",
+              "limitations": "仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。",
+              "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+            }
+          },
+          {
+            "from_node": "KN-K01-009",
+            "to_node": "EV-K01-009",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-025",
+              "subject_id": "KN-K01-009",
+              "relation": "supported_by",
+              "object_id": "EV-K01-009",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-009",
+              "conditions": "适用于准备拆下轴承检查的资料保存顺序。",
+              "limitations": "仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。",
+              "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+            }
+          }
+        ]
+      ],
+      "EV-K01-011": [
+        [
+          {
+            "from_node": "PART-I01-RE",
+            "to_node": "SC-I01-RE-001",
+            "direction": "reverse",
+            "edge": {
+              "relation_id": "REL-I01-015",
+              "subject_id": "SC-I01-RE-001",
+              "relation": "routes_from_class",
+              "object_id": "PART-I01-RE",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "项目组织关系；仅用于演示路由。",
+              "limitations": "不证明样本事实或原因。",
+              "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+            }
+          },
+          {
+            "from_node": "SC-I01-RE-001",
+            "to_node": "TASK-I01-RE-PREPARATION",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-I01-021",
+              "subject_id": "SC-I01-RE-001",
+              "relation": "has_task",
+              "object_id": "TASK-I01-RE-PREPARATION",
+              "assertion_basis": "project_contract",
+              "evidence_id": "",
+              "conditions": "项目组织关系；仅用于演示路由。",
+              "limitations": "不证明样本事实或原因。",
+              "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+            }
+          },
+          {
+            "from_node": "TASK-I01-RE-PREPARATION",
+            "to_node": "KN-K01-011",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-I01-023",
+              "subject_id": "TASK-I01-RE-PREPARATION",
+              "relation": "has_evidence_backed_content",
+              "object_id": "KN-K01-011",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-011",
+              "conditions": "仅作为资料和前提准备；具体拆卸方法依赖结构及配合。",
+              "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。",
+              "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+            }
+          },
+          {
+            "from_node": "KN-K01-011",
+            "to_node": "EV-K01-011",
+            "direction": "forward",
+            "edge": {
+              "relation_id": "REL-K01-029",
+              "subject_id": "KN-K01-011",
+              "relation": "supported_by",
+              "object_id": "EV-K01-011",
+              "assertion_basis": "source_knowledge",
+              "evidence_id": "EV-K01-011",
+              "conditions": "仅作为资料和前提准备；具体拆卸方法依赖结构及配合。",
+              "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。",
+              "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+            }
+          }
+        ]
+      ]
+    },
+    "query_text": "What bearing information and precautions should be prepared before maintenance under this demonstration assumption?\nrolling element\npoor lubrication spherical roller smearing\npreparation",
+    "per_task": {
+      "preparation": {
+        "status": "retrieved",
+        "reason": "At least one card tagged for this task was returned; answer sufficiency is unverified.",
+        "candidate_count": 2,
+        "positive_count": 1,
+        "returned_ids": [
+          "EV-K01-011"
+        ]
+      }
+    },
+    "results": [
+      {
+        "evidence_id": "EV-K01-011",
+        "source_id": "SRC-K01-04",
+        "knowledge_id": "KN-K01-011",
+        "task_type": "preparation",
+        "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-dismounting/",
+        "source_version": "undated web page; accessed 2026-10-23",
+        "pdf_file_page": "",
+        "printed_page": "",
+        "page_or_section": "Dismounting introduction, paragraph 2",
+        "original_text": "the procedure and sequence of removal should first be studied using the machine plan",
+        "chinese_paraphrase": "拆卸前先结合设备图纸和安装配合类型研究顺序与方法。",
+        "claim_en": "Plan removal from machine drawings and mounting-fit information before any disassembly.",
+        "conditions": "仅作为资料和前提准备；具体拆卸方法依赖结构及配合。",
+        "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。",
+        "modality": "preparation_guidance",
+        "applicability": "generic_bearing_education_only",
+        "reviewed_by": "本轮 agent 逐条原文对照；非专家复核",
+        "rank": 1,
+        "score": 0.061418171660359185,
+        "source": {
+          "source_id": "SRC-K01-04",
+          "title": "Dismounting",
+          "organization_author": "NSK Europe / NSK Ltd.",
+          "version_or_date": "undated web page; accessed 2026-10-23",
+          "original_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-dismounting/",
+          "access_date": "2026-10-23",
+          "timezone": "Asia/Hong_Kong",
+          "format": "html",
+          "page_or_section": "Introduction paragraph 2; subsequent mounting-type sections read only to check scope",
+          "applicability": "通用拆卸规划；具体拆卸动作依赖结构、配合及设备图纸，本库仅采纳准备原则",
+          "full_text_status": "full_html_saved_main_content_read",
+          "local_path": "knowledge/k01/sources/nsk_dismounting.html",
+          "sha256": "d8e2faaea08532a4242c1843906f4755bb8db8532007f7d49f291833b87ff5ff",
+          "local_copy_status": "saved_public_html",
+          "access_limitations": "无原文发布日期；页脚年份不是版本日期",
+          "rights_use": "版权归原机构；公开网页/指南仅作本地课程核查。非开放许可证；短摘录加自写释义，不重新发布原网页/PDF/照片；对外分发前复核许可。",
+          "reviewed_by": "本轮 agent 原文核查；非第二位人工或领域专家"
+        },
+        "relation_paths": [
+          [
+            {
+              "from_node": "PART-I01-RE",
+              "to_node": "SC-I01-RE-001",
+              "direction": "reverse",
+              "edge": {
+                "relation_id": "REL-I01-015",
+                "subject_id": "SC-I01-RE-001",
+                "relation": "routes_from_class",
+                "object_id": "PART-I01-RE",
+                "assertion_basis": "project_contract",
+                "evidence_id": "",
+                "conditions": "项目组织关系；仅用于演示路由。",
+                "limitations": "不证明样本事实或原因。",
+                "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+              }
+            },
+            {
+              "from_node": "SC-I01-RE-001",
+              "to_node": "TASK-I01-RE-PREPARATION",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-I01-021",
+                "subject_id": "SC-I01-RE-001",
+                "relation": "has_task",
+                "object_id": "TASK-I01-RE-PREPARATION",
+                "assertion_basis": "project_contract",
+                "evidence_id": "",
+                "conditions": "项目组织关系；仅用于演示路由。",
+                "limitations": "不证明样本事实或原因。",
+                "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+              }
+            },
+            {
+              "from_node": "TASK-I01-RE-PREPARATION",
+              "to_node": "KN-K01-011",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-I01-023",
+                "subject_id": "TASK-I01-RE-PREPARATION",
+                "relation": "has_evidence_backed_content",
+                "object_id": "KN-K01-011",
+                "assertion_basis": "source_knowledge",
+                "evidence_id": "EV-K01-011",
+                "conditions": "仅作为资料和前提准备；具体拆卸方法依赖结构及配合。",
+                "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。",
+                "semantic_note": "项目整理；来源主张和限制以完整卡为准。"
+              }
+            },
+            {
+              "from_node": "KN-K01-011",
+              "to_node": "EV-K01-011",
+              "direction": "forward",
+              "edge": {
+                "relation_id": "REL-K01-029",
+                "subject_id": "KN-K01-011",
+                "relation": "supported_by",
+                "object_id": "EV-K01-011",
+                "assertion_basis": "source_knowledge",
+                "evidence_id": "EV-K01-011",
+                "conditions": "仅作为资料和前提准备；具体拆卸方法依赖结构及配合。",
+                "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。",
+                "semantic_note": "短摘录是定位锚点，支持范围依据完整原文语境核查。"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "interface_version": "i01.knowledge.v1",
+    "manifest_sha256": "612ccb8408a04cb938108641bdee453c5b4fac0273996e03b4d5d115e0c02d4d",
+    "algorithm_version": "k02.v1_rev013",
+    "configuration_kind": "inline fixed adapter configuration"
+  },
+  "answer": null,
+  "publishable": false,
+  "calls": [
+    {
+      "action": "identify",
+      "started_at": "2026-11-04T22:19:37+09:00",
+      "status": "completed",
+      "http_status": 200,
+      "request_id": null,
+      "usage": {
+        "prompt_tokens": 300,
+        "completion_tokens": 17,
+        "total_tokens": 317,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 172
+      },
+      "actual_bill": "unknown",
+      "received_bytes": 537,
+      "received_sha256": "ca5b9b28faf15f2e7713bbfd1867551003334b720d47c16104e133d50fbb0271",
+      "raw_redacted": false,
+      "returned_model": "deepseek-flash",
+      "elapsed_seconds": 1.7926874170007068
+    }
+  ],
+  "stages": [
+    {
+      "name": "SVM 图像分类",
+      "status": "completed",
+      "started_at": "2026-11-04T22:19:36+09:00",
+      "elapsed_seconds": 1.5114517500041984
+    },
+    {
+      "name": "API 识别问题类型",
+      "status": "completed",
+      "started_at": "2026-11-04T22:19:37+09:00",
+      "elapsed_seconds": 1.794890958997712
+    },
+    {
+      "name": "知识图谱检索",
+      "status": "completed",
+      "started_at": "2026-11-04T22:19:39+09:00",
+      "elapsed_seconds": 0.0724296249973122
+    },
+    {
+      "name": "API 结合证据回答",
+      "status": "pending"
+    }
+  ],
+  "request": {
+    "predicted_class": "rolling_element",
+    "scenario_id": "SC-I01-RE-001",
+    "task_types": [
+      "preparation"
+    ],
+    "question": "What bearing information and precautions should be prepared before maintenance under this demonstration assumption?",
+    "explicitly_allowed_operating_context": {}
+  }
+}

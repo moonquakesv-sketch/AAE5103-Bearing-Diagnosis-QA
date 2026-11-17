@@ -1,0 +1,115 @@
+schema_version: 1
+preprocess_version: cwru_de_007_v0.1
+status: candidate_for_D02_training_only_pilot
+manifest: data/records.csv
+seed: 5103
+labels: [normal, inner_race, outer_race, rolling_element]
+selection:
+  fault_bearing: drive_end
+  sensor: DE
+  fault_diameter_in: 0.007
+  outer_race_clock: '6:00'
+  channel_policy: exact_manifest_key_only
+  reject_unlisted_channels: true
+  physical_specimen_independence: unverified
+split:
+  version: load_holdout_v1
+  unit: selected_source_record
+  group_column: group_id
+  train_load_hp: [0, 1]
+  validation_load_hp: [2]
+  test_load_hp: [3]
+  random_window_split: false
+  test_use: metadata_integrity_only_until_D03_config_frozen
+  refit_train_plus_validation: false
+  generalization_scope: selected_records_at_held_out_load_not_unseen_specimens
+sampling:
+  target_fs_hz: 12000
+  original_fs_column: original_fs_hz
+  normal_original_fs_hz: 48000
+  normal_fs_evidence: literature_supported_not_explicit_in_official_file_metadata
+  fault_original_fs_hz: 12000
+  fault_fs_evidence: official_12k_DE_table
+  resample:
+    implementation: scipy.signal.resample_poly
+    normal_up: 1
+    normal_down: 4
+    fault_up: 1
+    fault_down: 1
+    window: [kaiser, 5.0]
+    padtype: line
+    scope: full_selected_record_before_slicing
+    anti_alias: zero_phase_lowpass_FIR_before_decimation
+  discard_edge_samples_each_side: 128
+segmentation:
+  index_space: full_resampled_signal_before_edge_discard
+  index_base: 0
+  end_exclusive: true
+  first_start_sample: 128
+  window_samples: 2048
+  stride_samples: 2048
+  drop_incomplete_tail: true
+  augmentation: none
+  train_record_balance: min_eligible_window_count_across_train_records
+  train_selection: floor_linspace_0_to_n_minus_1_inclusive
+  validation_test_selection: all_eligible_windows
+signal:
+  dtype: float64
+  reject_nonfinite: true
+  demean: per_window
+  amplitude_normalization: none
+  additional_filter: none
+  reject_constant_window: true
+cwt:
+  implementation: pywt.cwt
+  wavelet: cmor1.5-1.0
+  method: fft
+  precision: 12
+  sampling_period_seconds: 0.00008333333333333333
+  frequency_grid: geomspace
+  frequency_min_hz: 100
+  frequency_max_hz: 3000
+  n_frequencies: 128
+  frequency_order: ascending
+  scales: pywt.frequency2scale_wavelet_frequency_divided_by_fs
+  pad_mode: reflect
+  pad_samples_each_side: 1024
+  crop_padding_after_transform: true
+  power: abs_coefficient_squared
+  log_power: '10 * log10(max(power, 1e-12))'
+  coefficient_normalization: pywt_discrete_no_extra_scale_factor
+image:
+  width: 224
+  height: 224
+  mode: RGB
+  format: PNG
+  colormap: viridis
+  top_row: highest_frequency
+  horizontal_axis: increasing_time
+  scalar_resize: Pillow_F_mode_BILINEAR_before_colormap
+  color_limits:
+    fit_split: train
+    quantiles: [0.01, 0.99]
+    quantile_method: linear
+    fit_population: all_pixels_of_balanced_train_log_power_matrices_before_resize
+    persist_path: configs/cwt_color_limits.json
+    clip_after_resize: true
+    per_image_autoscale: false
+  annotations: false
+  review_image: same_log_power_and_limits_with_time_frequency_axes_and_colorbar
+feature_input_contract:
+  weights: ResNet18_Weights.IMAGENET1K_V1
+  rgb_range: [0.0, 1.0]
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  additional_resize_or_crop: false
+  scaler_fit_split: train
+  svm_tuning_split: validation
+acceptance:
+  exact_sha256_and_channel: required
+  selected_signal_duplicates_across_splits: forbidden
+  source_groups_across_splits: forbidden
+  finite_and_nonconstant: required
+  split_classes_each: 4
+  train_real_signal_pilot: required_in_D02
+  test_scoring: deferred_to_D03_after_configuration_freeze

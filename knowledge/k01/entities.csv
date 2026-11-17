@@ -1,0 +1,30 @@
+entity_id,entity_type,label,content_ref
+PART-OUTER-RACE,part,outer_race / 外圈,project_class_contract
+SC-K01-OR-001,scenario,静止外部振动的外圈情景,scenarios.csv#SC-K01-OR-001
+ASM-K01-001,assumption,external vibration during standstill / 独立演示假设,scenarios.csv#SC-K01-OR-001
+MECH-K01-FB,mechanism,false brinelling / 假性布氏压痕,evidence.csv#EV-K01-002
+TASK-EXPLANATION,task,explanation,project_task_contract
+TASK-INSPECTION,task,inspection,project_task_contract
+TASK-PREPARATION,task,preparation,project_task_contract
+KN-K01-001,knowledge,An NSK outer-ring example attributes raceway false brinelling to external vibration during standstill.,evidence.csv#EV-K01-001
+EV-K01-001,evidence,EV-K01-001,evidence.csv#EV-K01-001
+KN-K01-002,knowledge,False brinelling is contact wear; standstill vibration or small oscillations are listed possible causes.,evidence.csv#EV-K01-002
+EV-K01-002,evidence,EV-K01-002,evidence.csv#EV-K01-002
+KN-K01-003,knowledge,Other listed possibilities include small oscillations and poor lubrication.,evidence.csv#EV-K01-003
+EV-K01-003,evidence,EV-K01-003,evidence.csv#EV-K01-003
+KN-K01-004,knowledge,"Examine depression texture: wear removes it in false brinelling, unlike deformation in true brinelling.",evidence.csv#EV-K01-004
+EV-K01-004,evidence,EV-K01-004,evidence.csv#EV-K01-004
+KN-K01-005,knowledge,"Assemble operating history, maintenance records, drawings, and an observation record with photographs.",evidence.csv#EV-K01-005
+EV-K01-005,evidence,EV-K01-005,evidence.csv#EV-K01-005
+KN-K01-006,knowledge,"Keep labelled used and unused lubricant samples distinct; retain batch, specification and safety information.",evidence.csv#EV-K01-006
+EV-K01-006,evidence,EV-K01-006,evidence.csv#EV-K01-006
+KN-K01-007,knowledge,Investigate external equipment influences preceding or coinciding with the reported damage.,evidence.csv#EV-K01-007
+EV-K01-007,evidence,EV-K01-007,evidence.csv#EV-K01-007
+KN-K01-008,knowledge,Use applicable OEM instructions and establish suitability for the intended application.,evidence.csv#EV-K01-008
+EV-K01-008,evidence,EV-K01-008,evidence.csv#EV-K01-008
+KN-K01-009,knowledge,Record the initial appearance and residual lubricant; sample the lubricant before cleaning.,evidence.csv#EV-K01-009
+EV-K01-009,evidence,EV-K01-009,evidence.csv#EV-K01-009
+KN-K01-010,knowledge,"After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",evidence.csv#EV-K01-010
+EV-K01-010,evidence,EV-K01-010,evidence.csv#EV-K01-010
+KN-K01-011,knowledge,Plan removal from machine drawings and mounting-fit information before any disassembly.,evidence.csv#EV-K01-011
+EV-K01-011,evidence,EV-K01-011,evidence.csv#EV-K01-011

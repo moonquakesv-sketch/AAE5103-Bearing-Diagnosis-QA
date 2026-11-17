@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "issues",
+    "revision_required"
+  ],
+  "properties": {
+    "revision_required": {
+      "type": "boolean"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "issue_id",
+          "draft_quote",
+          "card_ids",
+          "reason",
+          "kind"
+        ],
+        "properties": {
+          "issue_id": {
+            "type": "string"
+          },
+          "draft_quote": {
+            "type": "string"
+          },
+          "card_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "unsupported",
+              "condition",
+              "citation",
+              "scope",
+              "omission",
+              "false_premise"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

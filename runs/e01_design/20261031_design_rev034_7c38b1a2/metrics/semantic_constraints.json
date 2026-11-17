@@ -1,0 +1,19 @@
+{
+  "beyond_json_schema": [
+    "point_rows IDs equal all frozen point IDs exactly once; no drops",
+    "boundary rows equal fixed boundary subset; do not add twice to A_cov",
+    "insuff rows IDs exactly I01/I02/I03 when applicable, empty otherwise",
+    "score=.5 only if exact predeclared noncritical partial branch applies",
+    "scored has numeric score; unknown has null; tested failure/missing coverage=0",
+    "span quote equals source[channel][start:end], in bounds; no fabricated quotes",
+    "full factual claim includes subject, time, negation, modality and necessary conditions",
+    "dedup claim IDs and (claim,citation) pairs; conditions reference existing claims",
+    "id_valid iff frozen card exists and actual complete returned ID present",
+    "actual available requires complete support DNF and conditions, not relevant ID alone",
+    "pair error IDs stable across A/B, not error synonyms; issue mapping total and unique",
+    "all applicable units double rated, third triggered or reserved; originals immutable",
+    "absence/omission reasons need not invent source spans; report explicit missing reference",
+    "unknown backend stays null; configured identity not proof of returned identity"
+  ],
+  "validation_limit": "synthetic structural/arithmetic validation does not establish model semantic reliability"
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/runtime/provider.py",
+    "copy": "runtime/provider.py",
+    "sha256": "0fc2776ea785c2a60ecaa42aeb9c3f8cc38320d5cdf4f047b11b568dd98109b6"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/runtime/workflow.py",
+    "copy": "runtime/workflow.py",
+    "sha256": "e4351fd566afea6e67b155177abf7554046640f9227acb28c8635d8571647932"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/runtime/common.py",
+    "copy": "runtime/common.py",
+    "sha256": "947c7863712ccd277a89ab5eefc8d62583b9735511bd404b8c909e478c514899"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/runtime/baseline.py",
+    "copy": "runtime/baseline.py",
+    "sha256": "0c36ecd8f3fb0cb7f2d004eaf98c609492b1a0b16af8993019bc5d9979a6fe4c"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/config/execution.json",
+    "copy": "config/execution.json",
+    "sha256": "03fb56717d41f60ec98a65b9e21e250cb58ac1c2c65763d7b761e315c9239f20"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/config/slots.json",
+    "copy": "config/slots.json",
+    "sha256": "61c532ba7bfa945af07ed74a14f7e0a00b071c632c1f78390570cdf80ba40f9e"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/config/counter_assets.json",
+    "copy": "config/counter_assets.json",
+    "sha256": "20d721f9ce17ed49de474cf80af98b7e72e585f71d47a83cd4737feee65ef436"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/config/environment.json",
+    "copy": "config/environment.json",
+    "sha256": "3137fe71473185b604251c9ed0dff6c4780bbabca7c07daf508e5f5711d19569"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/config/new_authorization_template.json",
+    "copy": "config/new_authorization_template.json",
+    "sha256": "afc7a5e6a6e68fde0a3bab7a022cb5168a74f4d2baad68b806749c5ce3cea6ad"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/prompts/generation.txt",
+    "copy": "prompts/generation.txt",
+    "sha256": "d90c4c279a098e6407b695f3228498f7f5479e47bb307e26e79e9f165add13de"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/prompts/judge.txt",
+    "copy": "prompts/judge.txt",
+    "sha256": "6a8deacaceff526c01639e9f69dcb72a71d2f70ad21e071d8a0079badbbbb3cb"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/prompts/adjudicator.txt",
+    "copy": "prompts/adjudicator.txt",
+    "sha256": "5ace957beae431437e7e0d478c9ab1f379ada13c4fee29b21f84f0c1c8503351"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/schemas/generation.json",
+    "copy": "schemas/generation.json",
+    "sha256": "35f54df3e3d77c695ac16d91afd39140630b9960275229de86023d7bca633641"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/schemas/reference_rating.json",
+    "copy": "schemas/reference_rating.json",
+    "sha256": "538f346ae7ea72636d9c0060e21dcfa8debaaa30873d87fd7e0407a145a3f589"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/inputs/business_requests.jsonl",
+    "copy": "inputs/business_requests.jsonl",
+    "sha256": "1944e4b98dd8f5b2bf89e5a87618b94b4d1888a272df24fa2536a120c8ab190b"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/inputs/business_bindings.json",
+    "copy": "inputs/business_bindings.json",
+    "sha256": "4bdf4dfb3953f0432ba8e5af384642f7c813fc403df2ed259dc3af3a4496c6c8"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/inputs/rubrics.json",
+    "copy": "inputs/rubrics.json",
+    "sha256": "6841d5eebecb5bb1b9666960481b1f758943bac7280f389e8e41048360886bce"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/inputs/reference_content.json",
+    "copy": "inputs/reference_content.json",
+    "sha256": "20c8b29afba82bef19aba6652f9eaa579750094e45f36441186fdbf843afd8d7"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/evaluation_only/cards.json",
+    "copy": "evaluation_only/cards.json",
+    "sha256": "1092b978f59066a82c00f18ef89591c09b98c2b42307f78676377632089f4cd6"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/analysis/metric_applicability_38.json",
+    "copy": "analysis/metric_applicability_38.json",
+    "sha256": "e6aec1e8676de0d8bf3ce1218b3321d694788852412e6d2c065047bdbef9d05f"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/analysis/budget.json",
+    "copy": "analysis/budget.json",
+    "sha256": "6afd10987e1925028379566bc9d8c77a54fa0bd32e44e1b892126db86284fdcd"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/analysis/complete_message_counts.json",
+    "copy": "analysis/complete_message_counts.json",
+    "sha256": "e74b3ce4486db4f8d8a8f42f125257c1a81478ec0a6c7742253ca78bc557308c"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/sources/official_gets.json",
+    "copy": "sources/official_gets.json",
+    "sha256": "df0ac1456bfacf346aae0dc3d548c523fd4166241fa238410f52fe2d06de02f5"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/sources/official_1.html",
+    "copy": "sources/official_1.html",
+    "sha256": "50563fd0eefea6d5547241d3f0defb7b7d50d0f17481a453343958b636a1fe51"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/sources/official_2.html",
+    "copy": "sources/official_2.html",
+    "sha256": "3b8f339866eb4bd01952a88c47491cafd12abdde65432914d0ed68f4d94ead5c"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/analysis/source_snapshot_check.json",
+    "copy": "analysis/source_snapshot_check.json",
+    "sha256": "07a68772dee62a52efe1cf5656d43f8dff776b41469c1a91b10e0dacd815129e"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/对照设计与评价合同.md",
+    "copy": "对照设计与评价合同.md",
+    "sha256": "2d98afae73d8f63ebc23b01a3da082235f78abb5d848c53260751bf02f950767"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/38指标适用性.md",
+    "copy": "38指标适用性.md",
+    "sha256": "59777a3869b4299dd0ad16e06ddfc69e38dd356aa5d9440abf7ea296699093e6"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D01.messages.json",
+    "copy": "serialized_generation/QV3-D01.messages.json",
+    "sha256": "1a654f3c4eab01b99795192346bfe509834134e66e192d0d999c0c8807599f44"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D02.messages.json",
+    "copy": "serialized_generation/QV3-D02.messages.json",
+    "sha256": "12058abd66fd32d7d27a6e5eff5193318996c069a965855691940d33aa308ddb"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D03.messages.json",
+    "copy": "serialized_generation/QV3-D03.messages.json",
+    "sha256": "fae65b5b7c6cd1b6ec5aa56c658fc1f7bf4e953431a5438599edca38255e746e"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D04.messages.json",
+    "copy": "serialized_generation/QV3-D04.messages.json",
+    "sha256": "88fcd15ce1a5ce3242ed89722d9bfd7fa1c0cbe73a9f6a596c6183f119ea25f2"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D05.messages.json",
+    "copy": "serialized_generation/QV3-D05.messages.json",
+    "sha256": "12a8fcab049e0c878f43960bc70d76d3f770a47cfb697ffad02910bbe97467eb"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D06.messages.json",
+    "copy": "serialized_generation/QV3-D06.messages.json",
+    "sha256": "71b87553e95774ad702309708631307bbc5673b316cac4df228ae26c0a35773d"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D07.messages.json",
+    "copy": "serialized_generation/QV3-D07.messages.json",
+    "sha256": "f9974dd081c32af5a24add6b4d9d9dd7a6b93b86f82627706904af79ce1212ed"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D08.messages.json",
+    "copy": "serialized_generation/QV3-D08.messages.json",
+    "sha256": "b819bd09b3052b648ed09d3d659985e64fa818fb7d465a258480852a11b581d6"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D09.messages.json",
+    "copy": "serialized_generation/QV3-D09.messages.json",
+    "sha256": "84d8dde09f036113c4321f3bb41abe903e52c5ff553df15af7c7989c9cf4ed4c"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D10.messages.json",
+    "copy": "serialized_generation/QV3-D10.messages.json",
+    "sha256": "4eed5a4b666ef9364fd556c574bd84c04d364c8dac9c6307733567786926b02c"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-D11.messages.json",
+    "copy": "serialized_generation/QV3-D11.messages.json",
+    "sha256": "018ae5aa85276ed80b1b16430df7b8421c54c8a623d0c7ce2fdd086bf648fcaf"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-H01.messages.json",
+    "copy": "serialized_generation/QV3-H01.messages.json",
+    "sha256": "b81da3fc689836d69cc30d2a5173a748d10a7c3230cb0376136b83cbdff56b35"
+  },
+  {
+    "source": "runs/e02_llm_baseline_preparation/20261105_003337_rev042_3b109719/serialized_generation/QV3-H02.messages.json",
+    "copy": "serialized_generation/QV3-H02.messages.json",
+    "sha256": "0e31b724d816a7daf8deb80dff1e7d5570f8b3d465c3dd1b916361864eeee4c6"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "purpose": "D03_guard_only_revision",
+  "revision": "007",
+  "freeze_sha256": "7c8c35c9eb7ff1d5b2964ab9060e5530b48e09f281315a7c78adc4b77219e3db",
+  "declaration_sha256": "7e855c95f90eeb4c2c359ecd58446c3c4be8e58f952329cd1c540049676dfe22",
+  "changes": {
+    "scripts/d03_pipeline.py": {
+      "before_sha256": "f314460cd74dc97c98c6925d2db2ce8d8c303aa0c4aade30c09a148b3cfd3397",
+      "after_sha256": "c6f0e133b69ad1fd8b29f234a3c10e52d2d4fc289ab975bea0089fd53b4bd43c",
+      "before_copy": "runs/d03_fix/rev007/before/scripts/d03_pipeline.py"
+    },
+    "docs/D03_运行协议.md": {
+      "before_sha256": "c5786865a4cb91555ff615d70e8711fc5ed475e0bd496713507ddfe5ab3d211d",
+      "after_sha256": "cdec24476e31605fe6d42499ab776d82085327745055caf291b4bca7de4c2287",
+      "before_copy": "runs/d03_fix/rev007/before/docs/D03_运行协议.md"
+    }
+  },
+  "unchanged_numerical_functions": {
+    "tensor_input": "60cfdec192db8352751d65418794b8e66729331089e0da8851dd06cd2224f6e4",
+    "load_extractor": "c032d8c5aea6261a8b8550f079717f6ca9146cb3c3a7ca0f57b7f9e42db7ac0a",
+    "extract_rows": "de67d5258ae3f4fd95cb0491dede59feec6e27605779cb4ae1e7c34005557a3f",
+    "state_hash": "aadbcd81eac3b02a5211619df4cf4624d820c9ffb2e6e4f6e8820d1dc47d7bf3",
+    "save_cache": "c3d5eb1ec6912a1922a1efe0a49a444878c72a907c58719270d48ad1c126b97f",
+    "load_cache": "279dcff116281bf8c7ca646485466968ec4c779a4469b7c216b68beec66b9c6a",
+    "labels": "79acb4d82fefee70d95722cf1863319ff6abc16e6981fc9df0bdb5e6bba59acc",
+    "fit_pipeline": "75d99f7f6011908284cc83113b8b98bb09822cab245c5aa095ca364341a0a7ad",
+    "check_scaler": "2e3e06da1065de7ca76c5a843199a7fa111035f83ba5c2202796e2da2836b2a2",
+    "metrics": "aa2402423e33c3869cd44dfd395dd2d7790f83f02a062b0a8deb2d637e50b222",
+    "select_candidate": "561a858ad554d04a581a3d4de70248c1fd9d1dfc849b5e460f439cba07e42bb1",
+    "prediction_rows": "7d97a8df1a6f2a4523edd000c6e5842117d2e50ff9e093aa5db657a5e52bb724",
+    "per_record": "4550eb713878a61c6896c4e34fe990b4ee419e636b618cc8073daf5524464eee",
+    "plot_matrices": "076de1709c2134312986fba8045b2344cfe9f63097589818e891835b90374d76"
+  },
+  "reason": "R1 frozen model identity before inference; R2 live baseline validation and dynamic baseline binding; no change to numerical processing, candidate search, official features or model."
+}

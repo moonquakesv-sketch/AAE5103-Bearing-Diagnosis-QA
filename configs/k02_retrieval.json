@@ -1,0 +1,37 @@
+{
+  "implementation_version": "k02.v1_rev013",
+  "knowledge_version": "20261023_rev011",
+  "knowledge_hashes": {
+    "sources.csv": "8b18c3b602e85844859622e3c46a69f0ad1fb8e46feaee38adeeb9ffb6d92987",
+    "scenarios.csv": "64ad3bad7a7e1581ed64515476e490afce13be21315a88978fbd1d5f7ba0bfe0",
+    "evidence.csv": "87af57bd684f3abb9a29e11bde5749363ed7451834ca74dab11e0e7d2559c262",
+    "entities.csv": "9ae1e2838d0226bd57f2ba286fad4507a83c476787005cd6e3cbd60fbcd6d16d",
+    "relations.csv": "cf54bd05be9aad91f1dd634bd22cdf787bfea90220663d2210804b7ca47fc181",
+    "interface.json": "708b48aaa4a8b5ff2c72832f9d7c0373569d05464f612e5d648382a37ef3a607"
+  },
+  "index_fields": [
+    "original_text",
+    "claim_en"
+  ],
+  "tfidf": {
+    "lowercase": true,
+    "strip_accents": "unicode",
+    "token_pattern": "(?u)\\b[a-zA-Z][a-zA-Z]+\\b",
+    "stop_words": "english",
+    "ngram_range": [
+      1,
+      1
+    ],
+    "norm": "l2",
+    "use_idf": true,
+    "smooth_idf": true,
+    "sublinear_tf": false
+  },
+  "score": "cosine_similarity",
+  "tie_decimals": 12,
+  "tie_break": "evidence_id_ascending",
+  "minimum_score_exclusive": 0,
+  "budget": "global_top_k_unique_complete_cards_no_task_quotas",
+  "query_policy": "question_class_assumed_cause_canonical_tasks_sorted_context_v1",
+  "terminology_mapping": null
+}

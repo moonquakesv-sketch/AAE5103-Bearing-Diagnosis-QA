@@ -1,0 +1,896 @@
+{
+  "checked_at": "2026-10-21T19:04:53.241604+08:00",
+  "scope": "D01 metadata/identity audit; no classification or test scoring",
+  "pages": {
+    "download-data-file": {
+      "source_url": "https://engineering.case.edu/bearingdatacenter/download-data-file",
+      "resolved_url": "https://engineering.case.edu/bearingdatacenter/download-data-file",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 24651,
+      "sha256": "64539d487299aeb8249a2510c248f4c466d1150ff6db1b539ebb8062864e7244"
+    },
+    "normal-baseline-data": {
+      "source_url": "https://engineering.case.edu/bearingdatacenter/normal-baseline-data",
+      "resolved_url": "https://engineering.case.edu/bearingdatacenter/normal-baseline-data",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 24759,
+      "sha256": "296a0d6583b3dc5728e54ea6ceaab91d70ef9d61b25f5b85798fdc4652a28909"
+    },
+    "12k-drive-end-bearing-fault-data": {
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "resolved_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 39265,
+      "sha256": "1ab11e6cf62a806b78cb44c537f896c00fca6d9331de42ecf3276506cd4f223f"
+    },
+    "apparatus-and-procedures": {
+      "source_url": "https://engineering.case.edu/bearingdatacenter/apparatus-and-procedures",
+      "resolved_url": "https://engineering.case.edu/bearingdatacenter/apparatus-and-procedures",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 26507,
+      "sha256": "04b034ab24df9f0bdeb0508955f028b261393f6456e57a21edc122c3bdbf1815"
+    },
+    "fault-specifications": {
+      "source_url": "https://engineering.case.edu/bearingdatacenter/fault-specifications",
+      "resolved_url": "https://engineering.case.edu/bearingdatacenter/fault-specifications",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 27387,
+      "sha256": "33624e371aa37a7799997c4a0db910a50c97f0e7a12611e59541bfeac5464458"
+    },
+    "bearing-information": {
+      "source_url": "https://engineering.case.edu/bearingdatacenter/bearing-information",
+      "resolved_url": "https://engineering.case.edu/bearingdatacenter/bearing-information",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 26506,
+      "sha256": "37f32440fc8104edf2115201666e7cc52d79cb8336ce40776cc16aaebe8ae75c"
+    }
+  },
+  "records": [
+    {
+      "official_name": "Normal_0",
+      "true_label": "normal",
+      "load_hp": 0,
+      "file": "97.mat",
+      "record_id": "cwru_097",
+      "channel": "X097_DE_time",
+      "raw_path": "data/raw/cwru/97.mat",
+      "n_samples": 243938,
+      "finite": true,
+      "arrays": {
+        "X097_DE_time": {
+          "shape": [
+            243938,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "fdc4cfa19e86507a1abf26e07a60b7d0576faed9d21bbf0df070df3e97623b88"
+        },
+        "X097_FE_time": {
+          "shape": [
+            243938,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "bb469cbba6681fad36afaa020954e1db9a9311a5a5db6a353a97adcc6f23bebd"
+        },
+        "X097RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "9b76a20d000f5ff873213db89e2c4097eb5614e709735df915e8f0a53292edc5",
+          "scalar": 1796.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/97.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/97.mat",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 3903344,
+      "sha256": "16bf48babcf1c7ac224bc1a81cd9eafdb27e42d5cf559761907e067e8eeadf3c"
+    },
+    {
+      "official_name": "Normal_1",
+      "true_label": "normal",
+      "load_hp": 1,
+      "file": "98.mat",
+      "record_id": "cwru_098",
+      "channel": "X098_DE_time",
+      "raw_path": "data/raw/cwru/98.mat",
+      "n_samples": 483903,
+      "finite": true,
+      "arrays": {
+        "X098_DE_time": {
+          "shape": [
+            483903,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "c6849294ba401cf2f6d8126069f67d06ece00273412b555d4ad842638fb42c5d"
+        },
+        "X098_FE_time": {
+          "shape": [
+            483903,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "ef0c6f81222d5b6cac4c6edba43e146057b9c36869370df346ba34760aab8eb2"
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/98.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/98.mat",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 7742720,
+      "sha256": "37e6612c05e65c415dcfa2ab27a3fda648a5863160fa898b884a14743044e045"
+    },
+    {
+      "official_name": "Normal_2",
+      "true_label": "normal",
+      "load_hp": 2,
+      "file": "99.mat",
+      "record_id": "cwru_099",
+      "channel": "X099_DE_time",
+      "raw_path": "data/raw/cwru/99.mat",
+      "n_samples": 485063,
+      "finite": true,
+      "arrays": {
+        "ans": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint8",
+          "sha256_float64": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+          "scalar": 1.0
+        },
+        "X098_DE_time": {
+          "shape": [
+            483903,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "c6849294ba401cf2f6d8126069f67d06ece00273412b555d4ad842638fb42c5d"
+        },
+        "X098_FE_time": {
+          "shape": [
+            483903,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "ef0c6f81222d5b6cac4c6edba43e146057b9c36869370df346ba34760aab8eb2"
+        },
+        "X099_DE_time": {
+          "shape": [
+            485063,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "1b614451075e81856028668cd708cafb01c048e291e63d1cfc944a8d3e8a3a07"
+        },
+        "X099_FE_time": {
+          "shape": [
+            485063,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "b1b8c56b27550cd2c10508b6b011e1b6eff7320985dde4e6fadb51541d43bf3b"
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/99.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/99.mat",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 15503928,
+      "sha256": "4b97e6b5361f45efb6951dc3b1aebcdb3b89cb69d0f96d6f5c297dd9f45eee75"
+    },
+    {
+      "official_name": "Normal_3",
+      "true_label": "normal",
+      "load_hp": 3,
+      "file": "100.mat",
+      "record_id": "cwru_100",
+      "channel": "X100_DE_time",
+      "raw_path": "data/raw/cwru/100.mat",
+      "n_samples": 485643,
+      "finite": true,
+      "arrays": {
+        "X100_DE_time": {
+          "shape": [
+            485643,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "2c0c89282cc3e846034dee866fdd338247756f8a43d55825244020abd43f80a6"
+        },
+        "X100_FE_time": {
+          "shape": [
+            485643,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "d76f0a6e67c9a613ea4ca8bebb2a657375ad24ade06b33d61792afe06a7c52c8"
+        },
+        "X100RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "7bb4bb70c2d22f723a1189256e653e53990c88eb9e11eb109b60d04cfc1934da",
+          "scalar": 1725.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/100.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/100.mat",
+      "http_status": null,
+      "retrieval": "reused D01 download from interrupted audit",
+      "bytes": 7770624,
+      "sha256": "88a5990cb541320e91505a1d72139e1993500ffe6e292a451011667f4138ca78"
+    },
+    {
+      "official_name": "IR007_0",
+      "true_label": "inner_race",
+      "load_hp": 0,
+      "file": "105.mat",
+      "record_id": "cwru_105",
+      "channel": "X105_DE_time",
+      "raw_path": "data/raw/cwru/105.mat",
+      "n_samples": 121265,
+      "finite": true,
+      "arrays": {
+        "X105_DE_time": {
+          "shape": [
+            121265,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "4434354abec348a31f541557ef3bde6f3527cf954e422932f141e101b3b1c4f9"
+        },
+        "X105_FE_time": {
+          "shape": [
+            121265,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "6c73de979937cea5e1753ca1227d283cd0a223141665251587840e20cf0fe4c1"
+        },
+        "X105_BA_time": {
+          "shape": [
+            121265,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "3c718de8b0f8239263067d6b814d08462c6dccd7ae9c977ce4d16a36d29dc5d7"
+        },
+        "X105RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "592326fe2f8352c5c0f81029fb8266fb36c37c0dfcbada284c815222b4dda520",
+          "scalar": 1797.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/105.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/105.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2910768,
+      "sha256": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab"
+    },
+    {
+      "official_name": "IR007_1",
+      "true_label": "inner_race",
+      "load_hp": 1,
+      "file": "106.mat",
+      "record_id": "cwru_106",
+      "channel": "X106_DE_time",
+      "raw_path": "data/raw/cwru/106.mat",
+      "n_samples": 121991,
+      "finite": true,
+      "arrays": {
+        "X106_DE_time": {
+          "shape": [
+            121991,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "d7c55f1efd72d332316204583f4652a7da97980081732aa0d90d60385eb5483b"
+        },
+        "X106_FE_time": {
+          "shape": [
+            121991,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "fc6b235f7ac419644deb0a30721e17754f43dbd2b51530539d2fa217891a3f6b"
+        },
+        "X106_BA_time": {
+          "shape": [
+            121991,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "0f96a90c71722483fff42dc6fcde0e644acc96c6e08ebac71c532519f4b49552"
+        },
+        "X106RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "6dfa040fc7aa395e7bfea505b3914db2e8731497f63ea05ba66886bb88cfcf7d",
+          "scalar": 1772.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/106.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/106.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2928192,
+      "sha256": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883"
+    },
+    {
+      "official_name": "IR007_2",
+      "true_label": "inner_race",
+      "load_hp": 2,
+      "file": "107.mat",
+      "record_id": "cwru_107",
+      "channel": "X107_DE_time",
+      "raw_path": "data/raw/cwru/107.mat",
+      "n_samples": 122136,
+      "finite": true,
+      "arrays": {
+        "X107_DE_time": {
+          "shape": [
+            122136,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "2a4f8eb23b340dfbeec33f91d88101af4e1568879350dc2a05b5196fd603bd4e"
+        },
+        "X107_FE_time": {
+          "shape": [
+            122136,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "55fd1026904f8f7e065945803d5d85a675664314e13a2927b2198070d59e1eaf"
+        },
+        "X107_BA_time": {
+          "shape": [
+            122136,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "46cb7201747a8f0ed7d553ab4816237a886f49e75dfd1af301858aab45fc44a2"
+        },
+        "X107RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "b4d79f25dbeffc67759863e897ee3bd48eff08b0726720169b824100834b824e",
+          "scalar": 1748.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/107.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/107.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2931672,
+      "sha256": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388"
+    },
+    {
+      "official_name": "IR007_3",
+      "true_label": "inner_race",
+      "load_hp": 3,
+      "file": "108.mat",
+      "record_id": "cwru_108",
+      "channel": "X108_DE_time",
+      "raw_path": "data/raw/cwru/108.mat",
+      "n_samples": 122917,
+      "finite": true,
+      "arrays": {
+        "X108_DE_time": {
+          "shape": [
+            122917,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "4b2ec269995b9645f3e94e8423d7ccd316c71fc08f2d72db29c2534b93896ceb"
+        },
+        "X108_FE_time": {
+          "shape": [
+            122917,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "975325b1cbde0c19f40aa5ac28909157d003f9d593c90b19e654556ddacd25ab"
+        },
+        "X108_BA_time": {
+          "shape": [
+            122917,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "f585ebfcd3973cf63ce2c456d28c85321087792af54c1aecaff25045627e3321"
+        },
+        "X108RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "ca3e2ca57bdccd4dd8c5a89e748a9ffd004a2d67d2eb55a29c4a1ff86b1ac243",
+          "scalar": 1721.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/108.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/108.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2950416,
+      "sha256": "d415f0e65128bfa0b118c2051c988fb0dc6ce3e4c8aa45fdc5ad1d0967462e7d"
+    },
+    {
+      "official_name": "OR007@6_0",
+      "true_label": "outer_race",
+      "load_hp": 0,
+      "file": "130.mat",
+      "record_id": "cwru_130",
+      "channel": "X130_DE_time",
+      "raw_path": "data/raw/cwru/130.mat",
+      "n_samples": 121991,
+      "finite": true,
+      "arrays": {
+        "X130_DE_time": {
+          "shape": [
+            121991,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "9fb9c867e75d007a3e66b5dc55f2f7e8ac13e317bfed204acf6817ecc84e7a7e"
+        },
+        "X130_FE_time": {
+          "shape": [
+            121991,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "4c51be5abedda50c16f9bbd726d65c6bb8028b8a0b424e73b7aec3279d8e5fcf"
+        },
+        "X130_BA_time": {
+          "shape": [
+            121991,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "f9a9eebe024f0a7282b90b94ba9e6932d0992e5b747563fad5aec25659e5a65b"
+        },
+        "X130RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "9b76a20d000f5ff873213db89e2c4097eb5614e709735df915e8f0a53292edc5",
+          "scalar": 1796.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/130.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/130.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2928192,
+      "sha256": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d"
+    },
+    {
+      "official_name": "OR007@6_1",
+      "true_label": "outer_race",
+      "load_hp": 1,
+      "file": "131.mat",
+      "record_id": "cwru_131",
+      "channel": "X131_DE_time",
+      "raw_path": "data/raw/cwru/131.mat",
+      "n_samples": 122426,
+      "finite": true,
+      "arrays": {
+        "X131_DE_time": {
+          "shape": [
+            122426,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "0719e55c5ec504fdd088d95d85a888eb3b259f2cb7bf485936479b6db5cb4f5e"
+        },
+        "X131_FE_time": {
+          "shape": [
+            122426,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "72bd544853cf59ca067f774e264a3e0b1b9037ca6568ea72830bbd536cda810a"
+        },
+        "X131_BA_time": {
+          "shape": [
+            122426,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "7eaa2a182cda80a496013b3b9903be2f1243e23e5252f3436bebc276e961c5d0"
+        },
+        "X131RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "c6ee87a40488c4fb38e6157c4abde636bb2840d5d8034bf86ce1af19392f859e",
+          "scalar": 1773.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/131.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/131.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2938632,
+      "sha256": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb"
+    },
+    {
+      "official_name": "OR007@6_2",
+      "true_label": "outer_race",
+      "load_hp": 2,
+      "file": "132.mat",
+      "record_id": "cwru_132",
+      "channel": "X132_DE_time",
+      "raw_path": "data/raw/cwru/132.mat",
+      "n_samples": 121410,
+      "finite": true,
+      "arrays": {
+        "X132_DE_time": {
+          "shape": [
+            121410,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "b2ba154e5de7f921a61c4acf6c167a2ab6cd2d416c156a3c636225ed95102d8c"
+        },
+        "X132_FE_time": {
+          "shape": [
+            121410,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "bb95edd27515be4994a468d12012e8b112001413014cf13bd37e4728cef490d2"
+        },
+        "X132_BA_time": {
+          "shape": [
+            121410,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "f36896e7df67a1e394a14c030e3481c0731222ae84193f995a62b93414a1ec03"
+        },
+        "X132RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "506968cccac717af312582f2a29bf116234b062be79947e52569ab158bdfd191",
+          "scalar": 1750.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/132.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/132.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2914248,
+      "sha256": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18"
+    },
+    {
+      "official_name": "OR007@6_3",
+      "true_label": "outer_race",
+      "load_hp": 3,
+      "file": "133.mat",
+      "record_id": "cwru_133",
+      "channel": "X133_DE_time",
+      "raw_path": "data/raw/cwru/133.mat",
+      "n_samples": 122571,
+      "finite": true,
+      "arrays": {
+        "X133_DE_time": {
+          "shape": [
+            122571,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "92f3b7850473ac2212b00adfe53533882569dca07c5810a9defe9c1a1486d773"
+        },
+        "X133_FE_time": {
+          "shape": [
+            122571,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "bca132c801236401528d0f26628ffbb20dda7117d5bf8fbc9ef9fc5cc440e282"
+        },
+        "X133_BA_time": {
+          "shape": [
+            122571,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "d114cc6744a776fdc81952c4196b0fb798e3faa4fc20676864e27b700cfa003e"
+        },
+        "X133RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "7bb4bb70c2d22f723a1189256e653e53990c88eb9e11eb109b60d04cfc1934da",
+          "scalar": 1725.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/133.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/133.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2942112,
+      "sha256": "53f076cb0d905cf46bffaee7736abce8224ffed777deed03c0c863d762a90c71"
+    },
+    {
+      "official_name": "B007_0",
+      "true_label": "rolling_element",
+      "load_hp": 0,
+      "file": "118.mat",
+      "record_id": "cwru_118",
+      "channel": "X118_DE_time",
+      "raw_path": "data/raw/cwru/118.mat",
+      "n_samples": 122571,
+      "finite": true,
+      "arrays": {
+        "X118_DE_time": {
+          "shape": [
+            122571,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "6410b1813dcd7a2199322b486bda9951415b73072c7ccd827d8554d8c9abec64"
+        },
+        "X118_FE_time": {
+          "shape": [
+            122571,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "54487f767cef5692fc1b154eb21bdab59ffd809b74eda105e7d53f25b84e3c73"
+        },
+        "X118_BA_time": {
+          "shape": [
+            122571,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "158eb5e7bfaaa903f94a3c99963fbc9efe532add15cb467786aa22e3dc338058"
+        },
+        "X118RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "9b76a20d000f5ff873213db89e2c4097eb5614e709735df915e8f0a53292edc5",
+          "scalar": 1796.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/118.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/118.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2942112,
+      "sha256": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e"
+    },
+    {
+      "official_name": "B007_1",
+      "true_label": "rolling_element",
+      "load_hp": 1,
+      "file": "119.mat",
+      "record_id": "cwru_119",
+      "channel": "X119_DE_time",
+      "raw_path": "data/raw/cwru/119.mat",
+      "n_samples": 121410,
+      "finite": true,
+      "arrays": {
+        "X119_DE_time": {
+          "shape": [
+            121410,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "241367c5feefbf7a336627cf863186ed28d84e076512ff7236c3e6b55bbc1798"
+        },
+        "X119_FE_time": {
+          "shape": [
+            121410,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "2ae4fb494141b26a59e6329d31b9d9d5917128ac2ed946a1b5d152fa79832fc9"
+        },
+        "X119_BA_time": {
+          "shape": [
+            121410,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "919573518f6496d2c537d330ea3d8d02c489638e068358204d8c362cf7ce27b8"
+        },
+        "X119RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "6dfa040fc7aa395e7bfea505b3914db2e8731497f63ea05ba66886bb88cfcf7d",
+          "scalar": 1772.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/119.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/119.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2914248,
+      "sha256": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330"
+    },
+    {
+      "official_name": "B007_2",
+      "true_label": "rolling_element",
+      "load_hp": 2,
+      "file": "120.mat",
+      "record_id": "cwru_120",
+      "channel": "X120_DE_time",
+      "raw_path": "data/raw/cwru/120.mat",
+      "n_samples": 121556,
+      "finite": true,
+      "arrays": {
+        "X120_DE_time": {
+          "shape": [
+            121556,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "2ca18ea932ea8b0b209d4b1e7d2a31f8d0f57ba80a0d1940ef852c2cc1d8285b"
+        },
+        "X120_FE_time": {
+          "shape": [
+            121556,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "bc1662a482441cdc6fffefe62e09f34a7a104f77b367586dd864141aa60c2167"
+        },
+        "X120_BA_time": {
+          "shape": [
+            121556,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "279f836eea136acfb0525cd51370153fe121721c024a9395f1dfeee5c94dd84f"
+        },
+        "X120RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "b4d79f25dbeffc67759863e897ee3bd48eff08b0726720169b824100834b824e",
+          "scalar": 1748.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/120.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/120.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2917752,
+      "sha256": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c"
+    },
+    {
+      "official_name": "B007_3",
+      "true_label": "rolling_element",
+      "load_hp": 3,
+      "file": "121.mat",
+      "record_id": "cwru_121",
+      "channel": "X121_DE_time",
+      "raw_path": "data/raw/cwru/121.mat",
+      "n_samples": 121556,
+      "finite": true,
+      "arrays": {
+        "X121_DE_time": {
+          "shape": [
+            121556,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "bfa929f8a7d7c4e41cd0f340515f3e06ff7eee5e21edca7dc567c82c041cde90"
+        },
+        "X121_FE_time": {
+          "shape": [
+            121556,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "3f165a1dd8b47962d01089d5b3640eeb91bb8b85bd9fe24fc4616bb57f0af85a"
+        },
+        "X121_BA_time": {
+          "shape": [
+            121556,
+            1
+          ],
+          "dtype": "float64",
+          "sha256_float64": "f3d1aa95d367752d3cb909fc73eab2ceff4f4b27ca9024356746070ffd2edd4f"
+        },
+        "X121RPM": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint16",
+          "sha256_float64": "cc0d653829e748ec10bc995421f1e08343e803a1ed2beb19de7448b474e0a43e",
+          "scalar": 1722.0
+        }
+      },
+      "source_url": "https://engineering.case.edu/sites/default/files/121.mat",
+      "resolved_url": "https://engineering.case.edu/sites/default/files/121.mat",
+      "http_status": 200,
+      "content_type": null,
+      "bytes": 2917752,
+      "sha256": "52f686e984ba8e9b04a047a57416271cdb322cee57ee105dce58926a24b966cb"
+    }
+  ],
+  "duplicate_arrays": [
+    [
+      "98.mat:X098_DE_time",
+      "99.mat:X098_DE_time"
+    ],
+    [
+      "98.mat:X098_FE_time",
+      "99.mat:X098_FE_time"
+    ]
+  ],
+  "selected_channel_hashes_unique": true,
+  "environment": {
+    "python": "3.12.15 (main, Oct 13 2026, 16:47:20) [Clang 21.1.8 ]",
+    "executable": "/Users/moonquakes/miniforge3/envs/aae5103/bin/python",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pywt": "1.8.0",
+      "pandas": "3.0.6",
+      "yaml": "6.0.3",
+      "torch": "2.14.1",
+      "torchvision": "0.29.1",
+      "sklearn": "1.9.1"
+    },
+    "mps_available": true,
+    "mps_built": true,
+    "pip_check": {
+      "returncode": 0,
+      "stdout": "No broken requirements found.\n",
+      "stderr": ""
+    }
+  }
+}

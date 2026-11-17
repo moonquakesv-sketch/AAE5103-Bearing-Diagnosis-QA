@@ -1,0 +1,57 @@
+{
+  "version": "e01.four_scenario.v2_rev027",
+  "prepared_date_HK": "2026-10-26",
+  "scope": "four-scenario static preparation only;12debug/2author-visible operational reserve; no true question execution",
+  "question_count": 14,
+  "point_count": 66,
+  "planned_knowledge_points": 48,
+  "suspended_source_points": 10,
+  "source_relative_active_knowledge_points": 38,
+  "old_v1_questions_points": [
+    15,
+    68
+  ],
+  "knowledge_version": "i01.knowledge.v1_rev025",
+  "data_files": {
+    "README.md": "1576c6c14931ca57e9701950837ee131139b183a412922803878aa0ded6b8f41",
+    "boundary_cases.json": "fdcc51b474ee1ec175164171c4b47535e516a64a656459f0d607caaf4d17744d",
+    "contract_cases.json": "9b0a2c67188bc3ac934a536665475e76fd511e323c16006d7a76d8a617c0ee67",
+    "corpus_binding.json": "5253f96652b45743bdee857eb537b3d4c7f632f6655d659fd4b1968d62adb3f5",
+    "coverage.csv": "69e4f982c768a0bfe00ed577546707db39e9f53d891ea0e493e2577983c59b77",
+    "debug_requests.jsonl": "d9f7e1517ea1c981f7d7fedd859ef5426555189e4ab0772f8db2c769f887226e",
+    "design_contract.json": "bbc0e5685956b1d7b5a8dc727d265f4af1b3b106ead9b319b4d8e7e1099113e6",
+    "exposure_registry.json": "48c3e7fb37ea34130ca5801aaa6599785f265451d1d3c8ae0606e1a6eb335c11",
+    "heldout_requests.jsonl": "c3ea7ae0030817aff1489d7f359e9880ec7dcfa37e2978481b026acd128e5a12",
+    "input_provenance.json": "04ce7694a695a0b9c46143a38129a18b12d98f77057b5a1eee3e7f28e54221d0",
+    "question_bindings.json": "acaad5b42720d7c4823d2a7bdc263874bf9786f3a3a96f507c9ed028d545d79f",
+    "release_checklist.json": "f192802f6c7f9930a72e48a0915ab0179e7f6428d541bee00f43009da9176adf",
+    "retrieval_run_config.json": "ffe923c7be0cc7de43c86a57f810cbe8da9fe844479baef9a0bc66423f6f3110",
+    "reuse_mapping.json": "6854bd27464b7a16bb0071cafcd7a017e283e6a3e92b08fb93ca71af9b9d5b6b",
+    "rubrics.json": "f28721b8e3bc6ceba9dad2c447d731cb330a9be69d04a95871b94e09f723f9c6",
+    "source_review.json": "f34342b8258896fab113f19d04f1c771847f262a1db793575e1a80954944b66b"
+  },
+  "policy_files": {
+    "docs/E01_S02_运行与评分协议.md": "6689fb9f9185ac7277bb468ff97d3112989cbceee35eea20ea4be87610a3d547",
+    "docs/E01_S02_验收与交接.md": "21f39ccd46b34f527a9798d2c29f843fcb6256d61b9b0bccd1c7d59694612200"
+  },
+  "validation_methods": {
+    "runs/e01/20261026_s02_695c0994/validation/validate_e01_v2.py": "b1f73dc88aba8bce2ccb84d416add608e4b03f5e09d1bf9bf0226fc8249106fb",
+    "runs/e01/20261026_s02_695c0994/validation/test_e01_v2_synthetic.py": "ef977b625ef039ccf6568ef36f37f02185fd2d97234b671278b2b18caf22f9f9",
+    "runs/e01/20261026_s02_695c0994/validation/check_v2_supplements.py": "5ffac0e79c43dca90d6902c8e20c60e2e282e2f92db373dc622c78a21b22ce70",
+    "runs/e01/20261026_s02_695c0994/validation/test_v2_supplements_synthetic.py": "14c1bc10e76d8aede356dd19dd1389c5edae5d3d5f5d43d420a2d2214dab532b"
+  },
+  "retrieval_core_changed": false,
+  "generation_model": null,
+  "verification_model": null,
+  "approved_tokenizer": null,
+  "approved_prompts_schemas": null,
+  "approved_parameters": null,
+  "approved_repeat_order": null,
+  "approved_price_hard_budget": null,
+  "approved_raters_custodian_arbitrator": null,
+  "formal_experiment_released": false,
+  "release_checklist": "release_checklist.json",
+  "pending_release_gates": 16,
+  "source_truth_eligibility": "Timken-positive points needs_source_review/suspended; formal denominator may not silently shrink",
+  "change_policy": "New version/before/diff/hash; exposed family cannot be relabelled heldout. Old versions and consumed evidence immutable."
+}

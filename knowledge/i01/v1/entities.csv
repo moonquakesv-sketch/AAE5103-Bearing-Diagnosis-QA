@@ -1,0 +1,58 @@
+entity_id,entity_type,label,content_ref
+PART-OUTER-RACE,part,outer_race / 外圈,project_class_contract
+SC-K01-OR-001,scenario,静止外部振动的外圈情景,scenarios.csv#SC-K01-OR-001
+ASM-K01-001,assumption,external vibration during standstill / 独立演示假设,scenarios.csv#SC-K01-OR-001
+MECH-K01-FB,mechanism,false brinelling / 假性布氏压痕,evidence.csv#EV-K01-002
+TASK-EXPLANATION,task,explanation,project_task_contract
+TASK-INSPECTION,task,inspection,project_task_contract
+TASK-PREPARATION,task,preparation,project_task_contract
+KN-K01-001,knowledge,An NSK outer-ring example attributes raceway false brinelling to external vibration during standstill.,evidence.csv#EV-K01-001
+EV-K01-001,evidence,EV-K01-001,evidence.csv#EV-K01-001
+KN-K01-002,knowledge,False brinelling is contact wear; standstill vibration or small oscillations are listed possible causes.,evidence.csv#EV-K01-002
+EV-K01-002,evidence,EV-K01-002,evidence.csv#EV-K01-002
+KN-K01-003,knowledge,Other listed possibilities include small oscillations and poor lubrication.,evidence.csv#EV-K01-003
+EV-K01-003,evidence,EV-K01-003,evidence.csv#EV-K01-003
+KN-K01-004,knowledge,"Examine depression texture: wear removes it in false brinelling, unlike deformation in true brinelling.",evidence.csv#EV-K01-004
+EV-K01-004,evidence,EV-K01-004,evidence.csv#EV-K01-004
+KN-K01-005,knowledge,"Assemble operating history, maintenance records, drawings, and an observation record with photographs.",evidence.csv#EV-K01-005
+EV-K01-005,evidence,EV-K01-005,evidence.csv#EV-K01-005
+KN-K01-006,knowledge,"Keep labelled used and unused lubricant samples distinct; retain batch, specification and safety information.",evidence.csv#EV-K01-006
+EV-K01-006,evidence,EV-K01-006,evidence.csv#EV-K01-006
+KN-K01-007,knowledge,Investigate external equipment influences preceding or coinciding with the reported damage.,evidence.csv#EV-K01-007
+EV-K01-007,evidence,EV-K01-007,evidence.csv#EV-K01-007
+KN-K01-008,knowledge,Use applicable OEM instructions and establish suitability for the intended application.,evidence.csv#EV-K01-008
+EV-K01-008,evidence,EV-K01-008,evidence.csv#EV-K01-008
+KN-K01-009,knowledge,Record the initial appearance and residual lubricant; sample the lubricant before cleaning.,evidence.csv#EV-K01-009
+EV-K01-009,evidence,EV-K01-009,evidence.csv#EV-K01-009
+KN-K01-010,knowledge,"After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",evidence.csv#EV-K01-010
+EV-K01-010,evidence,EV-K01-010,evidence.csv#EV-K01-010
+KN-K01-011,knowledge,Plan removal from machine drawings and mounting-fit information before any disassembly.,evidence.csv#EV-K01-011
+EV-K01-011,evidence,EV-K01-011,evidence.csv#EV-K01-011
+KN-I01-001,knowledge,NSK reports an angular-contact ball-bearing inner-ring example with diagonal raceway flaking attributed to shaft/housing misalignment during mounting.,evidence.csv#EV-I01-001
+EV-I01-001,evidence,EV-I01-001,evidence.csv#EV-I01-001
+KN-I01-002,knowledge,NSK reports smearing on the convex rollers of the spherical roller bearing shown in Smearing 5 and attributes that example to poor lubrication.,evidence.csv#EV-I01-002
+EV-I01-002,evidence,EV-I01-002,evidence.csv#EV-I01-002
+KN-I01-003,knowledge,NSK describes proper maintenance and inspection as necessary for preserving bearing performance.,evidence.csv#EV-I01-003
+EV-I01-003,evidence,EV-I01-003,evidence.csv#EV-I01-003
+KN-I01-004,knowledge,"NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",evidence.csv#EV-I01-004
+EV-I01-004,evidence,EV-I01-004,evidence.csv#EV-I01-004
+KN-I01-005,knowledge,"For maintenance preparation, identify the specified procedures covering condition supervision, lubricant supply or replacement and periodic inspection.",evidence.csv#EV-I01-005
+EV-I01-005,evidence,EV-I01-005,evidence.csv#EV-I01-005
+PART-I01-IR,part,inner_race / 项目路由类别,project_class_contract
+SC-I01-IR-001,scenario,本演示独立假定：采用 NSK 角接触球轴承内圈斜向剥落的厂家案例，考虑安装时轴与轴承座对中不良这一原因。此假设不是分类器从图像识别出的原因。,scenarios.csv#SC-I01-IR-001
+ASM-I01-IR,assumption,shaft_housing_misalignment_during_mounting / 独立演示设定,scenarios.csv#SC-I01-IR-001
+TASK-I01-IR-EXPLANATION,task,explanation,project_task_contract
+TASK-I01-IR-INSPECTION,task,inspection,project_task_contract
+TASK-I01-IR-PREPARATION,task,preparation,project_task_contract
+PART-I01-RE,part,rolling_element / 项目路由类别,project_class_contract
+SC-I01-RE-001,scenario,本演示独立假定：采用 NSK 调心滚子轴承凸滚子涂抹损伤的厂家案例，考虑润滑不良。此假设不是分类器从图像识别出的原因。,scenarios.csv#SC-I01-RE-001
+ASM-I01-RE,assumption,poor_lubrication_spherical_roller_smearing / 独立演示设定,scenarios.csv#SC-I01-RE-001
+TASK-I01-RE-EXPLANATION,task,explanation,project_task_contract
+TASK-I01-RE-INSPECTION,task,inspection,project_task_contract
+TASK-I01-RE-PREPARATION,task,preparation,project_task_contract
+PART-I01-NORMAL,part,normal / 项目路由类别,project_class_contract
+SC-I01-NORMAL-001,scenario,normal 仅表示本次模型的类别输出；不设故障原因。进入通用状态监视与维护资料分支，不证明真实设备无损伤、适航或可放行。,scenarios.csv#SC-I01-NORMAL-001
+ASM-I01-NORMAL,assumption,none_no_fault_cause_assumed / 独立演示设定,scenarios.csv#SC-I01-NORMAL-001
+TASK-I01-NORMAL-EXPLANATION,task,explanation,project_task_contract
+TASK-I01-NORMAL-INSPECTION,task,inspection,project_task_contract
+TASK-I01-NORMAL-PREPARATION,task,preparation,project_task_contract

@@ -1,0 +1,843 @@
+{
+  "QV3-D01": {
+    "fixed_required_unknowns": [
+      "actual bearing mechanism/root cause is not established"
+    ],
+    "I02_half_credit_eligible": false,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D01-P1",
+        "point_id": "QV3-D01-P1",
+        "descriptor": "linked example bearing type, part and operating circumstance",
+        "support_any_of": [
+          [
+            "EV-K01-001"
+          ]
+        ],
+        "conditions": [
+          "manufacturer example, not a current observation",
+          "retain example 2-to-1 link and stationary external-vibration circumstance"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D01-P2",
+        "point_id": "QV3-D01-P2",
+        "descriptor": "general contact-wear mechanism",
+        "support_any_of": [
+          [
+            "EV-K01-002"
+          ],
+          [
+            "EV-K01-003"
+          ]
+        ],
+        "conditions": [
+          "possible mechanism; no current root-cause proof"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D01-P3",
+        "point_id": "QV3-D01-P3",
+        "descriptor": "one lubrication-related alternative",
+        "support_any_of": [
+          [
+            "EV-K01-003"
+          ]
+        ],
+        "conditions": [
+          "listed alternative, not an observation or likelihood ranking"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D02": {
+    "fixed_required_unknowns": [
+      "actual depression texture has not been physically inspected"
+    ],
+    "I02_half_credit_eligible": false,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D02-P1",
+        "point_id": "QV3-D02-P1",
+        "descriptor": "texture in false-brinelling wear",
+        "support_any_of": [
+          [
+            "EV-K01-004"
+          ]
+        ],
+        "conditions": [
+          "qualitative physical-surface cue in the scoped roller-bearing discussion"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D02-P2",
+        "point_id": "QV3-D02-P2",
+        "descriptor": "texture in true brinelling",
+        "support_any_of": [
+          [
+            "EV-K01-004"
+          ]
+        ],
+        "conditions": [
+          "qualitative comparison; no numerical acceptance rule"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D03": {
+    "fixed_required_unknowns": [
+      "actual pre-cleaning appearance and lubricant observations are unavailable",
+      "applicable equipment cleaning procedure/authorization is not supplied"
+    ],
+    "I02_half_credit_eligible": true,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D03-P1",
+        "point_id": "QV3-D03-P1",
+        "descriptor": "information to record before cleaning",
+        "support_any_of": [
+          [
+            "EV-K01-009"
+          ]
+        ],
+        "conditions": [
+          "before cleaning"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D03-P2",
+        "point_id": "QV3-D03-P2",
+        "descriptor": "residual-lubricant information before cleaning",
+        "support_any_of": [
+          [
+            "EV-K01-009"
+          ]
+        ],
+        "conditions": [
+          "before cleaning"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D03-P3",
+        "point_id": "QV3-D03-P3",
+        "descriptor": "sample-preservation order",
+        "support_any_of": [
+          [
+            "EV-K01-009"
+          ]
+        ],
+        "conditions": [
+          "sampling precedes cleaning; preparation guidance"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D04": {
+    "fixed_required_unknowns": [
+      "actual CWRU morphology and mounting cause are not established"
+    ],
+    "I02_half_credit_eligible": false,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D04-P1",
+        "point_id": "QV3-D04-P1",
+        "descriptor": "bearing and part in Flaking 2",
+        "support_any_of": [
+          [
+            "EV-I01-001"
+          ]
+        ],
+        "conditions": [
+          "reported manufacturer example"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D04-P2",
+        "point_id": "QV3-D04-P2",
+        "descriptor": "damage pattern in Flaking 2",
+        "support_any_of": [
+          [
+            "EV-I01-001"
+          ]
+        ],
+        "conditions": [
+          "same angular-contact inner-ring example"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D04-P3",
+        "point_id": "QV3-D04-P3",
+        "descriptor": "attributed mounting condition",
+        "support_any_of": [
+          [
+            "EV-I01-001"
+          ]
+        ],
+        "conditions": [
+          "during mounting; reported case attribution, not a project diagnosis"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D05": {
+    "fixed_required_unknowns": [
+      "actual condition and applicability of full equipment/reuse criteria are not established"
+    ],
+    "I02_half_credit_eligible": false,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D05-P1",
+        "point_id": "QV3-D05-P1",
+        "descriptor": "post-cleaning inspection domains",
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "conditions": [
+          "after thorough cleaning; general assessment"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D05-P2",
+        "point_id": "QV3-D05-P2",
+        "descriptor": "post-cleaning inspection domains",
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "conditions": [
+          "after thorough cleaning; general assessment"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D05-P3",
+        "point_id": "QV3-D05-P3",
+        "descriptor": "post-cleaning inspection domains",
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "conditions": [
+          "after thorough cleaning; no model-specific limit"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D05-P4",
+        "point_id": "QV3-D05-P4",
+        "descriptor": "post-cleaning inspection domains",
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "conditions": [
+          "after thorough cleaning; no model-specific limit"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D05-P5",
+        "point_id": "QV3-D05-P5",
+        "descriptor": "post-cleaning inspection domains",
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "conditions": [
+          "after thorough cleaning"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D05-P6",
+        "point_id": "QV3-D05-P6",
+        "descriptor": "additional reuse-assessment context factors",
+        "support_any_of": [
+          [
+            "EV-K01-010"
+          ]
+        ],
+        "conditions": [
+          "general assessment context; not a complete decision rule"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D06": {
+    "fixed_required_unknowns": [
+      "applicable equipment removal-force specification is not supplied",
+      "applicable equipment heating-temperature specification is not supplied"
+    ],
+    "I02_half_credit_eligible": true,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D06-P1",
+        "point_id": "QV3-D06-P1",
+        "descriptor": "machine information for removal planning",
+        "support_any_of": [
+          [
+            "EV-K01-011"
+          ]
+        ],
+        "conditions": [
+          "before removal; preparation only"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D06-P2",
+        "point_id": "QV3-D06-P2",
+        "descriptor": "mounting information for method and sequence",
+        "support_any_of": [
+          [
+            "EV-K01-011"
+          ]
+        ],
+        "conditions": [
+          "method/sequence depend on structure and fit; planning is not execution authorization"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D07": {
+    "fixed_required_unknowns": [
+      "actual CWRU morphology and lubrication cause are not established"
+    ],
+    "I02_half_credit_eligible": false,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D07-P1",
+        "point_id": "QV3-D07-P1",
+        "descriptor": "linked bearing identity of Smearing 7 and 5",
+        "support_any_of": [
+          [
+            "EV-I01-002"
+          ]
+        ],
+        "conditions": [
+          "retain the 7-to-5 same-bearing link and spherical-roller scope"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D07-P2",
+        "point_id": "QV3-D07-P2",
+        "descriptor": "reported surface damage",
+        "support_any_of": [
+          [
+            "EV-I01-002"
+          ]
+        ],
+        "conditions": [
+          "manufacturer example, not an observation in this demonstration"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D07-P3",
+        "point_id": "QV3-D07-P3",
+        "descriptor": "attributed cause",
+        "support_any_of": [
+          [
+            "EV-I01-002"
+          ]
+        ],
+        "conditions": [
+          "reported case attribution, not a current measured cause"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D08": {
+    "fixed_required_unknowns": [
+      "actual operating noise, vibration, temperature and lubrication observations are unavailable"
+    ],
+    "I02_half_credit_eligible": false,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D08-P1",
+        "point_id": "QV3-D08-P1",
+        "descriptor": "listed operating-condition check: noise",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual running equipment; specified applicable procedures"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D08-P2",
+        "point_id": "QV3-D08-P2",
+        "descriptor": "listed operating-condition check: vibration",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual running equipment; specified applicable procedures"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D08-P3",
+        "point_id": "QV3-D08-P3",
+        "descriptor": "listed operating-condition check: temperature",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual running equipment; specified applicable procedures"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D08-P4",
+        "point_id": "QV3-D08-P4",
+        "descriptor": "listed operating-condition check: lubrication",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual running equipment; specified applicable procedures"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-H01": {
+    "fixed_required_unknowns": [
+      "actual container identity/specification/batch information is not supplied",
+      "required sample quantity is not supplied"
+    ],
+    "I02_half_credit_eligible": true,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-H01-P1",
+        "point_id": "QV3-H01-P1",
+        "descriptor": "used-sample preparation",
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "conditions": [
+          "investigation handoff; preserve separate sample identity"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-H01-P2",
+        "point_id": "QV3-H01-P2",
+        "descriptor": "used-sample identification",
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "conditions": [
+          "labels preserve used-sample identity"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-H01-P3",
+        "point_id": "QV3-H01-P3",
+        "descriptor": "new unused sample preparation",
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "conditions": [
+          "new/unused comparison sample is not conflated with used material"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-H01-P4",
+        "point_id": "QV3-H01-P4",
+        "descriptor": "container specification or batch information when available",
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "conditions": [
+          "information availability is conditional",
+          "either available category suffices when it is the only one; preserve both when both are present",
+          "do not fabricate an unavailable value"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-H01-P5",
+        "point_id": "QV3-H01-P5",
+        "descriptor": "accompanying technical and safety documentation",
+        "support_any_of": [
+          [
+            "EV-K01-006"
+          ]
+        ],
+        "conditions": [
+          "safety documentation is qualified by related/applicable",
+          "do not invent actual document contents"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D09": {
+    "fixed_required_unknowns": [
+      "actual absence of damage and safety are not established",
+      "actual equipment condition is not supplied"
+    ],
+    "I02_half_credit_eligible": true,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D09-P1",
+        "point_id": "QV3-D09-P1",
+        "descriptor": "why maintenance/inspection still matters",
+        "support_any_of": [
+          [
+            "EV-I01-003"
+          ]
+        ],
+        "conditions": [
+          "generic maintenance purpose, not an actual equipment finding"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D10": {
+    "fixed_required_unknowns": [
+      "equipment-specific vibration acceptance limit is not supplied",
+      "equipment-specific temperature acceptance limit is not supplied"
+    ],
+    "I02_half_credit_eligible": true,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D10-P1",
+        "point_id": "QV3-D10-P1",
+        "descriptor": "listed operating-condition check: noise",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual equipment operation; specified applicable procedures"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D10-P2",
+        "point_id": "QV3-D10-P2",
+        "descriptor": "listed operating-condition check: vibration",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual equipment operation; specified applicable procedures"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D10-P3",
+        "point_id": "QV3-D10-P3",
+        "descriptor": "listed operating-condition check: temperature",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual equipment operation; specified applicable procedures"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D10-P4",
+        "point_id": "QV3-D10-P4",
+        "descriptor": "listed operating-condition check: lubrication",
+        "support_any_of": [
+          [
+            "EV-I01-004"
+          ],
+          [
+            "EV-I01-005"
+          ]
+        ],
+        "conditions": [
+          "actual equipment operation; specified applicable procedures"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-D11": {
+    "fixed_required_unknowns": [
+      "applicable equipment maintenance interval is not supplied"
+    ],
+    "I02_half_credit_eligible": false,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-D11-P1",
+        "point_id": "QV3-D11-P1",
+        "descriptor": "maintenance procedure domain: condition supervision",
+        "support_any_of": [
+          [
+            "EV-I01-005"
+          ],
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "conditions": [
+          "preparation of applicable procedure scope, not executable instructions"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D11-P2",
+        "point_id": "QV3-D11-P2",
+        "descriptor": "maintenance procedure domain: lubrication",
+        "support_any_of": [
+          [
+            "EV-I01-005"
+          ],
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "conditions": [
+          "preparation scope; no product or amount supplied"
+        ],
+        "project_basis": []
+      },
+      {
+        "gap_id": "missing-support:QV3-D11-P3",
+        "point_id": "QV3-D11-P3",
+        "descriptor": "maintenance procedure domain: periodic inspection",
+        "support_any_of": [
+          [
+            "EV-I01-005"
+          ],
+          [
+            "EV-I01-004"
+          ]
+        ],
+        "conditions": [
+          "periodic does not imply a specified interval"
+        ],
+        "project_basis": []
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  },
+  "QV3-H02": {
+    "fixed_required_unknowns": [
+      "same-byte identity with the earlier historical reading is machine_unresolved",
+      "live online availability is unknown"
+    ],
+    "I02_half_credit_eligible": true,
+    "half_credit_rule": "Dynamic gaps never change frozen per-question half-credit eligibility; false stays full-or-zero even with multiple triggered gaps.",
+    "conditional_missing_support_gaps": [
+      {
+        "gap_id": "missing-support:QV3-H02-P1",
+        "point_id": "QV3-H02-P1",
+        "descriptor": "earlier online-reading record",
+        "support_any_of": [],
+        "conditions": [],
+        "project_basis": [
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.historical_2026_10_23.online_text_read",
+            "exact_value": "recorded selected-online-page reading; this review did not observe or independently reconstruct that historical action"
+          }
+        ]
+      },
+      {
+        "gap_id": "missing-support:QV3-H02-P2",
+        "point_id": "QV3-H02-P2",
+        "descriptor": "earlier local-save, hash and visual record",
+        "support_any_of": [],
+        "conditions": [],
+        "project_basis": [
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.historical_2026_10_23.local_save",
+            "exact_value": "historically recorded not_saved_http_403"
+          },
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.historical_2026_10_23.hash",
+            "exact_value": "historical local PDF hash absent"
+          },
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.historical_2026_10_23.visual",
+            "exact_value": "historical record says no inspectable pixels; do not overwrite historical record"
+          }
+        ]
+      },
+      {
+        "gap_id": "missing-support:QV3-H02-P3",
+        "point_id": "QV3-H02-P3",
+        "descriptor": "cutoff local-save and edition state",
+        "support_any_of": [],
+        "conditions": [],
+        "project_basis": [
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.as_of",
+            "exact_value": "2026-10-30T23:59:59+08:00"
+          },
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.saved_2026_10_30.local_pdf_saved",
+            "exact_value": true
+          },
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.saved_2026_10_30.edition",
+            "exact_value": "02-23 / 5892 / copyright2023"
+          }
+        ]
+      },
+      {
+        "gap_id": "missing-support:QV3-H02-P4",
+        "point_id": "QV3-H02-P4",
+        "descriptor": "cutoff hash state",
+        "support_any_of": [],
+        "conditions": [],
+        "project_basis": [
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.saved_2026_10_30.sha256",
+            "exact_value": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6"
+          },
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.saved_2026_10_30.same_bytes_as_historical_reading",
+            "exact_value": "machine_unresolved"
+          }
+        ]
+      },
+      {
+        "gap_id": "missing-support:QV3-H02-P5",
+        "point_id": "QV3-H02-P5",
+        "descriptor": "limited visual-review state at the cutoff",
+        "support_any_of": [],
+        "conditions": [],
+        "project_basis": [
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.saved_2026_10_30.visual_file_pages",
+            "exact_value": [
+              2,
+              5,
+              18,
+              19,
+              24
+            ]
+          },
+          {
+            "path": "knowledge/v2_1/project_context.json",
+            "locator": "source_state_snapshot.saved_2026_10_30.basis",
+            "exact_value": "rev033 source_identity.json / original PDF / recorded pixel review, not all24 pages"
+          }
+        ]
+      }
+    ],
+    "trigger": "only when actual complete cards plus common context do not fully support this frozen component",
+    "denominator": "I02 remains one of three I coding units; A_cov/A_bound/fixed unknown denominator unchanged"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "run_id": "20261104_193656_666328_0d66e6f9",
+  "case_key": "demo_1",
+  "started_at": "2026-11-04T19:36:56+09:00",
+  "origin": "LIVE",
+  "status": "running",
+  "classifier": {
+    "kind": "fresh_image_inference",
+    "sample_id": "s_00a5ed732e812f840c4f9356",
+    "predicted_class": "outer_race",
+    "prediction": {
+      "sample_id": "s_00a5ed732e812f840c4f9356",
+      "record_id": "cwru_132",
+      "group_id": "cwru_132",
+      "source_family_id": "cwru_DE_007_outer_race_6oclock",
+      "split": "validation",
+      "true_label": "outer_race",
+      "predicted_class": "outer_race",
+      "decision_score": "[-0.25312420312965256, 1.8775555799176142, 3.2627689149235577, 1.0041470198900344]",
+      "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006"
+    },
+    "feature_sha256": "4b47ead63406e6ebf16298358d8a711e43ac0aba837d5ad2a21ced7508ed6932",
+    "weight_identity": {
+      "enum": "ResNet18_Weights.IMAGENET1K_V1",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "file_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "official_full_state_sha256": "9af32d5e7fbb87ef324882e37010f3766ddb307aa8b7f8ebcb44c7c21dec2a18",
+      "extractor_state_sha256": "44e0dbdc214a5d41d5254de53953807f7a29c41fed6527d9d4b81bd1037a39fb",
+      "strict_load": true,
+      "feature_layer": "avgpool -> flatten(1), before fc; 512 dimensions",
+      "feature_dim": 512
+    },
+    "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+    "elapsed_seconds": 0.2054101250032545
+  },
+  "task_report": {
+    "message": null,
+    "status": "identified",
+    "task_types": [
+      "explanation"
+    ]
+  },
+  "scenario": null,
+  "retrieval": null,
+  "answer": null,
+  "publishable": false,
+  "calls": [
+    {
+      "action": "identify",
+      "started_at": "2026-11-04T19:36:58+09:00",
+      "status": "completed",
+      "http_status": 200,
+      "request_id": null,
+      "usage": {
+        "prompt_tokens": 297,
+        "completion_tokens": 17,
+        "total_tokens": 314,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 169
+      },
+      "actual_bill": "unknown",
+      "received_bytes": 537,
+      "received_sha256": "d1b4d78922645167b946165b857d369818805c457ec4525b6c02586713c3e7f5",
+      "raw_redacted": false,
+      "returned_model": "deepseek-flash",
+      "elapsed_seconds": 1.110258458997123
+    }
+  ],
+  "stages": [
+    {
+      "name": "SVM 图像分类",
+      "status": "completed",
+      "started_at": "2026-11-04T19:36:56+09:00",
+      "elapsed_seconds": 1.5817491660054657
+    },
+    {
+      "name": "API 识别问题类型",
+      "status": "completed",
+      "started_at": "2026-11-04T19:36:58+09:00",
+      "elapsed_seconds": 1.1127407500025583
+    },
+    {
+      "name": "知识图谱检索",
+      "status": "pending"
+    },
+    {
+      "name": "API 结合证据回答",
+      "status": "pending"
+    }
+  ]
+}

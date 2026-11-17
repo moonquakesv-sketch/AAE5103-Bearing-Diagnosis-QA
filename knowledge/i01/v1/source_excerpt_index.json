@@ -1,0 +1,59 @@
+{
+  "profile": "excerpt-only-v1",
+  "build_date": "2026-11-17",
+  "verification_scope": "Each exported fragment was found in its SHA-256-verified local HTML snapshot during packaging. This file contains short excerpts, not complete webpages. Offline loading checks excerpt identity, not current source-page truth.",
+  "sources": {
+    "SRC-K01-01": {
+      "original_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+      "snapshot_sha256": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+      "excerpt_fragments": [
+        "Vibration from an external source while stationary",
+        "Wear caused by vibration and swaying",
+        "Oscillating motion with a small amplitude",
+        "Poor lubrication"
+      ]
+    },
+    "SRC-K01-03": {
+      "original_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+      "snapshot_sha256": "74d44e716e0f6af90175aced64296d73a783b766225328ab3b58edb870c206c0",
+      "excerpt_fragments": [
+        "After the lubricant has been sampled, the bearings should be cleaned.",
+        "examine the condition of bearing raceways and external surfaces"
+      ]
+    },
+    "SRC-K01-04": {
+      "original_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-dismounting/",
+      "snapshot_sha256": "d8e2faaea08532a4242c1843906f4755bb8db8532007f7d49f291833b87ff5ff",
+      "excerpt_fragments": [
+        "the procedure and sequence of removal should first be studied using the machine plan"
+      ]
+    },
+    "SRC-I01-01": {
+      "original_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/flaking/",
+      "snapshot_sha256": "5903155b5a1413c4c43db32088a35fc27c1d8a6be5f048322e48958531ea9c95",
+      "excerpt_fragments": [
+        "Inner ring of an angular contact ball bearing",
+        "Flaking diagonally along raceway",
+        "Poor alignment between shaft and housing during mounting"
+      ]
+    },
+    "SRC-I01-02": {
+      "original_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/smearing/",
+      "snapshot_sha256": "d622a21b65eeaf23e1d43bcfe3be1aa000cfcd9123dea0d98cb8e21db062ff8d",
+      "excerpt_fragments": [
+        "Convex rollers of damage “Smearing 5”",
+        "Smearing of rolling surfaces",
+        "Poor lubrication"
+      ]
+    },
+    "SRC-I01-03": {
+      "original_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+      "snapshot_sha256": "7d7d5265cc22e2dec053698cc8bfbcef8fb2d621a958a3b4afc885a2237e71bb",
+      "excerpt_fragments": [
+        "proper maintenance and inspection must be performed",
+        "bearing noise, vibration, temperature, and lubrication",
+        "Periodic maintenance should be performed following specified procedures."
+      ]
+    }
+  }
+}

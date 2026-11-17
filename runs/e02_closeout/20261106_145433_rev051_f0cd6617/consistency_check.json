@@ -1,0 +1,206 @@
+{
+  "status": "PASS",
+  "checked_at_JST": "2026-11-06T15:08:04.272832+09:00",
+  "scope": "One necessary read-only consistency check of this closeout; saved evidence is reused",
+  "checks": [
+    {
+      "check": "necessary_source_files_exact",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "final_62_of_65_and_exact_3_unknown",
+      "passed": true,
+      "details": {
+        "GV/QV3-D02": 3,
+        "TV/QV3-H01": 7,
+        "L/QV3-D11": 4
+      }
+    },
+    {
+      "check": "315_fixed_301_scored_14_unknown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ref_macros_are_exact_saved_views",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "document_REF_table_debug",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "document_REF_table_operational_reserve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "debug_source_state_structural_NA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "reserve_metric_applicability_not_filled_with_zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "key_contrast_G-L_debug",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "key_contrast_G-T_debug",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "key_contrast_G-L_operational_reserve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "D11_service_failure_contribution",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "existing_symmetric_sensitivity_debug",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "existing_symmetric_sensitivity_operational_reserve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "legacy_38_exact_separate_304_rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "legacy_unknown_14_outputs_2_pairs_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "D08_and_H01_saved_path_observations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "historical_service_failures_not_replaced_with_drafts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "REF_execution_values_and_bill",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "before_plan_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_plan_hash_and_identical_full_snapshots",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "precise_plan_diff",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "task_states_E02_E01_dependency_complete_R01_pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "current_scope_adjustment_and_no_new_calls",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_document_links_exist_and_are_absolute",
+      "passed": true,
+      "details": {
+        "local_links": 60,
+        "missing": []
+      }
+    },
+    {
+      "check": "all_other_old_files_metadata_unchanged",
+      "passed": true,
+      "details": {
+        "checked": 37639,
+        "changed": [],
+        "missing": [],
+        "scope": "metadata only; necessary source files additionally hashed"
+      }
+    },
+    {
+      "check": "old_links_exact",
+      "passed": true,
+      "details": {
+        "old_links": 11,
+        "current_links": 11
+      }
+    },
+    {
+      "check": "exact_added_file_list",
+      "passed": true,
+      "details": {
+        "count": 14,
+        "unlisted": [],
+        "missing": []
+      }
+    },
+    {
+      "check": "new_content_files_and_plan_hashes",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "historical_exclusions_not_expanded",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "errors": [],
+  "historical_regular_files": 37640,
+  "old_files_compared_by_metadata": 37639,
+  "old_links_compared": 11,
+  "necessary_sources_hashed": 52,
+  "added_regular_files": [
+    "docs/E02_收尾验收与R01交接_rev051.md",
+    "docs/handoffs/2026-11-06-051.md",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/E02总结果与R01交接.md",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/before/AAE5103_项目计划与交接_rev050.md",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/before/workspace_metadata.json",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/check_closeout.py",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/closeout.json",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/consistency_check.json",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/diffs/主计划_rev050_to_rev051.diff",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/final_manifest.json",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/snapshots/AAE5103_项目计划与交接_rev051.md",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/sources.json",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/task_sync.json",
+    "runs/e02_closeout/20261106_145433_rev051_f0cd6617/收尾范围.md"
+  ],
+  "only_changed_existing_file": "AAE5103_项目计划与交接.md",
+  "historical_suites_or_readiness_verifiers_rerun": [],
+  "new_model_calls": 0,
+  "credential_contents_read": false,
+  "retrieval_generation_scoring_classification_D04_demo_actions": 0,
+  "new_independent_semantic_review": false,
+  "historical_full_content_rehash_claimed": false,
+  "E02": "完成——课程原型运行与有限评价范围",
+  "R01": "待开始"
+}

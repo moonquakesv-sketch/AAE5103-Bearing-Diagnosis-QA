@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "planned_units": 65,
+  "fixed_points": 315,
+  "independent_question_metric_rows": 260,
+  "independent_group_split_macros": 40,
+  "contrast_rows": 40,
+  "sensitivity_contrast_rows": 40,
+  "all_groups_same_two_points_masked": [
+    "QV3-D03-P2",
+    "QV3-H01-P5"
+  ],
+  "canonical_scores_changed": false,
+  "dynamic_overall_mean": null,
+  "model_judged": true,
+  "independence": "same agent, separate deterministic arithmetic/source audit; no expert truth or new independent agent claimed"
+}

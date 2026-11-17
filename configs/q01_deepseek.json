@@ -1,0 +1,43 @@
+{
+  "provider_name": "DeepSeek",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "models": {
+    "generate": "deepseek-flash",
+    "verify": "deepseek-flash",
+    "revise": "deepseek-flash"
+  },
+  "parameters": {
+    "generate": {
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0
+    },
+    "verify": {
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0
+    },
+    "revise": {
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0
+    }
+  },
+  "max_attempts": 5,
+  "timeout_seconds": 60,
+  "max_input_tokens": {
+    "generate": 8192,
+    "verify": 8192,
+    "revise": 8192
+  },
+  "max_output_tokens": {
+    "generate": 1024,
+    "verify": 512,
+    "revise": 1024
+  },
+  "retries": 0,
+  "concurrency": 1
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "purpose": "D02_validation_only_revision",
+  "stage": "D02-rev005",
+  "created_at": "2026-10-22T12:29:28.080870+08:00",
+  "training_freeze_sha256": "13aa89fbf24db442bc00880f8add60c3ccdd6fee341500bee6f545b7e0779f29",
+  "frozen_input_hashes": {
+    "configs/data.yaml": "02b79bd9ee20f846b9d09cc6799d50eb83d326ba721996b566a08364b17e98d7",
+    "data/records.csv": "6bfe114f193cd9822e2198d2397ebfd0c13d132df77497d4ff6609bc1faa3aac",
+    "scripts/d02_pipeline.py": "6203f977cafd9361b77b5ed6e0c6b67e5e102569783927ef6db7cdeff30f8b33",
+    "scripts/data_contract.py": "ee2ae00033c7196b182d33c0ba8f2a2eb65884d0a8a0fae449b7d7da915613b5",
+    "scripts/validate_d01.py": "fd4406cdcea92f8ed6ca3e0aaacc15974398ff53ca950878064957db06beb22b",
+    "runs/d01/source_audit.json": "0f35e520d41e3049afcbee5723ae94421392a4869234f7f64fca364181e995fc"
+  },
+  "approved_input_hashes": {
+    "configs/data.yaml": "02b79bd9ee20f846b9d09cc6799d50eb83d326ba721996b566a08364b17e98d7",
+    "data/records.csv": "6bfe114f193cd9822e2198d2397ebfd0c13d132df77497d4ff6609bc1faa3aac",
+    "scripts/d02_pipeline.py": "2e429da522be9e58d672e1993b3dbec75c3e1bf966472ef53b7232376e8e5f72",
+    "scripts/data_contract.py": "ee2ae00033c7196b182d33c0ba8f2a2eb65884d0a8a0fae449b7d7da915613b5",
+    "scripts/validate_d01.py": "fd4406cdcea92f8ed6ca3e0aaacc15974398ff53ca950878064957db06beb22b",
+    "runs/d01/source_audit.json": "0f35e520d41e3049afcbee5723ae94421392a4869234f7f64fca364181e995fc"
+  },
+  "prior_pipeline_path": "runs/d02_fix/rev005/before/scripts/d02_pipeline.py",
+  "unchanged_processing_functions": {
+    "frequencies": "5a1f207428d81cd3c8b596de5c6159451691872dd794d773983f5703484d51f3",
+    "log_power": "9b514eb02cce7097e9ff07e7570849ea4a83d40e42b2a54d1df20acb1501c4f8",
+    "model_pixels": "19b9f2e91e410d1730e8fe948f205ad6a4f0e64119ec57576f371303bf2cb015",
+    "render": "c00583d6bf1806a7f0d991927a5edb05f46fdedf13d1c20d54dcd3c642077d4f",
+    "load_record": "a329db9280f4b93132da623c3ea843fe7ccf7a22906ae58ae6a70aa802cf0b7b",
+    "eligible_windows": "6c0a3b87c5ef60dcdf811bda9a2bb761eb0e9af94d5bb71c314aaeb0e957af1b",
+    "choose_balanced": "504aa32d113dd8caf09c2bcf08d330387f066f8540ed8464c3150241422dcb5e",
+    "sample_id": "0f1a503272c86fede5b078357a6b711797b982750a0185c1aa3d71c161ed7a95",
+    "metadata": "83c75bdbe4ddc8e956bdbad5ba2d8080a877ceb433bcf413387bc94b8b251faa",
+    "fit_color_limits": "b454f83872164776ddb78b4565d37078cad6c5926504c7c957e0227c4a9fff70"
+  },
+  "reason": "R1 complete row coverage; R2 raw-derived review pixel validation and reproduction comparison; R3 actual RGB direction checks. Generation functions, configuration, data and historical freeze remain unchanged."
+}

@@ -1,0 +1,16 @@
+question_id,split,family,tasks,answerability,points,content_points,boundary_or_unsupported_points,minimum_complete_cards_for_content,needs_more_than_top_k3
+E01-D001,debug,causal_mechanism,explanation,answerable_with_conditions,2,2,0,2,False
+E01-D002,debug,diagnosis_boundary,explanation,false_premise,4,1,3,1,False
+E01-D003,debug,physical_discrimination,inspection,answerable_with_conditions,3,3,0,1,False
+E01-D004,debug,physical_discrimination,inspection,false_premise,3,1,2,1,False
+E01-D005,debug,evidence_preservation,preparation,answerable_with_conditions,3,3,0,1,False
+E01-D006,debug,inspection_scope,inspection,answerable_with_conditions,5,5,0,1,False
+E01-D007,debug,inspection_scope,inspection,false_premise,7,7,0,1,False
+E01-D008,debug,combined_explanation_inspection,explanation|inspection,answerable_with_conditions,3,2,1,2,False
+E01-D009,debug,multi_overview,explanation|inspection|preparation,partial_requires_uncertainty,11,11,0,6,True
+E01-D010,debug,record_assembly,preparation,answerable_with_conditions,5,5,0,1,False
+E01-H001,heldout,sample_provenance,preparation,partial_requires_uncertainty,5,4,1,1,False
+E01-H002,heldout,removal_planning,preparation,partial_requires_uncertainty,4,3,1,2,False
+E01-H003,heldout,temporal_attribution,explanation|inspection,false_premise,4,3,1,2,False
+E01-H004,heldout,source_verifiability,preparation,partial_requires_uncertainty,5,0,5,0,False
+E01-H005,heldout,application_gap,inspection|preparation,insufficient_evidence,4,1,3,1,False

@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "e01.design.v3.pair_coding"
+      ]
+    },
+    "pair_id": {
+      "type": "string"
+    },
+    "method": {
+      "enum": [
+        "model_judged"
+      ]
+    },
+    "evaluation_status": {
+      "enum": [
+        "complete",
+        "evaluator_failure",
+        "machine_unresolved"
+      ]
+    },
+    "draft_errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "error_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "unsupported",
+              "condition",
+              "citation",
+              "scope",
+              "omission",
+              "false_premise"
+            ]
+          },
+          "proposition": {
+            "type": "string"
+          },
+          "spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "channel": {
+                  "enum": [
+                    "final_answer",
+                    "service_message",
+                    "draft",
+                    "verification_issues"
+                  ]
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "channel",
+                "start",
+                "end",
+                "quote"
+              ]
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "error_id",
+          "kind",
+          "proposition",
+          "spans",
+          "reason"
+        ]
+      }
+    },
+    "final_errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "error_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "unsupported",
+              "condition",
+              "citation",
+              "scope",
+              "omission",
+              "false_premise"
+            ]
+          },
+          "proposition": {
+            "type": "string"
+          },
+          "spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "channel": {
+                  "enum": [
+                    "final_answer",
+                    "service_message",
+                    "draft",
+                    "verification_issues"
+                  ]
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "channel",
+                "start",
+                "end",
+                "quote"
+              ]
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "error_id",
+          "kind",
+          "proposition",
+          "spans",
+          "reason"
+        ]
+      }
+    },
+    "detected_error_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reported_issue_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "report_error_mapping": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "issue_id": {
+            "type": "string"
+          },
+          "error_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_id",
+          "error_id",
+          "reason"
+        ]
+      }
+    },
+    "final_observable": {
+      "type": "boolean"
+    },
+    "report_observable": {
+      "type": "boolean"
+    },
+    "alignment_reason": {
+      "type": "string"
+    },
+    "high_risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "judge_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "configured_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "returned_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "backend_identity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "context_id": {
+          "type": "string"
+        },
+        "prompt_sha256": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "configured_model",
+        "returned_model",
+        "backend_identity",
+        "context_id",
+        "prompt_sha256"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "pair_id",
+    "method",
+    "evaluation_status",
+    "draft_errors",
+    "final_errors",
+    "detected_error_ids",
+    "reported_issue_ids",
+    "report_error_mapping",
+    "final_observable",
+    "report_observable",
+    "alignment_reason",
+    "high_risks",
+    "judge_identity"
+  ]
+}

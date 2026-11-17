@@ -1,0 +1,124 @@
+{
+  "weights": [
+    {
+      "path": "runs/d03/20261022_rev006/weights/resnet18-f37072fd.pth",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    }
+  ],
+  "raw_data": [
+    {
+      "path": "data/raw/cwru/97.mat",
+      "url": "https://engineering.case.edu/sites/default/files/97.mat",
+      "sha256": "16bf48babcf1c7ac224bc1a81cd9eafdb27e42d5cf559761907e067e8eeadf3c"
+    },
+    {
+      "path": "data/raw/cwru/98.mat",
+      "url": "https://engineering.case.edu/sites/default/files/98.mat",
+      "sha256": "37e6612c05e65c415dcfa2ab27a3fda648a5863160fa898b884a14743044e045"
+    },
+    {
+      "path": "data/raw/cwru/99.mat",
+      "url": "https://engineering.case.edu/sites/default/files/99.mat",
+      "sha256": "4b97e6b5361f45efb6951dc3b1aebcdb3b89cb69d0f96d6f5c297dd9f45eee75"
+    },
+    {
+      "path": "data/raw/cwru/100.mat",
+      "url": "https://engineering.case.edu/sites/default/files/100.mat",
+      "sha256": "88a5990cb541320e91505a1d72139e1993500ffe6e292a451011667f4138ca78"
+    },
+    {
+      "path": "data/raw/cwru/105.mat",
+      "url": "https://engineering.case.edu/sites/default/files/105.mat",
+      "sha256": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab"
+    },
+    {
+      "path": "data/raw/cwru/106.mat",
+      "url": "https://engineering.case.edu/sites/default/files/106.mat",
+      "sha256": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883"
+    },
+    {
+      "path": "data/raw/cwru/107.mat",
+      "url": "https://engineering.case.edu/sites/default/files/107.mat",
+      "sha256": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388"
+    },
+    {
+      "path": "data/raw/cwru/108.mat",
+      "url": "https://engineering.case.edu/sites/default/files/108.mat",
+      "sha256": "d415f0e65128bfa0b118c2051c988fb0dc6ce3e4c8aa45fdc5ad1d0967462e7d"
+    },
+    {
+      "path": "data/raw/cwru/130.mat",
+      "url": "https://engineering.case.edu/sites/default/files/130.mat",
+      "sha256": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d"
+    },
+    {
+      "path": "data/raw/cwru/131.mat",
+      "url": "https://engineering.case.edu/sites/default/files/131.mat",
+      "sha256": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb"
+    },
+    {
+      "path": "data/raw/cwru/132.mat",
+      "url": "https://engineering.case.edu/sites/default/files/132.mat",
+      "sha256": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18"
+    },
+    {
+      "path": "data/raw/cwru/133.mat",
+      "url": "https://engineering.case.edu/sites/default/files/133.mat",
+      "sha256": "53f076cb0d905cf46bffaee7736abce8224ffed777deed03c0c863d762a90c71"
+    },
+    {
+      "path": "data/raw/cwru/118.mat",
+      "url": "https://engineering.case.edu/sites/default/files/118.mat",
+      "sha256": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e"
+    },
+    {
+      "path": "data/raw/cwru/119.mat",
+      "url": "https://engineering.case.edu/sites/default/files/119.mat",
+      "sha256": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330"
+    },
+    {
+      "path": "data/raw/cwru/120.mat",
+      "url": "https://engineering.case.edu/sites/default/files/120.mat",
+      "sha256": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c"
+    },
+    {
+      "path": "data/raw/cwru/121.mat",
+      "url": "https://engineering.case.edu/sites/default/files/121.mat",
+      "sha256": "52f686e984ba8e9b04a047a57416271cdb322cee57ee105dce58926a24b966cb"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "path": "knowledge/i01/v1/sources/nsk_flaking.html",
+      "url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/flaking/",
+      "sha256": "5903155b5a1413c4c43db32088a35fc27c1d8a6be5f048322e48958531ea9c95"
+    },
+    {
+      "path": "knowledge/i01/v1/sources/nsk_regular_maintenance.html",
+      "url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+      "sha256": "7d7d5265cc22e2dec053698cc8bfbcef8fb2d621a958a3b4afc885a2237e71bb"
+    },
+    {
+      "path": "knowledge/i01/v1/sources/nsk_smearing.html",
+      "url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/smearing/",
+      "sha256": "d622a21b65eeaf23e1d43bcfe3be1aa000cfcd9123dea0d98cb8e21db062ff8d"
+    },
+    {
+      "path": "knowledge/k01/sources/nsk_dismounting.html",
+      "url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-dismounting/",
+      "sha256": "d8e2faaea08532a4242c1843906f4755bb8db8532007f7d49f291833b87ff5ff"
+    },
+    {
+      "path": "knowledge/k01/sources/nsk_false_brinelling.html",
+      "url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+      "sha256": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb"
+    },
+    {
+      "path": "knowledge/k01/sources/nsk_inspection.html",
+      "url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+      "sha256": "74d44e716e0f6af90175aced64296d73a783b766225328ab3b58edb870c206c0"
+    }
+  ],
+  "note": "Only the weight is needed for fresh classification. Saved replay and the excerpt corpus work offline. Raw CWRU data and full source snapshots are optional legacy/reproduction assets; downloads are never committed."
+}

@@ -1,0 +1,247 @@
+{
+  "audit_verdict": "NOT_READY",
+  "user_formal_release_step": "不可进入用户正式放行步骤",
+  "active_finding_count": 4,
+  "blocking_count": 2,
+  "priorities": {
+    "P2": 2,
+    "P3": 2
+  },
+  "items": [
+    {
+      "id": "E02-REV036-001",
+      "severity": "P2",
+      "scope": "current rev036 reporting contract",
+      "blocking_current_closure": true,
+      "title": "评价阶段 timeout 被计入 evaluation/workflow 完整均值",
+      "trigger": "SYNTHETIC tested链完整5秒；judge_output已分配后100秒timeout，result.metadata.timing_censored=true；评价耗时100、workflow active105。",
+      "locations": [
+        "candidate/runtime/cli.py:71",
+        "candidate/runtime/cli.py:72",
+        "candidate/runtime/reporting.py:348",
+        "candidate/runtime/reporting.py:349",
+        "candidate/runtime/reporting.py:350"
+      ],
+      "expected": "evaluation_total和workflow_active_total均为右删失观测，完整均值null、observed=0，分别保留下界100/105；provider action、evaluation、workflow三个层级口径一致。",
+      "actual": "provider_by_action正确排除timeout，但evaluation_total.mean=100、workflow_active_total.mean=105、evaluation_total.censored=[]。",
+      "counterexample": "agents/c/sandbox/SYNTHETIC_outputs/SYNTHETIC_probe_details.json#/timeout_report/timing",
+      "checks": [
+        "007 evaluator timeout evaluation complete mean must be unknown",
+        "007 evaluator timeout workflow complete mean must be unknown",
+        "007 evaluator timeout retained lower bound"
+      ],
+      "impact": "违背rev036时延合同；下界被当完整时延参与均值，可能低估评价或总工作流延迟。未主张答案质量或服务成本错误。",
+      "minimal_direction": "把tested与evaluation阶段的删失状态/观测下界分别传播到record；workflow任一阶段删失即删失；完整统计只用完整观测，保留下界。",
+      "blocks_user_formal_release": true,
+      "origin": [
+        "C-001",
+        "parent independent original verdict"
+      ],
+      "original_id": "C-001",
+      "original_severity": "P1",
+      "parent_counterexample": "reproductions/parent/timing_observation.json",
+      "parent_reproduction": "reproductions/parent/probe_parent.py",
+      "severity_reason": "Demonstrated timing corruption; no answer score, budget escape or actual supplier cost corruption proved.",
+      "type": "reproduced_defect",
+      "fixed_in_this_audit": false,
+      "source_locations": [
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/cli.py",
+          "line": 71,
+          "sha256": "21deb109265051d9f3676da65ce398bf93222b0a8e2ee40658e2435e9acee9ee"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/cli.py",
+          "line": 72,
+          "sha256": "21deb109265051d9f3676da65ce398bf93222b0a8e2ee40658e2435e9acee9ee"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 348,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 349,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 350,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        }
+      ]
+    },
+    {
+      "id": "E02-REV036-002",
+      "severity": "P2",
+      "status": "confirmed_SYNTHETIC_counterexample",
+      "blocks_unconditional_fairness_acceptance": true,
+      "title": "Paired group retries a failed retrieval and can receive a different evidence bundle",
+      "location": {
+        "path": "runs/e02_preflight_review/20261101_rev036_6810566b/candidate/runtime/cli.py",
+        "line": 47,
+        "function": "execute_batch",
+        "source": "                if cache_key not in cache:cache[cache_key]=runtime.corpus.retrieve(req,mode,3)"
+      },
+      "trigger": "A SYNTHETIC local corpus raises on the first retrieve for one (question_id,repeat,mode), then returns canonical fixture cards on a later call. Run paired cells T→TV, G→GV, or TV→T.",
+      "expected": "The registered pair shares one retrieval attempt/outcome, including a failed outcome. The second group must not perform a new retrieval and selectively recover.",
+      "actual": "Cache assignment occurs only after retrieve returns. A failure leaves no cache entry; second paired group calls retrieve again. T→TV and G→GV yielded first cell tested_failure with zero cards and second cell completed/publishable with cards. TV→T reversed the advantage.",
+      "counterexample_evidence": [
+        "runs/e02_preflight_review/20261101_rev036_6810566b/agents/a/synthetic_fairness_results.json",
+        "runs/e02_preflight_review/20261101_rev036_6810566b/agents/a/synthetic_fairness_observations.json",
+        "runs/e02_preflight_review/20261101_rev036_6810566b/agents/a/sandbox/SYNTHETIC_cache_failure_graph_01/reproduction_result.json",
+        "runs/e02_preflight_review/20261101_rev036_6810566b/agents/a/sandbox/SYNTHETIC_cache_failure_reverse_01/reproduction_result.json"
+      ],
+      "reproduction": {
+        "script": "runs/e02_preflight_review/20261101_rev036_6810566b/agents/a/09_reproduce_cache_failure.py",
+        "argv_template": [
+          "/Users/moonquakes/miniforge3/envs/aae5103/bin/python",
+          "-B",
+          "runs/e02_preflight_review/20261101_rev036_6810566b/agents/a/09_reproduce_cache_failure.py",
+          "runs/e02_preflight_review/20261101_rev036_6810566b/agents/a/sandbox/SYNTHETIC_cache_failure_FRESH",
+          "G,GV"
+        ],
+        "requires_fresh_output": true,
+        "expected_current_exit": 1
+      },
+      "impact": "Order-dependent evidence exposure breaks the pair's registered shared-retrieval control and permits an extra local retrieval attempt. It can confound failure/availability comparisons.",
+      "minimal_fix_direction": "Cache a structured retrieval success or failure result once per cache key, and apply the same outcome to both paired groups; add independent first-failure/reversed-order tests.",
+      "introduced_in_rev036": false,
+      "claim_limit": "This is a reachable SYNTHETIC injected local-failure control flow. No real question was dynamically queried, and it is not evidence that any of the 13 real questions has exhibited the fault.",
+      "blocks_user_formal_release": true,
+      "origin": [
+        "A-F01",
+        "parent post-agent crosscheck"
+      ],
+      "original_id": "A-F01",
+      "original_severity": "P2",
+      "parent_counterexample": "reproductions/parent/followup_crosschecks.json",
+      "parent_reproduction": "reproductions/parent/crosscheck_agent_boundaries.py",
+      "prior_origin_evidence": "agents/a/post_original_A_F01_origin.json",
+      "type": "reproduced_defect",
+      "fixed_in_this_audit": false,
+      "source_locations": [
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/cli.py",
+          "line": 47,
+          "sha256": "21deb109265051d9f3676da65ce398bf93222b0a8e2ee40658e2435e9acee9ee"
+        }
+      ]
+    },
+    {
+      "id": "E02-REV036-003",
+      "severity": "P3",
+      "scope": "current rev036 report completeness",
+      "blocking_current_closure": true,
+      "title": "评价和workflow时延只有全体统计，缺少组×split统计",
+      "trigger": "SYNTHETIC TV/debug、TV/reserve、GV/debug、GV/reserve评价时延分别4/40/8/80秒。",
+      "locations": [
+        "candidate/runtime/reporting.py:252",
+        "candidate/runtime/reporting.py:253",
+        "candidate/runtime/reporting.py:346",
+        "candidate/runtime/reporting.py:348",
+        "candidate/runtime/reporting.py:351"
+      ],
+      "expected": "tested/evaluation/workflow各阶段及总时延均保留组与debug/reserve分报的mean/median/min/max/n/N；批次wall单列。",
+      "actual": "tested latency在group_metrics有按split观测统计；evaluation_total和workflow_active_total仅全体统计，例中evaluation mean=33秒，报告没有相应group×split摘要；provider_by_action亦为全体。",
+      "counterexample": "agents/c/sandbox/SYNTHETIC_outputs/SYNTHETIC_supplemental_results.json#/multistratum_timing_report/timing",
+      "checks": [
+        "007 evaluation group/split summaries exist",
+        "007 evaluation/workflow grouping field"
+      ],
+      "impact": "四种不同观测被33秒全体均值掩盖，当前报告不能满足约定的组与split分报；原始记录仍可离线复算。",
+      "minimal_direction": "按(group,split)生成同一timing_stats结构；provider阶段若分层报告，也按slot映射到对应cell，避免跨split混合。",
+      "blocks_user_formal_release": false,
+      "origin": [
+        "C-002",
+        "parent source and schema review"
+      ],
+      "original_id": "C-002",
+      "original_severity": "P2",
+      "related_old_issue": "E02-REV035-007",
+      "parent_counterexample": "reproductions/parent/timing_observation.json",
+      "precision_note": "CLI writes tested record before evaluation and does not persist per-cell evaluation/workflow totals afterward. Do not claim exact reconstruction of those active totals from existing sealed records.",
+      "severity_reason": "Report contract omission; still prevents declaring old007 fully closed.",
+      "type": "reproduced_contract_or_artifact_gap",
+      "fixed_in_this_audit": false,
+      "source_locations": [
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 252,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 253,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 346,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 348,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/reporting.py",
+          "line": 351,
+          "sha256": "0e0b62cf95aef572da74b4c61200bc412c3689f6f21e42860f53b97d2dfd98b4"
+        }
+      ]
+    },
+    {
+      "id": "E02-REV036-004",
+      "severity": "P3",
+      "scope": "new adjacent artifact integrity issue; pair-specific old003 closed",
+      "blocking_current_closure": false,
+      "title": "output.errors的非omission错误可用空摘句或空spans进入有效编码",
+      "trigger": "完整合法SYNTHETIC output编码只新增errors=[{kind:unsupported,spans:[{channel:final_answer,start:0,end:0,quote:''}]}]，或spans=[]。",
+      "locations": [
+        "candidate/runtime/evaluation.py:42",
+        "candidate/runtime/evaluation.py:108",
+        "candidate/schemas/output.json#/properties/errors"
+      ],
+      "expected": "非omission错误至少一条正长非空逐字可见quote；合法omission保留。错误命题不应只靠未定位的文字理由进入有效错误artifact。",
+      "actual": "两种空quote/空spans均通过validate_output；错误非空不匹配quote被reject。pair的对应空quote/无spans负例均正确拒绝，合法omission正确保留。",
+      "counterexample": "agents/c/sandbox/SYNTHETIC_outputs/SYNTHETIC_check_results.json",
+      "checks": [
+        "NEW output nonomission error empty",
+        "NEW output nonomission error no_spans"
+      ],
+      "impact": "可保留无可核对表达位置的错误artifact。当前38指标不直接消费output.errors，不能据此宣称U_claim、V_new或其他数值错误率已被污染。",
+      "minimal_direction": "对output.errors补充与pair非omission相同的可见非空摘句约束，保持omission例外；保留错误原件而不给有效canonical。",
+      "blocks_user_formal_release": false,
+      "origin": [
+        "C-003",
+        "parent post-agent crosscheck"
+      ],
+      "original_id": "C-003",
+      "original_severity": "P2",
+      "parent_counterexample": "reproductions/parent/followup_crosschecks.json",
+      "parent_reproduction": "reproductions/parent/crosscheck_agent_boundaries.py",
+      "introduced_in_rev036": false,
+      "severity_reason": "Error-artifact integrity only; no current38 scalar consumer of output.errors.",
+      "type": "reproduced_contract_or_artifact_gap",
+      "fixed_in_this_audit": false,
+      "source_locations": [
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/evaluation.py",
+          "line": 42,
+          "sha256": "f1a6bdc57d9f175f4e08ec22ac900152706a2d3bd23b27155b25c6051d525e04"
+        },
+        {
+          "path": "runs/e02_preflight_fix/20261101_fix_rev036_f39b6330/runtime/evaluation.py",
+          "line": 108,
+          "sha256": "f1a6bdc57d9f175f4e08ec22ac900152706a2d3bd23b27155b25c6051d525e04"
+        }
+      ]
+    }
+  ],
+  "formal_experiment_released": false,
+  "independent_cross_audit_accepted": false,
+  "paid_execution_authorized": false
+}

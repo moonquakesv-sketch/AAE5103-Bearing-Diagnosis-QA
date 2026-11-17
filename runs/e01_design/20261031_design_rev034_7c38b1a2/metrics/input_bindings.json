@@ -1,0 +1,16 @@
+{
+  "bindings": {
+    "knowledge/v2_1/cards.json": "1092b978f59066a82c00f18ef89591c09b98c2b42307f78676377632089f4cd6",
+    "evaluation/v3/business_requests.jsonl": "1944e4b98dd8f5b2bf89e5a87618b94b4d1888a272df24fa2536a120c8ab190b",
+    "evaluation/v3/rubrics.json": "6841d5eebecb5bb1b9666960481b1f758943bac7280f389e8e41048360886bce",
+    "metrics/scoring_rubrics.json": "330130455ab80d6068e5b1ec4b2e4e5477b2e8f7e39e2ef24e2efc9b5600833d",
+    "metrics/input_schema.json": "f7b39ad9889c6cabe8df838058efa7fff8b68168cf51b74239658060450bb4e7"
+  },
+  "actual_cards": "must equal frozen canonical card, never replace incomplete returned card from library",
+  "common_context": "must equal that request explicitly_allowed_operating_context; no group metadata",
+  "scoring_rubric": "one selected sanitized scoring_rubrics value; no split/family/reference outline or other questions",
+  "business_request": "exact frozen five-field request for this unit, never scoring fields",
+  "shape_and_value_validation_both_required": true,
+  "map_custodian": "automatic isolated mapping, no human role or OS isolation claim",
+  "real_outputs_scored": 0
+}

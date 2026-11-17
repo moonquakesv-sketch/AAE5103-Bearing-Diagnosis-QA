@@ -1,0 +1,47 @@
+[
+  {
+    "case_id": "S02-BOUND-1",
+    "request": {
+      "predicted_class": "outer_race",
+      "scenario_id": "SC-NOT-REGISTERED",
+      "question": "Synthetic scope mismatch fixture; do not retrieve.",
+      "task_types": [
+        "inspection"
+      ],
+      "explicitly_allowed_operating_context": {}
+    },
+    "expected_scope_status": "not_covered_or_class_scenario_mismatch",
+    "scoring_scope": "excluded_from_QA_quality",
+    "reason": "Explicit static unknown/mismatched scenario boundary; not a real question or execution."
+  },
+  {
+    "case_id": "S02-BOUND-2",
+    "request": {
+      "predicted_class": "inner_race",
+      "scenario_id": "SC-K01-OR-001",
+      "question": "Synthetic scope mismatch fixture; do not retrieve.",
+      "task_types": [
+        "inspection"
+      ],
+      "explicitly_allowed_operating_context": {}
+    },
+    "expected_scope_status": "not_covered_or_class_scenario_mismatch",
+    "scoring_scope": "excluded_from_QA_quality",
+    "reason": "Explicit static unknown/mismatched scenario boundary; not a real question or execution."
+  },
+  {
+    "case_id": "S02-BOUND-3",
+    "request": {
+      "predicted_class": "normal",
+      "scenario_id": "SC-I01-RE-001",
+      "question": "Synthetic scope mismatch fixture; do not retrieve.",
+      "task_types": [
+        "inspection"
+      ],
+      "explicitly_allowed_operating_context": {}
+    },
+    "expected_scope_status": "not_covered_or_class_scenario_mismatch",
+    "scoring_scope": "excluded_from_QA_quality",
+    "reason": "Explicit static unknown/mismatched scenario boundary; not a real question or execution."
+  }
+]

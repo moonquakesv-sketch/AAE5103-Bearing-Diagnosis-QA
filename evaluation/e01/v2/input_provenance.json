@@ -1,0 +1,11 @@
+{
+  "mode": "author_specified_module_inputs",
+  "predicted_class": "author_specified_not_actual_inference",
+  "task_types": "author_specified_not_model_identification",
+  "scenario_cause": "independent_demo_assumption_not_diagnosis",
+  "normal_semantics": "routing_category_not_health_safety_airworthiness_or_release",
+  "real_upstream_comparison": "pending_separate_authorization; all four groups must share one bound actual upstream result",
+  "real_end_to_end_including_misclassification": "E02_only_after_explicit_authorization",
+  "runtime_source_context": "Must use a module-test source projection; do not reuse I01 actual-inference provenance wording. Hash/profile freeze pending.",
+  "formal_experiment_released": false
+}

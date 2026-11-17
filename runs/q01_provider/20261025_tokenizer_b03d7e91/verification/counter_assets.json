@@ -1,0 +1,66 @@
+{
+  "schema": "q01.counter.assets.v1",
+  "model": "deepseek-flash",
+  "served_model": "DeepSeek-V4.1-Flash-1017",
+  "recipe_version": "0.2.0",
+  "recipe_commit": "935817c66f5d6e64838f419692545f06787e485f",
+  "model_revision": "1bae0e1088993b9b82de08f59de5be5a34e42170",
+  "vendor_path": "runs/q01_provider/20261025_tokenizer_b03d7e91/vendor",
+  "files": {
+    "tokenizer": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/hf1017_tokenizer.json",
+      "sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b"
+    },
+    "chat_template": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/hf1017_encoding.py",
+      "sha256": "13231c592e958fb39e2af6001dae69d90e7a36b265702b9b390236fb387599e2"
+    },
+    "recipe_template": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/recipe_source/deepseek-recipe-encoding/src/v4/dsv41.rs",
+      "sha256": "33f7b0e0c3dde66020a4746ffc6c35df8dd30933e653aaf9071c1beb21439a90"
+    },
+    "recipe_tokenizer": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/recipe_source/static/tokenizers/v41/tokenizer.json",
+      "sha256": "81f64d1248a68ce3663e07ab3ee48b851e5df0e32d27cb98e4c9a268151e8d99"
+    },
+    "recipe_tokenizer_logic": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/assets/recipe_source/deepseek-recipe-encoding/src/tokenizer.rs",
+      "sha256": "21fefc37c6689cac8357d030f1ccb2c84e37d293950797ec4a6a0bfc208b56de"
+    },
+    "python_init": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/vendor/deepseek_recipe/__init__.py",
+      "sha256": "af06cc19cc216a6db2b8459c1a5a88d513dbd83e258090665880327abc0c73f3"
+    },
+    "native": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/vendor/deepseek_recipe/_native.abi3.so",
+      "sha256": "7b9a8e9165be8ae9148a7b671d63c8576a171dbcd256745760cba0612e3dba9e"
+    },
+    "dylib_libopencv_imgcodecs.4.12.0.dylib": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/vendor/deepseek_recipe/.dylibs/libopencv_imgcodecs.4.12.0.dylib",
+      "sha256": "4c42eeef3ba3512b62f0dd5d90450f7c9a79e088171a9b7db301e30581a987b0"
+    },
+    "dylib_libopencv_core.4.12.0.dylib": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/vendor/deepseek_recipe/.dylibs/libopencv_core.4.12.0.dylib",
+      "sha256": "2cf2797f7b5c7891a49d3f40113bafface3ecc6f12c8558beb7e9e7b97b7b09b"
+    },
+    "dylib_libopencv_imgproc.4.12.0.dylib": {
+      "path": "runs/q01_provider/20261025_tokenizer_b03d7e91/vendor/deepseek_recipe/.dylibs/libopencv_imgproc.4.12.0.dylib",
+      "sha256": "557cc2b5ed39fe08afaab66d7687393c77b8ebcbdd3836408988a3f50da966ba"
+    }
+  },
+  "profile": {
+    "thinking": {
+      "type": "disabled"
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "roles": [
+      "system",
+      "user"
+    ],
+    "text_only": true,
+    "reject_added_token_literals": true
+  },
+  "provider_config_sha256": "407c209f0a37fb562fdc537e0c4c9f2d250ae0112632cfb9fcfd914b8f863f18"
+}

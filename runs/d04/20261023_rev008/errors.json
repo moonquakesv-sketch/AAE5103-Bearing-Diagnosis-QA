@@ -1,0 +1,8 @@
+{
+  "n_windows": 236,
+  "misclassifications": [],
+  "n_misclassified": 0,
+  "failed_samples": [],
+  "n_failed_samples": 0,
+  "failure_policy": "Any processing error stops completion and is preserved in events.jsonl and CLI log"
+}

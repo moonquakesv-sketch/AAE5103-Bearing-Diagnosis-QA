@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "model_before": {
+    "pipeline": "3d853df187a4dee195025236557fc9e3",
+    "scaler": "b9cee9f6a83becee8df2939a02b71938",
+    "svm": "233e247ae853e17b709a76edad78ea86"
+  },
+  "model_after": {
+    "pipeline": "3d853df187a4dee195025236557fc9e3",
+    "scaler": "b9cee9f6a83becee8df2939a02b71938",
+    "svm": "233e247ae853e17b709a76edad78ea86"
+  },
+  "network_before": "44e0dbdc214a5d41d5254de53953807f7a29c41fed6527d9d4b81bd1037a39fb",
+  "network_after": "44e0dbdc214a5d41d5254de53953807f7a29c41fed6527d9d4b81bd1037a39fb",
+  "weight_identity": {
+    "enum": "ResNet18_Weights.IMAGENET1K_V1",
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "file_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "official_full_state_sha256": "9af32d5e7fbb87ef324882e37010f3766ddb307aa8b7f8ebcb44c7c21dec2a18",
+    "extractor_state_sha256": "44e0dbdc214a5d41d5254de53953807f7a29c41fed6527d9d4b81bd1037a39fb",
+    "strict_load": true,
+    "feature_layer": "avgpool -> flatten(1), before fc; 512 dimensions",
+    "feature_dim": 512
+  },
+  "frozen_files_before": {
+    "freeze.json": "7c8c35c9eb7ff1d5b2964ab9060e5530b48e09f281315a7c78adc4b77219e3db",
+    "declaration.json": "7e855c95f90eeb4c2c359ecd58446c3c4be8e58f952329cd1c540049676dfe22",
+    "model/pipeline.joblib": "80d190fa01122cb66a8168b772e81b20fc130b90e4094399377813bc608d35ac",
+    "model/scaler.joblib": "011349532c49f0c787dbbf63bf9ee505177086fcca32929c7ba58dcd01505dae",
+    "model/svm.joblib": "b119605f145cd33c99bc37b6de29cfb7de91417515af0fd1d94e7e5a75c12e67",
+    "model/classes.json": "7079073eb7a7f8b0cefab3c042dcdac268daa4b606d4070932fc493ecb2e9e0c",
+    "model/fit_provenance.json": "a0561709b6f9c2804f64de8b0b11c6a60302d83305987ec6d16655d12babdcdd",
+    "weight_identity.json": "3fb287b58d66fff99d2657897ddcede0798345234e99f275c5b4d2e22a611668",
+    "weights/resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+  },
+  "frozen_files_after": {
+    "freeze.json": "7c8c35c9eb7ff1d5b2964ab9060e5530b48e09f281315a7c78adc4b77219e3db",
+    "declaration.json": "7e855c95f90eeb4c2c359ecd58446c3c4be8e58f952329cd1c540049676dfe22",
+    "model/pipeline.joblib": "80d190fa01122cb66a8168b772e81b20fc130b90e4094399377813bc608d35ac",
+    "model/scaler.joblib": "011349532c49f0c787dbbf63bf9ee505177086fcca32929c7ba58dcd01505dae",
+    "model/svm.joblib": "b119605f145cd33c99bc37b6de29cfb7de91417515af0fd1d94e7e5a75c12e67",
+    "model/classes.json": "7079073eb7a7f8b0cefab3c042dcdac268daa4b606d4070932fc493ecb2e9e0c",
+    "model/fit_provenance.json": "a0561709b6f9c2804f64de8b0b11c6a60302d83305987ec6d16655d12babdcdd",
+    "weight_identity.json": "3fb287b58d66fff99d2657897ddcede0798345234e99f275c5b4d2e22a611668",
+    "weights/resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+  },
+  "fitting_methods_blocked": true,
+  "n_feature_rows": 236,
+  "n_prediction_rows": 236
+}

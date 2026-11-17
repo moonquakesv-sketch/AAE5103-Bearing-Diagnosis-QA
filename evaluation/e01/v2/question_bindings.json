@@ -1,0 +1,100 @@
+[
+  {
+    "question_id": "E02P-D01",
+    "split": "debug",
+    "line_number": 1,
+    "request_sha256": "a2afb33ac4d5f5507819078675bc724eb54f0ce90b35a006d9f9bf8c4a2d182a",
+    "family_id": "case_explanation_and_provenance"
+  },
+  {
+    "question_id": "E02P-D02",
+    "split": "debug",
+    "line_number": 2,
+    "request_sha256": "f5334800d5fd725ad49cb7b61c5d8f69fb880714d563cf710ffd7d26602b989f",
+    "family_id": "physical_discrimination"
+  },
+  {
+    "question_id": "E02P-D03",
+    "split": "debug",
+    "line_number": 3,
+    "request_sha256": "0fd4d6abf22ed10f12b59915ba69c70ddc97b145fb465d5d9ef07874d31d9e7d",
+    "family_id": "multi_overview"
+  },
+  {
+    "question_id": "E02P-D04",
+    "split": "debug",
+    "line_number": 4,
+    "request_sha256": "24c7e0b484a2295723e1837174330cbb7d840d924f9c4e225c38df8abc6c5bd6",
+    "family_id": "case_explanation_and_provenance"
+  },
+  {
+    "question_id": "E02P-D05",
+    "split": "debug",
+    "line_number": 5,
+    "request_sha256": "1724de67ff53bedbc61e319017c38dd1252c386727a4916b7d0f2494b2724aa8",
+    "family_id": "inspection_scope"
+  },
+  {
+    "question_id": "E02P-D06",
+    "split": "debug",
+    "line_number": 6,
+    "request_sha256": "5d4ae1e4648e6e92206c97e57826a6d1c44a55b7f9cb77d8497b0e6153858853",
+    "family_id": "removal_planning"
+  },
+  {
+    "question_id": "E02P-D07",
+    "split": "debug",
+    "line_number": 7,
+    "request_sha256": "60a9c53877bd445bdada99a706beb1495d903606bf1a2ca3f3b8af167ff06065",
+    "family_id": "case_explanation_and_provenance"
+  },
+  {
+    "question_id": "E02P-D08",
+    "split": "debug",
+    "line_number": 8,
+    "request_sha256": "0164dbcd703dd2055668753707fbb8fad8edc9fa9ad70061c96f06199c3840e2",
+    "family_id": "operating_checks"
+  },
+  {
+    "question_id": "E02P-D09",
+    "split": "debug",
+    "line_number": 9,
+    "request_sha256": "d0b68c412ede9d22834c75bc65c12ecc691d539c6323e1df9e1602c1600d6c3b",
+    "family_id": "record_assembly"
+  },
+  {
+    "question_id": "E02P-D10",
+    "split": "debug",
+    "line_number": 10,
+    "request_sha256": "aa99619fbd9286ca4afd09c2aaeeacc8661c96820dddd10293ea3fa7302ea65b",
+    "family_id": "case_explanation_and_provenance"
+  },
+  {
+    "question_id": "E02P-D11",
+    "split": "debug",
+    "line_number": 11,
+    "request_sha256": "91d6592725a771635acbf9d2679acccf03e8c69e6c2b804f19124d14b7299e63",
+    "family_id": "operating_checks"
+  },
+  {
+    "question_id": "E02P-D12",
+    "split": "debug",
+    "line_number": 12,
+    "request_sha256": "0e4ad8dfc57bd0e044e5f32d6416cada8b283cb242c09f1bdef0f5bd3ebaccb9",
+    "family_id": "maintenance_procedure_scope"
+  },
+  {
+    "question_id": "E02P-H01",
+    "split": "heldout",
+    "line_number": 1,
+    "request_sha256": "d4c9579f26dbee37cb37d5e0dfad0de5121d989eed8048a4eceeaf24e19db336",
+    "family_id": "sample_provenance"
+  },
+  {
+    "question_id": "E02P-H02",
+    "split": "heldout",
+    "line_number": 2,
+    "request_sha256": "6336b1a9e864a5535a8b76a5124fd2ae4a26242a7a67ba08ad3baa7c37dd3ac8",
+    "family_id": "source_verifiability"
+  }
+]

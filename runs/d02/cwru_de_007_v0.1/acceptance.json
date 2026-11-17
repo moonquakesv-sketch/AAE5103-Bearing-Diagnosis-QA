@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-22T12:04:51.001713+08:00",
+  "samples": 704,
+  "per_split_class_counts": {
+    "train": {
+      "normal": 58,
+      "inner_race": 58,
+      "outer_race": 58,
+      "rolling_element": 58
+    },
+    "validation": {
+      "normal": 59,
+      "inner_race": 59,
+      "outer_race": 59,
+      "rolling_element": 59
+    },
+    "test": {
+      "normal": 59,
+      "inner_race": 59,
+      "outer_race": 59,
+      "rolling_element": 59
+    }
+  },
+  "unique_source_groups": 16,
+  "source_groups_crossing_splits": 0,
+  "all_windows_provenance_bounds_quality_and_nonoverlap": "PASS",
+  "all_image_formats_and_pixels": "PASS",
+  "train_fit_matrix_and_model_correspondence": "PASS",
+  "exact_train_quantile_repeat": "PASS",
+  "repeated_raw_to_matrix_and_model_pixels": [
+    "s_04bb819cc9f8f51d287478f8",
+    "s_571e7442e37115378a7102ea",
+    "s_d371ee2819d09123f0fc6cd4",
+    "s_79087881d67c8532de5b0b68",
+    "s_f2d27d858a6bff03b90dc494",
+    "s_c0a0561e267aacc1b51409d7",
+    "s_03e0a4fd8336290c07df44b8",
+    "s_6371adc0c1d62aadcced92b1",
+    "s_e3a9050243bb608fd017498a",
+    "s_447d12c3f0aa1d8458ff959e",
+    "s_65576889bb52871e4bf511cc",
+    "s_d2cd306991ddb072fc421ed3",
+    "s_4d372f95ecca07c573ea7fe8",
+    "s_1a732f4e97f481f149a05400",
+    "s_097cef8075a6b49cdc48fb3d",
+    "s_e6702c592702adb10487bea8",
+    "s_3131cf91ff061b6878efb578",
+    "s_2fd5b644a23c2d9f950ad1c9",
+    "s_9f44b95fbc389c7cf111cddd",
+    "s_05dfadec5b132cf7f8946f67",
+    "s_7597a552af2b4e9661d08720",
+    "s_6c40f8d85627ef6c8a7d1201",
+    "s_06f55aa987352c95fb57dd83",
+    "s_1c0ecb7a0d38037bf5578a9b",
+    "s_16aac61b9d135d92299d50c0",
+    "s_3bee25bb393fab777cdc702e",
+    "s_580b3177d3267273ac8901c7",
+    "s_d39418c5d91ef8232d87c03a",
+    "s_2a5b8370cb77cbe1d36f1661",
+    "s_e7ebe3d3c92e4a4da5212c5a",
+    "s_fda1619e72a26548b2bf5e95",
+    "s_28bbf4e61c15e446a3ed2f7d"
+  ],
+  "repeated_windows": 32,
+  "review_and_model_share_matrix_and_limits_by_construction": true,
+  "synthetic_display_check": {
+    "status": "PASS",
+    "tones_hz": [
+      300,
+      1500
+    ],
+    "peaks_hz": [
+      291.9006357422175,
+      1495.2660685600858
+    ],
+    "model_peak_rows_left_right": [
+      152,
+      46
+    ],
+    "expected_rows": [
+      152.76377952755902,
+      45.65354330708661
+    ],
+    "frequency_order": "highest_at_top",
+    "time_order": "increasing_to_right",
+    "matrix_shape_after_reflect_and_crop": [
+      128,
+      2048
+    ],
+    "repeat_array_equal": true,
+    "log_power_sha256": "d6839bab6ea8705177bf198ad115bb31be553a3a4522d12cc83e69886d48e21f",
+    "pixel_sha256": "36da454c953e2e11535c1d3d2a1a796c2b46b4b44c6c706e0974dc5dbffe83bd"
+  },
+  "fit_split": "train",
+  "heldout_refit_calls": 0,
+  "colors_sha256": "8b34fc75c44cf922a5b36202d732694afc70ddc3d7d392315c542cbbc7386be1",
+  "environment": {
+    "python": "3.12.15 (main, Oct 13 2026, 16:47:20) [Clang 21.1.8 ]",
+    "executable": "/Users/moonquakes/miniforge3/envs/aae5103/bin/python",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "device": "CPU",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "PyWavelets": "1.10.0",
+      "Pillow": "12.3.0",
+      "matplotlib": "3.11.2",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "heldout_visual_tuning": false,
+  "classification_training_or_scoring": false,
+  "reproducibility_scope": "numeric arrays and decoded model pixels; review PNG file bytes are not a cross-version promise"
+}

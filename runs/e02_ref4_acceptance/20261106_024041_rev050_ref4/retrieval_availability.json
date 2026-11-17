@@ -1,0 +1,298 @@
+[
+  {
+    "question_id": "QV3-D01",
+    "group": "T",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 1,
+    "evidence_ids": [
+      "EV-K01-001",
+      "EV-K01-006",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D01",
+    "group": "G",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-K01-001",
+      "EV-K01-002",
+      "EV-K01-003"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D02",
+    "group": "T",
+    "registered_knowledge_points": 2,
+    "support_available_in_actual_returned_cards": 2,
+    "evidence_ids": [
+      "EV-K01-001",
+      "EV-K01-004",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D02",
+    "group": "G",
+    "registered_knowledge_points": 2,
+    "support_available_in_actual_returned_cards": 2,
+    "evidence_ids": [
+      "EV-K01-004",
+      "EV-K01-007",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D03",
+    "group": "T",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-K01-006",
+      "EV-K01-009",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D03",
+    "group": "G",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-K01-005",
+      "EV-K01-006",
+      "EV-K01-009"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D04",
+    "group": "T",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-I01-001",
+      "EV-K01-006",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D04",
+    "group": "G",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-I01-001"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D05",
+    "group": "T",
+    "registered_knowledge_points": 6,
+    "support_available_in_actual_returned_cards": 6,
+    "evidence_ids": [
+      "EV-I01-001",
+      "EV-K01-006",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D05",
+    "group": "G",
+    "registered_knowledge_points": 6,
+    "support_available_in_actual_returned_cards": 6,
+    "evidence_ids": [
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D06",
+    "group": "T",
+    "registered_knowledge_points": 2,
+    "support_available_in_actual_returned_cards": 2,
+    "evidence_ids": [
+      "EV-I01-001",
+      "EV-K01-006",
+      "EV-K01-011"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D06",
+    "group": "G",
+    "registered_knowledge_points": 2,
+    "support_available_in_actual_returned_cards": 2,
+    "evidence_ids": [
+      "EV-K01-009",
+      "EV-K01-011"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D07",
+    "group": "T",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-I01-002",
+      "EV-K01-006",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D07",
+    "group": "G",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-I01-002"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D08",
+    "group": "T",
+    "registered_knowledge_points": 4,
+    "support_available_in_actual_returned_cards": 0,
+    "evidence_ids": [
+      "EV-I01-002",
+      "EV-K01-005",
+      "EV-K01-006"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D08",
+    "group": "G",
+    "registered_knowledge_points": 4,
+    "support_available_in_actual_returned_cards": 0,
+    "evidence_ids": [
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-H01",
+    "group": "T",
+    "registered_knowledge_points": 5,
+    "support_available_in_actual_returned_cards": 5,
+    "evidence_ids": [
+      "EV-I01-002",
+      "EV-K01-006",
+      "EV-K01-009"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-H01",
+    "group": "G",
+    "registered_knowledge_points": 5,
+    "support_available_in_actual_returned_cards": 0,
+    "evidence_ids": [
+      "EV-K01-009",
+      "EV-K01-011"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D09",
+    "group": "T",
+    "registered_knowledge_points": 1,
+    "support_available_in_actual_returned_cards": 0,
+    "evidence_ids": [
+      "EV-I01-005",
+      "EV-K01-006",
+      "EV-K01-010"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D09",
+    "group": "G",
+    "registered_knowledge_points": 1,
+    "support_available_in_actual_returned_cards": 1,
+    "evidence_ids": [
+      "EV-I01-003"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D10",
+    "group": "T",
+    "registered_knowledge_points": 4,
+    "support_available_in_actual_returned_cards": 4,
+    "evidence_ids": [
+      "EV-I01-004",
+      "EV-K01-005",
+      "EV-K01-006"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D10",
+    "group": "G",
+    "registered_knowledge_points": 4,
+    "support_available_in_actual_returned_cards": 4,
+    "evidence_ids": [
+      "EV-I01-004"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D11",
+    "group": "T",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-I01-005",
+      "EV-K01-005",
+      "EV-K01-006"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-D11",
+    "group": "G",
+    "registered_knowledge_points": 3,
+    "support_available_in_actual_returned_cards": 3,
+    "evidence_ids": [
+      "EV-I01-005"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-H02",
+    "group": "T",
+    "registered_knowledge_points": 0,
+    "support_available_in_actual_returned_cards": 0,
+    "evidence_ids": [
+      "EV-K01-001",
+      "EV-K01-006",
+      "EV-K01-009"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  },
+  {
+    "question_id": "QV3-H02",
+    "group": "G",
+    "registered_knowledge_points": 0,
+    "support_available_in_actual_returned_cards": 0,
+    "evidence_ids": [
+      "EV-K01-005",
+      "EV-K01-006",
+      "EV-K01-009"
+    ],
+    "note": "Mechanical set containment only; not answer-quality score or new retrieval."
+  }
+]

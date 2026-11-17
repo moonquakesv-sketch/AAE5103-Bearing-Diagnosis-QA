@@ -1,0 +1,16 @@
+{
+  "executable": "python",
+  "python": "3.12.15 (main, Oct 13 2026, 16:47:20) [Clang 21.1.8 ]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "httpx": "0.28.1",
+    "jsonschema": "4.26.0"
+  },
+  "new_dependencies_installed": false,
+  "vendor": "existing isolated official deepseek_recipe0.2.0; current machine native macOS arm64; cross-platform assets need separate binding",
+  "origin": "Fresh read-only local runtime inventory rev042; original rev037 environment retained in before",
+  "submission_note": "Historical environment capture; executable path normalized for distribution. Root requirements.txt defines the submission runtime.",
+  "original_file_sha256": "3137fe71473185b604251c9ed0dff6c4780bbabca7c07daf508e5f5711d19569"
+}

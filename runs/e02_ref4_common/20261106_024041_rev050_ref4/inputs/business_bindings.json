@@ -1,0 +1,135 @@
+{
+  "schema": "e01.v3.business_bindings.rev034",
+  "projection_fields": [
+    "predicted_class",
+    "scenario_id",
+    "question",
+    "task_types",
+    "explicitly_allowed_operating_context"
+  ],
+  "hash_canonicalization": "UTF-8 JSON ensure_ascii=True, separators comma/colon, no trailing newline",
+  "source_freeze_sha256": "66569bb8d9e785a26c880902a3857b82669402f9728b876f0570f840a5960040",
+  "bindings": [
+    {
+      "business_line_1_based": 1,
+      "business_request_sha256": "c351951a4a167099abc64b85b451e19e2f2323314f82897b2bb68c8820a14011",
+      "question_id": "QV3-D01",
+      "slot_id": "PLAN-OR-E",
+      "split": "debug",
+      "family_id": "case_explanation_and_provenance",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 2,
+      "business_request_sha256": "ae8682840de38564d2b2d8b31727b9d19fecc75f4d5127616e6a5641f528efb0",
+      "question_id": "QV3-D02",
+      "slot_id": "PLAN-OR-I",
+      "split": "debug",
+      "family_id": "physical_discrimination",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 3,
+      "business_request_sha256": "51f886286174ae19a6af5128e02d15e7b159c7692a15f29f109fcd0ec58433e6",
+      "question_id": "QV3-D03",
+      "slot_id": "PLAN-OR-P",
+      "split": "debug",
+      "family_id": "preservation_sequence",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 4,
+      "business_request_sha256": "9423530b479e00dfe2644ad937d7975b97ce6ee679513d0f4ee62f8eefe2cb5e",
+      "question_id": "QV3-D04",
+      "slot_id": "PLAN-IR-E",
+      "split": "debug",
+      "family_id": "case_explanation_and_provenance",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 5,
+      "business_request_sha256": "9b824bd8cde83e80b6fcdc8074bf0768d3c028aafac7988e5993fd8b65933b3d",
+      "question_id": "QV3-D05",
+      "slot_id": "PLAN-IR-I",
+      "split": "debug",
+      "family_id": "inspection_scope",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 6,
+      "business_request_sha256": "e3b5ec3b075bfc477847f23c3117fee4dfbef0a6646e4bd83e050facae9aef5b",
+      "question_id": "QV3-D06",
+      "slot_id": "PLAN-IR-P",
+      "split": "debug",
+      "family_id": "removal_planning",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 7,
+      "business_request_sha256": "5ab3cc979f1851b25476774a0f2984c0d854dd6d88a1810f904bf9ab3e5185d6",
+      "question_id": "QV3-D07",
+      "slot_id": "PLAN-RE-E",
+      "split": "debug",
+      "family_id": "case_explanation_and_provenance",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 8,
+      "business_request_sha256": "b72ee1b73d315e5ce29d077da971c71b91f9ca935fc26743d76c9653b07b07a1",
+      "question_id": "QV3-D08",
+      "slot_id": "PLAN-RE-I",
+      "split": "debug",
+      "family_id": "operating_checks",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 9,
+      "business_request_sha256": "572c72566e213422cf01b688cb9e74900b163ebcbf2621ab8a52ac52daaa5b6b",
+      "question_id": "QV3-H01",
+      "slot_id": "PLAN-RE-P",
+      "split": "operational_reserve",
+      "family_id": "sample_provenance",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 10,
+      "business_request_sha256": "a9b07b800997b90fdc05c132ac787feef42114997f2983fb36ab72089e0d763f",
+      "question_id": "QV3-D09",
+      "slot_id": "PLAN-N-E",
+      "split": "debug",
+      "family_id": "case_explanation_and_provenance",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 11,
+      "business_request_sha256": "7664a3c384147d5b17d1b4fec359225008936a9aa79af1422354a7a8336ad863",
+      "question_id": "QV3-D10",
+      "slot_id": "PLAN-N-I",
+      "split": "debug",
+      "family_id": "operating_checks",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 12,
+      "business_request_sha256": "95bb442f9dd702e410830c7d7c98ed3938db55ee3a26162435a91e54f16cf9c5",
+      "question_id": "QV3-D11",
+      "slot_id": "PLAN-N-P",
+      "split": "debug",
+      "family_id": "maintenance_procedure_scope",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    },
+    {
+      "business_line_1_based": 13,
+      "business_request_sha256": "f872989f38afdb9baaa37c7fa2eefcc3eb26f3a3aa4544a78cab2bafc0bd18ef",
+      "question_id": "QV3-H02",
+      "slot_id": "PLAN-SOURCE-STATE",
+      "split": "operational_reserve",
+      "family_id": "source_verifiability",
+      "reference_and_scoring_side": "evaluation/v3/rubrics.json; evaluation/v3/reference_content.json; never business input"
+    }
+  ],
+  "knowledge_version": "i01.educational.offline.v2_1_rev034",
+  "rebound_HK": "2026-10-31T14:10:17.964759+08:00",
+  "business_bytes_unchanged_from_first_draft": true,
+  "first_draft_source_freeze_sha256": "b43e4f95de763096efd17aa639642abaa6b8862551f3b8733e026336740392e5"
+}

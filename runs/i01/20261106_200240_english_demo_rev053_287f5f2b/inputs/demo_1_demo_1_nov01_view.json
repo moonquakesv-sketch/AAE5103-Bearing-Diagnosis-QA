@@ -1,0 +1,8 @@
+[
+  "outer_race",
+  "本演示独立假定：一只通用深沟球轴承在停机时受到外部振动，考虑外圈滚道假性布氏压痕这一可能机制。没有真实设备观察或分类器原因诊断。\n\n适用限制：通用轴承课程演示；不是具体型号维修或真实故障鉴定。",
+  "explanation",
+  "**已保存结果 · 2026-11-01 · 本次未调用模型 API**\n\n**本次未完成可发布回答**",
+  "本次没有可发布答案。",
+  "**EV-K01-001 · False Brinelling**\n\nVibration from an external source while stationary\n\n出处：[NSK Europe / NSK Ltd.](https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/)；undated web page; accessed 2026-10-23；False Brinelling 2; read alongside False Brinelling 1\n\n条件：案例 2 外圈属于案例 1 的深沟球轴承；有静止和外部振动条件。\n\n限制：不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。\n\n---\n\n**EV-K01-002 · False Brinelling**\n\nWear caused by vibration and swaying\n\n出处：[NSK Europe / NSK Ltd.](https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/)；undated web page; accessed 2026-10-23；Damage Condition and Possible Causes, first two bullets\n\n条件：保留静止、小幅运动与接触位置；来源使用可能原因列表。\n\n限制：没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。"
+]

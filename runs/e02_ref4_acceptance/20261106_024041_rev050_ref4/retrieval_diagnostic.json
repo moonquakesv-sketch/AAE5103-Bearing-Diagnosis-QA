@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "QV3-D01",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-001",
+        "EV-K01-006",
+        "EV-K01-010"
+      ],
+      "G": [
+        "EV-K01-001",
+        "EV-K01-002",
+        "EV-K01-003"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D02",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-004",
+        "EV-K01-001",
+        "EV-K01-010"
+      ],
+      "G": [
+        "EV-K01-004",
+        "EV-K01-010",
+        "EV-K01-007"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D03",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-006",
+        "EV-K01-009",
+        "EV-K01-010"
+      ],
+      "G": [
+        "EV-K01-006",
+        "EV-K01-009",
+        "EV-K01-005"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D04",
+    "evidence_ids": {
+      "T": [
+        "EV-I01-001",
+        "EV-K01-006",
+        "EV-K01-010"
+      ],
+      "G": [
+        "EV-I01-001"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D05",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-010",
+        "EV-K01-006",
+        "EV-I01-001"
+      ],
+      "G": [
+        "EV-K01-010"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D06",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-011",
+        "EV-K01-006",
+        "EV-I01-001"
+      ],
+      "G": [
+        "EV-K01-011",
+        "EV-K01-009"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D07",
+    "evidence_ids": {
+      "T": [
+        "EV-I01-002",
+        "EV-K01-006",
+        "EV-K01-010"
+      ],
+      "G": [
+        "EV-I01-002"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D08",
+    "evidence_ids": {
+      "T": [
+        "EV-I01-002",
+        "EV-K01-006",
+        "EV-K01-005"
+      ],
+      "G": [
+        "EV-K01-010"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-H01",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-006",
+        "EV-K01-009",
+        "EV-I01-002"
+      ],
+      "G": [
+        "EV-K01-009",
+        "EV-K01-011"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D09",
+    "evidence_ids": {
+      "T": [
+        "EV-I01-005",
+        "EV-K01-006",
+        "EV-K01-010"
+      ],
+      "G": [
+        "EV-I01-003"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D10",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-006",
+        "EV-I01-004",
+        "EV-K01-005"
+      ],
+      "G": [
+        "EV-I01-004"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-D11",
+    "evidence_ids": {
+      "T": [
+        "EV-I01-005",
+        "EV-K01-006",
+        "EV-K01-005"
+      ],
+      "G": [
+        "EV-I01-005"
+      ]
+    },
+    "same_evidence_set": false
+  },
+  {
+    "question_id": "QV3-H02",
+    "evidence_ids": {
+      "T": [
+        "EV-K01-001",
+        "EV-K01-006",
+        "EV-K01-009"
+      ],
+      "G": [
+        "EV-K01-006",
+        "EV-K01-009",
+        "EV-K01-005"
+      ]
+    },
+    "same_evidence_set": false
+  }
+]

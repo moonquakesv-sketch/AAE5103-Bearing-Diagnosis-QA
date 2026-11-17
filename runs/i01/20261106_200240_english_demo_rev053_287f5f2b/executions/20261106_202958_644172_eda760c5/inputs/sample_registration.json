@@ -1,0 +1,39 @@
+{
+  "file_hashes": {
+    "configs/cwt_color_limits.json": "8b34fc75c44cf922a5b36202d732694afc70ddc3d7d392315c542cbbc7386be1",
+    "configs/d03.yaml": "f60e5277798a784374811da59b183cf1d8dc5a491185ecc137d8cd521112cd7b",
+    "configs/data.yaml": "02b79bd9ee20f846b9d09cc6799d50eb83d326ba721996b566a08364b17e98d7",
+    "data/processed/cwru_de_007_v0.1/model/s_00a5ed732e812f840c4f9356.png": "a7ccc43ab95b49a0959a34ee09a3bf9fb69b3ad9af85327565dc28a3715bc6dc",
+    "data/samples.csv": "286f1c348eae661723d8f5d915ca1099c6f6a98c42906ba55739a40d0c53416f",
+    "runs/d03/20261022_rev006/declaration.json": "7e855c95f90eeb4c2c359ecd58446c3c4be8e58f952329cd1c540049676dfe22",
+    "runs/d03/20261022_rev006/freeze.json": "7c8c35c9eb7ff1d5b2964ab9060e5530b48e09f281315a7c78adc4b77219e3db",
+    "runs/d03/20261022_rev006/model/classes.json": "7079073eb7a7f8b0cefab3c042dcdac268daa4b606d4070932fc493ecb2e9e0c",
+    "runs/d03/20261022_rev006/model/pipeline.joblib": "80d190fa01122cb66a8168b772e81b20fc130b90e4094399377813bc608d35ac",
+    "runs/d03/20261022_rev006/weights/resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "runs/d03_fix/rev007/compatibility.json": "ad15dee34f1394084c5e000022b73998df83a5a575f7fcfa2fbe46aba8910d5f",
+    "scripts/d03_pipeline.py": "c6f0e133b69ad1fd8b29f234a3c10e52d2d4fc289ab975bea0089fd53b4bd43c"
+  },
+  "selected_row": {
+    "channel": "X132_DE_time",
+    "color_limits_sha256": "8b34fc75c44cf922a5b36202d732694afc70ddc3d7d392315c542cbbc7386be1",
+    "eligible_window_index": "5",
+    "end_sample": "12416",
+    "group_id": "cwru_132",
+    "load_hp": "2",
+    "log_power_sha256_float64": "6fb236c3fed27e8eb31c482930437979ea61a78acaff7ef45a07d652862b8619",
+    "model_image_path": "data/processed/cwru_de_007_v0.1/model/s_00a5ed732e812f840c4f9356.png",
+    "model_pixels_sha256": "3598fbe3965426375f1a717aa7840af0fbcc52f7bdd558586ff9ed75c0d4fdc9",
+    "preprocess_version": "cwru_de_007_v0.1",
+    "processed_fs_hz": "12000",
+    "raw_sha256": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18",
+    "record_id": "cwru_132",
+    "review_image_path": "data/processed/cwru_de_007_v0.1/review/s_00a5ed732e812f840c4f9356.png",
+    "sample_id": "s_00a5ed732e812f840c4f9356",
+    "signal_sha256_float64": "b2ba154e5de7f921a61c4acf6c167a2ab6cd2d416c156a3c636225ed95102d8c",
+    "source_family_id": "cwru_DE_007_outer_race_6oclock",
+    "split": "validation",
+    "start_sample": "10368",
+    "true_label": "outer_race",
+    "window_sha256_float64": "72bdb92212017ea16e9e7440dafd9c3653a1a91e8ba5fdd9ebaab974bd96b3a9"
+  }
+}

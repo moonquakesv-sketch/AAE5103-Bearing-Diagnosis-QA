@@ -1,0 +1,58 @@
+{
+  "authorization": "User selected DeepSeek, accepted documented current model, then explicitly delegated reasonable numerical parameters.",
+  "credential_environment_variable": "DEEPSEEK_API_KEY",
+  "credential_check": "absent_nonempty_value_not_read_to_logs",
+  "model_identity": "DeepSeek-V4.1-Flash-1017 via request alias deepseek-flash; actual returned identity unknown until real response",
+  "allowed_groups": [
+    "T",
+    "GV"
+  ],
+  "max_flows_per_group": 1,
+  "same_registered_input": true,
+  "retries": 0,
+  "concurrency": 1,
+  "max_total_provider_attempts": 5,
+  "per_stage_aggregate_attempt_ceiling": {
+    "generate": 2,
+    "verify": 2,
+    "revise": 1
+  },
+  "money_hard_budget": {
+    "currency": "USD",
+    "amount": "0.02",
+    "control": "SessionBudget atomically reserves full input cap plus output cap at registered peak cache-miss prices before post; durable fsync, no refund after failed/unknown attempt. Live path requires independently approved full-chat counter and current credential."
+  },
+  "rate_snapshot": {
+    "currency": "USD",
+    "input_cache_miss_peak_per_million": "0.30",
+    "output_peak_per_million": "1.20",
+    "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "source_checked_date_HK": "2026-10-25"
+  },
+  "per_action_reserve_usd": {
+    "generate": "0.0036864",
+    "verify": "0.003072",
+    "revise": "0.0036864"
+  },
+  "worst_case_reserved_usd": "0.0172032",
+  "within_selected_budget": true,
+  "input_token_control": {
+    "cap_per_request": 8192,
+    "state": "guard_implemented_verified_counter_not_available",
+    "reason": "Exact full-message counter interface, artifact/source/model/hash registration and cap gate implemented; no independent approved real tokenizer is present. Character estimates never enable the gate."
+  },
+  "transport": {
+    "state": "implemented_offline_accepted",
+    "source": "scripts/q01_deepseek_http.py",
+    "real_gate": "closed: no current credential or independently approved tokenizer",
+    "explicit_retries": 0,
+    "follow_redirects": false,
+    "trust_env": false
+  },
+  "configuration_status": "development_selected_parameters_not_a_first_request_freeze",
+  "real_requests_enabled": false,
+  "real_requests_sent": 0,
+  "actual_bill": "unknown",
+  "estimated_cost": "unknown_not_called",
+  "budget_configuration": "configs/q01_deepseek_budget.json"
+}

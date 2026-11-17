@@ -1,0 +1,10 @@
+{
+  "max_evaluation_calls": 234,
+  "primary": 156,
+  "third_max": 78,
+  "new_generation_calls": 0,
+  "full_cap_peak_reserve_USD": "6.5175552",
+  "proposed_hard_USD": "8.00",
+  "new_user_payment_approval_recorded": false,
+  "historical_budget_not_inherited": true
+}

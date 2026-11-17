@@ -1,0 +1,62 @@
+{
+  "run_id": "20261104_193718_833607_7cb8c8fa",
+  "case_key": "demo_2",
+  "started_at": "2026-11-04T19:37:18+09:00",
+  "origin": "LIVE",
+  "status": "running",
+  "classifier": {
+    "kind": "fresh_image_inference",
+    "sample_id": "s_00b693313ad61a506e427a65",
+    "predicted_class": "rolling_element",
+    "prediction": {
+      "sample_id": "s_00b693313ad61a506e427a65",
+      "record_id": "cwru_120",
+      "group_id": "cwru_120",
+      "source_family_id": "cwru_DE_007_rolling_element",
+      "split": "validation",
+      "true_label": "rolling_element",
+      "predicted_class": "rolling_element",
+      "decision_score": "[1.821429788375229, -0.2218293324559069, 0.8380839678934429, 3.2678175285348448]",
+      "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006"
+    },
+    "feature_sha256": "b4a93eb946472d67712e6e5cd299c41a7324f6e837adb7c28d0dc5c1614cc303",
+    "weight_identity": {
+      "enum": "ResNet18_Weights.IMAGENET1K_V1",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "file_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "official_full_state_sha256": "9af32d5e7fbb87ef324882e37010f3766ddb307aa8b7f8ebcb44c7c21dec2a18",
+      "extractor_state_sha256": "44e0dbdc214a5d41d5254de53953807f7a29c41fed6527d9d4b81bd1037a39fb",
+      "strict_load": true,
+      "feature_layer": "avgpool -> flatten(1), before fc; 512 dimensions",
+      "feature_dim": 512
+    },
+    "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+    "elapsed_seconds": 0.17813566699624062
+  },
+  "task_report": null,
+  "scenario": null,
+  "retrieval": null,
+  "answer": null,
+  "publishable": false,
+  "calls": [],
+  "stages": [
+    {
+      "name": "SVM 图像分类",
+      "status": "completed",
+      "started_at": "2026-11-04T19:37:18+09:00",
+      "elapsed_seconds": 0.23383374999684747
+    },
+    {
+      "name": "API 识别问题类型",
+      "status": "pending"
+    },
+    {
+      "name": "知识图谱检索",
+      "status": "pending"
+    },
+    {
+      "name": "API 结合证据回答",
+      "status": "pending"
+    }
+  ]
+}

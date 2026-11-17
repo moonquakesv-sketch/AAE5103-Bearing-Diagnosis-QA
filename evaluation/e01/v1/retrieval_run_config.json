@@ -1,0 +1,37 @@
+{
+  "protocol_only_not_executable": true,
+  "shared": {
+    "top_k": 3,
+    "budget": "unique_complete_cards",
+    "truncation": false,
+    "actual_equal_text_length": false,
+    "base_citation_checks": true,
+    "additional_retrieval_in_verification": false
+  },
+  "groups": [
+    {
+      "group_id": "T",
+      "retrieval_mode": "text",
+      "content_verification": false,
+      "max_revision": 0
+    },
+    {
+      "group_id": "TV",
+      "retrieval_mode": "text",
+      "content_verification": true,
+      "max_revision": 1
+    },
+    {
+      "group_id": "G",
+      "retrieval_mode": "graph",
+      "content_verification": false,
+      "max_revision": 0
+    },
+    {
+      "group_id": "GV",
+      "retrieval_mode": "graph",
+      "content_verification": true,
+      "max_revision": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "k01.v1",
+  "knowledge_version": "20261023_rev011",
+  "implementation_status": "tables_only_no_retrieval",
+  "tables": [
+    "sources.csv",
+    "scenarios.csv",
+    "evidence.csv",
+    "entities.csv",
+    "relations.csv"
+  ],
+  "allowed_query_inputs": [
+    "predicted_class",
+    "scenario_id",
+    "question",
+    "task_types",
+    "explicitly_allowed_operating_context"
+  ],
+  "forbidden_input_categories": [
+    "ground_truth",
+    "sample_file_names",
+    "sample_paths",
+    "answer_bearing_notes",
+    "evaluation_answers",
+    "scoring_rubrics"
+  ],
+  "retrieval_corpus_policy": "K02 may use the same evidence rows for both baselines. Preserve original_text, claim_en, conditions, limitations, modality and source locators together. Sources are for traceability, not blindly indexing whole project folders.",
+  "claim_en_semantics": "Project-agent-authored English paraphrase, not a verbatim manufacturer quotation; no human or domain-expert sign-off is claimed.",
+  "assumptions_are_not_evidence": true,
+  "audit_material_is_retrieval_input": false,
+  "scope": "generic bearing education; no model-specific or aviation validation",
+  "separator_for_id_lists": "|",
+  "encoding": "UTF-8",
+  "pdf_file_page_base": 1,
+  "null_policy": "Empty PDF page fields mean HTML source; empty local_path/hash only when access limitation is explicit; empty relation evidence only for project_contract/demo_assumption."
+}

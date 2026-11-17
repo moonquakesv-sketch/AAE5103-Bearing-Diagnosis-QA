@@ -1,0 +1,707 @@
+[
+  {
+    "evidence_id": "EV-K01-001",
+    "source_id": "SRC-K01-01",
+    "knowledge_id": "KN-K01-001",
+    "task_type": "explanation",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+    "source_version": "undated web page; accessed 2026-10-23",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "False Brinelling 2; read alongside False Brinelling 1",
+    "original_text": "Vibration from an external source while stationary",
+    "chinese_paraphrase": "NSK 的 False Brinelling 2 为案例1同一深沟球轴承的外圈；厂家把该案例的滚道假性布氏压痕归因于静止时外部振动。这里只陈述厂家案例。",
+    "claim_en": "An NSK outer-ring example attributes raceway false brinelling to external vibration during standstill.",
+    "conditions": "Keep the manufacturer example wording, deep-groove ball bearing, outer ring/raceway, external vibration and stationary condition together. The project scenario is an independently specified teaching assumption; these are not observations of a CWRU sample.",
+    "limitations": "不能推出所有外圈故障都是此机制；不能证明本项目任何样本有该工况。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "reported_example",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/k01/sources/nsk_false_brinelling.html",
+        "source_sha256": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+        "section": "False Brinelling 1 and 2; linked Part/Symptom/Cause",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_false_brinelling_independent_main.txt",
+        "line_start": 38,
+        "line_end": 45,
+        "original_text": "False Brinelling 1\nPart : Inner ring of a deep groove ball bearing\nSymptom : False brinelling on the raceway\nCause : Vibration from an external source while stationary\nFalse Brinelling 2\nPart : Outer ring of damage “False Brinelling 1”\nSymptom : False brinelling on the raceway\nCause : Vibration from an external source while stationary",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Keep the manufacturer example wording, deep-groove ball bearing, outer ring/raceway, external vibration and stationary condition together.",
+      "The project scenario is an independently specified teaching assumption; these are not observations of a CWRU sample."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-002",
+    "source_id": "SRC-K01-01",
+    "knowledge_id": "KN-K01-002",
+    "task_type": "explanation",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+    "source_version": "undated web page; accessed 2026-10-23",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Damage Condition and Possible Causes, first two bullets",
+    "original_text": "Wear caused by vibration and swaying",
+    "chinese_paraphrase": "NSK 将假性布氏压痕描述为滚动体与滚道接触处因振动、摆动形成的磨损；可能原因包括静止轴承的振动/摆动及小幅往复运动。",
+    "claim_en": "False brinelling is contact wear; standstill vibration or small oscillations are listed possible causes.",
+    "conditions": "Wear is at rolling-element/raceway contact points. Stationary bearing oscillation/vibration and small-amplitude oscillation are listed possibilities, not an observed root cause or an exhaustive likelihood model.",
+    "limitations": "没有发生概率或振幅/时长阈值；不能反向由部位标签确定原因。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "possible_cause",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/k01/sources/nsk_false_brinelling.html",
+        "source_sha256": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+        "section": "Damage Condition and Possible Causes; definition and first two causes",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_false_brinelling_independent_main.txt",
+        "line_start": 28,
+        "line_end": 31,
+        "original_text": "Damage Condition Possible Causes Countermeasures\nAmong the different types of Fretting, false brinelling is the occurrence of hollow spots that resemble brinell dents and are due to Wear caused by vibration and swaying at the contact points between the rolling elements and raceway.\nOscillation and vibration of a stationary bearing during such times as transporting\nOscillating motion with a small amplitude",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Wear is at rolling-element/raceway contact points.",
+      "Stationary bearing oscillation/vibration and small-amplitude oscillation are listed possibilities, not an observed root cause or an exhaustive likelihood model."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-003",
+    "source_id": "SRC-K01-01",
+    "knowledge_id": "KN-K01-003",
+    "task_type": "explanation",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/false-brinelling/",
+    "source_version": "undated web page; accessed 2026-10-23",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Possible Causes, second and third bullets",
+    "original_text": "Oscillating motion with a small amplitude; Poor lubrication",
+    "chinese_paraphrase": "原文在可能原因中另列小幅摆动及润滑不良；它们是候选可能性，不是本项目已经观测到的原因。",
+    "claim_en": "Other listed possibilities include small oscillations and poor lubrication.",
+    "conditions": "List alternatives without assigning a probability, ranking or actual lubricant condition. The independent standstill scenario does not exhaust possible causes.",
+    "limitations": "不能把候选原因写为已观测事实，也不能凭列表给原因排序。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "alternative_possibilities",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/k01/sources/nsk_false_brinelling.html",
+        "source_sha256": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+        "section": "Possible Causes, including small-amplitude oscillation and poor lubrication",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_false_brinelling_independent_main.txt",
+        "line_start": 28,
+        "line_end": 32,
+        "original_text": "Damage Condition Possible Causes Countermeasures\nAmong the different types of Fretting, false brinelling is the occurrence of hollow spots that resemble brinell dents and are due to Wear caused by vibration and swaying at the contact points between the rolling elements and raceway.\nOscillation and vibration of a stationary bearing during such times as transporting\nOscillating motion with a small amplitude\nPoor lubrication",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "List alternatives without assigning a probability, ranking or actual lubricant condition.",
+      "The independent standstill scenario does not exhaust possible causes."
+    ],
+    "short_excerpt_expansion_required": false,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-004",
+    "source_id": "SRC-K01-02",
+    "knowledge_id": "KN-K01-004",
+    "task_type": "inspection",
+    "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+    "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+    "pdf_file_page": "19",
+    "printed_page": "19",
+    "page_or_section": "FALSE BRINELLING, paragraph beginning You can distinguish; compare BRINELL AND IMPACT DAMAGE on page 18",
+    "original_text": "wear away the surface texture",
+    "chinese_paraphrase": "Timken 第19页建议检查实际凹陷或磨损区：假性布氏压痕磨损会磨去原表面纹理，真布氏压痕凹陷则保留原纹理；第18页例图将后者说明为金属变形而非磨损。",
+    "claim_en": "Examine depression texture: wear removes it in false brinelling, unlike deformation in true brinelling.",
+    "conditions": "Examine the actual depression or wear area; this is a qualitative physical-surface inspection cue. Page19 discusses stationary slight axial rolling-element movement and very small reversing angular oscillation in roller bearings. Retain the true-deformation versus fretting-wear contrast and example bearing scope.",
+    "limitations": "不是 CWT 图片判据；无量化判定阈值，不能仅凭外圈分类完成鉴别。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "inspection_cue",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 19,
+        "printed_page": "19",
+        "section": "FALSE BRINELLING; reversing-oscillation and texture-comparison paragraphs",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_19_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_19_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "Roller bearings also exhibit false brinelling when they’re used in positions that encounter very small reversing \nangular oscillation (less than one complete rotation of the rolling element).\nYou can distinguish false brinelling from true brinelling by examining the depression or wear area. False brinelling \nwill actually wear away the surface texture, whereas the original surface texture will remain in the depression of a \ntrue brinell."
+      },
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 19,
+        "printed_page": "19",
+        "section": "FALSE BRINELLING; stationary/slight-motion introduction",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_19_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_19_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "FALSE BRINELLING\nAs the name indicates, false brinelling isn’t true brinelling or denting. It’s actually fretting wear caused \nby slight axial rolling-element movements while the bearing is stationary. Vibration can make the rolling \nelement slide back and forth across the race, wearing a groove into the race."
+      },
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 18,
+        "printed_page": "18",
+        "section": "BRINELL AND IMPACT DAMAGE; right-hand photograph caption",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_18_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_18_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "A heavy impact load on this tapered bearing \nouter ring caused brinell and impact damage. \nThese same indentations are evident on the \ninner ring. This is true metal deformation and not \nwear as with false brinelling. The close-up view \nof one of the grooves shows the grinding marks \nstill in the groove."
+      }
+    ],
+    "necessary_conditions": [
+      "Examine the actual depression or wear area; this is a qualitative physical-surface inspection cue.",
+      "Page19 discusses stationary slight axial rolling-element movement and very small reversing angular oscillation in roller bearings.",
+      "Retain the true-deformation versus fretting-wear contrast and example bearing scope."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-005",
+    "source_id": "SRC-K01-02",
+    "knowledge_id": "KN-K01-005",
+    "task_type": "preparation",
+    "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+    "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+    "pdf_file_page": "5",
+    "printed_page": "5",
+    "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 1-2",
+    "original_text": "Gather operating data",
+    "chinese_paraphrase": "调查准备包括从监测装置收集运行数据，分析使用与维护记录/图表，取得应用图示或工程图纸，并用检查表和过程照片记录观察。",
+    "claim_en": "Assemble operating history, maintenance records, drawings, and an observation record with photographs.",
+    "conditions": "These are preparation/recording recommendations for investigating bearing damage/system breakdowns. Do not claim any operating records, drawings or photographs have actually been collected.",
+    "limitations": "资料本身不证明所假定振动原因；本轮未采集真实设备记录。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "preparation_guidance",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 5,
+        "printed_page": "5",
+        "section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps1–2",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_05_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_05_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "1. Gather operating data from bearing monitoring devices; analyze service and maintenance records and charts; \nand secure application diagrams, graphics or engineering drawings.\n2. Prepare an inspection sheet to capture all your observations. Take photographs throughout the procedure to \nhelp document or describe the damaged components."
+      }
+    ],
+    "necessary_conditions": [
+      "These are preparation/recording recommendations for investigating bearing damage/system breakdowns.",
+      "Do not claim any operating records, drawings or photographs have actually been collected."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-006",
+    "source_id": "SRC-K01-02",
+    "knowledge_id": "KN-K01-006",
+    "task_type": "preparation",
+    "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+    "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+    "pdf_file_page": "5",
+    "printed_page": "5",
+    "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps 3-4",
+    "original_text": "label it properly",
+    "chinese_paraphrase": "从轴承、轴承座及密封区域取得的旧润滑样品应分别包装并正确标识；另准备新的未使用润滑剂样品，记录容器上可取得的规格或批次信息，并取得随润滑剂送检的技术规格及相关材料安全资料。原文的“规格或批次”不保证两项均存在。",
+    "claim_en": "Keep used lubricant samples separately packaged and labelled; secure a new unused lubricant sample; record any available specification or batch information from its container; obtain technical specifications and any related material safety documentation for lubricant shipments.",
+    "conditions": "Preserve used sample identity, separate packaging/labels and the new-unused sample distinction. Record any available container information in the specification OR batch categories; this is inclusive OR, not a requirement that both categories always exist. If both are present, capture both rather than arbitrarily discarding available information. Do not fabricate missing lubricant identity or documents. Missing-information reporting/obtaining applicable documents is an explicit project epistemic rule, not a quoted Timken missing-data procedure. Keep technical specifications and any related material safety data accompanying lubricant shipments as a separate source requirement. No sample quantity, container model, product selection or laboratory acceptance threshold is supplied in steps3–4.",
+    "limitations": "未提供采样量、容器型号、油品牌号或化验合格限值。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。 规格与批次不作无条件双必需；无资料时不得编造。",
+    "modality": "preparation_guidance",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 5,
+        "printed_page": "5",
+        "section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, steps3–4",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_05_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_05_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "3. Extract any used lubricant samples from bearings, housing and seal areas to determine lubricant conditions. \nPackage it separately and label it properly.\n4. Secure a sample of new, unused lubricant. Record any specification or batch information from the container. \nObtain the technical specifications and any related material safety data (handling, disposal, toxicological) \ndocumentation to accompany lubricant shipments."
+      }
+    ],
+    "necessary_conditions": [
+      "Preserve used sample identity, separate packaging/labels and the new-unused sample distinction.",
+      "Record any available container information in the specification OR batch categories; this is inclusive OR, not a requirement that both categories always exist. If both are present, capture both rather than arbitrarily discarding available information.",
+      "Do not fabricate missing lubricant identity or documents. Missing-information reporting/obtaining applicable documents is an explicit project epistemic rule, not a quoted Timken missing-data procedure.",
+      "Keep technical specifications and any related material safety data accompanying lubricant shipments as a separate source requirement.",
+      "No sample quantity, container model, product selection or laboratory acceptance threshold is supplied in steps3–4."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-007",
+    "source_id": "SRC-K01-02",
+    "knowledge_id": "KN-K01-007",
+    "task_type": "inspection",
+    "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+    "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+    "pdf_file_page": "5",
+    "printed_page": "5",
+    "page_or_section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, step 5",
+    "original_text": "external influences",
+    "chinese_paraphrase": "检查轴承所处环境及其他设备问题等外部影响，尤其是损伤报告之前或同时发生的问题；该调查方向不证明任何外部影响已被观测或构成原因。",
+    "claim_en": "Investigate external equipment influences preceding or coinciding with the reported damage.",
+    "conditions": "Investigate influences that preceded or coincided with the report. The source is broader than external vibration; temporal proximity does not establish causation.",
+    "limitations": "时间相邻不等于因果成立；没有提供某台邻近设备的实测证据。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "inspection_guidance",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 5,
+        "printed_page": "5",
+        "section": "SUGGESTED PROCEDURE FOR BEARING ANALYSIS, step5",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_05_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_05_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "5. Check the bearing environment for external influences, like other equipment problems, that preceded or \noccurred at the same time bearing damage was reported."
+      }
+    ],
+    "necessary_conditions": [
+      "Investigate influences that preceded or coincided with the report.",
+      "The source is broader than external vibration; temporal proximity does not establish causation."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-008",
+    "source_id": "SRC-K01-02",
+    "knowledge_id": "KN-K01-008",
+    "task_type": "preparation",
+    "source_url": "https://engineering.timken.com/wp-content/uploads/2023/08/Timken-Bearing-Damage-Analysis-Reference-Guide.pdf",
+    "source_version": "02-23; Order No. 5892; copyright 2023; back cover",
+    "pdf_file_page": "2",
+    "printed_page": "2",
+    "page_or_section": "NOTE (OEM instruction) and DISCLAIMER",
+    "original_text": "Always follow the Original Equipment Manufacturer’s installation and maintenance guidelines.",
+    "chinese_paraphrase": "安装与维护应遵循适用的原设备制造商指南；同时，该通用指南明确要求使用者验证产品选择对实际应用的适合性及可行性。",
+    "claim_en": "Use applicable OEM instructions and establish suitability for the intended application.",
+    "conditions": "Use the relevant equipment/model OEM instructions; validate application suitability and feasibility. This guide supplies analysis tools/data and does not identify the project machine or grant maintenance/release authority.",
+    "limitations": "通用指南不授予航空发动机维修适用性，不补造扭矩、间隙或放行条件。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "scope_constraint",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 2,
+        "printed_page": "2",
+        "section": "NOTE; OEM instructions",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_02_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_02_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "Always follow the Original Equipment\nManufacturer’s installation and\nmaintenance guidelines."
+      },
+      {
+        "source_path": "runs/e01_source_scope/20261030_sources_9e7c2a61/sources/Timken_5892_official_candidate.pdf",
+        "source_sha256": "35c9a6ea4f363747a070eda322dc400d4fcc86c29c8417cfcde822d0c95ab9c6",
+        "file_page_1_based": 2,
+        "printed_page": "2",
+        "section": "DISCLAIMER; application suitability and feasibility",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_02_independent.txt",
+        "visual_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/timken_page_02_independent.png",
+        "verification": "fresh pypdf extraction and pdftoppm rendering; image actually inspected in this review",
+        "original_text": "This guide is provided solely to give you analysis \ntools and data to assist you in your product \nselection. Product performance is affected by many \nfactors beyond the control of Timken. Therefore, you \nmust validate the suitability and feasibility of all \nproduct selections for your applications."
+      }
+    ],
+    "necessary_conditions": [
+      "Use the relevant equipment/model OEM instructions; validate application suitability and feasibility.",
+      "This guide supplies analysis tools/data and does not identify the project machine or grant maintenance/release authority."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-009",
+    "source_id": "SRC-K01-03",
+    "knowledge_id": "KN-K01-009",
+    "task_type": "preparation",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+    "source_version": "undated web page; accessed 2026-10-23",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Bearing Cleaning, paragraph 1",
+    "original_text": "After the lubricant has been sampled, the bearings should be cleaned.",
+    "chinese_paraphrase": "检查时先记录轴承外观和残余润滑剂的数量、状态；取得润滑样品后再清洁。这里只采用信息保存顺序。",
+    "claim_en": "Record the initial appearance and residual lubricant; sample the lubricant before cleaning.",
+    "conditions": "Before cleaning, record initial appearance and residual lubricant amount/condition; sample lubricant before cleaning. The card registers evidence-preservation order only; it does not authorize the page’s solvents or cleaning actions for an unknown machine.",
+    "limitations": "仅记录顺序，不据此选定清洗剂或执行拆洗；实际流程需适用文件。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "sequence_constraint",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/k01/sources/nsk_inspection.html",
+        "source_sha256": "74d44e716e0f6af90175aced64296d73a783b766225328ab3b58edb870c206c0",
+        "section": "Bearing Cleaning, full first paragraph plus cleaning-sequence context",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_inspection_independent_main.txt",
+        "line_start": 53,
+        "line_end": 56,
+        "original_text": "Bearing Cleaning\nWhen bearings are inspected, first record the appearance of the bearings and check the amount and condition of the residual lubricant. After the lubricant has been sampled, the bearings should be cleaned. In general, light oil or kerosene may be used as a cleaning solution.\nDismounted bearings should first be given a preliminary cleaning followed by a finishing rinse. Each bath should have a metal net to submerge the bearings in oil without touching the sides or bottom of the tank. If the bearings are rotated with foreign matter in them during preliminary cleaning, the raceways may be damaged. Lubricant and other deposits should be removed in the oil bath during an initial rough cleaning with a soft brush or similar.\nAfter the bearing is relatively clean, give it a finishing rinse. The finishing rinse should be performed carefully by rotating the bearing while keeping it immersed in rinsing oil. Always keep the rinsing oil clean.",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Before cleaning, record initial appearance and residual lubricant amount/condition; sample lubricant before cleaning.",
+      "The card registers evidence-preservation order only; it does not authorize the page’s solvents or cleaning actions for an unknown machine."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-010",
+    "source_id": "SRC-K01-03",
+    "knowledge_id": "KN-K01-010",
+    "task_type": "inspection",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-inspection/",
+    "source_version": "undated web page; accessed 2026-10-23",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Inspection and Evaluation of Bearings, paragraphs 1 and 4; rejection list context",
+    "original_text": "examine the condition of bearing raceways and external surfaces",
+    "chinese_paraphrase": "彻底清洁后检查滚道和外表面、保持架磨损、内部游隙增加、公差退化及其他损伤/异常。方法随轴承结构、尺寸而异。复用评价还考虑磨损程度、机器功能、轴承重要性、运行条件和距下次检查时间；本卡不构成完整复用或拒用判据。",
+    "claim_en": "After thorough cleaning, inspect raceways and external surfaces, cage wear, increased internal clearance, degraded tolerances, and other damage or abnormalities. Reuse assessment also considers degree of wear, machine function, bearing importance, operating conditions, and time until the next inspection. This card gives inspection directions, not a complete reuse decision rule.",
+    "conditions": "Inspect after thorough cleaning; retain every registered inspection domain. Hand rotation is described only for small nonseparable ball bearings; separable bearing and large bearing methods differ. Do not generalize hand rotation. Reuse consideration includes degree of wear, machine function, bearing importance, operating conditions and time until next inspection. The source also has a rejection list; this card deliberately is not the complete reuse/replacement rule.",
+    "limitations": "本卡不是完整复用或拒用清单；不得据此单独决定复用、更换或放行。具体判断还需核对来源完整拒用条款及适用设备/OEM文件，不能以转动正常替代检查；未给出型号限值或航空适用结论。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "inspection_guidance",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/k01/sources/nsk_inspection.html",
+        "source_sha256": "74d44e716e0f6af90175aced64296d73a783b766225328ab3b58edb870c206c0",
+        "section": "Inspection and Evaluation of Bearings, all four paragraphs and rejection-list context",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_inspection_independent_main.txt",
+        "line_start": 57,
+        "line_end": 71,
+        "original_text": "Inspection and Evaluation of Bearings\nAfter being thoroughly cleaned, examine the condition of bearing raceways and external surfaces, the amount of cage wear, the increase in internal clearance, and degradation of tolerances. Carefully check these points and examine for possible damage or other abnormalities to determine if the bearing can be reused.\nFor small, non-separable ball bearings, hold the bearing horizontally in one hand, and then rotate the outer ring to confirm that it turns smoothly. Separable bearings such as tapered roller bearings may be checked by individually examining their rolling elements and the outer ring raceway.\nLarge bearings cannot be rotated manually; however, the rolling elements, raceway surfaces, cages, and contact surface of the ribs should be carefully examined visually.\nThe more important a bearing is, the more carefully it should be inspected. The determination to reuse a bearing should be made only after considering the degree of bearing wear, the function of the machine, the importance of the bearing in the machine, operating conditions, and the time until the next inspection.\nHowever, if any of the following are true, reuse is not possible and replacement is necessary:\n(a) Cracks exist in the inner or outer rings, rolling elements, or cage.\n(b) Flaking is present on the raceway or rolling elements.\n(c) There is significant smearing of the raceway surfaces, ribs, or rolling elements.\n(d) The cage is significantly worn or rivets are loose.\n(e) Rust or scoring is present on the raceway surfaces or rolling elements.\n(f) Significant impact or brinell traces exist on the raceway surfaces or rolling elements.\n(g) There is significant evidence of creep on the bore or periphery of the outer ring.\n(h) Discoloration by heat is evident.\n(i) Significant damage to the seals or shields of grease-sealed bearings has occurred.",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Inspect after thorough cleaning; retain every registered inspection domain.",
+      "Hand rotation is described only for small nonseparable ball bearings; separable bearing and large bearing methods differ. Do not generalize hand rotation.",
+      "Reuse consideration includes degree of wear, machine function, bearing importance, operating conditions and time until next inspection.",
+      "The source also has a rejection list; this card deliberately is not the complete reuse/replacement rule."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-K01-011",
+    "source_id": "SRC-K01-04",
+    "knowledge_id": "KN-K01-011",
+    "task_type": "preparation",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/maintenance/bearing-dismounting/",
+    "source_version": "undated web page; accessed 2026-10-23",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Dismounting introduction, paragraph 2",
+    "original_text": "the procedure and sequence of removal should first be studied using the machine plan",
+    "chinese_paraphrase": "拆卸前依据设备图纸研究拆卸方法与顺序，并考虑安装配合类型；本卡仅采用规划原则。",
+    "claim_en": "Plan removal from machine drawings and mounting-fit information before any disassembly.",
+    "conditions": "Study removal procedure/sequence using machine plans and mounting-fit type before the operation. This is preparation only; later page sections depend on bearing structure, access and fit, and are not an unknown-machine procedure.",
+    "limitations": "后续分结构示例不是对未知设备的操作授权；无工具规格、拆卸力或加热参数。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "preparation_guidance",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/k01/sources/nsk_dismounting.html",
+        "source_sha256": "d8e2faaea08532a4242c1843906f4755bb8db8532007f7d49f291833b87ff5ff",
+        "section": "Dismounting introduction, paragraphs1–2; plan and mounting fit",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_dismounting_independent_main.txt",
+        "line_start": 52,
+        "line_end": 54,
+        "original_text": "Dismounting\nA bearing may be removed for periodic inspection or for other reasons. If the removed bearing is to be used again or is removed only for inspection, it should be dismounted as carefully as when it was mounted. If the bearing has a tight fit, removal may be difficult.\nThe means for removal should be considered in the original design of the adjacent parts of the machine. When dismounting, the procedure and sequence of removal should first be studied using the machine plan and while considering the type of mounting fit in order to perform the operation properly.",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Study removal procedure/sequence using machine plans and mounting-fit type before the operation.",
+      "This is preparation only; later page sections depend on bearing structure, access and fit, and are not an unknown-machine procedure."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-I01-001",
+    "source_id": "SRC-I01-01",
+    "knowledge_id": "KN-I01-001",
+    "task_type": "explanation",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/flaking/",
+    "source_version": "undated web page; accessed 2026-10-26",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Flaking 2 (Part / Symptom / Cause)",
+    "original_text": "Inner ring of an angular contact ball bearing; Flaking diagonally along raceway; Poor alignment between shaft and housing during mounting",
+    "chinese_paraphrase": "NSK Flaking2 案例为角接触球轴承内圈沿滚道斜向剥落，厂家将其归因于安装时轴与轴承座对中不良。该案例不能诊断项目样本。",
+    "claim_en": "NSK reports an angular-contact ball-bearing inner-ring example with diagonal raceway flaking attributed to shaft/housing misalignment during mounting.",
+    "conditions": "Keep angular-contact ball bearing, inner ring, diagonal raceway flaking and mounting-time shaft/housing misalignment together. Report this as the manufacturer example; other flaking causes exist.",
+    "limitations": "与 CWRU 深沟球轴承人工缺陷不同；分类标签不能证明剥落、装配偏斜或因果；无对中限值、修复或放行规则。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "reported_example",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/i01/v1/sources/nsk_flaking.html",
+        "source_sha256": "5903155b5a1413c4c43db32088a35fc27c1d8a6be5f048322e48958531ea9c95",
+        "section": "Flaking2, complete Part/Symptom/Cause",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_flaking_independent_main.txt",
+        "line_start": 50,
+        "line_end": 53,
+        "original_text": "Flaking 2\nPart : Inner ring of an angular contact ball bearing\nSymptom : Flaking diagonally along raceway\nCause : Poor alignment between shaft and housing during mounting",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      },
+      {
+        "source_path": "knowledge/i01/v1/sources/nsk_flaking.html",
+        "source_sha256": "5903155b5a1413c4c43db32088a35fc27c1d8a6be5f048322e48958531ea9c95",
+        "section": "Flaking definition and possible-cause scope",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_flaking_independent_main.txt",
+        "line_start": 28,
+        "line_end": 38,
+        "original_text": "Damage Condition\nPossible Causes Countermeasures\nFlaking occurs when small pieces of bearing material are split off from the smooth surface of the raceway or rolling elements due to rolling fatigue, thereby creating regions having rough and coarse texture.\nExcessive load\nPoor mounting (misalignment)\nMoment load\nEntry of foreign debris, water penetration\nPoor lubrication, improper lubricant\nUnsuitable bearing clearance\nImproper precision for shaft or housing, unevenness in housing rigidity, large shaft bending\nProgression from rust, corrosion pits, Smearing, dents (brinelling)",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Keep angular-contact ball bearing, inner ring, diagonal raceway flaking and mounting-time shaft/housing misalignment together.",
+      "Report this as the manufacturer example; other flaking causes exist."
+    ],
+    "short_excerpt_expansion_required": false,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-I01-002",
+    "source_id": "SRC-I01-02",
+    "knowledge_id": "KN-I01-002",
+    "task_type": "explanation",
+    "source_url": "https://www.nsk.com/eu-en/tools-resources/troubleshooting/damage-by-type/smearing/",
+    "source_version": "undated web page; accessed 2026-10-26",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Smearing 7 (Part / Symptom / Cause); bearing type from Smearing 5",
+    "original_text": "Convex rollers of damage “Smearing 5”; Smearing of rolling surfaces; Poor lubrication",
+    "chinese_paraphrase": "NSK Smearing7 的凸滚子属于 Smearing5 同一调心滚子轴承；厂家把该案例的滚动表面涂抹损伤归因于润滑不良。",
+    "claim_en": "NSK reports smearing on the convex rollers of the spherical roller bearing shown in Smearing 5 and attributes that example to poor lubrication.",
+    "conditions": "Keep Smearing7 convex rollers linked to Smearing5 spherical roller bearing. The rolling-surface smearing and poor lubrication are the manufacturer’s case statement, not project observations. General oil-film rupture/sliding context and alternative causes do not establish a sample root cause or product/dose.",
+    "limitations": "来源为调心滚子轴承而非 CWRU 深沟球轴承；滚动体分类不证明涂抹或润滑原因；未建立具体润滑剂、用量或合格限值。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "reported_example",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/i01/v1/sources/nsk_smearing.html",
+        "source_sha256": "d622a21b65eeaf23e1d43bcfe3be1aa000cfcd9123dea0d98cb8e21db062ff8d",
+        "section": "Smearing5,6,7 linked examples; bearing type inherited from5",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_smearing_independent_main.txt",
+        "line_start": 56,
+        "line_end": 67,
+        "original_text": "Smearing 5\nPart : Inner ring of a spherical roller bearing\nSymptom : Partial Smearing around circumference of raceway surface\nCause : Poor lubrication\nSmearing 6\nPart : Outer ring of damage “Smearing 5”\nSymptom : Partial Smearing around circumference of raceway surface\nCause : Poor lubrication\nSmearing 7\nPart : Convex rollers of damage “Smearing 5”\nSymptom : Smearing of rolling surfaces\nCause : Poor lubrication",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      },
+      {
+        "source_path": "knowledge/i01/v1/sources/nsk_smearing.html",
+        "source_sha256": "d622a21b65eeaf23e1d43bcfe3be1aa000cfcd9123dea0d98cb8e21db062ff8d",
+        "section": "Smearing definition and possible causes",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_smearing_independent_main.txt",
+        "line_start": 28,
+        "line_end": 34,
+        "original_text": "Damage Condition Possible Causes Countermeasures\nSmearing is surface damage which occurs from a collection of small seizures between bearing components caused by oil film rupture and/or sliding.\nSurface roughening occurs along with melting.\nHigh speed and light load\nSudden acceleration/deceleration\nImproper lubricant\nEntry of water",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Keep Smearing7 convex rollers linked to Smearing5 spherical roller bearing.",
+      "The rolling-surface smearing and poor lubrication are the manufacturer’s case statement, not project observations.",
+      "General oil-film rupture/sliding context and alternative causes do not establish a sample root cause or product/dose."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-I01-003",
+    "source_id": "SRC-I01-03",
+    "knowledge_id": "KN-I01-003",
+    "task_type": "explanation",
+    "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+    "source_version": "undated web page; accessed 2026-10-26",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Detecting and Correcting Irregularities, paragraph 1",
+    "original_text": "proper maintenance and inspection must be performed",
+    "chinese_paraphrase": "NSK 说明，为尽可能长期维持轴承原有性能，必须进行适当维护与检查；该通用目的不证明本项目设备健康或可放行。",
+    "claim_en": "NSK describes proper maintenance and inspection as necessary for preserving bearing performance.",
+    "conditions": "Generic maintenance purpose; no actual maintenance, inspection, condition or lifetime observations are supplied. Normal is only a caller-specified routing category in this design.",
+    "limitations": "normal 是调用方指定模块类别，不证明无损伤、剩余寿命、可用性或安全；不授予维修放行。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "scope_constraint",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/i01/v1/sources/nsk_regular_maintenance.html",
+        "source_sha256": "7d7d5265cc22e2dec053698cc8bfbcef8fb2d621a958a3b4afc885a2237e71bb",
+        "section": "Detecting and Correcting Irregularities, paragraph1",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_regular_maintenance_independent_main.txt",
+        "line_start": 58,
+        "line_end": 59,
+        "original_text": "Detecting and Correcting Irregularities\nTo maintain the original performance of a bearing for as long as possible, proper maintenance and inspection must be performed. If proper procedures are used, many bearing problems can be avoided, allowing for improvements in the reliability, productivity, and operating costs of equipment containing bearings.",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Generic maintenance purpose; no actual maintenance, inspection, condition or lifetime observations are supplied.",
+      "Normal is only a caller-specified routing category in this design."
+    ],
+    "short_excerpt_expansion_required": false,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-I01-004",
+    "source_id": "SRC-I01-03",
+    "knowledge_id": "KN-I01-004",
+    "task_type": "inspection",
+    "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+    "source_version": "undated web page; accessed 2026-10-26",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+    "original_text": "bearing noise, vibration, temperature, and lubrication",
+    "chinese_paraphrase": "原文列出的运转期间例行检查方向包括轴承噪声、振动、温度和润滑；具体方法与标准须来自适用程序。",
+    "claim_en": "NSK lists noise, vibration, temperature and lubrication among operating-condition checks.",
+    "conditions": "Noise, vibration, temperature and lubrication checks apply during actual operation. Use specified/applicable procedures; the page gives no project-specific normal baseline, thresholds or inspection interval.",
+    "limitations": "没有设备专属正常基线、阈值、间隔或航空合格标准；单项读数与 normal 分类都不能证明安全。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "inspection_guidance",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/i01/v1/sources/nsk_regular_maintenance.html",
+        "source_sha256": "7d7d5265cc22e2dec053698cc8bfbcef8fb2d621a958a3b4afc885a2237e71bb",
+        "section": "Detecting and Correcting Irregularities, paragraph2; actual-operation and irregularity context",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_regular_maintenance_independent_main.txt",
+        "line_start": 60,
+        "line_end": 61,
+        "original_text": "Periodic maintenance should be performed following specified procedures. This periodic maintenance encompasses the supervision of operating conditions, the supply or replacement of lubricants, and regular periodic inspection. Items that should be regularly checked during operation include bearing noise, vibration, temperature, and lubrication.\nIf an irregularity is found during operation, the cause should be determined and proper corrective actions should be taken after referring to common causes and recommended countermeasures ( Table 3 ). If necessary, the bearing should be dismounted and examined in detail.",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Noise, vibration, temperature and lubrication checks apply during actual operation.",
+      "Use specified/applicable procedures; the page gives no project-specific normal baseline, thresholds or inspection interval."
+    ],
+    "short_excerpt_expansion_required": false,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  },
+  {
+    "evidence_id": "EV-I01-005",
+    "source_id": "SRC-I01-03",
+    "knowledge_id": "KN-I01-005",
+    "task_type": "preparation",
+    "source_url": "https://www.nsk.com/tools-resources/mantenance/bearing-maintenance/",
+    "source_version": "undated web page; accessed 2026-10-26",
+    "pdf_file_page": "",
+    "printed_page": "",
+    "page_or_section": "Detecting and Correcting Irregularities, paragraph 2",
+    "original_text": "Periodic maintenance should be performed following specified procedures.",
+    "chinese_paraphrase": "准备周期性维护时先明确适用的规定程序，其范围包括运转状态监视、润滑剂补给或更换，以及定期检查。",
+    "claim_en": "For maintenance preparation, identify the specified procedures covering condition supervision, lubricant supply or replacement and periodic inspection.",
+    "conditions": "Preparation identifies applicable specified procedures for the three maintenance domains. No interval, product, amount or executable procedure is provided by this card.",
+    "limitations": "本卡不提供维护周期、油品、剂量或操作步骤；不能用通用网页替代设备/OEM文件。 本次为已暴露来源的离线模型来源/条件复核；非专家认证或样本事实。",
+    "modality": "preparation_guidance",
+    "applicability": "generic_bearing_education_only",
+    "reviewed_by": "independent fresh-context source/condition agent; not answer scoring, domain-expert approval, blind test, or formal release",
+    "knowledge_version": "i01.educational.offline.v2_1_rev034",
+    "old_version": "i01.knowledge.v1_rev025",
+    "expanded_source_spans": [
+      {
+        "source_path": "knowledge/i01/v1/sources/nsk_regular_maintenance.html",
+        "source_sha256": "7d7d5265cc22e2dec053698cc8bfbcef8fb2d621a958a3b4afc885a2237e71bb",
+        "section": "Detecting and Correcting Irregularities, paragraph2",
+        "independent_text_path": "runs/e01_design/20261031_design_rev034_7c38b1a2/agents/source/nsk_regular_maintenance_independent_main.txt",
+        "line_start": 60,
+        "line_end": 60,
+        "original_text": "Periodic maintenance should be performed following specified procedures. This periodic maintenance encompasses the supervision of operating conditions, the supply or replacement of lubricants, and regular periodic inspection. Items that should be regularly checked during operation include bearing noise, vibration, temperature, and lubrication.",
+        "verification": "independently extracted directly from saved original HTML; not author PASS"
+      }
+    ],
+    "necessary_conditions": [
+      "Preparation identifies applicable specified procedures for the three maintenance domains.",
+      "No interval, product, amount or executable procedure is provided by this card."
+    ],
+    "short_excerpt_expansion_required": true,
+    "source_review_status": "model_reviewed_documentary_support_with_conditions",
+    "source_applicability": "generic_bearing_education_only; no transfer validation to CWRU artificial defects or aviation equipment"
+  }
+]

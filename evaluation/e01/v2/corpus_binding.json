@@ -1,0 +1,33 @@
+{
+  "knowledge_version": "i01.knowledge.v1_rev025",
+  "common_scenarios": [
+    "SC-I01-IR-001",
+    "SC-I01-NORMAL-001",
+    "SC-I01-RE-001",
+    "SC-K01-OR-001"
+  ],
+  "evidence_count": 16,
+  "source_count": 7,
+  "fixed_files": {
+    "knowledge/i01/v1/entities.csv": "9f59176d837b89a37733e972dc39621d4134b14e36c0ed013a449cdc0faa3324",
+    "knowledge/i01/v1/evidence.csv": "0e05e5c6374996c14a79d5fbad8334730d6c7a498488eb8f807cb475c6afc575",
+    "knowledge/i01/v1/interface.json": "10915740f96b898902433b9d4782e5fa1496741de004973d0c21fe5960cf634a",
+    "knowledge/i01/v1/manifest.json": "612ccb8408a04cb938108641bdee453c5b4fac0273996e03b4d5d115e0c02d4d",
+    "knowledge/i01/v1/relations.csv": "44011f19715ce4a1887b759c45b027cb1b761b642873534db6e7b4666304901b",
+    "knowledge/i01/v1/scenarios.csv": "98e4c41d085777447e5cfcca26c943d94ecc702e292fcc5e8e949198a6ea5d79",
+    "knowledge/i01/v1/sources.csv": "3bbd769e82eda43cecd43667ac270f351333a2ae2db5cb0ef2e455d66097b3d1",
+    "knowledge/i01/v1/sources/nsk_flaking.html": "5903155b5a1413c4c43db32088a35fc27c1d8a6be5f048322e48958531ea9c95",
+    "knowledge/i01/v1/sources/nsk_regular_maintenance.html": "7d7d5265cc22e2dec053698cc8bfbcef8fb2d621a958a3b4afc885a2237e71bb",
+    "knowledge/i01/v1/sources/nsk_smearing.html": "d622a21b65eeaf23e1d43bcfe3be1aa000cfcd9123dea0d98cb8e21db062ff8d",
+    "knowledge/k01/sources/nsk_dismounting.html": "d8e2faaea08532a4242c1843906f4755bb8db8532007f7d49f291833b87ff5ff",
+    "knowledge/k01/sources/nsk_false_brinelling.html": "7a92d57f5518b82b012b8503193d169bce8d5251a5c948505843c376ce1fd0fb",
+    "knowledge/k01/sources/nsk_inspection.html": "74d44e716e0f6af90175aced64296d73a783b766225328ab3b58edb870c206c0"
+  },
+  "implementation_files": {
+    "scripts/retrieve_k02.py": "3606a15518d591dfb955c8acabfc2dddb4e71a9f3ca0de643dca2afbf4620678",
+    "scripts/i01_knowledge.py": "4a6eaa59e1debfa0b3cf7f05472c9909688537f546fd6b6a662eeb66af9d35cb",
+    "configs/k02_retrieval.json": "c89f101a70dd19b8df68dd6d7a279aad8e1b8f674a2ec90a3c52381db58e3b81"
+  },
+  "not_inherited_identity": "Old K01-only freeze is historical, not v2 corpus identity.",
+  "no_retriever_instantiated": true
+}

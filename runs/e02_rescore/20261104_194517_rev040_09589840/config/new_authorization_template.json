@@ -1,0 +1,55 @@
+{
+  "authorization_id": "rev040_rescore_09589840",
+  "source_batch": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78",
+  "output_directory": "runs/e02_rescore/20261104_194517_rev040_09589840/execution",
+  "scope": {
+    "stage": "E02",
+    "purpose": "Reevaluate immutable rev037 Q13R1 outputs only; no generation/retrieval/classification; measurement wire rev040",
+    "Q": 13,
+    "R": 1,
+    "groups": [
+      "T",
+      "TV",
+      "G",
+      "GV"
+    ],
+    "splits": {
+      "debug": 11,
+      "operational_reserve": 2
+    },
+    "question_ids": [
+      "QV3-D01",
+      "QV3-D02",
+      "QV3-D03",
+      "QV3-D04",
+      "QV3-D05",
+      "QV3-D06",
+      "QV3-D07",
+      "QV3-D08",
+      "QV3-D09",
+      "QV3-D10",
+      "QV3-D11",
+      "QV3-H01",
+      "QV3-H02"
+    ],
+    "automatic_rating": "two fresh complete semantic encodings plus third disagreement/high-risk review; deterministic reconstruction validated by original rev037 rules",
+    "extra_retries": 0,
+    "extra_reevaluations": 0,
+    "coding_packages_per_output": 1,
+    "coding_packages_per_pair": 1,
+    "source_batch": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78"
+  },
+  "hard_budget_USD": "8.00",
+  "max_calls": 234,
+  "preparation_binding_sha256": "65809aa25c4d0f0b6c26b62bbb781f61b9d87390f6ff7536ed5608664913c2b7",
+  "configuration_sha256": "8e515d3ebbed85ad9443b1bb247bfa1f59e95ff2e4baebba3441097772602885",
+  "formal_experiment_released": false,
+  "independent_cross_audit_accepted": false,
+  "paid_execution_authorized": false,
+  "user_authorization_record": null,
+  "user_authorization_sha256": null,
+  "cross_audit_report_path": null,
+  "cross_audit_report_sha256": null,
+  "only_new_batch": true,
+  "no_retries_or_resume": true
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metric_id",
+    "unit_id",
+    "numerator",
+    "denominator",
+    "value",
+    "lower",
+    "upper",
+    "status",
+    "method",
+    "reason"
+  ],
+  "properties": {
+    "metric_id": {
+      "enum": [
+        "R_rel",
+        "P_rel",
+        "R_sup",
+        "R_task",
+        "R_card",
+        "R_cond",
+        "all_requested_task_structure",
+        "model_judged_A_cov",
+        "model_judged_U_claim",
+        "C_id_err",
+        "model_judged_C_support",
+        "model_judged_C_cov",
+        "model_judged_A_cond",
+        "model_judged_A_bound",
+        "model_judged_A_insuff",
+        "model_judged_A_overref",
+        "model_judged_V_fix",
+        "model_judged_V_miss",
+        "model_judged_V_detect",
+        "model_judged_V_false",
+        "model_judged_V_new_run",
+        "model_judged_V_new_count",
+        "service_completion",
+        "tested_failure_rate",
+        "missing_rate",
+        "publishable",
+        "model_judged_release_adherence",
+        "latency",
+        "timing_coverage",
+        "evidence_length_difference",
+        "token_usage",
+        "cost",
+        "usage_coverage",
+        "billed_cost_coverage",
+        "evaluator_failure_rate",
+        "machine_unresolved_rate",
+        "judge_agreement",
+        "judge_absolute_difference"
+      ]
+    },
+    "unit_id": {
+      "type": "string"
+    },
+    "numerator": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "denominator": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "lower": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "upper": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "ok",
+        "not_applicable",
+        "tested_failure",
+        "missing",
+        "evaluator_failure",
+        "machine_unresolved",
+        "bounded",
+        "unknown"
+      ]
+    },
+    "method": {
+      "enum": [
+        "model_judged",
+        "mechanical"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}

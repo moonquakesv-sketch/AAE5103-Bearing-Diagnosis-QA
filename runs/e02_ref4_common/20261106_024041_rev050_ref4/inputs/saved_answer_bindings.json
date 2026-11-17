@@ -1,0 +1,1052 @@
+{
+  "sources": [
+    {
+      "question_id": "QV3-D07_T_R01",
+      "original_question_id": "QV3-D07",
+      "unit_id": "N-LREF-013",
+      "group": "T",
+      "family_id": "case_explanation_and_provenance",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-013",
+        "observed_text_sha256": "4ad5a649f820c0651b7b5626fb0c55873bc6f88bc4a7b5ec5e6c43330300f77d",
+        "packet_sha256": "b8aca3d2a96d6796a94a7b52e42914a7cba280ef17d231d13e6591382fcb91fe"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D07_T_R01.json",
+      "source_result_sha256": "6e5282e9e0373a63fa6cb22c3b4486fcf6f07d20e1a78a3981b2804e4d2770cc",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "4ad5a649f820c0651b7b5626fb0c55873bc6f88bc4a7b5ec5e6c43330300f77d",
+      "packet": "packets/N-LREF-013.packet.json"
+    },
+    {
+      "question_id": "QV3-D11_GV_R01",
+      "original_question_id": "QV3-D11",
+      "unit_id": "N-LREF-014",
+      "group": "GV",
+      "family_id": "maintenance_procedure_scope",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-014",
+        "observed_text_sha256": "3c307e25be4625fa679806a494179d781260b049880e95200e2d2138bfe5fb3f",
+        "packet_sha256": "046a0884888c659d6cc936fa10aaf4de5dd5755f72b6e81704c2f31f6ff2129c"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D11_GV_R01.json",
+      "source_result_sha256": "45cb2aa20f79d3d027f88a5069b0617d42ac68b2c70997bdb83545b3ccd84e7d",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "3c307e25be4625fa679806a494179d781260b049880e95200e2d2138bfe5fb3f",
+      "packet": "packets/N-LREF-014.packet.json"
+    },
+    {
+      "question_id": "QV3-D01_T_R01",
+      "original_question_id": "QV3-D01",
+      "unit_id": "N-LREF-015",
+      "group": "T",
+      "family_id": "case_explanation_and_provenance",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-015",
+        "observed_text_sha256": "9321d88676166f3cf9e3a161f2b40028388d83cbc55b0de51c426132f64792e5",
+        "packet_sha256": "5145d505670b73fd1f283d38a236f705bcf9a6b655e7e782e8e99ae2ce045440"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D01_T_R01.json",
+      "source_result_sha256": "999560d13cd07e8b29025953aa15cd02481b52ef82c46b60161b147fd60e3e1c",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "9321d88676166f3cf9e3a161f2b40028388d83cbc55b0de51c426132f64792e5",
+      "packet": "packets/N-LREF-015.packet.json"
+    },
+    {
+      "question_id": "QV3-D07_G_R01",
+      "original_question_id": "QV3-D07",
+      "unit_id": "N-LREF-016",
+      "group": "G",
+      "family_id": "case_explanation_and_provenance",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-016",
+        "observed_text_sha256": "210cd50b1749b76c74d063dacd21988a975a8b2f37bd2e83698a9bc8ea92f7b1",
+        "packet_sha256": "eee32e2fb0dc0869a8cb50ba97c10e683bc643b1f3b2a27c42655d238fba4f35"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D07_G_R01.json",
+      "source_result_sha256": "23682f48fb0be9ffaaef920988bc0462913c75e3d07ed43a6560669dc3449c2e",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "210cd50b1749b76c74d063dacd21988a975a8b2f37bd2e83698a9bc8ea92f7b1",
+      "packet": "packets/N-LREF-016.packet.json"
+    },
+    {
+      "question_id": "QV3-D04_TV_R01",
+      "original_question_id": "QV3-D04",
+      "unit_id": "N-LREF-017",
+      "group": "TV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-017",
+        "observed_text_sha256": "1558e971987bd7d84e0bb279e4c91804c6e8521d06df00df9e18299a083add88",
+        "packet_sha256": "40b751ef0e483583b25c01bc6ede35d016ca6866ced27aed20e57212d4384a46"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D04_TV_R01.json",
+      "source_result_sha256": "088514d9cbf8efa763e4bcfcdf904ebcf6d00b4440996f73e38a92c5566763bf",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "1558e971987bd7d84e0bb279e4c91804c6e8521d06df00df9e18299a083add88",
+      "packet": "packets/N-LREF-017.packet.json"
+    },
+    {
+      "question_id": "QV3-D08_TV_R01",
+      "original_question_id": "QV3-D08",
+      "unit_id": "N-LREF-018",
+      "group": "TV",
+      "family_id": "operating_checks",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-018",
+        "observed_text_sha256": "b67bdc1a83604b29297ac50ee501d3103912e01fd0889addd192f88d066200db",
+        "packet_sha256": "89696840d073206570a6ac8c346fb8e96643b81b1833df669652d6464eb9bbc5"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D08_TV_R01.json",
+      "source_result_sha256": "86e37f6166aee1800c49c1ee0798cb78c29c55f3fe9e5c93cf2fc692712f0729",
+      "source_status": "reasonable_insufficiency",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "b67bdc1a83604b29297ac50ee501d3103912e01fd0889addd192f88d066200db",
+      "packet": "packets/N-LREF-018.packet.json"
+    },
+    {
+      "question_id": "QV3-D09_G_R01",
+      "original_question_id": "QV3-D09",
+      "unit_id": "N-LREF-019",
+      "group": "G",
+      "family_id": "case_explanation_and_provenance",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-019",
+        "observed_text_sha256": "0cbe9ca66307ae6cfc898c024d605cc534d5448f5d655271c5d1a6b80527247e",
+        "packet_sha256": "e4ec94380929151efd312387d412694d59b9a4d78094e794729a870879352927"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D09_G_R01.json",
+      "source_result_sha256": "ab1a98edefd4fdcb1db303a1f6069a49beface774a8b02e5e16b397b3755e36d",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "0cbe9ca66307ae6cfc898c024d605cc534d5448f5d655271c5d1a6b80527247e",
+      "packet": "packets/N-LREF-019.packet.json"
+    },
+    {
+      "question_id": "QV3-D01_TV_R01",
+      "original_question_id": "QV3-D01",
+      "unit_id": "N-LREF-020",
+      "group": "TV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-020",
+        "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+        "packet_sha256": "15cd71cc7fa6e051f1b75923ca96f9ab298d1311a277eb1dd50a482fba94e354"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D01_TV_R01.json",
+      "source_result_sha256": "6ec490f33c15a818ed1786528f3b813e8c614c5d5d5491fcaf16aab297df8a86",
+      "source_status": "tested_failure",
+      "observed_kind": "actual_service_failure_message_only_no_hidden_draft",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet": "packets/N-LREF-020.packet.json"
+    },
+    {
+      "question_id": "QV3-D10_GV_R01",
+      "original_question_id": "QV3-D10",
+      "unit_id": "N-LREF-021",
+      "group": "GV",
+      "family_id": "operating_checks",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-021",
+        "observed_text_sha256": "3493958154c07e878c65c81c4e0dd8aca03d1f66fa554763b572526a8b6e9ab3",
+        "packet_sha256": "f19daea77b6323380543159e41bccea4fc35b9b81968a477022495376834b578"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D10_GV_R01.json",
+      "source_result_sha256": "fe405fb93e6c23c35c0a23927c62f40f2d2cc9f8e3b5a8175a6c34a710212b7f",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "3493958154c07e878c65c81c4e0dd8aca03d1f66fa554763b572526a8b6e9ab3",
+      "packet": "packets/N-LREF-021.packet.json"
+    },
+    {
+      "question_id": "QV3-D03_G_R01",
+      "original_question_id": "QV3-D03",
+      "unit_id": "N-LREF-022",
+      "group": "G",
+      "family_id": "preservation_sequence",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-022",
+        "observed_text_sha256": "72580a307e63cd380370b410cf03da208a3eccf4a4a149db292dd515f5694708",
+        "packet_sha256": "67c98eb61117b0b89b93b200ad3e8fb2061a4077c29cdb242387b25e2384db7c"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D03_G_R01.json",
+      "source_result_sha256": "320f4ed8f052553bb3dfccb8b4eeba06d09cbc13b1ccce435afff5020f055422",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "72580a307e63cd380370b410cf03da208a3eccf4a4a149db292dd515f5694708",
+      "packet": "packets/N-LREF-022.packet.json"
+    },
+    {
+      "question_id": "QV3-D02_GV_R01",
+      "original_question_id": "QV3-D02",
+      "unit_id": "N-LREF-023",
+      "group": "GV",
+      "family_id": "physical_discrimination",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-023",
+        "observed_text_sha256": "7d5410b5c70c1070a60d38752c5ef33ed178633515013967b4dabe598fcdc274",
+        "packet_sha256": "4aa8a28b49f0500429c7a6cc59f1e4f56fc642ad19a444ca66ac8d368f998e2b"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D02_GV_R01.json",
+      "source_result_sha256": "7e5dcaf5840bec124cefae52c048a5ecc09ddae64378d6d1608391e559ddd09c",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "7d5410b5c70c1070a60d38752c5ef33ed178633515013967b4dabe598fcdc274",
+      "packet": "packets/N-LREF-023.packet.json"
+    },
+    {
+      "question_id": "QV3-D05_TV_R01",
+      "original_question_id": "QV3-D05",
+      "unit_id": "N-LREF-024",
+      "group": "TV",
+      "family_id": "inspection_scope",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-024",
+        "observed_text_sha256": "77f772788a4e6897ee1b76984051839528bd3d40172dba4a2823c45035a28602",
+        "packet_sha256": "dffa5a6e5391ae242ba1f26355940b364f0c16e6a5a63597fdbba9a8f31e76c8"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D05_TV_R01.json",
+      "source_result_sha256": "fa62572113d24266b2a4f3661a49bb8c65315f3da81d4c0b84696f10a3ade9fb",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "77f772788a4e6897ee1b76984051839528bd3d40172dba4a2823c45035a28602",
+      "packet": "packets/N-LREF-024.packet.json"
+    },
+    {
+      "question_id": "QV3-D05_G_R01",
+      "original_question_id": "QV3-D05",
+      "unit_id": "N-LREF-025",
+      "group": "G",
+      "family_id": "inspection_scope",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-025",
+        "observed_text_sha256": "e75bb197a38a40dd9492f67ed2214922866a5c0476a00ff772ab826719c5a6fd",
+        "packet_sha256": "ec7e4b9b2ad00ef377d053e475a59f182a3c1dae071f3f22e29f95966fc27fec"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D05_G_R01.json",
+      "source_result_sha256": "e8f99adba320f3800994c0babea485a6cacf9e37727410a0978ffce2353b30d2",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "e75bb197a38a40dd9492f67ed2214922866a5c0476a00ff772ab826719c5a6fd",
+      "packet": "packets/N-LREF-025.packet.json"
+    },
+    {
+      "question_id": "QV3-D03_GV_R01",
+      "original_question_id": "QV3-D03",
+      "unit_id": "N-LREF-026",
+      "group": "GV",
+      "family_id": "preservation_sequence",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-026",
+        "observed_text_sha256": "25500770e3320f212637fedd1751bc38f89a5d81099a80284d57394ab38eed71",
+        "packet_sha256": "db49d9366c992c21d958d3fc95f9cd17436010899fd6acdf0e62c1d7c3d899d1"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D03_GV_R01.json",
+      "source_result_sha256": "01859864d09b7ed9c491bf38d5c033082d1ca8c8f7c25c32822a9983984cad71",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "25500770e3320f212637fedd1751bc38f89a5d81099a80284d57394ab38eed71",
+      "packet": "packets/N-LREF-026.packet.json"
+    },
+    {
+      "question_id": "QV3-D08_GV_R01",
+      "original_question_id": "QV3-D08",
+      "unit_id": "N-LREF-027",
+      "group": "GV",
+      "family_id": "operating_checks",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-027",
+        "observed_text_sha256": "976dc69a32b50e23e7b52bc6773b1abf418930d98cbce93423f8fcae8b069bea",
+        "packet_sha256": "5a218ddb5a6a7f5cb977f603925ac5131f0c10f597d4d4e3d70fc9cfae1babbb"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D08_GV_R01.json",
+      "source_result_sha256": "5db2655adab6c5139ac40f63009e8647e87cdc2a98f220cd893674b408c8e5da",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "976dc69a32b50e23e7b52bc6773b1abf418930d98cbce93423f8fcae8b069bea",
+      "packet": "packets/N-LREF-027.packet.json"
+    },
+    {
+      "question_id": "QV3-D06_TV_R01",
+      "original_question_id": "QV3-D06",
+      "unit_id": "N-LREF-028",
+      "group": "TV",
+      "family_id": "removal_planning",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-028",
+        "observed_text_sha256": "25f1b00aaaeca9779b55dd2080258a637048d465bd21d333f7e1808cb6df5c97",
+        "packet_sha256": "e5b1f3074c456be51cc64c0a614bcc97d0c8eed9e8ce24f6588ed3a764d0c55f"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D06_TV_R01.json",
+      "source_result_sha256": "f5f7a6b7cc7bf65a11155907f921c0020835f2a2635b1c67aecaad32917c3169",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "25f1b00aaaeca9779b55dd2080258a637048d465bd21d333f7e1808cb6df5c97",
+      "packet": "packets/N-LREF-028.packet.json"
+    },
+    {
+      "question_id": "QV3-D02_T_R01",
+      "original_question_id": "QV3-D02",
+      "unit_id": "N-LREF-029",
+      "group": "T",
+      "family_id": "physical_discrimination",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-029",
+        "observed_text_sha256": "2dd2647c4e7cb8bbd420109c1b50a8bf189b99b1c1dc0863dd3b580d9a447b27",
+        "packet_sha256": "62c390727be0e1f46fd9df6b74106838517007f7bc124b996ac558eac59addb1"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D02_T_R01.json",
+      "source_result_sha256": "01929cd2a875e6868e44a82b99efeae3d380713349762c250406930d21319857",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "2dd2647c4e7cb8bbd420109c1b50a8bf189b99b1c1dc0863dd3b580d9a447b27",
+      "packet": "packets/N-LREF-029.packet.json"
+    },
+    {
+      "question_id": "QV3-H01_G_R01",
+      "original_question_id": "QV3-H01",
+      "unit_id": "N-LREF-030",
+      "group": "G",
+      "family_id": "sample_provenance",
+      "split": "G|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-030",
+        "observed_text_sha256": "52cdcc2efa42df10009bad256971baeef3474927f3f0b6c6c86221bd349b3bfa",
+        "packet_sha256": "fe3187bfe548ba9b93b11ccaff120dc538b06819b0be241b58c22575b2e26a78"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H01_G_R01.json",
+      "source_result_sha256": "8a072fa472229a44b42508c18aefdb408046e4291c6a011566fb7657424953cf",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "52cdcc2efa42df10009bad256971baeef3474927f3f0b6c6c86221bd349b3bfa",
+      "packet": "packets/N-LREF-030.packet.json"
+    },
+    {
+      "question_id": "QV3-H01_TV_R01",
+      "original_question_id": "QV3-H01",
+      "unit_id": "N-LREF-031",
+      "group": "TV",
+      "family_id": "sample_provenance",
+      "split": "TV|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-031",
+        "observed_text_sha256": "9ac1127231929dc1c44c558a3569991a4efeadd3313f0931a5123254334b52a8",
+        "packet_sha256": "9496f254705b3d6b9f85922b9da46c38c19a737fac3cea111cc4bbe3124ad0e3"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H01_TV_R01.json",
+      "source_result_sha256": "ae9428006046866b133dde435c8379dab406020367d1e9e7a705dc6f89e9c333",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "9ac1127231929dc1c44c558a3569991a4efeadd3313f0931a5123254334b52a8",
+      "packet": "packets/N-LREF-031.packet.json"
+    },
+    {
+      "question_id": "QV3-D06_GV_R01",
+      "original_question_id": "QV3-D06",
+      "unit_id": "N-LREF-032",
+      "group": "GV",
+      "family_id": "removal_planning",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-032",
+        "observed_text_sha256": "ac9c14b0368b3eee6d4cfbf4846e2dd7cd2ee83b652a24163059fbd5c241ec60",
+        "packet_sha256": "a61919878e0bb9606679124c544f485149926bc3c93698af5be7bc753541f7d8"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D06_GV_R01.json",
+      "source_result_sha256": "0df0a8b184e213e543626bd60c2b8dad7a4a8f17867369bcda4939aea2f6f88d",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "ac9c14b0368b3eee6d4cfbf4846e2dd7cd2ee83b652a24163059fbd5c241ec60",
+      "packet": "packets/N-LREF-032.packet.json"
+    },
+    {
+      "question_id": "QV3-D11_T_R01",
+      "original_question_id": "QV3-D11",
+      "unit_id": "N-LREF-033",
+      "group": "T",
+      "family_id": "maintenance_procedure_scope",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-033",
+        "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+        "packet_sha256": "7590d04e9e9a4279917f9f2cf4cd8d57b6f6640f0c68f04e0a6821fd7084838d"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D11_T_R01.json",
+      "source_result_sha256": "e15212c999fdf1fbc7733ace4ed8e373c00af2b7ba25bb2c5bb239d1584e221b",
+      "source_status": "tested_failure",
+      "observed_kind": "actual_service_failure_message_only_no_hidden_draft",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet": "packets/N-LREF-033.packet.json"
+    },
+    {
+      "question_id": "QV3-D06_G_R01",
+      "original_question_id": "QV3-D06",
+      "unit_id": "N-LREF-034",
+      "group": "G",
+      "family_id": "removal_planning",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-034",
+        "observed_text_sha256": "fa9bc1f9176b11120a46d20586bd5f1c5e61164f52932f2e78a9976767191ce2",
+        "packet_sha256": "a9affb6cf29ec9b63fe35bdedda6782afa33777ebac4bef31eb249943376492b"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D06_G_R01.json",
+      "source_result_sha256": "034a92906e2efdfd939e17ae6c8ca9b3f3db7e279d199795e604ef7507b5537f",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "fa9bc1f9176b11120a46d20586bd5f1c5e61164f52932f2e78a9976767191ce2",
+      "packet": "packets/N-LREF-034.packet.json"
+    },
+    {
+      "question_id": "QV3-D03_TV_R01",
+      "original_question_id": "QV3-D03",
+      "unit_id": "N-LREF-035",
+      "group": "TV",
+      "family_id": "preservation_sequence",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-035",
+        "observed_text_sha256": "fd374f93db9e02b742167ac86c9df4cbb1d2d42da0ebd6549aa2706560203e01",
+        "packet_sha256": "923d872fa33d8b762bc134d48dade8b8848521ed57e6b5d9f61fc0c4aa421358"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D03_TV_R01.json",
+      "source_result_sha256": "44fe245267b5fe48d91157d9480d67658de954884371a327d9aaffd0fb2baa72",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "fd374f93db9e02b742167ac86c9df4cbb1d2d42da0ebd6549aa2706560203e01",
+      "packet": "packets/N-LREF-035.packet.json"
+    },
+    {
+      "question_id": "QV3-D09_TV_R01",
+      "original_question_id": "QV3-D09",
+      "unit_id": "N-LREF-036",
+      "group": "TV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-036",
+        "observed_text_sha256": "5be2d516fb2f784705ef46388ac1ce457173ddff77c9c285cfe5bbead3d1512c",
+        "packet_sha256": "6e032d09b9c9c2e401a58e20f70c38661cacf456f2c3fd29b3d7de85e51ce7a3"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D09_TV_R01.json",
+      "source_result_sha256": "55d55804bc9ff156d07b25f2f624b8b371f897c5c06075173bc52da8266a7b53",
+      "source_status": "reasonable_insufficiency",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "5be2d516fb2f784705ef46388ac1ce457173ddff77c9c285cfe5bbead3d1512c",
+      "packet": "packets/N-LREF-036.packet.json"
+    },
+    {
+      "question_id": "QV3-D11_G_R01",
+      "original_question_id": "QV3-D11",
+      "unit_id": "N-LREF-037",
+      "group": "G",
+      "family_id": "maintenance_procedure_scope",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-037",
+        "observed_text_sha256": "5d4f44ef9838e7a04d76e7e1c7446d8e631f93874dc1882b1c9d3f46b94921f8",
+        "packet_sha256": "d00b45f6c95a6dd05494e77b2ee5a92237338d2fb3d5b8d56abfc1409ebc9ad5"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D11_G_R01.json",
+      "source_result_sha256": "507eb6578cb6326544a85c9c8d425dc5663ae0abce2eba7e829b7b4f1b27f781",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "5d4f44ef9838e7a04d76e7e1c7446d8e631f93874dc1882b1c9d3f46b94921f8",
+      "packet": "packets/N-LREF-037.packet.json"
+    },
+    {
+      "question_id": "QV3-D02_TV_R01",
+      "original_question_id": "QV3-D02",
+      "unit_id": "N-LREF-038",
+      "group": "TV",
+      "family_id": "physical_discrimination",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-038",
+        "observed_text_sha256": "017b63420f10e237659da1c4e3bdbc80f82532eaadb1f3506993b4ba7550a86f",
+        "packet_sha256": "894ca69bce53ebcced08a204ad6d79f97916dd70e52bb087ca4609dafcfc8f33"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D02_TV_R01.json",
+      "source_result_sha256": "3026a12463e247c61f366f0d35668b2d7fe5ae42ea211a8b20cc85bd1c39e9b6",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "017b63420f10e237659da1c4e3bdbc80f82532eaadb1f3506993b4ba7550a86f",
+      "packet": "packets/N-LREF-038.packet.json"
+    },
+    {
+      "question_id": "QV3-D08_G_R01",
+      "original_question_id": "QV3-D08",
+      "unit_id": "N-LREF-039",
+      "group": "G",
+      "family_id": "operating_checks",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-039",
+        "observed_text_sha256": "2cb5336a66b1daae100fb31aa343a090cdde5b55929b4d80ab26745b513a4bdf",
+        "packet_sha256": "f851953373c2e88acd6a4abce018b4ffccb8cdf042e70ca5eb8266161bb62b88"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D08_G_R01.json",
+      "source_result_sha256": "0da66e15544d7dea8432a040a7b6a94cdd92a1db0c780c7ce064715c02db052e",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "2cb5336a66b1daae100fb31aa343a090cdde5b55929b4d80ab26745b513a4bdf",
+      "packet": "packets/N-LREF-039.packet.json"
+    },
+    {
+      "question_id": "QV3-D04_T_R01",
+      "original_question_id": "QV3-D04",
+      "unit_id": "N-LREF-040",
+      "group": "T",
+      "family_id": "case_explanation_and_provenance",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-040",
+        "observed_text_sha256": "b346b373f24a6f53d728b970e3532bfeba5a6af4bb0983b377835115afe662f0",
+        "packet_sha256": "4aafab576e0b76abe8ac9bb42f7593e09b81091c79757439d04d6f5b61397f26"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D04_T_R01.json",
+      "source_result_sha256": "fa248e954ab903a68d73137695106413306851d088d6bd7a7f8b90e83fe63d2b",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "b346b373f24a6f53d728b970e3532bfeba5a6af4bb0983b377835115afe662f0",
+      "packet": "packets/N-LREF-040.packet.json"
+    },
+    {
+      "question_id": "QV3-D01_G_R01",
+      "original_question_id": "QV3-D01",
+      "unit_id": "N-LREF-041",
+      "group": "G",
+      "family_id": "case_explanation_and_provenance",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-041",
+        "observed_text_sha256": "3e4310083b1a5f63f079a3b704c46e2d4c8db90d735c57eddad88e8fc58fac96",
+        "packet_sha256": "140546bcc450707822f354ebffc1972102c72ff4e06d3ec5f9c19a3458d856ee"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D01_G_R01.json",
+      "source_result_sha256": "5aa11605623546e9c55f9a11361ecfa12aa754928b4252e9f0308cdd929b3ace",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "3e4310083b1a5f63f079a3b704c46e2d4c8db90d735c57eddad88e8fc58fac96",
+      "packet": "packets/N-LREF-041.packet.json"
+    },
+    {
+      "question_id": "QV3-D10_T_R01",
+      "original_question_id": "QV3-D10",
+      "unit_id": "N-LREF-042",
+      "group": "T",
+      "family_id": "operating_checks",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-042",
+        "observed_text_sha256": "16b3a4b4dc547d42ca137d8e999a58a3ca940d94a2148e276ebceb337f66b00c",
+        "packet_sha256": "a25480c524656067a4a9502707eacb1c99e08adb9677c6a8cd2d5112a0d9878b"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D10_T_R01.json",
+      "source_result_sha256": "b5b4628c0aacf927e0a478dfce30acd313f576c75e2a0724bfe10c660da59b9f",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "16b3a4b4dc547d42ca137d8e999a58a3ca940d94a2148e276ebceb337f66b00c",
+      "packet": "packets/N-LREF-042.packet.json"
+    },
+    {
+      "question_id": "QV3-H02_TV_R01",
+      "original_question_id": "QV3-H02",
+      "unit_id": "N-LREF-043",
+      "group": "TV",
+      "family_id": "source_verifiability",
+      "split": "TV|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-043",
+        "observed_text_sha256": "f1b713321cda2661c8fcb2ff9bd08d605820c10318b8033c433d257e003870ad",
+        "packet_sha256": "34647869e1682a89fcef3aeb63e7f7867fce4bd75c1fc56efb5bdf9e373440bc"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H02_TV_R01.json",
+      "source_result_sha256": "b9d4d9d8cea6067698efd723ad1923a5eff34bce7a90f568b560de3f2337d2f3",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "f1b713321cda2661c8fcb2ff9bd08d605820c10318b8033c433d257e003870ad",
+      "packet": "packets/N-LREF-043.packet.json"
+    },
+    {
+      "question_id": "QV3-D11_TV_R01",
+      "original_question_id": "QV3-D11",
+      "unit_id": "N-LREF-044",
+      "group": "TV",
+      "family_id": "maintenance_procedure_scope",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-044",
+        "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+        "packet_sha256": "30340f7bc0a92000319f1edc0c8405fbdae94ca2da66427c66934d3fa798151a"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D11_TV_R01.json",
+      "source_result_sha256": "7396182f73c34b916576248f3c7f1eadd88e6cc024e611208ecd7ca19fc97335",
+      "source_status": "tested_failure",
+      "observed_kind": "actual_service_failure_message_only_no_hidden_draft",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet": "packets/N-LREF-044.packet.json"
+    },
+    {
+      "question_id": "QV3-D05_T_R01",
+      "original_question_id": "QV3-D05",
+      "unit_id": "N-LREF-045",
+      "group": "T",
+      "family_id": "inspection_scope",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-045",
+        "observed_text_sha256": "77f0bbe924c5a5bf55f405d7d6ada0f2510acf0cfbfcf4c3e1619e59339eaedb",
+        "packet_sha256": "2dc48f4563bee5329a12e909fae56dad270b0cb6b7e4dc361f2f5fc93f6dc4ae"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D05_T_R01.json",
+      "source_result_sha256": "e42f327b36a674c45f3ff674ae1bff8669429975c265975d9be72a8504331578",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "77f0bbe924c5a5bf55f405d7d6ada0f2510acf0cfbfcf4c3e1619e59339eaedb",
+      "packet": "packets/N-LREF-045.packet.json"
+    },
+    {
+      "question_id": "QV3-H02_G_R01",
+      "original_question_id": "QV3-H02",
+      "unit_id": "N-LREF-046",
+      "group": "G",
+      "family_id": "source_verifiability",
+      "split": "G|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-046",
+        "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+        "packet_sha256": "0d8aacd99274abeb100b77dcc6c0099d7328e6d51bd9778f308d567945265b77"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H02_G_R01.json",
+      "source_result_sha256": "83d43b14977258164cfd2210cf7b2bf95ae1fc886ce915fa8255bfd43f1335be",
+      "source_status": "tested_failure",
+      "observed_kind": "actual_service_failure_message_only_no_hidden_draft",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet": "packets/N-LREF-046.packet.json"
+    },
+    {
+      "question_id": "QV3-D05_GV_R01",
+      "original_question_id": "QV3-D05",
+      "unit_id": "N-LREF-047",
+      "group": "GV",
+      "family_id": "inspection_scope",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-047",
+        "observed_text_sha256": "d4ae98dd4b57589896abc0b8a1ba148e8f11bbe59801c5cd20e6766908352c8a",
+        "packet_sha256": "0b3a09c5f624443ac92785de8627a40149cb92d52e2eda8a327afc2ae298f9f2"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D05_GV_R01.json",
+      "source_result_sha256": "bcabca12bfaeb838f593bdb5e7a5f8ead66c330b63a26e623d7999d1ad833170",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "d4ae98dd4b57589896abc0b8a1ba148e8f11bbe59801c5cd20e6766908352c8a",
+      "packet": "packets/N-LREF-047.packet.json"
+    },
+    {
+      "question_id": "QV3-D08_T_R01",
+      "original_question_id": "QV3-D08",
+      "unit_id": "N-LREF-048",
+      "group": "T",
+      "family_id": "operating_checks",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-048",
+        "observed_text_sha256": "bcb882abdaa57720df95c1c2dbba1b1a9d23fcbec301d77aca077300c567f4b2",
+        "packet_sha256": "c9f3467064e43f1542e1644d8b12757c779811cc5ffd8b9893612ebe4a592dbb"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D08_T_R01.json",
+      "source_result_sha256": "0395403c842a96c1cd77f517a2dfb824e049aa7399a0aa136dec4e7ce754ea6c",
+      "source_status": "reasonable_insufficiency",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "bcb882abdaa57720df95c1c2dbba1b1a9d23fcbec301d77aca077300c567f4b2",
+      "packet": "packets/N-LREF-048.packet.json"
+    },
+    {
+      "question_id": "QV3-D02_G_R01",
+      "original_question_id": "QV3-D02",
+      "unit_id": "N-LREF-049",
+      "group": "G",
+      "family_id": "physical_discrimination",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-049",
+        "observed_text_sha256": "5d8e39dbe985a04ee4f3b73b226ac90986bf110f2b3845342961df5c8b1e0ef7",
+        "packet_sha256": "20d63111688be270f6aa7bdb91bfde832e4b02e748465eb05fefdb42850f90a1"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D02_G_R01.json",
+      "source_result_sha256": "88768736d40fa176aca27f516bc9926d7c3b3fef81efc43e5cef43d99cb68d8f",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "5d8e39dbe985a04ee4f3b73b226ac90986bf110f2b3845342961df5c8b1e0ef7",
+      "packet": "packets/N-LREF-049.packet.json"
+    },
+    {
+      "question_id": "QV3-H01_T_R01",
+      "original_question_id": "QV3-H01",
+      "unit_id": "N-LREF-050",
+      "group": "T",
+      "family_id": "sample_provenance",
+      "split": "T|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-050",
+        "observed_text_sha256": "2d108bd4b0ca91dad7c2e5bc9941d95def8cc9b93151e9aefd9ada2d3fa88552",
+        "packet_sha256": "7d202919912b1d3a4c08d377ec86e08cdad947bc94c1a9b5351a03134a1c3a0d"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H01_T_R01.json",
+      "source_result_sha256": "1ae025835eea0e488d8664ca7bdba5d4ee92e9c979f2aee4973e50985c078aed",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "2d108bd4b0ca91dad7c2e5bc9941d95def8cc9b93151e9aefd9ada2d3fa88552",
+      "packet": "packets/N-LREF-050.packet.json"
+    },
+    {
+      "question_id": "QV3-H02_GV_R01",
+      "original_question_id": "QV3-H02",
+      "unit_id": "N-LREF-051",
+      "group": "GV",
+      "family_id": "source_verifiability",
+      "split": "GV|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-051",
+        "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+        "packet_sha256": "df3af2e41226d8926a789fed922e38e8e34069b7a773d4a53d9336948a7327f3"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H02_GV_R01.json",
+      "source_result_sha256": "1d9de09028c2aa964ba50c96ff32e31f9a30dfa6117f0b104f316fe99fa85fb5",
+      "source_status": "tested_failure",
+      "observed_kind": "actual_service_failure_message_only_no_hidden_draft",
+      "observed_text_sha256": "fc4e2def7c49da7a85983024bdadc9c56ff1295ab54505112df602cfb215c9be",
+      "packet": "packets/N-LREF-051.packet.json"
+    },
+    {
+      "question_id": "QV3-H02_T_R01",
+      "original_question_id": "QV3-H02",
+      "unit_id": "N-LREF-052",
+      "group": "T",
+      "family_id": "source_verifiability",
+      "split": "T|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-052",
+        "observed_text_sha256": "5011a2c2cd8ac81ba223f88b4d207c08f0c7b76409eb96263f5806ad9fda24d7",
+        "packet_sha256": "58cbd79f8335d190001a9a058f51426af71b3c7800f4311368985b4fbba69099"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H02_T_R01.json",
+      "source_result_sha256": "cc1cde90a4391fe379f890cb343f642e6ac8dfb710707faa4f66229564b8e121",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "5011a2c2cd8ac81ba223f88b4d207c08f0c7b76409eb96263f5806ad9fda24d7",
+      "packet": "packets/N-LREF-052.packet.json"
+    },
+    {
+      "question_id": "QV3-D07_TV_R01",
+      "original_question_id": "QV3-D07",
+      "unit_id": "N-LREF-053",
+      "group": "TV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-053",
+        "observed_text_sha256": "33a920b0911ed1ca41c76031ac7031b4367d5f8f4d1f99a7ee806fa2edbf9b2b",
+        "packet_sha256": "f73b3cdedb494b12c163bebb1e5a84b6b87c83bb428470f5dc877169e4796290"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D07_TV_R01.json",
+      "source_result_sha256": "d62c9808f1b0fcbaafab0152889b32addf5c40628ca8f2b84870ffb07535f1ce",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "33a920b0911ed1ca41c76031ac7031b4367d5f8f4d1f99a7ee806fa2edbf9b2b",
+      "packet": "packets/N-LREF-053.packet.json"
+    },
+    {
+      "question_id": "QV3-D03_T_R01",
+      "original_question_id": "QV3-D03",
+      "unit_id": "N-LREF-054",
+      "group": "T",
+      "family_id": "preservation_sequence",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-054",
+        "observed_text_sha256": "b34210f58badb40f26cdd95a7ffe763295a785e5cfb2169bd77279f7f4524d73",
+        "packet_sha256": "6f36797238069c60cf9b5595401b7ea9fd30340cb742d36c0b67bfa99564ca61"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D03_T_R01.json",
+      "source_result_sha256": "19d0454ac8f33cf2306fbed0e55120014c07ca5ecc9bc9939f71714f8a0035a3",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "b34210f58badb40f26cdd95a7ffe763295a785e5cfb2169bd77279f7f4524d73",
+      "packet": "packets/N-LREF-054.packet.json"
+    },
+    {
+      "question_id": "QV3-D10_G_R01",
+      "original_question_id": "QV3-D10",
+      "unit_id": "N-LREF-055",
+      "group": "G",
+      "family_id": "operating_checks",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-055",
+        "observed_text_sha256": "1063046b751f8115eb10a03639d4b8c6c32bf506b38051eaba2f4c64e51755fe",
+        "packet_sha256": "c3368af84b70dfc5c91382204ee7e22cbc7bf76fb1471d20ab950d83d6fe6e10"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D10_G_R01.json",
+      "source_result_sha256": "a86d433026c19dd86432ed9ad80b3cf891a85a400516c0558eea6d28df041c01",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "1063046b751f8115eb10a03639d4b8c6c32bf506b38051eaba2f4c64e51755fe",
+      "packet": "packets/N-LREF-055.packet.json"
+    },
+    {
+      "question_id": "QV3-D04_G_R01",
+      "original_question_id": "QV3-D04",
+      "unit_id": "N-LREF-056",
+      "group": "G",
+      "family_id": "case_explanation_and_provenance",
+      "split": "G|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-056",
+        "observed_text_sha256": "0687b50b62e1046555ff12309fb5ad5e8a9617ab4e9ea05cdc44932c12fe5c5e",
+        "packet_sha256": "caf8023c93ad9333c6c5d36cb9fadd791ea43ef8bfa487ad7a449e071f9c4aa6"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D04_G_R01.json",
+      "source_result_sha256": "9e14fa7e98659f39dc3c05d2eaf6c9bb5125bdf6611280485a86c7cbd0e99fc2",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "0687b50b62e1046555ff12309fb5ad5e8a9617ab4e9ea05cdc44932c12fe5c5e",
+      "packet": "packets/N-LREF-056.packet.json"
+    },
+    {
+      "question_id": "QV3-D04_GV_R01",
+      "original_question_id": "QV3-D04",
+      "unit_id": "N-LREF-057",
+      "group": "GV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-057",
+        "observed_text_sha256": "0d4f32e8235bb416a2e33bf321a63f53aee59013e7bd9b66d178bce808fd1b38",
+        "packet_sha256": "6fafcffdaf1715500a7215932b790ba3918e56b051db2395246206a803cd9bd7"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D04_GV_R01.json",
+      "source_result_sha256": "1b2dcf338dbd6cff7e7d556b3bc8eb73c0edce66a01ab8c675ef551b10c9150f",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "0d4f32e8235bb416a2e33bf321a63f53aee59013e7bd9b66d178bce808fd1b38",
+      "packet": "packets/N-LREF-057.packet.json"
+    },
+    {
+      "question_id": "QV3-D06_T_R01",
+      "original_question_id": "QV3-D06",
+      "unit_id": "N-LREF-058",
+      "group": "T",
+      "family_id": "removal_planning",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-058",
+        "observed_text_sha256": "9bd993823dd207bc1292a8cca4de9a35e8956f9c17f6639139dc0a8de7ad4632",
+        "packet_sha256": "b069effacc2a4eac252a73ec44ed63e7899e0c9300dd778c87577120621574cf"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D06_T_R01.json",
+      "source_result_sha256": "b6a72e420a0e83a59889a29fa70eff03e5720c601ff48c2ef6a4f0ad31de52a3",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "9bd993823dd207bc1292a8cca4de9a35e8956f9c17f6639139dc0a8de7ad4632",
+      "packet": "packets/N-LREF-058.packet.json"
+    },
+    {
+      "question_id": "QV3-H01_GV_R01",
+      "original_question_id": "QV3-H01",
+      "unit_id": "N-LREF-059",
+      "group": "GV",
+      "family_id": "sample_provenance",
+      "split": "GV|operational_reserve",
+      "comparison_split": "operational_reserve",
+      "binding": {
+        "unit_id": "N-LREF-059",
+        "observed_text_sha256": "2864214a073fdd8af24fb20ea9616f656aff8fd7f52a6743fd7e0ada374f1cfc",
+        "packet_sha256": "ac742b332f3b47f90bcb4d4c7ed23edab2c483ba09540d12ee0cf5899babd9d2"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-H01_GV_R01.json",
+      "source_result_sha256": "2d5db287ff6f44197bfe2ca1ff4d728297b3c6548b97bfbaa9a1a11c347218d4",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "2864214a073fdd8af24fb20ea9616f656aff8fd7f52a6743fd7e0ada374f1cfc",
+      "packet": "packets/N-LREF-059.packet.json"
+    },
+    {
+      "question_id": "QV3-D07_GV_R01",
+      "original_question_id": "QV3-D07",
+      "unit_id": "N-LREF-060",
+      "group": "GV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-060",
+        "observed_text_sha256": "4137d7082655b70a49bf9ff566dc20a6681de322e53a0c8bca38a2a0323f313d",
+        "packet_sha256": "84ae85928cbe6a674dc5dcea7821bb82ed1ba010e4037ad61a639ecdf31b23b4"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D07_GV_R01.json",
+      "source_result_sha256": "127b89ead367d8d168ec4c9a86b43187419ea5a1f41b2eafebcead8112df3bf2",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "4137d7082655b70a49bf9ff566dc20a6681de322e53a0c8bca38a2a0323f313d",
+      "packet": "packets/N-LREF-060.packet.json"
+    },
+    {
+      "question_id": "QV3-D01_GV_R01",
+      "original_question_id": "QV3-D01",
+      "unit_id": "N-LREF-061",
+      "group": "GV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-061",
+        "observed_text_sha256": "55048fc28fb8efe55153c00cbe8298cbbf051b1ca14fb7f37acc73eb66948343",
+        "packet_sha256": "83fdd866500e585593d38301affe2db219a06b1681f6a7d087c7b14653bc4fe5"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D01_GV_R01.json",
+      "source_result_sha256": "70ad79cc1f71c2ac23c7680d243344c7d4959a9cb7a55c71efa73f51bd94b5b3",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "55048fc28fb8efe55153c00cbe8298cbbf051b1ca14fb7f37acc73eb66948343",
+      "packet": "packets/N-LREF-061.packet.json"
+    },
+    {
+      "question_id": "QV3-D10_TV_R01",
+      "original_question_id": "QV3-D10",
+      "unit_id": "N-LREF-062",
+      "group": "TV",
+      "family_id": "operating_checks",
+      "split": "TV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-062",
+        "observed_text_sha256": "80a21018049e97052f99f532753c1994e0ec1cfb0ecfc2479001b26ac14aa37f",
+        "packet_sha256": "f48c4826266e2f2bd5b22eaaf2c3feff6faec8f77fe8ce819f9367c9d64d4ff6"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D10_TV_R01.json",
+      "source_result_sha256": "a31c135e2129b7a48138cc4e7c3ed68efb8bdc371c838bb0ad1d6f5dc2358d49",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "80a21018049e97052f99f532753c1994e0ec1cfb0ecfc2479001b26ac14aa37f",
+      "packet": "packets/N-LREF-062.packet.json"
+    },
+    {
+      "question_id": "QV3-D09_T_R01",
+      "original_question_id": "QV3-D09",
+      "unit_id": "N-LREF-063",
+      "group": "T",
+      "family_id": "case_explanation_and_provenance",
+      "split": "T|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-063",
+        "observed_text_sha256": "ae8776f3a0f074c9d82cb48e272c1587a8864de5aa5d0a1b28abd1bc4253e2b9",
+        "packet_sha256": "6fbd642ee935d297c6cb8e1756ac643f869feafbe441a987aaf9b52afbd00b41"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D09_T_R01.json",
+      "source_result_sha256": "89c159dff23a30c7c9fce369d8f460ef6db4a4e3d89770508d612129284ec4d5",
+      "source_status": "reasonable_insufficiency",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "ae8776f3a0f074c9d82cb48e272c1587a8864de5aa5d0a1b28abd1bc4253e2b9",
+      "packet": "packets/N-LREF-063.packet.json"
+    },
+    {
+      "question_id": "QV3-D09_GV_R01",
+      "original_question_id": "QV3-D09",
+      "unit_id": "N-LREF-064",
+      "group": "GV",
+      "family_id": "case_explanation_and_provenance",
+      "split": "GV|debug",
+      "comparison_split": "debug",
+      "binding": {
+        "unit_id": "N-LREF-064",
+        "observed_text_sha256": "d89b4c8c4abe266d50407345b6f357fec6d5627dc90d671b9b69ed78a1491c0e",
+        "packet_sha256": "41a6534678c17668867f53c9a0dc395379098f1e5d6ca444c0dfa27dd9ce64c7"
+      },
+      "source_result_path": "runs/e02_execution/20261101_rev037_Q13R1_6336ad78/tested/QV3-D09_GV_R01.json",
+      "source_result_sha256": "6ae06b773dd1362161e23208b5c0b94dc5ff7dcd5ac55ee7687403280a76fc2f",
+      "source_status": "completed",
+      "observed_kind": "published_final_answer_and_actual_citation_list",
+      "observed_text_sha256": "d89b4c8c4abe266d50407345b6f357fec6d5627dc90d671b9b69ed78a1491c0e",
+      "packet": "packets/N-LREF-064.packet.json"
+    }
+  ],
+  "new_generations": 0,
+  "old_L_scores_reused_read_only": "runs/e02_llm_baseline_rescore/20261106_rev047_L13REF_f5493a3a",
+  "legacy_slot_marker": "_L_REF047_ is an inherited runtime role marker; actual groups are private mapping fields, never inferred from marker.",
+  "source_states": {
+    "completed": 43,
+    "reasonable_insufficiency": 4,
+    "tested_failure": 5
+  }
+}

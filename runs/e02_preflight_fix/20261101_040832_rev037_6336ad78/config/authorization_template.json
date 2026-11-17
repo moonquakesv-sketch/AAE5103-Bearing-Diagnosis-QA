@@ -1,0 +1,52 @@
+{
+  "paid_execution_authorized": false,
+  "formal_experiment_released": false,
+  "independent_cross_audit_accepted": false,
+  "preparation_binding_sha256": null,
+  "configuration_sha256": null,
+  "scope": {
+    "stage": "E02",
+    "purpose": "limited descriptive educational-module comparison; no independent blind or four-class reserve efficacy claim",
+    "Q": 13,
+    "R": 1,
+    "groups": [
+      "T",
+      "TV",
+      "G",
+      "GV"
+    ],
+    "splits": {
+      "debug": 11,
+      "operational_reserve": 2
+    },
+    "question_ids": [
+      "QV3-D01",
+      "QV3-D02",
+      "QV3-D03",
+      "QV3-D04",
+      "QV3-D05",
+      "QV3-D06",
+      "QV3-D07",
+      "QV3-D08",
+      "QV3-D09",
+      "QV3-D10",
+      "QV3-D11",
+      "QV3-H01",
+      "QV3-H02"
+    ],
+    "automatic_rating": "two independent new-context full output and pair packages, third all disagreements/high risks",
+    "extra_retries": 0,
+    "extra_reevaluations": 0,
+    "coding_packages_per_output": 1,
+    "coding_packages_per_pair": 1
+  },
+  "hard_budget_USD": "20.00",
+  "max_calls": 364,
+  "user_authorization_record": null,
+  "cross_audit_report_path": null,
+  "cross_audit_report_sha256": null,
+  "user_authorization_sha256": null,
+  "authorization_id": null,
+  "batch_output": null,
+  "instruction": "Never fill approval fields during preparation/audit; only a separately authorized future run creates a release record."
+}

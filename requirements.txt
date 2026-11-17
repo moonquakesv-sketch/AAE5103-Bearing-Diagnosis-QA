@@ -1,0 +1,15 @@
+# Runtime versions used to produce and check the frozen course prototype.
+# Python 3.12; the demo currently targets macOS/Linux (fcntl is required).
+gradio==6.30.0
+httpx==0.28.1
+joblib==1.6.0
+jsonschema==4.26.0
+matplotlib==3.11.2
+numpy==2.5.4
+Pillow==12.3.0
+PyWavelets==1.10.0
+PyYAML==6.0.3
+scikit-learn==1.9.1
+scipy==1.18.1
+torch==2.14.1
+torchvision==0.29.1

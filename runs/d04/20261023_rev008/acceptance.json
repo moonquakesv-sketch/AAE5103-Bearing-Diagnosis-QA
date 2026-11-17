@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-23T01:04:48.625268+08:00",
+  "revision": "008",
+  "evaluation_validity": "valid; no conclusion-affecting implementation error identified",
+  "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+  "model_run": "runs/d03/20261022_rev006",
+  "formal_test_executed": true,
+  "formal_evaluations": 1,
+  "test_set_used": true,
+  "n_windows": 236,
+  "n_records": 4,
+  "n_features": 512,
+  "n_decision_scores": 944,
+  "n_misclassified": 0,
+  "n_failed_samples": 0,
+  "n_interruptions": 0,
+  "n_resumptions": 0,
+  "regression_tests_before": 62,
+  "regression_tests_pretest": 84,
+  "validation_smoke_rows": 16,
+  "independent_review": "PASS",
+  "model_scaler_weights_network_unchanged": true,
+  "fitting_blocked": true,
+  "metrics": {
+    "model_version": "d03_resnet18_imagenet1k_v1_svm_v1.0_rev006",
+    "split": "test",
+    "n_windows": 236,
+    "class_order": [
+      "normal",
+      "inner_race",
+      "outer_race",
+      "rolling_element"
+    ],
+    "macro_f1": 1.0,
+    "balanced_accuracy": 1.0,
+    "accuracy": 1.0,
+    "per_class_recall": {
+      "normal": 1.0,
+      "inner_race": 1.0,
+      "outer_race": 1.0,
+      "rolling_element": 1.0
+    },
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  "historical_protection": "PASS; only backed-up plan updated",
+  "known_unresolved_implementation_issues": [],
+  "not_run": [
+    "cross-machine/device/dependency reproduction",
+    "fresh D02 full CWT content verification",
+    "knowledge base/RAG/QA/web/other project stages"
+  ],
+  "limitations": [
+    "one original test record per class; windows correlated",
+    "physical specimen IDs unknown",
+    "source/acquisition and normal resampling potentially confounded",
+    "no unseen-specimen or aviation generalization claim"
+  ],
+  "seal_exclusions": [
+    "deliverables.sha256",
+    "final_validation.json",
+    "final_validation.log"
+  ],
+  "postseal_validation": "final_validation.json / final_validation.log; produced after this seal"
+}

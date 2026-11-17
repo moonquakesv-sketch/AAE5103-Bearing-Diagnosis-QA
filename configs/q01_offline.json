@@ -1,0 +1,14 @@
+{
+  "version": "q01.offline.v1_rev017",
+  "shared": {
+    "top_k": 3,
+    "generation_settings": {"provider": "scripted_offline", "deterministic": true},
+    "prompts": "configs/q01_prompts.json"
+  },
+  "groups": {
+    "T": {"retrieval_mode": "text", "content_verification": false, "max_revision": 0},
+    "TV": {"retrieval_mode": "text", "content_verification": true, "max_revision": 1},
+    "G": {"retrieval_mode": "graph", "content_verification": false, "max_revision": 0},
+    "GV": {"retrieval_mode": "graph", "content_verification": true, "max_revision": 1}
+  }
+}
